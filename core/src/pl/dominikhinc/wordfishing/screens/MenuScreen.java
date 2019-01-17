@@ -3,15 +3,24 @@ package pl.dominikhinc.wordfishing.screens;
 
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 
 public class MenuScreen extends AbstractScreen {
 
     private Image bgImg;
-    private Button grajButton;
+    private TextButton grajButton;
+    private BitmapFont font;
+    private TextButton.TextButtonStyle textButtonStyle;
+    private TextureRegionDrawable buttonUp;
+    private TextureRegionDrawable buttonDown;
+    private float buttonSizeIncrease = 3.0f;
 
     public MenuScreen(WordFishing game){
         super(game);
@@ -20,11 +29,23 @@ public class MenuScreen extends AbstractScreen {
     @Override
     protected void init(){
         initBg();
-        initGrajButton();
+        initButtons();
     }
 
-    private void initGrajButton() {
-        grajButton = new Button()
+    private void initButtons() {
+        buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Up.png")));
+        buttonDown = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Down.png")));
+        font = new BitmapFont();
+        textButtonStyle = new TextButton.TextButtonStyle();
+        textButtonStyle.font = font;
+        textButtonStyle.up = buttonUp;
+        textButtonStyle.down = buttonDown;
+        grajButton = new TextButton("Guzik",textButtonStyle);
+        grajButton.setHeight(85*2);
+        grajButton.setWidth(306*2);
+        grajButton.setOrigin(grajButton.getWidth() / 2 , grajButton.getHeight() / 2);
+        grajButton.setPosition(game.SCREEN_WIDTH / 2 - grajButton.getWidth() / 2 , game.SCREEN_HEIGHT - 5 * game.SCREEN_HEIGHT / 10);
+        stage.addActor(grajButton);
 
     }
 
