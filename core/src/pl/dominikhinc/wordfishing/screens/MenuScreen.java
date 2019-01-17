@@ -2,6 +2,8 @@ package pl.dominikhinc.wordfishing.screens;
 
 
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -20,7 +22,6 @@ public class MenuScreen extends AbstractScreen {
     private TextButton.TextButtonStyle textButtonStyle;
     private TextureRegionDrawable buttonUp;
     private TextureRegionDrawable buttonDown;
-    private float buttonSizeIncrease = 3.0f;
 
     public MenuScreen(WordFishing game){
         super(game);
@@ -35,12 +36,13 @@ public class MenuScreen extends AbstractScreen {
     private void initButtons() {
         buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Up.png")));
         buttonDown = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Down.png")));
-        font = new BitmapFont();
+        font = new BitmapFont(Gdx.files.internal("Font_2.fnt"));
         textButtonStyle = new TextButton.TextButtonStyle();
         textButtonStyle.font = font;
         textButtonStyle.up = buttonUp;
         textButtonStyle.down = buttonDown;
-        grajButton = new TextButton("Guzik",textButtonStyle);
+        textButtonStyle.fontColor = Color.BLACK;
+        grajButton = new TextButton("Rozpocznij",textButtonStyle);
         grajButton.setHeight(85*2);
         grajButton.setWidth(306*2);
         grajButton.setOrigin(grajButton.getWidth() / 2 , grajButton.getHeight() / 2);
