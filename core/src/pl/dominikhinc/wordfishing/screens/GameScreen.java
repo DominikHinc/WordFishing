@@ -3,21 +3,29 @@ package pl.dominikhinc.wordfishing.screens;
 
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.scenes.scene2d.ui.Container;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import pl.dominikhinc.wordfishing.WordFishing;
+import pl.dominikhinc.wordfishing.frames.Question;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
+import pl.dominikhinc.wordfishing.service.QuestionStyleCreator;
 
 public class GameScreen extends AbstractScreen {
 
     private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
-    private Label test;
+    private QuestionStyleCreator questionStyleCreator;
+    private Question question;
 
     public GameScreen(WordFishing game) {
         super(game);
@@ -27,10 +35,20 @@ public class GameScreen extends AbstractScreen {
     protected void init() {
         initBgImage();
         initBackToMenuButton();
-        Label.LabelStyle labelStyle = new Label.LabelStyle();
-        labelStyle.font = game.getFont();
-        test = new Label("Rozgrywka" , labelStyle);
-        stage.addActor(test);
+        initFirstQuestion();
+    }
+
+    private void initFirstQuestion() {
+        //TEMPORARY
+        questionStyleCreator = new QuestionStyleCreator();
+        question = new Question("Pytanie", questionStyleCreator.createQuestionStyle(game) , game);
+        stage.addActor(question);
+        Action moveAction = Actions.sequence(
+                Actions.moveBy(300, 120, 5),
+                Actions.moveBy(-300, -120, 3)
+        );
+
+        question.addAction(moveAction);
     }
 
     private void initBackToMenuButton() {
@@ -58,6 +76,7 @@ public class GameScreen extends AbstractScreen {
 
         spriteBatch.begin();
         stage.draw();
+        stage.act();
         spriteBatch.end();
     }
 
