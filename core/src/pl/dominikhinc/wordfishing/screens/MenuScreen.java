@@ -3,8 +3,10 @@ package pl.dominikhinc.wordfishing.screens;
 
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.MenuButtonCreator;
@@ -29,7 +31,10 @@ public class MenuScreen extends AbstractScreen {
     protected void init(){
         initBg();
         initButtons();
+        initButtonsListeners();
     }
+
+
 
     private void initButtons() {
         /*buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Up.png")));
@@ -53,7 +58,23 @@ public class MenuScreen extends AbstractScreen {
         stage.addActor(optionsButton);
         stage.addActor(helpButton);
     }
+    private void initButtonsListeners() {
+        grajButton.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y){
+                game.setScreen(new GameScreen(game));
+            }
+            });
+        optionsButton.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y){
+            }
+        });
+        helpButton.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y){
+            }
+        });
 
+
+    }
     @Override
     public void render(float delta) {
         super.render(delta);

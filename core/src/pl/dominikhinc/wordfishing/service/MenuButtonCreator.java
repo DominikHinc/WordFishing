@@ -15,7 +15,6 @@ import pl.dominikhinc.wordfishing.WordFishing;
 public class MenuButtonCreator {
 
     private TextButton grajButton;
-    private BitmapFont font;
     private TextButton.TextButtonStyle textButtonStyle;
     private TextureRegionDrawable buttonUp;
     private TextureRegionDrawable buttonDown;
@@ -24,9 +23,9 @@ public class MenuButtonCreator {
     public TextButton createButton(String text , WordFishing game){
         buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Up.png")));
         buttonDown = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Down.png")));
-        font = new BitmapFont(Gdx.files.internal("Font_2.fnt"));
+
         textButtonStyle = new TextButton.TextButtonStyle();
-        textButtonStyle.font = font;
+        textButtonStyle.font = game.getFont();
         textButtonStyle.up = buttonUp;
         textButtonStyle.down = buttonDown;
         textButtonStyle.fontColor = Color.BLACK;
