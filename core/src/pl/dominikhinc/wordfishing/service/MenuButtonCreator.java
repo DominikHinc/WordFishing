@@ -23,7 +23,6 @@ public class MenuButtonCreator {
     public TextButton createButton(String text , WordFishing game){
         buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Up.png")));
         buttonDown = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Down.png")));
-
         textButtonStyle = new TextButton.TextButtonStyle();
         textButtonStyle.font = game.getFont();
         textButtonStyle.up = buttonUp;

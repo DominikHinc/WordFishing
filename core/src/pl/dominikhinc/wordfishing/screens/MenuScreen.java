@@ -25,6 +25,7 @@ public class MenuScreen extends AbstractScreen {
 
     public MenuScreen(WordFishing game){
         super(game);
+
     }
 
     @Override
