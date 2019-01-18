@@ -67,10 +67,12 @@ public class MenuScreen extends AbstractScreen {
             });
         optionsButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
+                game.setScreen(new OptionsScreen(game));
             }
         });
         helpButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
+                game.setScreen(new HelpScreen(game));
             }
         });
 

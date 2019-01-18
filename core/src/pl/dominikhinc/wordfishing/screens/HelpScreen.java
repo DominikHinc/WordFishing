@@ -10,7 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 
-public class OptionsScreen extends AbstractScreen {
+public class HelpScreen extends AbstractScreen {
 
     //TODO Make abstract screen that from wihich This game and help screen will extend
 
@@ -19,7 +19,7 @@ public class OptionsScreen extends AbstractScreen {
     private Button goBackButton;
     private Label test;
 
-    public OptionsScreen(WordFishing game) {
+    public HelpScreen(WordFishing game) {
         super(game);
     }
 
@@ -29,7 +29,7 @@ public class OptionsScreen extends AbstractScreen {
         initBackToMenuButton();
         Label.LabelStyle labelStyle = new Label.LabelStyle();
         labelStyle.font = game.getFont();
-        test = new Label("Opcje" , labelStyle);
+        test = new Label("Pomoc" , labelStyle);
         stage.addActor(test);
     }
 
@@ -63,5 +63,4 @@ public class OptionsScreen extends AbstractScreen {
 
     private void update() {
     }
-
 }
