@@ -6,6 +6,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -20,16 +21,21 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.ui.Window;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable;
 import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.Timer;
+
+import java.util.ArrayList;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.frames.Question;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
+import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
 
 
 public class GameScreen extends AbstractScreen implements Input.TextInputListener {
 
-    private Image bgImage;
+    private Image bgImage ;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
     //private QuestionStyleCreator questionStyleCreator;
@@ -38,6 +44,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private TextField textField;
     private String text;
     private Label label;
+    private ArrayList<Question> questionArrayList;
+    private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
+    private int questionNumber = 0;
+    private Texture correctAnswer,wrongAnswer, defaultBg;
 
     public GameScreen(WordFishing game) {
         super(game);
@@ -46,9 +56,31 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     @Override
     protected void init() {
         initBgImage();
+        loadSkin();
         initBackToMenuButton();
-        initFirstQuestion();
+        initQuestionList();
+        createQuestion();
+        //initFirstQuestion();
         //initTextField();
+    }
+
+    private void loadSkin() {
+        skin = new Skin(Gdx.files.internal("glassy-ui.json"));
+    }
+
+    private void createQuestion() {
+        question = questionArrayList.get(questionNumber);
+        stage.addActor(question);
+        question.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y){
+                reactOnClick();
+            }
+        });
+    }
+
+    private void initQuestionList() {
+        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, game);
+        questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
     }
 
     /*private void initTextField() {
@@ -65,9 +97,9 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         stage.addActor(textField);
     }*/
 
-    private void initFirstQuestion() {
+    /*private void initFirstQuestion() {
         //TEMPORARY
-        skin = new Skin(Gdx.files.internal("glassy-ui.json"));
+
         //questionStyleCreator = new QuestionStyleCreator();
         question = new Question("Pytanie", skin , game);
         stage.addActor(question);
@@ -75,13 +107,9 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                 Actions.moveBy(300, 120, 5),
                 Actions.moveBy(-300, -120, 3)
         );
-        question.addListener(new ClickListener() {
-            public void clicked(InputEvent event, float x, float y){
-                reactOnClick();
-            }
-        });
+
         question.addAction(moveAction);
-    }
+    }*/
 
     private void initBackToMenuButton() {
         goBackButtonCreator = new GoBackButtonCreator();
@@ -98,11 +126,35 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void checkAnswer() {
         if(text.equals(question.getAnswer())){
-            question.setText("Poprawna");
+            questionNumber++;
+            correctAnswer();
+            createQuestion();
         }
         else{
-            question.setText("Nie Poprawnie");
+            wrongAnswer();
         }
+    }
+
+    private void wrongAnswer() {
+        bgImage.setDrawable(new SpriteDrawable(new Sprite(wrongAnswer)));
+        Timer.schedule(new Timer.Task() {
+            @Override
+            public void run() {
+                bgImage.setDrawable(new SpriteDrawable(new Sprite(defaultBg)));
+            }
+        }, 1);
+    }
+
+
+    private void correctAnswer() {
+        //image.setDrawable(new SpriteDrawable(new Sprite(newTexture)));
+        bgImage.setDrawable(new SpriteDrawable(new Sprite(correctAnswer)));
+        Timer.schedule(new Timer.Task() {
+            @Override
+            public void run() {
+                bgImage.setDrawable(new SpriteDrawable(new Sprite(defaultBg)));
+            }
+        }, 1);
     }
 
     private void reactOnClick(){
@@ -110,7 +162,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
     private void initBgImage() {
         //TODO Make better background
-        bgImage = new Image(new Texture("Temporary.Menu.Background.png"));
+        defaultBg = new Texture("Temporary.Menu.Background.png");
+        correctAnswer = new Texture("Correct_Answer.png");
+        wrongAnswer = new Texture("Wrong_Answer.png");
+        bgImage = new Image(defaultBg);
         stage.addActor(bgImage);
     }
 
