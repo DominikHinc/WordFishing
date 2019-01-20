@@ -25,7 +25,7 @@ public class Question extends TextButton {
         if(this.getText().length() > 10){
             this.setWidth(WIDTH*this.getText().length());
         }else{
-            this.setWidth(WIDTH*10);
+           this.setWidth(WIDTH*10);
         }
 
         this.setHeight(HEIGHT / 3);

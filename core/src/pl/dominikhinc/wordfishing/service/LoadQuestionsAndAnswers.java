@@ -13,7 +13,7 @@ public class LoadQuestionsAndAnswers {
 
     public LoadQuestionsAndAnswers(Skin skin , WordFishing game){
         questionArrayList = new ArrayList<Question>();
-        for(int i = 0; i < 10 ; i++){
+        for(int i = 0; i < 500 ; i+=10){
             Question q = new Question( "" + i,"" + i,skin , game);
             questionArrayList.add(q);
         }

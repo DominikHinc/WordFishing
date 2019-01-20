@@ -18,10 +18,6 @@ public class MenuScreen extends AbstractScreen {
     private TextButton optionsButton;
     private TextButton helpButton;
     private MenuButtonCreator buttonCreator;
-    /*private BitmapFont font;
-    private TextButton.TextButtonStyle textButtonStyle;
-    private TextureRegionDrawable buttonUp;
-    private TextureRegionDrawable buttonDown;*/
 
     public MenuScreen(WordFishing game){
         super(game);
@@ -38,19 +34,6 @@ public class MenuScreen extends AbstractScreen {
 
 
     private void initButtons() {
-        /*buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Up.png")));
-        buttonDown = new TextureRegionDrawable(new TextureRegion(new Texture("Guzik_Menu_Down.png")));
-        font = new BitmapFont(Gdx.files.internal("Font_2.fnt"));
-        textButtonStyle = new TextButton.TextButtonStyle();
-        textButtonStyle.font = font;
-        textButtonStyle.up = buttonUp;
-        textButtonStyle.down = buttonDown;
-        textButtonStyle.fontColor = Color.BLACK;
-        grajButton = new TextButton("Rozpocznij",textButtonStyle);
-        grajButton.setHeight(85*2);
-        grajButton.setWidth(306*2);
-        grajButton.setOrigin(grajButton.getWidth() / 2 , grajButton.getHeight() / 2);
-        grajButton.setPosition(game.SCREEN_WIDTH / 2 - grajButton.getWidth() / 2 , game.SCREEN_HEIGHT - 5 * game.SCREEN_HEIGHT / 10);*/
         buttonCreator = new MenuButtonCreator();
         grajButton = buttonCreator.createButton("Rozpocznij", game);
         optionsButton = buttonCreator.createButton("Opcje" , game);
@@ -92,7 +75,7 @@ public class MenuScreen extends AbstractScreen {
     }
 
     private void initBg() {
-        //TODO add bettr bgImage
+        //TODO add better bgImage
         bgImg = new Image(new Texture("Temporary.Menu.Background.png"));
         stage.addActor(bgImg);
     }
