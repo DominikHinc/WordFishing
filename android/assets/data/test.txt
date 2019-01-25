@@ -1,0 +1,5 @@
+hello/czesc
+hamster/chomik
+rat/szczur
+gebril/myszoskoczek
+dog/pies

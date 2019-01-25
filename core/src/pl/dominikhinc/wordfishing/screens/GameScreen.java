@@ -5,6 +5,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -30,6 +31,9 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Skin skin;
     private String text;
     private ArrayList<Question> questionArrayList;
+    private int arraySize;
+    private int currentQuestionIndex;
+    private Question lastQuestion;
     private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
     private int questionNumber = 0;
     private Texture correctAnswer, wrongAnswer, defaultBg;
@@ -45,8 +49,12 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         initBackToMenuButton();
         initQuestionList();
         createFirstQuestion();
+        createLastQuestion();
     }
 
+    private void createLastQuestion() {
+        lastQuestion = new Question("Koniec","",skin,game);
+    }
 
 
     @Override
@@ -76,7 +84,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         stage.addActor(bgImage);
     }
     private void createFirstQuestion() {
-        question = questionArrayList.get(questionNumber);
+        question = questionArrayList.get(0);
         stage.addActor(question);
         question.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
@@ -86,7 +94,8 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
     private void createQuestion() {
         question.remove();
-        question = questionArrayList.get(questionNumber);
+        currentQuestionIndex = MathUtils.random(0,questionArrayList.size()-1);
+        question = questionArrayList.get(currentQuestionIndex);
         stage.addActor(question);
         question.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
@@ -101,6 +110,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void initQuestionList() {
         loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, game);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
+        arraySize = questionArrayList.size();
     }
 
     private void initBackToMenuButton() {
@@ -120,10 +130,17 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         if (text.equals(question.getAnswer())) {
             questionNumber++;
             correctAnswer();
-            createQuestion();
+            questionArrayList.remove(currentQuestionIndex);
+
         } else {
             wrongAnswer();
         }
+        if(questionArrayList.isEmpty() == true){
+            stage.addActor(lastQuestion);
+        }else{
+            createQuestion();
+        }
+
     }
 
     private void wrongAnswer() {

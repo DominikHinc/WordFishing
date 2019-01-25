@@ -1,11 +1,16 @@
 package pl.dominikhinc.wordfishing.screens;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+
+import java.io.BufferedReader;
+import java.io.IOException;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
@@ -31,6 +36,21 @@ public class OptionsScreen extends AbstractScreen {
         labelStyle.font = game.getFont();
         test = new Label("Opcje" , labelStyle);
         stage.addActor(test);
+        testReading();
+    }
+
+    private void testReading() {
+        FileHandle file = Gdx.files.internal("data/test.txt");
+        String text = file.readString();
+        BufferedReader czyt = file.reader(text.length());
+        String wiersz = null;
+        try {
+            wiersz = czyt.readLine();
+            wiersz = czyt.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        test.setText(wiersz);
     }
 
     private void initBackToMenuButton() {
