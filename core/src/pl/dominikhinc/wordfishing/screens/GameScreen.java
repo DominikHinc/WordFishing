@@ -30,6 +30,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Button goBackButton;
     private Question question;
     private Skin skin;
+    private Skin skin2;
     private String text;
     private ArrayList<Question> questionArrayList;
     private int arraySize;
@@ -61,7 +62,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         }
     }
     private void createLastQuestion() {
-        lastQuestion = new Question("Koniec","",skin,game);
+        lastQuestion = new Question("Koniec","",skin2,game);
     }
 
 
@@ -81,6 +82,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void loadSkin() {
         skin = new Skin(Gdx.files.internal("glassy-ui.json"));
+        skin2 = new Skin(Gdx.files.internal("questionSkin/glassy-ui.json"));
     }
 
     private void initBgImage() {
@@ -116,7 +118,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void initQuestionList() {
-        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, game);
+        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin2, game);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
         arraySize = questionArrayList.size();
     }
