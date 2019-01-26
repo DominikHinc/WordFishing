@@ -17,6 +17,7 @@ import com.badlogic.gdx.utils.Timer;
 import java.util.ArrayList;
 
 import pl.dominikhinc.wordfishing.WordFishing;
+import pl.dominikhinc.wordfishing.frames.Answer;
 import pl.dominikhinc.wordfishing.frames.Question;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
@@ -50,8 +51,15 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         initQuestionList();
         createFirstQuestion();
         createLastQuestion();
+        createTestAnswers();
     }
 
+    private void createTestAnswers() {
+        for(int i = 0 ; i < 4 ; i++ ){
+            Answer a = new Answer("expensivej hzbivljbsivblsi",skin,game);
+            stage.addActor(a);
+        }
+    }
     private void createLastQuestion() {
         lastQuestion = new Question("Koniec","",skin,game);
     }
