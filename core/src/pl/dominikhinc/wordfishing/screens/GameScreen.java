@@ -165,7 +165,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     public void input(String text) {
-        this.text = text;
+        this.text = text.toLowerCase();
         checkAnswer();
     }
 
