@@ -33,7 +33,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Skin skin2;
     private String text;
     private ArrayList<Question> questionArrayList;
+    private ArrayList<Answer> answerArrayList;
+    private ArrayList<Answer> answerButtonList;
     private int arraySize;
+    private int correctAnswerNumber;
     private int currentQuestionIndex;
     private Question lastQuestion;
     private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
@@ -50,17 +53,15 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         loadSkin();
         initBackToMenuButton();
         initQuestionList();
-        createFirstQuestion();
+        initAnswerList();
+        initAnswerButtons();
+        createQuestion();
         createLastQuestion();
-        createTestAnswers();
     }
 
-    private void createTestAnswers() {
-        for(int i = 0 ; i < 4 ; i++ ){
-            Answer a = new Answer("expensivej hzbivljbsivblsi",skin,game);
-            stage.addActor(a);
-        }
-    }
+
+
+
     private void createLastQuestion() {
         lastQuestion = new Question("Koniec","",skin2,game);
     }
@@ -93,17 +94,58 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         bgImage = new Image(defaultBg);
         stage.addActor(bgImage);
     }
-    private void createFirstQuestion() {
-        question = questionArrayList.get(0);
-        stage.addActor(question);
-        question.addListener(new ClickListener() {
-            public void clicked(InputEvent event, float x, float y) {
-                reactOnClick();
-            }
-        });
+    private void initAnswerButtons() {
+        answerButtonList = new ArrayList<Answer>();
+        for(int i = 0; i < 4 ; i++){
+            Answer a = new Answer("",skin,game);
+            a.setPositions(game,i);
+            stage.addActor(a);
+            answerButtonList.add(a);
+        }
     }
+    private void createAnswers() {
+        /*if(currentlyShownAnswers != null){
+            for(int i = 0 ; i < 4; i++){
+                currentlyShownAnswers.get(i).remove();
+            }
+        }
+
+        currentlyShownAnswers = new ArrayList<Answer>();
+        for(int i = 0 ; i < 4 ; i++){
+            Answer a = null;
+            System.out.println("i = "+i+" Wylosowany numer poprawnej to "+correctAnswerNumber);
+            if(i == correctAnswerNumber){
+                a = new Answer(question.getAnswer(),skin,game);
+                System.out.println("i = "+i+" Stworzona zostaje poprawna odpowiedz " + a.getAnswer());
+            }else{
+                do{
+                    a = answerArrayList.get(MathUtils.random(0,answerArrayList.size()-1));
+                    System.out.println("i = "+i+" Stworzona zostaje nie poprawna odpowiedz " + a.getAnswer());
+                }while(a.getAnswer().equals(question.getAnswer()));
+            }
+            currentlyShownAnswers.add(a);
+            stage.addActor(a);
+            a.setPositions(game,i);
+
+        }*/
+        correctAnswerNumber = MathUtils.random(0,3);
+        ArrayList<Answer> tempAnswerArray = (ArrayList<Answer>) answerArrayList.clone();
+        for(int i = 0; i < 4 ; i++){
+            if(i == correctAnswerNumber){
+                answerButtonList.get(i).setisCorrect(true);
+                answerButtonList.get(i).setAnswer(question.getAnswer());
+            }else{
+                answerButtonList.get(i).setisCorrect(false);
+                answerButtonList.get(i).setAnswer(answerArrayList.get(MathUtils.random(0,answerArrayList.size()-1)).getAnswer());
+            }
+        }
+
+    }
+
     private void createQuestion() {
-        question.remove();
+        if(question != null){
+            question.remove();
+        }
         currentQuestionIndex = MathUtils.random(0,questionArrayList.size()-1);
         question = questionArrayList.get(currentQuestionIndex);
         stage.addActor(question);
@@ -112,17 +154,20 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                 reactOnClick();
             }
         });
+        createAnswers();
     }
     private void reactOnClick() {
         Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
     }
 
     private void initQuestionList() {
-        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin2, game);
+        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
         arraySize = questionArrayList.size();
     }
-
+    private void initAnswerList(){
+        answerArrayList = loadQuestionsAndAnswers.getAnswerArrayList();
+    }
     private void initBackToMenuButton() {
         goBackButtonCreator = new GoBackButtonCreator();
         goBackButton = goBackButtonCreator.createButton(game);

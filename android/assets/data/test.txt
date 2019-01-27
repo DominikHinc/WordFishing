@@ -3,3 +3,6 @@ Hamster/Chomik
 Rat/Szczur
 Gebril/Myszoskoczek
 Dog/Pies
+Cow/Krowa
+Pig/Swinka
+Horse/kon
