@@ -18,8 +18,8 @@ public class Question extends TextButton {
 
     public Question(String question,String answer, Skin skin, WordFishing game) {
         super(question, skin);
-        this.question = question.toLowerCase();
-        this.answer = answer.toLowerCase();
+        this.question = question;//.toLowerCase();
+        this.answer = answer;//.toLowerCase();
         init(game);
 
     }

@@ -14,7 +14,7 @@ import pl.dominikhinc.wordfishing.frames.Question;
 public class LoadQuestionsAndAnswers {
 
     private ArrayList<Question> questionArrayList;
-    private ArrayList<Answer> answerArrayList;
+    private ArrayList<String> answerArrayList;
 
     public LoadQuestionsAndAnswers(Skin skin ,Skin skin2, WordFishing game){
         initQuestions(skin,skin2,game);
@@ -23,7 +23,7 @@ public class LoadQuestionsAndAnswers {
     private void initQuestions(Skin skin,Skin skin2, WordFishing game) {
         FileHandle file = Gdx.files.internal("data/test.txt");
         questionArrayList = new ArrayList<Question>();
-        answerArrayList = new ArrayList<Answer>();
+        answerArrayList = new ArrayList<String>();
         String text = file.readString();
         BufferedReader reader = file.reader(text.length());
         try
@@ -34,7 +34,7 @@ public class LoadQuestionsAndAnswers {
                 String[] wynik = wiersz.split("/");
                 Question q = new Question(wynik[0],wynik[1],skin2,game);
                 questionArrayList.add(q);
-                Answer a = new Answer(wynik[1],skin,game);
+                String a = wynik[1];
                 answerArrayList.add(a);
             }
         }
@@ -50,7 +50,7 @@ public class LoadQuestionsAndAnswers {
         return questionArrayList;
     }
 
-    public ArrayList<Answer> getAnswerArrayList() {
+    public ArrayList<String> getAnswerArrayList() {
         return answerArrayList;
     }
 }

@@ -15,7 +15,7 @@ public class Answer extends TextButton {
 
     public Answer(String answer, Skin skin, WordFishing game) {
         super(answer, skin);
-        this.answer = answer.toLowerCase();
+        this.answer = answer;//.toLowerCase();
         init(game);
     }
 
@@ -63,7 +63,7 @@ public class Answer extends TextButton {
         }
     }
 
-    public boolean isCorrect() {
+    public boolean getIsCorrect() {
         return isCorrect;
     }
 

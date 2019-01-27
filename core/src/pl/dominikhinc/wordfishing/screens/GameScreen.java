@@ -23,7 +23,7 @@ import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
 
 
-public class GameScreen extends AbstractScreen implements Input.TextInputListener {
+public class GameScreen extends AbstractScreen {
 
     private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
@@ -33,13 +33,14 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Skin skin2;
     private String text;
     private ArrayList<Question> questionArrayList;
-    private ArrayList<Answer> answerArrayList;
+    private ArrayList<String> answerArrayList;
     private ArrayList<Answer> answerButtonList;
     private int arraySize;
     private int correctAnswerNumber;
     private int currentQuestionIndex;
     private Question lastQuestion;
     private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
+    private boolean givenAnswer;
     private int questionNumber = 0;
     private Texture correctAnswer, wrongAnswer, defaultBg;
 
@@ -97,9 +98,15 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void initAnswerButtons() {
         answerButtonList = new ArrayList<Answer>();
         for(int i = 0; i < 4 ; i++){
-            Answer a = new Answer("",skin,game);
+            final Answer a = new Answer("",skin,game);
             a.setPositions(game,i);
             stage.addActor(a);
+            a.addListener(new ClickListener() {
+                public void clicked(InputEvent event, float x, float y) {
+                    givenAnswer = a.getIsCorrect();
+                    checkAnswer();
+                }
+            });
             answerButtonList.add(a);
         }
     }
@@ -129,14 +136,17 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
         }*/
         correctAnswerNumber = MathUtils.random(0,3);
-        ArrayList<Answer> tempAnswerArray = (ArrayList<Answer>) answerArrayList.clone();
+        ArrayList<String> tempAnswerArray = (ArrayList<String>) answerArrayList.clone();
+        tempAnswerArray.remove(question.getAnswer());
         for(int i = 0; i < 4 ; i++){
             if(i == correctAnswerNumber){
                 answerButtonList.get(i).setisCorrect(true);
                 answerButtonList.get(i).setAnswer(question.getAnswer());
             }else{
                 answerButtonList.get(i).setisCorrect(false);
-                answerButtonList.get(i).setAnswer(answerArrayList.get(MathUtils.random(0,answerArrayList.size()-1)).getAnswer());
+                int j = MathUtils.random(0,tempAnswerArray.size()-1);
+                answerButtonList.get(i).setAnswer(tempAnswerArray.get(j));
+                tempAnswerArray.remove(j);
             }
         }
 
@@ -149,16 +159,16 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         currentQuestionIndex = MathUtils.random(0,questionArrayList.size()-1);
         question = questionArrayList.get(currentQuestionIndex);
         stage.addActor(question);
-        question.addListener(new ClickListener() {
+        /*question.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
                 reactOnClick();
             }
-        });
+        });*/
         createAnswers();
     }
-    private void reactOnClick() {
+    /*private void reactOnClick() {
         Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
-    }
+    }*/
 
     private void initQuestionList() {
         loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game);
@@ -182,7 +192,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void checkAnswer() {
-        if (text.equals(question.getAnswer())) {
+        if (givenAnswer == true) {
             questionNumber++;
             correctAnswer();
             questionArrayList.remove(currentQuestionIndex);
@@ -219,7 +229,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         }, 1);
     }
 
-    public void input(String text) {
+   /* public void input(String text) {
         this.text = text.toLowerCase();
         checkAnswer();
     }
@@ -227,5 +237,5 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     @Override
     public void canceled() {
-    }
+    }*/
 }
