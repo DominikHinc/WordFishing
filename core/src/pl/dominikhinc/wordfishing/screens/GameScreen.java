@@ -6,7 +6,9 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
@@ -23,7 +25,7 @@ import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
 
 
-public class GameScreen extends AbstractScreen {
+public class GameScreen extends AbstractScreen implements Input.TextInputListener {
 
     private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
@@ -31,7 +33,7 @@ public class GameScreen extends AbstractScreen {
     private Question question;
     private Skin skin;
     private Skin skin2;
-    private String text;
+    //private String text;
     private ArrayList<Question> questionArrayList;
     private ArrayList<String> answerArrayList;
     private ArrayList<Answer> answerButtonList;
@@ -111,30 +113,6 @@ public class GameScreen extends AbstractScreen {
         }
     }
     private void createAnswers() {
-        /*if(currentlyShownAnswers != null){
-            for(int i = 0 ; i < 4; i++){
-                currentlyShownAnswers.get(i).remove();
-            }
-        }
-
-        currentlyShownAnswers = new ArrayList<Answer>();
-        for(int i = 0 ; i < 4 ; i++){
-            Answer a = null;
-            System.out.println("i = "+i+" Wylosowany numer poprawnej to "+correctAnswerNumber);
-            if(i == correctAnswerNumber){
-                a = new Answer(question.getAnswer(),skin,game);
-                System.out.println("i = "+i+" Stworzona zostaje poprawna odpowiedz " + a.getAnswer());
-            }else{
-                do{
-                    a = answerArrayList.get(MathUtils.random(0,answerArrayList.size()-1));
-                    System.out.println("i = "+i+" Stworzona zostaje nie poprawna odpowiedz " + a.getAnswer());
-                }while(a.getAnswer().equals(question.getAnswer()));
-            }
-            currentlyShownAnswers.add(a);
-            stage.addActor(a);
-            a.setPositions(game,i);
-
-        }*/
         correctAnswerNumber = MathUtils.random(0,3);
         ArrayList<String> tempAnswerArray = (ArrayList<String>) answerArrayList.clone();
         tempAnswerArray.remove(question.getAnswer());
@@ -159,16 +137,16 @@ public class GameScreen extends AbstractScreen {
         currentQuestionIndex = MathUtils.random(0,questionArrayList.size()-1);
         question = questionArrayList.get(currentQuestionIndex);
         stage.addActor(question);
-        /*question.addListener(new ClickListener() {
+        question.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
                 reactOnClick();
             }
-        });*/
+        });
         createAnswers();
     }
-    /*private void reactOnClick() {
+    private void reactOnClick() {
         Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
-    }*/
+    }
 
     private void initQuestionList() {
         loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game);
@@ -202,6 +180,19 @@ public class GameScreen extends AbstractScreen {
         }
         if(questionArrayList.isEmpty() == true){
             stage.addActor(lastQuestion);
+            for(Answer an :answerButtonList){
+                an.setText("");
+            }
+            Button endGameButton = new Button(new Button.ButtonStyle());
+            endGameButton.addListener(new ClickListener() {
+                public void clicked(InputEvent event, float x, float y) {
+                    game.setScreen(new MenuScreen(game));
+                }
+            });
+            endGameButton.setHeight(game.SCREEN_HEIGHT);
+            endGameButton.setWidth(game.SCREEN_WIDTH);
+            stage.addActor(endGameButton);
+
         }else{
             createQuestion();
         }
@@ -229,13 +220,12 @@ public class GameScreen extends AbstractScreen {
         }, 1);
     }
 
-   /* public void input(String text) {
-        this.text = text.toLowerCase();
-        checkAnswer();
+    public void input(String text) {
+
     }
 
 
     @Override
     public void canceled() {
-    }*/
+    }
 }

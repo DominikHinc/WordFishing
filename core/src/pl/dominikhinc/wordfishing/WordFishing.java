@@ -3,6 +3,7 @@ package pl.dominikhinc.wordfishing;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 import pl.dominikhinc.wordfishing.screens.SplashScreen;
 
@@ -16,6 +17,7 @@ public class WordFishing extends Game {
 
 	private BitmapFont font;
 	private boolean paused;
+	private Skin skin;
 
 	@Override
 	public void create () {
@@ -25,6 +27,13 @@ public class WordFishing extends Game {
 
 	private void init(){
 		initFont();
+		initSkin();
+	}
+
+	private void initSkin() {
+		skin = new Skin(Gdx.files.internal("glassy-ui.json"));
+		skin.add("font",font,BitmapFont.class);
+		skin.add("font-big",font,BitmapFont.class);
 	}
 
 	private void initFont() {
@@ -52,5 +61,8 @@ public class WordFishing extends Game {
 	}
 	public void setFont(BitmapFont font) {
 		this.font = font;
+	}
+	public Skin getSkin() {
+		return skin;
 	}
 }

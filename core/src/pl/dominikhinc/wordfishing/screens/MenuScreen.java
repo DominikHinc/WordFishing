@@ -14,7 +14,7 @@ import pl.dominikhinc.wordfishing.service.MenuButtonCreator;
 public class MenuScreen extends AbstractScreen {
 
     private Image bgImg;
-    private TextButton grajButton;
+    private TextButton playButton;
     private TextButton optionsButton;
     private TextButton helpButton;
     private MenuButtonCreator buttonCreator;
@@ -35,17 +35,17 @@ public class MenuScreen extends AbstractScreen {
 
     private void initButtons() {
         buttonCreator = new MenuButtonCreator();
-        grajButton = buttonCreator.createButton("Rozpocznij", game);
+        playButton = buttonCreator.createButton("Rozpocznij", game);
         optionsButton = buttonCreator.createButton("Opcje" , game);
         helpButton = buttonCreator.createButton("Pomoc" , game);
-        stage.addActor(grajButton);
+        stage.addActor(playButton);
         stage.addActor(optionsButton);
         stage.addActor(helpButton);
     }
     private void initButtonsListeners() {
-        grajButton.addListener(new ClickListener() {
+        playButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
-                game.setScreen(new GameScreen(game));
+                game.setScreen(new BookChooseScreen(game));
             }
             });
         optionsButton.addListener(new ClickListener() {

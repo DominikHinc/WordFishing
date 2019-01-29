@@ -36,21 +36,6 @@ public class OptionsScreen extends AbstractScreen {
         labelStyle.font = game.getFont();
         test = new Label("Opcje" , labelStyle);
         stage.addActor(test);
-        testReading();
-    }
-
-    private void testReading() {
-        FileHandle file = Gdx.files.internal("data/test.txt");
-        String text = file.readString();
-        BufferedReader czyt = file.reader(text.length());
-        String wiersz = null;
-        try {
-            wiersz = czyt.readLine();
-            wiersz = czyt.readLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        test.setText(wiersz);
     }
 
     private void initBackToMenuButton() {
