@@ -20,10 +20,13 @@ public class Answer extends TextButton {
     }
 
     private void init(WordFishing game){
-        if(answer.length()>12){
-            answer = answer.substring(0,11);
-            answer += "...";
-            this.setText(answer);
+        String[] shownText_temp =  new String[2];
+        String shownText;
+        if(answer.length()>15){
+            shownText_temp[0] = answer.substring(0,12);
+            shownText_temp[1] = answer.substring(13 ,answer.length());
+            shownText = shownText_temp[0] +"\n"+ shownText_temp[1];
+            this.setText(shownText);
         }
         this.setWidth(WIDTH*10);
 
@@ -56,12 +59,17 @@ public class Answer extends TextButton {
     public void setAnswer(String answer){
         this.answer = answer;
         this.setText(answer);
+        String[] shownText_temp =  new String[2];
+        String shownText;
         if(answer.length()>12){
-            answer = answer.substring(0,11);
-            answer += "...";
+            shownText_temp[0] = answer.substring(0,11);
+            shownText_temp[1] = answer.substring(11 ,answer.length());
+            shownText = shownText_temp[0] +"\n"+ shownText_temp[1];
+            this.setText(shownText);
+        }else {
             this.setText(answer);
         }
-    }
+        }
 
     public boolean getIsCorrect() {
         return isCorrect;
@@ -70,4 +78,8 @@ public class Answer extends TextButton {
     public void setisCorrect(boolean aTrue) {
         isCorrect = aTrue;
     }
+
 }
+
+
+

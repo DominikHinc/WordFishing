@@ -92,8 +92,8 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void loadSkin() {
-        skin = new Skin(Gdx.files.internal("glassy-ui.json"));
-        skin2 = new Skin(Gdx.files.internal("questionSkin/glassy-ui.json"));
+        skin = game.getSkin();
+        skin2 = game.getSkin2();
     }
 
     private void initBgImage() {

@@ -14,6 +14,7 @@ import pl.dominikhinc.wordfishing.service.MenuButtonCreator;
 public class MenuScreen extends AbstractScreen {
 
     private Image bgImg;
+    private Image logo;
     private TextButton playButton;
     private TextButton optionsButton;
     private TextButton helpButton;
@@ -29,8 +30,16 @@ public class MenuScreen extends AbstractScreen {
         initBg();
         initButtons();
         initButtonsListeners();
+        initLogo();
     }
 
+    private void initLogo() {
+        logo = new Image(new Texture("Logo.png"));
+        logo.setSize(419,202);
+        logo.setOrigin(logo.getWidth()/2,logo.getHeight()/2);
+        logo.setPosition(game.SCREEN_WIDTH/2 - logo.getWidth()/2,game.SCREEN_HEIGHT-game.SCREEN_HEIGHT/4 - logo.getHeight()/2);
+        stage.addActor(logo);
+    }
 
 
     private void initButtons() {

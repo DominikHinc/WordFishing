@@ -25,12 +25,13 @@ public class Question extends TextButton {
     }
 
     private void init(WordFishing game) {
-        if(this.getText().length() > 10){
+
+       /* if(this.getText().length() > 10){
             this.setWidth(WIDTH*this.getText().length());
         }else{
-           this.setWidth(WIDTH*10);
-        }
 
+        }*/
+        this.setWidth(WIDTH*10);
         this.setHeight(HEIGHT );
         this.setOrigin(WIDTH / 2 , HEIGHT / 2);
         this.setPosition(game.SCREEN_WIDTH / 2 - this.getWidth() / 2 , game.SCREEN_HEIGHT / 1.7f);

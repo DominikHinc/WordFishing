@@ -15,7 +15,7 @@ public class MenuButtonCreator {
     private int whichLine = 5;
 
     public TextButton createButton(String text , WordFishing game){
-        skin = new Skin(Gdx.files.internal("glassy-ui.json"));
+        skin = game.getSkin();
         grajButton = new TextButton(text,skin);
         grajButton.setHeight(85*2);
         grajButton.setWidth(306*2);

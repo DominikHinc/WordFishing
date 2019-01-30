@@ -19,6 +19,7 @@ public class WordFishing extends Game {
 	private BitmapFont font;
 	private boolean paused;
 	private Skin skin;
+	private Skin skin2;
 
 	@Override
 	public void create () {
@@ -35,10 +36,11 @@ public class WordFishing extends Game {
 		skin = new Skin(Gdx.files.internal("glassy-ui.json"));
 		skin.add("font",font);
 		skin.add("font-big",font);
+		skin2 = new Skin(Gdx.files.internal("questionSkin/glassy-ui.json"));
 	}
 
 	private void initFont() {
-		font = new BitmapFont(Gdx.files.internal("Test.fnt"));
+		font = new BitmapFont(Gdx.files.internal("Calibri.fnt"));
 	}
 
 	@Override
@@ -65,5 +67,8 @@ public class WordFishing extends Game {
 	}
 	public Skin getSkin() {
 		return skin;
+	}
+	public Skin getSkin2() {
+		return skin2;
 	}
 }

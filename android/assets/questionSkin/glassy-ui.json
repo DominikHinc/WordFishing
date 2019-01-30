@@ -1,10 +1,10 @@
 {
 com.badlogic.gdx.graphics.g2d.BitmapFont: {
 	font: {
-		file: font-export.fnt
+		file: Calibri.fnt
 	}
 	font-big: {
-		file: font-big-export.fnt
+		file: Calibri.fnt
 	}
 }
 com.badlogic.gdx.graphics.Color: {
