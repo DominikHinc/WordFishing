@@ -25,7 +25,6 @@ public class LoadQuestionsAndAnswers {
         questionArrayList = new ArrayList<Question>();
         answerArrayList = new ArrayList<String>();
         String text = file.readString();
-        System.out.println(text);
         BufferedReader reader = file.reader(text.length());
         try
         {
@@ -47,12 +46,13 @@ public class LoadQuestionsAndAnswers {
 
     }
     public FileHandle fileHandle(String choosenBook){
-        FileHandle file = null;
+        FileHandle file = Gdx.files.internal("data/"+choosenBook+".txt");
+        /*
         switch (choosenBook){
             case"Repetytorium do szkol ponad gimnazjalnych Unit 3":file = Gdx.files.internal("data/Repetytorium do szkol ponad gimnazjalnych Unit 3.txt");break;
             case"test":file = Gdx.files.internal("data/test.txt");break;
         }
-
+        */
 
 
         return file;
