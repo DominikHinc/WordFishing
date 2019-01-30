@@ -1,5 +1,8 @@
 package pl.dominikhinc.wordfishing.screens;
 
+import com.badlogic.gdx.Application;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
@@ -10,12 +13,14 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
+import java.util.ArrayList;
+
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 
 public class BookChooseScreen extends AbstractScreen {
 
-        //TODO Make abstract screen that from which This game and help screen will extend
+    //TODO Make abstract screen that from which This game and help screen will extend
 
         private Image bgImage;
         private GoBackButtonCreator goBackButtonCreator;
@@ -32,28 +37,44 @@ public class BookChooseScreen extends AbstractScreen {
         }
 
     private void initChooseButton() {
-            chooseButton = new TextButton("Wybiez" ,game.getSkin());
+            chooseButton = new TextButton("Wybież" ,game.getSkin());
             chooseButton.setHeight(170);
             chooseButton.setWidth(game.SCREEN_WIDTH - game.SCREEN_WIDTH / 4);
             chooseButton.setPosition(game.SCREEN_WIDTH / 8,game.SCREEN_HEIGHT / 8 - chooseButton.getHeight());
             stage.addActor(chooseButton);
             chooseButton.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y){
-                    System.out.println(list.getSelected());
-                    game.setScreen(new GameScreen (game));
+                    String s = list.getSelected();
+                    game.setScreen(new GameScreen (game,s));
                 }
             });
     }
 
     private void initList() {
+            FileHandle dirHandle = Gdx.files.internal("data/");;
+            String l = null;
+            ArrayList<String>listOfFileNames = new ArrayList<String>();
+            /*if (Gdx.app.getType() == Application.ApplicationType.Android) {
+                dirHandle = Gdx.files.internal("/data");
+            } else {
+                dirHandle = Gdx.files.internal("/data");
+             }*/
+
+            for (FileHandle entry: dirHandle.list()) {
+                l = entry.name();
+                System.out.println(l);
+                listOfFileNames.add(l);
+            }
+            String[] listOfBooks = new String[listOfFileNames.size()];
+            int i = 0;
+            for(String s: listOfFileNames){
+                listOfBooks[i] = s.substring(0,s.length()-4);
+                i++;
+            }
+
             this.skin = game.getSkin();
             list = new List<String>(skin, "plain");
-            String[] strings = new String[50];
-            for (int i = 0, k = 0; i < 50; i++) {
-                strings[k++] = "String: " + i;
-
-            }
-            list.setItems(strings);
+            list.setItems(listOfBooks);
 
             scrollPane = new ScrollPane(list);
             //scrollPane.setBounds(0, 0, game.SCREEN_WIDTH, game.SCREEN_HEIGHT);

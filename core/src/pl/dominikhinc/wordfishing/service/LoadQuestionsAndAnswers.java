@@ -16,15 +16,16 @@ public class LoadQuestionsAndAnswers {
     private ArrayList<Question> questionArrayList;
     private ArrayList<String> answerArrayList;
 
-    public LoadQuestionsAndAnswers(Skin skin ,Skin skin2, WordFishing game){
-        initQuestions(skin,skin2,game);
+    public LoadQuestionsAndAnswers(Skin skin ,Skin skin2, WordFishing game, String choosenBook){
+        initQuestions(skin,skin2,game,choosenBook);
     }
 
-    private void initQuestions(Skin skin,Skin skin2, WordFishing game) {
-        FileHandle file = Gdx.files.internal("data/test.txt");
+    private void initQuestions(Skin skin,Skin skin2, WordFishing game,String choosenBook) {
+        FileHandle file = fileHandle(choosenBook);
         questionArrayList = new ArrayList<Question>();
         answerArrayList = new ArrayList<String>();
         String text = file.readString();
+        System.out.println(text);
         BufferedReader reader = file.reader(text.length());
         try
         {
@@ -44,6 +45,17 @@ public class LoadQuestionsAndAnswers {
             ex.printStackTrace();
         }
 
+    }
+    public FileHandle fileHandle(String choosenBook){
+        FileHandle file = null;
+        switch (choosenBook){
+            case"Repetytorium do szkol ponad gimnazjalnych Unit 3":file = Gdx.files.internal("data/Repetytorium do szkol ponad gimnazjalnych Unit 3.txt");break;
+            case"test":file = Gdx.files.internal("data/test.txt");break;
+        }
+
+
+
+        return file;
     }
 
     public ArrayList<Question> getQuestionArrayList() {

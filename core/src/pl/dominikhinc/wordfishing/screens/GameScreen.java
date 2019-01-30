@@ -45,15 +45,17 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private boolean givenAnswer;
     private int questionNumber = 0;
     private Texture correctAnswer, wrongAnswer, defaultBg;
+    private String choosenBook;
 
-    public GameScreen(WordFishing game) {
+    public GameScreen(WordFishing game,String chooseBook) {
         super(game);
+        init(chooseBook);
     }
 
-    @Override
-    protected void init() {
+    protected void init(String chooseBook) {
         initBgImage();
         loadSkin();
+        this.choosenBook = chooseBook;
         initBackToMenuButton();
         initQuestionList();
         initAnswerList();
@@ -69,6 +71,11 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         lastQuestion = new Question("Koniec","",skin2,game);
     }
 
+
+    @Override
+    protected void init() {
+
+    }
 
     @Override
     public void render(float delta) {
@@ -149,7 +156,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void initQuestionList() {
-        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game);
+        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game,choosenBook);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
         arraySize = questionArrayList.size();
     }

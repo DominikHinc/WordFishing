@@ -1,8 +1,7 @@
-Hello/Czesc
+﻿Hello/Cześć
 Hamster/Chomik
 Rat/Szczur
 Gebril/Myszoskoczek
 Dog/Pies
 Cow/Krowa
-Pig/Swinka
-Horse/kon
+Horse/Koń
