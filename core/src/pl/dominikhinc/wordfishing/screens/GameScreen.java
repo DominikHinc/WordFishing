@@ -6,9 +6,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
-import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
@@ -63,9 +61,6 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         createQuestion();
         createLastQuestion();
     }
-
-
-
 
     private void createLastQuestion() {
         lastQuestion = new Question("Koniec","",skin2,game);
@@ -125,10 +120,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         tempAnswerArray.remove(question.getAnswer());
         for(int i = 0; i < 4 ; i++){
             if(i == correctAnswerNumber){
-                answerButtonList.get(i).setisCorrect(true);
+                answerButtonList.get(i).setIsCorrect(true);
                 answerButtonList.get(i).setAnswer(question.getAnswer());
             }else{
-                answerButtonList.get(i).setisCorrect(false);
+                answerButtonList.get(i).setIsCorrect(false);
                 int j = MathUtils.random(0,tempAnswerArray.size()-1);
                 answerButtonList.get(i).setAnswer(tempAnswerArray.get(j));
                 tempAnswerArray.remove(j);

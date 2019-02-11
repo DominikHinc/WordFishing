@@ -1,7 +1,7 @@
 ﻿Hello/Cześć
-Hamster/Chomik
-Rat/Szczur
-Gebril/Myszoskoczek
-Dog/Pies
-Cow/Krowa
-Horse/Koń
+Need/Potrzebować
+National/Narodowy
+Near/Blisko
+Neck/Szyja
+Neither/Ani jeden ani drugi
+Never/Nigdy

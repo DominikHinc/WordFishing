@@ -25,7 +25,7 @@ praca/coursework
 wkuwać/cram
 oblać egzamin/fail an exam
 mieć dobrą średnią ocen/get a good point average
-get a school certificate/otrzymać świadectwo szkolne
+otrzymać świadectwo szkolne/get a school certificate
 unikać czegoś/get out of sth
 oceniać uczniów/grade the students
 ukończyć szkołę/graduate from school
