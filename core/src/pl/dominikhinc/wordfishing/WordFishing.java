@@ -18,6 +18,10 @@ public class WordFishing extends Game {
 
 	private BitmapFont font;
 	private boolean paused;
+
+
+
+	private boolean textInput = false;
 	private Skin skin;
 	private Skin skin2;
 
@@ -45,7 +49,7 @@ public class WordFishing extends Game {
 
 	@Override
 	public void dispose () {
-		this.dispose();
+
 	}
 
 	/*
@@ -53,6 +57,12 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public boolean isTextInput() {
+		return textInput;
+	}
+	public void setTextInput(boolean textInput) {
+		this.textInput = textInput;
+	}
 	public void setPaused(boolean b) {
 		this.paused = paused;
 	}

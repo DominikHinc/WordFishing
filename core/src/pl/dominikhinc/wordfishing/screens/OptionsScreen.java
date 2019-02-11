@@ -1,16 +1,14 @@
 package pl.dominikhinc.wordfishing.screens;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-
-import java.io.BufferedReader;
-import java.io.IOException;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
@@ -22,7 +20,8 @@ public class OptionsScreen extends AbstractScreen {
     private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
-    private Label test;
+    private Label textInputLabel;
+    private CheckBox textInputBox;
 
     public OptionsScreen(WordFishing game) {
         super(game);
@@ -32,10 +31,23 @@ public class OptionsScreen extends AbstractScreen {
     protected void init() {
         initBgImage();
         initBackToMenuButton();
+        initTextInputLabel();
+        initTextInputCheckBox();
+    }
+
+    private void initTextInputCheckBox() {
+        textInputBox = new CheckBox("Sprawdzanie tekstowe",game.getSkin());
+        textInputBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/6);
+        //textInputBox.setSize(200,200);
+        stage.addActor(textInputBox);
+    }
+
+    private void initTextInputLabel() {
         Label.LabelStyle labelStyle = new Label.LabelStyle();
-        labelStyle.font = game.getFont();
-        test = new Label("Opcje" , labelStyle);
-        stage.addActor(test);
+        labelStyle.font = game.getSkin().getFont("font");
+        textInputLabel = new Label("Sprawdzanie tekstowe" , labelStyle);
+        //textInputLabel.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/6);
+        //stage.addActor(textInputLabel);
     }
 
     private void initBackToMenuButton() {
@@ -67,6 +79,7 @@ public class OptionsScreen extends AbstractScreen {
     }
 
     private void update() {
+
     }
 
 }

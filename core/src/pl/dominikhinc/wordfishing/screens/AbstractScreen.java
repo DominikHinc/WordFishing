@@ -1,6 +1,7 @@
 package pl.dominikhinc.wordfishing.screens;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -40,10 +41,15 @@ public abstract class AbstractScreen implements Screen {
         clearScreen();
         camera.update();
         spriteBatch.setProjectionMatrix(camera.combined);
+        if (Gdx.input.isKeyPressed(Input.Keys.BACK)) {
+            game.setScreen(new MenuScreen(game));
+        }
     }
 
     @Override
-    public void show() {}
+    public void show() {
+        Gdx.input.setCatchBackKey(true);
+    }
 
     private void clearScreen() {
         Gdx.gl.glClearColor(0, 0, 0, 0);
