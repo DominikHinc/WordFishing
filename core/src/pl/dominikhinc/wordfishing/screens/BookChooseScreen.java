@@ -62,7 +62,7 @@ public class BookChooseScreen extends AbstractScreen {
 
             for (FileHandle entry: dirHandle.list()) {
                 l = entry.name();
-                System.out.println(l);
+                //System.out.println(l);
                 listOfFileNames.add(l);
             }
             String[] listOfBooks = new String[listOfFileNames.size()];

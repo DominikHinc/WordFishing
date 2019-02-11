@@ -31,7 +31,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Question question;
     private Skin skin;
     private Skin skin2;
-    //private String text;
+    private String text;
     private ArrayList<Question> questionArrayList;
     private ArrayList<String> answerArrayList;
     private ArrayList<Answer> answerButtonList;
@@ -108,7 +108,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             a.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y) {
                     givenAnswer = a.getIsCorrect();
-                    checkAnswer();
+                    checkAnswerButtons();
                 }
             });
             answerButtonList.add(a);
@@ -171,7 +171,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     }
 
-    private void checkAnswer() {
+    private void checkAnswerButtons() {
         if (givenAnswer == true) {
             questionNumber++;
             correctAnswer();
@@ -200,6 +200,30 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         }
 
     }
+    private void checkAnswerText(){
+        if (text.equals(question.getAnswer().toLowerCase())){
+            questionNumber++;
+            correctAnswer();
+            questionArrayList.remove(currentQuestionIndex);
+        }else{
+            wrongAnswer();
+        }
+        if(questionArrayList.isEmpty() == true){
+            stage.addActor(lastQuestion);
+            Button endGameButton = new Button(new Button.ButtonStyle());
+            endGameButton.addListener(new ClickListener() {
+                public void clicked(InputEvent event, float x, float y) {
+                    game.setScreen(new MenuScreen(game));
+                }
+            });
+            endGameButton.setHeight(game.SCREEN_HEIGHT);
+            endGameButton.setWidth(game.SCREEN_WIDTH);
+            stage.addActor(endGameButton);
+
+        }else{
+            createQuestion();
+        }
+    }
 
     private void wrongAnswer() {
         bgImage.setDrawable(new SpriteDrawable(new Sprite(wrongAnswer)));
@@ -210,7 +234,6 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             }
         }, 1);
     }
-
 
     private void correctAnswer() {
         bgImage.setDrawable(new SpriteDrawable(new Sprite(correctAnswer)));
@@ -223,10 +246,9 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     public void input(String text) {
-
+        this.text = text.toLowerCase();
+        checkAnswerText();
     }
-
-
     @Override
     public void canceled() {
     }
