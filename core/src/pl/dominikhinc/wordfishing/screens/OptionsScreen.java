@@ -3,11 +3,13 @@ package pl.dominikhinc.wordfishing.screens;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import pl.dominikhinc.wordfishing.WordFishing;
@@ -36,9 +38,21 @@ public class OptionsScreen extends AbstractScreen {
     }
 
     private void initTextInputCheckBox() {
-        textInputBox = new CheckBox("Sprawdzanie tekstowe",game.getSkin());
+        textInputBox = new CheckBox("   Sprawdzanie tekstowe",game.getSkin());
         textInputBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/6);
-        //textInputBox.setSize(200,200);
+        textInputBox.getImage().setScale(3);
+        textInputBox.setChecked(game.isTextInput());
+        textInputBox.addListener(new ChangeListener() {
+            @Override
+            public void changed (ChangeListener.ChangeEvent event, Actor actor) {
+                game.setTextInput(!game.isTextInput());
+                /*if(game.isTextInput()){
+                    System.out.println("True");
+                }else{
+                    System.out.println("False");
+                }*/
+            }
+        });
         stage.addActor(textInputBox);
     }
 
