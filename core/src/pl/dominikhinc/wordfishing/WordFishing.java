@@ -2,6 +2,7 @@ package pl.dominikhinc.wordfishing;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
@@ -13,7 +14,7 @@ public class WordFishing extends Game {
 	final public static int SCREEN_WIDTH = 1080;
 	final public static int SCREEN_HEIGHT = 1920;
 	public final static String GAME_TITLE = "WordFishing";
-
+    final public static String textInputPreferences = "textInputPreferences";
 
 
 	private BitmapFont font;
@@ -21,6 +22,7 @@ public class WordFishing extends Game {
 
 
 
+	private Preferences preferences;
 	private boolean textInput = false;
 	private Skin skin;
 	private Skin skin2;
@@ -34,6 +36,12 @@ public class WordFishing extends Game {
 	private void init(){
 		initFont();
 		initSkin();
+		initPreferences();
+	}
+
+	private void initPreferences() {
+		 preferences = Gdx.app.getPreferences("WordFishing Preferences");
+		 textInput = preferences.getBoolean(textInputPreferences);
 	}
 
 	private void initSkin() {
@@ -57,6 +65,9 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public Preferences getPreferences() {
+		return preferences;
+	}
 	public boolean isTextInput() {
 		return textInput;
 	}

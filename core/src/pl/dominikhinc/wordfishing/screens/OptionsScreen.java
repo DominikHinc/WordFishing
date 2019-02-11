@@ -46,6 +46,8 @@ public class OptionsScreen extends AbstractScreen {
             @Override
             public void changed (ChangeListener.ChangeEvent event, Actor actor) {
                 game.setTextInput(!game.isTextInput());
+                game.getPreferences().putBoolean(game.textInputPreferences,game.isTextInput());
+                game.getPreferences().flush();
                 /*if(game.isTextInput()){
                     System.out.println("True");
                 }else{

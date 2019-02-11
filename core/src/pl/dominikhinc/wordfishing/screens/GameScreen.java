@@ -100,36 +100,39 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         stage.addActor(bgImage);
     }
     private void initAnswerButtons() {
-        answerButtonList = new ArrayList<Answer>();
-        for(int i = 0; i < 4 ; i++){
-            final Answer a = new Answer("",skin,game);
-            a.setPositions(game,i);
-            stage.addActor(a);
-            a.addListener(new ClickListener() {
-                public void clicked(InputEvent event, float x, float y) {
-                    givenAnswer = a.getIsCorrect();
-                    checkAnswerButtons();
-                }
-            });
-            answerButtonList.add(a);
+        if(game.isTextInput() == false){
+            answerButtonList = new ArrayList<Answer>();
+            for(int i = 0; i < 4 ; i++){
+                final Answer a = new Answer("",skin,game);
+                a.setPositions(game,i);
+                stage.addActor(a);
+                a.addListener(new ClickListener() {
+                    public void clicked(InputEvent event, float x, float y) {
+                        givenAnswer = a.getIsCorrect();
+                        checkAnswerButtons();
+                    }
+                });
+                answerButtonList.add(a);
+            }
         }
     }
     private void createAnswers() {
-        correctAnswerNumber = MathUtils.random(0,3);
-        ArrayList<String> tempAnswerArray = (ArrayList<String>) answerArrayList.clone();
-        tempAnswerArray.remove(question.getAnswer());
-        for(int i = 0; i < 4 ; i++){
-            if(i == correctAnswerNumber){
-                answerButtonList.get(i).setIsCorrect(true);
-                answerButtonList.get(i).setAnswer(question.getAnswer());
-            }else{
-                answerButtonList.get(i).setIsCorrect(false);
-                int j = MathUtils.random(0,tempAnswerArray.size()-1);
-                answerButtonList.get(i).setAnswer(tempAnswerArray.get(j));
-                tempAnswerArray.remove(j);
+        if(game.isTextInput() == false){
+            correctAnswerNumber = MathUtils.random(0,3);
+            ArrayList<String> tempAnswerArray = (ArrayList<String>) answerArrayList.clone();
+            tempAnswerArray.remove(question.getAnswer());
+            for(int i = 0; i < 4 ; i++){
+                if(i == correctAnswerNumber){
+                    answerButtonList.get(i).setIsCorrect(true);
+                    answerButtonList.get(i).setAnswer(question.getAnswer());
+                }else{
+                    answerButtonList.get(i).setIsCorrect(false);
+                    int j = MathUtils.random(0,tempAnswerArray.size()-1);
+                    answerButtonList.get(i).setAnswer(tempAnswerArray.get(j));
+                    tempAnswerArray.remove(j);
+                }
             }
         }
-
     }
 
     private void createQuestion() {
@@ -139,11 +142,13 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         currentQuestionIndex = MathUtils.random(0,questionArrayList.size()-1);
         question = questionArrayList.get(currentQuestionIndex);
         stage.addActor(question);
-        question.addListener(new ClickListener() {
-            public void clicked(InputEvent event, float x, float y) {
-                reactOnClick();
-            }
-        });
+        if(game.isTextInput() == true){
+            question.addListener(new ClickListener() {
+                public void clicked(InputEvent event, float x, float y) {
+                    reactOnClick();
+                }
+            });
+        }
         createAnswers();
     }
     private void reactOnClick() {
