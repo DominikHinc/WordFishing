@@ -3,12 +3,14 @@ package pl.dominikhinc.wordfishing.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable;
@@ -61,11 +63,6 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         createQuestion();
         createLastQuestion();
     }
-
-    private void createLastQuestion() {
-        lastQuestion = new Question("Koniec","",skin2,game);
-    }
-
 
     @Override
     protected void init() {
@@ -151,8 +148,14 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         }
         createAnswers();
     }
+
+    private void createLastQuestion() {
+        lastQuestion = new Question("Koniec","",skin2,game);
+    }
+
     private void reactOnClick() {
         Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
+
     }
 
     private void initQuestionList() {
@@ -212,6 +215,17 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             questionArrayList.remove(currentQuestionIndex);
         }else{
             wrongAnswer();
+            Label.LabelStyle labelStyle = new Label.LabelStyle(game.getFontRed(),new Color(225,73,70,1));
+            final Label label = new Label(question.getAnswer(),labelStyle);
+            label.setFontScale(1.5f);
+            label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2*1.5f,game.SCREEN_HEIGHT/4);
+            stage.addActor(label);
+            Timer.schedule(new Timer.Task() {
+                @Override
+                public void run() {
+                    label.remove();
+                }
+            }, 3);
         }
         if(questionArrayList.isEmpty() == true){
             stage.addActor(lastQuestion);
@@ -231,13 +245,19 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void wrongAnswer() {
+        int delay;
+        if(game.isTextInput() == true){
+            delay = 3;
+        }else{
+            delay = 1;
+        }
         bgImage.setDrawable(new SpriteDrawable(new Sprite(wrongAnswer)));
         Timer.schedule(new Timer.Task() {
             @Override
             public void run() {
                 bgImage.setDrawable(new SpriteDrawable(new Sprite(defaultBg)));
             }
-        }, 1);
+        }, delay);
     }
 
     private void correctAnswer() {

@@ -4,7 +4,6 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 import pl.dominikhinc.wordfishing.screens.SplashScreen;
@@ -18,16 +17,14 @@ public class WordFishing extends Game {
 	final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
 
 	private BitmapFont font;
-	private boolean paused;
-
-
+	private BitmapFont fontRed;
 
 	private Preferences preferences;
+
 	private boolean textInput = false;
-
-
-
+	private boolean paused;
 	private boolean questionInEnglish = false;
+
 	private Skin skin;
 	private Skin skin2;
 
@@ -58,6 +55,7 @@ public class WordFishing extends Game {
 
 	private void initFont() {
 		font = new BitmapFont(Gdx.files.internal("Calibri.fnt"));
+		fontRed = new BitmapFont(Gdx.files.internal("redFont/Calibri.fnt"));
 	}
 
 	@Override
@@ -70,6 +68,10 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+
+	public BitmapFont getFontRed() {
+		return fontRed;
+	}
 	public boolean isQuestionInEnglish() {
 		return questionInEnglish;
 	}

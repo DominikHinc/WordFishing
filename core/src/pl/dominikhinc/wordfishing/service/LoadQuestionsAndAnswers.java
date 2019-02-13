@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 import java.util.ArrayList;
 
 import pl.dominikhinc.wordfishing.WordFishing;
-import pl.dominikhinc.wordfishing.frames.Answer;
 import pl.dominikhinc.wordfishing.frames.Question;
 
 public class LoadQuestionsAndAnswers {

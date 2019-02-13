@@ -1,11 +1,8 @@
 package pl.dominikhinc.wordfishing.frames;
 
 
-import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.TextArea;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 
