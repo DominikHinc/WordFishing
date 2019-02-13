@@ -22,8 +22,9 @@ public class OptionsScreen extends AbstractScreen {
     private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
-    private Label textInputLabel;
+    //private Label textInputLabel;
     private CheckBox textInputBox;
+    private CheckBox questionInEnglishBox;
 
     public OptionsScreen(WordFishing game) {
         super(game);
@@ -33,8 +34,30 @@ public class OptionsScreen extends AbstractScreen {
     protected void init() {
         initBgImage();
         initBackToMenuButton();
-        initTextInputLabel();
+        //initTextInputLabel();
         initTextInputCheckBox();
+        initQuestionInEnglishCheckBox();
+    }
+
+    private void initQuestionInEnglishCheckBox() {
+        questionInEnglishBox = new CheckBox("   Pytania po angielsku",game.getSkin());
+        questionInEnglishBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/4);
+        questionInEnglishBox.getImage().setScale(3);
+        questionInEnglishBox.setChecked(game.isQuestionInEnglish());
+        questionInEnglishBox.addListener(new ChangeListener() {
+            @Override
+            public void changed (ChangeListener.ChangeEvent event, Actor actor) {
+                game.setQuestionInEnglish(!game.isQuestionInEnglish());
+                game.getPreferences().putBoolean(game.questionInEnglishPreferences,game.isQuestionInEnglish());
+                game.getPreferences().flush();
+                /*if(game.isQuestionInEnglish()){
+                    System.out.println("True");
+                }else{
+                    System.out.println("False");
+                }*/
+            }
+        });
+        stage.addActor(questionInEnglishBox);
     }
 
     private void initTextInputCheckBox() {
@@ -58,13 +81,13 @@ public class OptionsScreen extends AbstractScreen {
         stage.addActor(textInputBox);
     }
 
-    private void initTextInputLabel() {
+    /*private void initTextInputLabel() {
         Label.LabelStyle labelStyle = new Label.LabelStyle();
         labelStyle.font = game.getSkin().getFont("font");
         textInputLabel = new Label("Sprawdzanie tekstowe" , labelStyle);
-        //textInputLabel.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/6);
-        //stage.addActor(textInputLabel);
-    }
+        textInputLabel.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/6);
+        stage.addActor(textInputLabel);
+    }*/
 
     private void initBackToMenuButton() {
         goBackButtonCreator = new GoBackButtonCreator();

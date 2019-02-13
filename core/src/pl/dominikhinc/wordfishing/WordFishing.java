@@ -15,7 +15,7 @@ public class WordFishing extends Game {
 	final public static int SCREEN_HEIGHT = 1920;
 	public final static String GAME_TITLE = "WordFishing";
     final public static String textInputPreferences = "textInputPreferences";
-
+	final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
 
 	private BitmapFont font;
 	private boolean paused;
@@ -24,6 +24,10 @@ public class WordFishing extends Game {
 
 	private Preferences preferences;
 	private boolean textInput = false;
+
+
+
+	private boolean questionInEnglish = false;
 	private Skin skin;
 	private Skin skin2;
 
@@ -42,6 +46,7 @@ public class WordFishing extends Game {
 	private void initPreferences() {
 		 preferences = Gdx.app.getPreferences("WordFishing Preferences");
 		 textInput = preferences.getBoolean(textInputPreferences);
+		 questionInEnglish = preferences.getBoolean(questionInEnglishPreferences);
 	}
 
 	private void initSkin() {
@@ -65,6 +70,12 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public boolean isQuestionInEnglish() {
+		return questionInEnglish;
+	}
+	public void setQuestionInEnglish(boolean questionInEnglish) {
+		this.questionInEnglish = questionInEnglish;
+	}
 	public Preferences getPreferences() {
 		return preferences;
 	}

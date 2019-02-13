@@ -31,11 +31,20 @@ public class LoadQuestionsAndAnswers {
             String wiersz = null;
             while((wiersz = reader.readLine())!=null)
             {
-                String[] wynik = wiersz.split("/");
-                Question q = new Question(wynik[0],wynik[1],skin2,game);
-                questionArrayList.add(q);
-                String a = wynik[1];
-                answerArrayList.add(a);
+                if (game.isQuestionInEnglish() == false) {
+                    String[] wynik = wiersz.split("/");
+                    Question q = new Question(wynik[0],wynik[1],skin2,game);
+                    questionArrayList.add(q);
+                    String a = wynik[1];
+                    answerArrayList.add(a);
+                }else{
+                    String[] wynik = wiersz.split("/");
+                    Question q = new Question(wynik[1],wynik[0],skin2,game);
+                    questionArrayList.add(q);
+                    String a = wynik[0];
+                    answerArrayList.add(a);
+                }
+
             }
         }
         catch(Exception ex)
