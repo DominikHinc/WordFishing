@@ -100,7 +100,7 @@ public class OptionsScreen extends AbstractScreen {
 
     private void initBgImage() {
         //TODO Make better background
-        bgImage = new Image(new Texture("Temporary.Menu.Background.png"));
+        bgImage = new Image(game.getDefaultBg());
         stage.addActor(bgImage);
     }
 

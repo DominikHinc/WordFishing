@@ -5,10 +5,12 @@ import com.badlogic.gdx.utils.Timer;
 import com.badlogic.gdx.utils.Timer.Task;
 
 import pl.dominikhinc.wordfishing.WordFishing;
+import pl.dominikhinc.wordfishing.service.AssetMenager;
 
 public class SplashScreen extends AbstractScreen {
 
     private Texture splashImg;
+    //private AssetMenager assetMenager;
 
     public SplashScreen(final WordFishing game) {
         super(game);
@@ -18,12 +20,12 @@ public class SplashScreen extends AbstractScreen {
             public void run() {
                 game.setScreen(new MenuScreen(game));
             }
-        }, 3);
+        }, 1);
+        //assetMenager = new AssetMenager(game);
     }
 
     @Override
     protected void init() {
-        // TODO implement better assets loading when game grows
         splashImg = new Texture("Splash_Screen.png");
     }
 
@@ -31,7 +33,6 @@ public class SplashScreen extends AbstractScreen {
     @Override
     public void render(float delta) {
         super.render(delta);
-
         spriteBatch.begin();
         spriteBatch.draw(splashImg, 0, 0);
         spriteBatch.end();

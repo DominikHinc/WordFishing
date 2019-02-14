@@ -43,7 +43,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Question lastQuestion;
     private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
     private boolean givenAnswer;
-    private int questionNumber = 0;
+    //private int questionNumber = 0;
     private Texture correctAnswer, wrongAnswer, defaultBg;
     private String choosenBook;
 
@@ -90,9 +90,9 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void initBgImage() {
         //TODO Make better background
-        defaultBg = new Texture("Temporary.Menu.Background.png");
-        correctAnswer = new Texture("Correct_Answer.png");
-        wrongAnswer = new Texture("Wrong_Answer.png");
+        defaultBg = game.getDefaultBg();
+        correctAnswer = game.getCorrectAnswer();
+        wrongAnswer = game.getWrongAnswer();
         bgImage = new Image(defaultBg);
         stage.addActor(bgImage);
     }
@@ -181,7 +181,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void checkAnswerButtons() {
         if (givenAnswer == true) {
-            questionNumber++;
+            //questionNumber++;
             correctAnswer();
             questionArrayList.remove(currentQuestionIndex);
 
@@ -210,7 +210,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
     private void checkAnswerText(){
         if (text.equals(question.getAnswer().toLowerCase())){
-            questionNumber++;
+            //questionNumber++;
             correctAnswer();
             questionArrayList.remove(currentQuestionIndex);
         }else{

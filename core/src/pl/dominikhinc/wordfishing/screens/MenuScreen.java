@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import pl.dominikhinc.wordfishing.WordFishing;
+import pl.dominikhinc.wordfishing.service.AssetMenager;
 import pl.dominikhinc.wordfishing.service.MenuButtonCreator;
 
 public class MenuScreen extends AbstractScreen {
@@ -19,14 +20,21 @@ public class MenuScreen extends AbstractScreen {
     private TextButton optionsButton;
     private TextButton helpButton;
     private MenuButtonCreator buttonCreator;
+    private AssetMenager assetMenager;
+
+    private static boolean WASALREADYLOADED = false;
 
     public MenuScreen(WordFishing game){
         super(game);
-
     }
 
     @Override
     protected void init(){
+        if(WASALREADYLOADED == false){
+            assetMenager = new AssetMenager(game);
+            WASALREADYLOADED = true;
+        }
+
         initBg();
         initButtons();
         initButtonsListeners();
@@ -34,7 +42,7 @@ public class MenuScreen extends AbstractScreen {
     }
 
     private void initLogo() {
-        logo = new Image(new Texture("Logo.png"));
+        logo = new Image(game.getLogo());
         logo.setSize(419,202);
         logo.setOrigin(logo.getWidth()/2,logo.getHeight()/2);
         logo.setPosition(game.SCREEN_WIDTH/2 - logo.getWidth()/2,game.SCREEN_HEIGHT-game.SCREEN_HEIGHT/4 - logo.getHeight()/2);
@@ -74,7 +82,6 @@ public class MenuScreen extends AbstractScreen {
     public void render(float delta) {
         super.render(delta);
         update();
-
         spriteBatch.begin();
         stage.draw();
         spriteBatch.end();

@@ -3,6 +3,7 @@ package pl.dominikhinc.wordfishing;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
@@ -17,7 +18,7 @@ public class WordFishing extends Game {
 	final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
 
 	private BitmapFont font;
-	private BitmapFont fontRed;
+    private BitmapFont fontRed;
 
 	private Preferences preferences;
 
@@ -27,6 +28,14 @@ public class WordFishing extends Game {
 
 	private Skin skin;
 	private Skin skin2;
+
+    private Texture defaultBg;
+    private Texture correctAnswer;
+    private Texture wrongAnswer;
+	private Texture logo;
+	private Texture goBackButton;
+
+
 
 	@Override
 	public void create () {
@@ -47,15 +56,15 @@ public class WordFishing extends Game {
 	}
 
 	private void initSkin() {
-		skin = new Skin(Gdx.files.internal("glassy-ui.json"));
-		skin.add("font",font);
-		skin.add("font-big",font);
-		skin2 = new Skin(Gdx.files.internal("questionSkin/glassy-ui.json"));
+		//skin = new Skin(Gdx.files.internal("glassy-ui.json"));
+		/*skin.add("font",font);
+		skin.add("font-big",font);*/
+		//skin2 = new Skin(Gdx.files.internal("questionSkin/glassy-ui.json"));
 	}
 
 	private void initFont() {
-		font = new BitmapFont(Gdx.files.internal("Calibri.fnt"));
-		fontRed = new BitmapFont(Gdx.files.internal("redFont/Calibri.fnt"));
+		//font = new BitmapFont(Gdx.files.internal("Calibri.fnt"));
+		//fontRed = new BitmapFont(Gdx.files.internal("redFont/Calibri.fnt"));
 	}
 
 	@Override
@@ -69,6 +78,12 @@ public class WordFishing extends Game {
 	* ********************
 	 */
 
+	public Texture getGoBackButton() {
+		return goBackButton;
+	}
+	public void setGoBackButton(Texture goBackButton) {
+		this.goBackButton = goBackButton;
+	}
 	public BitmapFont getFontRed() {
 		return fontRed;
 	}
@@ -96,13 +111,46 @@ public class WordFishing extends Game {
 	public BitmapFont getFont() {
 		return font;
 	}
-	public void setFont(BitmapFont font) {
-		this.font = font;
-	}
 	public Skin getSkin() {
 		return skin;
 	}
 	public Skin getSkin2() {
 		return skin2;
+	}
+    public Texture getDefaultBg() {
+        return defaultBg;
+    }
+    public void setDefaultBg(Texture defaultBg) {
+        this.defaultBg = defaultBg;
+    }
+    public Texture getCorrectAnswer() {
+        return correctAnswer;
+    }
+    public void setCorrectAnswer(Texture correctAnswer) {
+        this.correctAnswer = correctAnswer;
+    }
+    public Texture getWrongAnswer() {
+        return wrongAnswer;
+    }
+    public void setWrongAnswer(Texture wrongAnswer) {
+        this.wrongAnswer = wrongAnswer;
+    }
+    public void setSkin(Skin skin) {
+        this.skin = skin;
+    }
+    public void setSkin2(Skin skin2) {
+        this.skin2 = skin2;
+    }
+    public void setFontRed(BitmapFont fontRed) {
+        this.fontRed = fontRed;
+    }
+    public void setFont(BitmapFont font) {
+        this.font = font;
+    }
+	public Texture getLogo() {
+		return logo;
+	}
+	public void setLogo(Texture logo) {
+		this.logo = logo;
 	}
 }

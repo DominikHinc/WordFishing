@@ -15,7 +15,7 @@ public class GoBackButtonCreator {
 
 
     public Button createButton(WordFishing game){
-        buttonUp = new TextureRegionDrawable(new TextureRegion(new Texture("SYMB_LEFTARROW.png")));
+        buttonUp = new TextureRegionDrawable(new TextureRegion(game.getGoBackButton()));
         buttonStyle = new Button.ButtonStyle();
         buttonStyle.up = buttonUp;
         buttonStyle.down = buttonUp;
