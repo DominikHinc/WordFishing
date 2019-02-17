@@ -4,6 +4,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 
 import pl.dominikhinc.wordfishing.WordFishing;
+import pl.dominikhinc.wordfishing.service.SplitText;
 
 public class Answer extends TextButton {
 
@@ -57,18 +58,21 @@ public class Answer extends TextButton {
         this.answer = answer;
         this.setText(answer);
         if(answer.length()>=12){
-            splitText();
+            //splitText();
+            SplitText splitText = new SplitText();
+            this.setText(splitText.splitText(10,answer));
         }else {
             this.setText(answer);
         }
     }
 
-    private void splitText() {
+    /*private void splitText() {
+
         String[] shownText_temp =  new String[2];
         String shownText = null;
         char[] answerArray = answer.toCharArray();
         int border = 10;
-        String tempor = tempor = answer.substring(border,answer.length());
+        String tempor = answer.substring(border,answer.length());
         if(answer.contains(" ")){
             int toBack = border;
             int toFront = border;
@@ -102,8 +106,8 @@ public class Answer extends TextButton {
             shownText = shownText_temp[0]+ "-" +"\n"+ shownText_temp[1];
         }
 
-        this.setText(shownText);
-    }
+        this.setText(splitText.splitText(10,answer));
+    }*/
 
     public boolean getIsCorrect() {
         return isCorrect;

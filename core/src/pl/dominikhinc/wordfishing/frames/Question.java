@@ -5,6 +5,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 
 import pl.dominikhinc.wordfishing.WordFishing;
+import pl.dominikhinc.wordfishing.service.SplitText;
 
 public class Question extends TextButton {
     public static final int WIDTH = 85;
@@ -12,6 +13,7 @@ public class Question extends TextButton {
 
     private String question;
     private String answer;
+
 
     public Question(String question,String answer, Skin skin, WordFishing game) {
         super(question, skin);
@@ -33,11 +35,12 @@ public class Question extends TextButton {
         this.setOrigin(WIDTH / 2 , HEIGHT / 2);
         this.setPosition(game.SCREEN_WIDTH / 2 - this.getWidth() / 2 , game.SCREEN_HEIGHT / 1.7f);
         if(question.length() > 25){
-            splitText();
+            SplitText splitText = new SplitText();
+            this.setText(splitText.splitText(22,question));
         }
     }
 
-    private void splitText() {
+    /*private void splitText() {
         String[] shownText_temp =  new String[2];
         String shownText = null;
         char[] answerArray = question.toCharArray();
@@ -77,7 +80,7 @@ public class Question extends TextButton {
         }
 
         this.setText(shownText);
-    }
+    }*/
     public String getQuestion() {
         return question;
     }
@@ -85,4 +88,5 @@ public class Question extends TextButton {
     public String getAnswer() {
         return answer;
     }
+
 }

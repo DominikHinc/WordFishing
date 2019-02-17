@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -23,6 +24,7 @@ import pl.dominikhinc.wordfishing.frames.Answer;
 import pl.dominikhinc.wordfishing.frames.Question;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
+import pl.dominikhinc.wordfishing.service.SplitText;
 
 
 public class GameScreen extends AbstractScreen implements Input.TextInputListener {
@@ -154,7 +156,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void reactOnClick() {
-        Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
+            Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
 
     }
 
@@ -209,14 +211,21 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     }
     private void checkAnswerText(){
+        boolean isWrong = false;
         if (text.equals(question.getAnswer().toLowerCase())){
             //questionNumber++;
             correctAnswer();
             questionArrayList.remove(currentQuestionIndex);
         }else{
             wrongAnswer();
+            isWrong = true;
+            String correctAnswer = question.getAnswer();
+            if(correctAnswer.length() >= 30){
+                SplitText splitText = new SplitText();
+                correctAnswer = splitText.splitText(28,correctAnswer);
+            }
             Label.LabelStyle labelStyle = new Label.LabelStyle(game.getFontRed(),new Color(225,73,70,1));
-            final Label label = new Label(question.getAnswer(),labelStyle);
+            final Label label = new Label(correctAnswer,labelStyle);
             label.setFontScale(1.5f);
             label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2*1.5f,game.SCREEN_HEIGHT/4);
             stage.addActor(label);
@@ -240,16 +249,26 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             stage.addActor(endGameButton);
 
         }else{
-            createQuestion();
+            if(isWrong == true){
+                question.setTouchable(Touchable.disabled);
+                Timer.schedule(new Timer.Task() {
+                    @Override
+                    public void run() {
+                        createQuestion();
+                    }
+                }, 3);
+            }else{
+                createQuestion();
+            }
         }
     }
 
     private void wrongAnswer() {
-        int delay;
+        float delay;
         if(game.isTextInput() == true){
             delay = 3;
         }else{
-            delay = 1;
+            delay = 1.5f;
         }
         bgImage.setDrawable(new SpriteDrawable(new Sprite(wrongAnswer)));
         Timer.schedule(new Timer.Task() {
@@ -267,7 +286,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             public void run() {
                 bgImage.setDrawable(new SpriteDrawable(new Sprite(defaultBg)));
             }
-        }, 1);
+        }, 1.5f);
     }
 
     public void input(String text) {

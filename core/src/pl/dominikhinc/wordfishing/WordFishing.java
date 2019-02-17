@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 import pl.dominikhinc.wordfishing.screens.SplashScreen;
+import pl.dominikhinc.wordfishing.service.SplitText;
 
 public class WordFishing extends Game {
 
@@ -49,6 +50,7 @@ public class WordFishing extends Game {
 		initPreferences();
 	}
 
+
 	private void initPreferences() {
 		 preferences = Gdx.app.getPreferences("WordFishing Preferences");
 		 textInput = preferences.getBoolean(textInputPreferences);
@@ -77,7 +79,6 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
-
 	public Texture getGoBackButton() {
 		return goBackButton;
 	}
