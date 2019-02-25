@@ -12,12 +12,10 @@ import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 
 public class HelpScreen extends AbstractScreen {
 
-    //TODO Make abstract screen that from wihich This game and help screen will extend
-
     private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
-    private Label test;
+    private Label helpLabel;
 
     public HelpScreen(WordFishing game) {
         super(game);
@@ -27,10 +25,15 @@ public class HelpScreen extends AbstractScreen {
     protected void init() {
         initBgImage();
         initBackToMenuButton();
+        initHelpLabel();
+    }
+
+    private void initHelpLabel() {
         Label.LabelStyle labelStyle = new Label.LabelStyle();
         labelStyle.font = game.getFont();
-        test = new Label("Pomoc" , labelStyle);
-        stage.addActor(test);
+        helpLabel = new Label("Kontakt:\nwordfishingkontakt@gmail.com\n\n\nAplikacja ma na celu pomoc w \nnauce słówek z języka angielskiego.\n\n\nZestawy słówek zaczerpnięte są\nz książek znajdujących się obecnie\nw programie nauczania." , labelStyle);
+        helpLabel.setPosition(100,game.SCREEN_HEIGHT - helpLabel.getHeight() - 400);
+        stage.addActor(helpLabel);
     }
 
     private void initBackToMenuButton() {
@@ -46,7 +49,6 @@ public class HelpScreen extends AbstractScreen {
     }
 
     private void initBgImage() {
-        //TODO Make better background
         bgImage = new Image(game.getDefaultBg());
         stage.addActor(bgImage);
     }

@@ -49,6 +49,8 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Texture correctAnswer, wrongAnswer, defaultBg;
     private String choosenBook;
 
+    private boolean isTextInputOpened = false;
+
     public GameScreen(WordFishing game,String chooseBook) {
         super(game);
         init(chooseBook);
@@ -144,6 +146,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         if(game.isTextInput() == true){
             question.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y) {
+                    question.setTouchable(Touchable.disabled);
                     reactOnClick();
                 }
             });
@@ -156,8 +159,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void reactOnClick() {
-            Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
-
+            if(isTextInputOpened == false){
+                Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
+            }
+            isTextInputOpened = true;
     }
 
     private void initQuestionList() {
@@ -191,7 +196,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             wrongAnswer();
         }
         if(questionArrayList.isEmpty() == true){
-            stage.addActor(lastQuestion);
+            /*stage.addActor(lastQuestion);
             for(Answer an :answerButtonList){
                 an.setText("");
             }
@@ -204,7 +209,8 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             endGameButton.setHeight(game.SCREEN_HEIGHT);
             endGameButton.setWidth(game.SCREEN_WIDTH);
             stage.addActor(endGameButton);
-
+            */
+            displayEndScreen();
         }else{
             createQuestion();
         }
@@ -219,6 +225,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         }else{
             wrongAnswer();
             isWrong = true;
+            /*
             String correctAnswer = question.getAnswer();
             if(correctAnswer.length() >= 30){
                 SplitText splitText = new SplitText();
@@ -235,9 +242,11 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                     label.remove();
                 }
             }, 3);
+            */
+            displayWrongAnswerLabel();
         }
         if(questionArrayList.isEmpty() == true){
-            stage.addActor(lastQuestion);
+            /*stage.addActor(lastQuestion);
             Button endGameButton = new Button(new Button.ButtonStyle());
             endGameButton.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y) {
@@ -247,13 +256,15 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             endGameButton.setHeight(game.SCREEN_HEIGHT);
             endGameButton.setWidth(game.SCREEN_WIDTH);
             stage.addActor(endGameButton);
-
+*/
+            displayEndScreen();
         }else{
             if(isWrong == true){
                 question.setTouchable(Touchable.disabled);
                 Timer.schedule(new Timer.Task() {
                     @Override
                     public void run() {
+                        question.setTouchable(Touchable.enabled);
                         createQuestion();
                     }
                 }, 3);
@@ -261,6 +272,42 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                 createQuestion();
             }
         }
+    }
+    private void displayWrongAnswerLabel(){
+        String correctAnswer = question.getAnswer();
+        if(correctAnswer.length() >= 25){
+            SplitText splitText = new SplitText();
+            correctAnswer = splitText.splitText(23,correctAnswer);
+        }
+        Label.LabelStyle labelStyle = new Label.LabelStyle(game.getFontRed(),new Color(225,73,70,1));
+        final Label label = new Label(correctAnswer,labelStyle);
+        label.setFontScale(1.5f);
+        label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2*1.5f,game.SCREEN_HEIGHT/4);
+        stage.addActor(label);
+        Timer.schedule(new Timer.Task() {
+            @Override
+            public void run() {
+                label.remove();
+            }
+        }, 3);
+    }
+
+    private void displayEndScreen(){
+        stage.addActor(lastQuestion);
+        if(game.isTextInput() == false){
+            for(Answer an :answerButtonList){
+                an.setText("");
+            }
+        }
+        Button endGameButton = new Button(new Button.ButtonStyle());
+        endGameButton.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y) {
+                game.setScreen(new MenuScreen(game));
+            }
+        });
+        endGameButton.setHeight(game.SCREEN_HEIGHT);
+        endGameButton.setWidth(game.SCREEN_WIDTH);
+        stage.addActor(endGameButton);
     }
 
     private void wrongAnswer() {
@@ -291,9 +338,13 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     public void input(String text) {
         this.text = text.toLowerCase();
+        //question.setTouchable(Touchable.enabled);
+        isTextInputOpened = false;
         checkAnswerText();
     }
     @Override
     public void canceled() {
+        question.setTouchable(Touchable.enabled);
+        isTextInputOpened = false;
     }
 }
