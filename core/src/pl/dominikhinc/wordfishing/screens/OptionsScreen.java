@@ -1,11 +1,12 @@
 package pl.dominikhinc.wordfishing.screens;
 
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Slider;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
@@ -22,6 +23,9 @@ public class OptionsScreen extends AbstractScreen {
     //private Label textInputLabel;
     private CheckBox textInputBox;
     private CheckBox questionInEnglishBox;
+    private Slider slider;
+    private Label sliderCount;
+    private Label infoAboutSlider;
 
     public OptionsScreen(WordFishing game) {
         super(game);
@@ -34,6 +38,32 @@ public class OptionsScreen extends AbstractScreen {
         //initTextInputLabel();
         initTextInputCheckBox();
         initQuestionInEnglishCheckBox();
+        initSlider();
+        initSliderCountLabel();
+        initInfoAboutSliderLabel();
+    }
+
+    private void initSliderCountLabel() {
+        sliderCount = new Label("",game.getSkin());
+        sliderCount.setPosition(game.SCREEN_WIDTH/8 + slider.getWidth() + 50,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3 + slider.getHeight()/2);
+        stage.addActor(sliderCount);
+    }
+
+    private void initInfoAboutSliderLabel() {
+        infoAboutSlider = new Label("odpowiedzieć poprawnie aby \nsłówko zostało uznane za nauczone",game.getSkin());
+        infoAboutSlider.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/2.45f);
+        stage.addActor(infoAboutSlider);
+    }
+
+    private void initSlider() {
+        slider = new Slider(1,9,0.05f,false,game.getSkin());
+        slider.setSize(450,100);
+        slider.getStyle().knob.setMinHeight(75);
+        slider.getStyle().knob.setMinWidth(75);
+        slider.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3);
+        slider.setValue(game.getCorrectAnswersNeededInt());
+        stage.addActor(slider);
+
     }
 
     private void initQuestionInEnglishCheckBox() {
@@ -110,12 +140,20 @@ public class OptionsScreen extends AbstractScreen {
         update();
 
         spriteBatch.begin();
+        stage.act();
         stage.draw();
         spriteBatch.end();
     }
 
     private void update() {
-
+        int tempp = (int) slider.getValue();
+        String tempo = String.valueOf(tempp);
+        sliderCount.setText(tempo + " razy należy");
+        if(slider.isDragging()){
+            game.getPreferences().putInteger(game.correctAnswersNeeded,tempp);
+            game.getPreferences().flush();
+            game.setCorrectAnswersNeededInt(tempp);
+        }
     }
 
 }

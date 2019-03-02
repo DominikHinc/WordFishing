@@ -190,8 +190,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         if (givenAnswer == true) {
             //questionNumber++;
             correctAnswer();
-            questionArrayList.remove(currentQuestionIndex);
-
+            question.setCorrectAnswersToGo(question.getCorrectAnswersToGo() - 1);
+            if(question.getCorrectAnswersToGo() < 1){
+                questionArrayList.remove(currentQuestionIndex);
+            }
         } else {
             wrongAnswer();
         }
@@ -221,7 +223,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         if (text.equals(question.getAnswer().toLowerCase())){
             //questionNumber++;
             correctAnswer();
-            questionArrayList.remove(currentQuestionIndex);
+            question.setCorrectAnswersToGo(question.getCorrectAnswersToGo() - 1);
+            if(question.getCorrectAnswersToGo() < 1){
+                questionArrayList.remove(currentQuestionIndex);
+            }
         }else{
             wrongAnswer();
             isWrong = true;

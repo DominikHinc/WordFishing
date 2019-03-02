@@ -17,6 +17,7 @@ public class WordFishing extends Game {
 	public final static String GAME_TITLE = "WordFishing";
     final public static String textInputPreferences = "textInputPreferences";
 	final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
+	final public static String correctAnswersNeeded = "correctAnswersNeeded";
 
 	private BitmapFont font;
     private BitmapFont fontRed;
@@ -26,6 +27,8 @@ public class WordFishing extends Game {
 	private boolean textInput = false;
 	private boolean paused;
 	private boolean questionInEnglish = false;
+
+	private int correctAnswersNeededInt = 1;
 
 	private Skin skin;
 	private Skin skin2;
@@ -55,6 +58,7 @@ public class WordFishing extends Game {
 		 preferences = Gdx.app.getPreferences("WordFishing Preferences");
 		 textInput = preferences.getBoolean(textInputPreferences);
 		 questionInEnglish = preferences.getBoolean(questionInEnglishPreferences);
+		 correctAnswersNeededInt = preferences.getInteger(correctAnswersNeeded);
 	}
 
 	private void initSkin() {
@@ -79,6 +83,12 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public int getCorrectAnswersNeededInt() {
+		return correctAnswersNeededInt;
+	}
+	public void setCorrectAnswersNeededInt(int correctAnswersNeededInt) {
+		this.correctAnswersNeededInt = correctAnswersNeededInt;
+	}
 	public Texture getGoBackButton() {
 		return goBackButton;
 	}

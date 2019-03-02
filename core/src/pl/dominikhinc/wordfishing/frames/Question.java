@@ -15,6 +15,10 @@ public class Question extends TextButton {
     private String answer;
 
 
+
+    private int correctAnswersToGo;
+
+
     public Question(String question,String answer, Skin skin, WordFishing game) {
         super(question, skin);
         this.question = question;//.toLowerCase();
@@ -38,6 +42,7 @@ public class Question extends TextButton {
             SplitText splitText = new SplitText();
             this.setText(splitText.splitText(22,question));
         }
+        correctAnswersToGo = game.getCorrectAnswersNeededInt();
     }
 
     /*private void splitText() {
@@ -89,4 +94,11 @@ public class Question extends TextButton {
         return answer;
     }
 
+    public int getCorrectAnswersToGo() {
+        return correctAnswersToGo;
+    }
+
+    public void setCorrectAnswersToGo(int correctAnswersToGo) {
+        this.correctAnswersToGo = correctAnswersToGo;
+    }
 }
