@@ -3,7 +3,9 @@ package pl.dominikhinc.wordfishing.screens;
 
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
@@ -46,6 +48,11 @@ public class MenuScreen extends AbstractScreen {
         logo.setSize(419,202);
         logo.setOrigin(logo.getWidth()/2,logo.getHeight()/2);
         logo.setPosition(game.SCREEN_WIDTH/2 - logo.getWidth()/2,game.SCREEN_HEIGHT-game.SCREEN_HEIGHT/4 - logo.getHeight()/2);
+        Action a = Actions.rotateBy(12,5);
+        Action b = Actions.rotateBy(-12,5);
+        Action c = Actions.rotateBy(-12,5);
+        Action d = Actions.rotateBy(12,5);
+        logo.addAction(Actions.sequence(a,b,c,d));
         stage.addActor(logo);
     }
 
@@ -83,6 +90,7 @@ public class MenuScreen extends AbstractScreen {
         super.render(delta);
         update();
         spriteBatch.begin();
+        stage.act();
         stage.draw();
         spriteBatch.end();
     }
