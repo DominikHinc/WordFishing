@@ -45,7 +45,8 @@ public class MenuScreen extends AbstractScreen {
 
     private void initLogo() {
         logo = new Image(game.getLogo());
-        logo.setSize(419,202);
+        //logo.setSize(419,202);
+        logo.setSize(838,404);
         logo.setOrigin(logo.getWidth()/2,logo.getHeight()/2);
         logo.setPosition(game.SCREEN_WIDTH/2 - logo.getWidth()/2,game.SCREEN_HEIGHT-game.SCREEN_HEIGHT/4 - logo.getHeight()/2);
         Action a = Actions.rotateBy(12,5);

@@ -37,7 +37,7 @@ public class OptionsScreen extends AbstractScreen {
         initBackToMenuButton();
         //initTextInputLabel();
         initTextInputCheckBox();
-        initQuestionInEnglishCheckBox();
+        //initQuestionInEnglishCheckBox();
         initSlider();
         initSliderCountLabel();
         initInfoAboutSliderLabel();
@@ -45,13 +45,13 @@ public class OptionsScreen extends AbstractScreen {
 
     private void initSliderCountLabel() {
         sliderCount = new Label("",game.getSkin());
-        sliderCount.setPosition(game.SCREEN_WIDTH/8 + slider.getWidth() + 50,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3 + slider.getHeight()/2);
+        sliderCount.setPosition(game.SCREEN_WIDTH/8 + slider.getWidth() + 50,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/4 + slider.getHeight()/2);
         stage.addActor(sliderCount);
     }
 
     private void initInfoAboutSliderLabel() {
         infoAboutSlider = new Label("odpowiedzieć poprawnie aby \nsłówko zostało uznane za nauczone",game.getSkin());
-        infoAboutSlider.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/2.45f);
+        infoAboutSlider.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3.1f);
         stage.addActor(infoAboutSlider);
     }
 
@@ -60,13 +60,13 @@ public class OptionsScreen extends AbstractScreen {
         slider.setSize(450,100);
         slider.getStyle().knob.setMinHeight(75);
         slider.getStyle().knob.setMinWidth(75);
-        slider.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3);
+        slider.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/4);
         slider.setValue(game.getCorrectAnswersNeededInt());
         stage.addActor(slider);
 
     }
 
-    private void initQuestionInEnglishCheckBox() {
+    /*private void initQuestionInEnglishCheckBox() {
         questionInEnglishBox = new CheckBox("   Pytania po angielsku",game.getSkin());
         questionInEnglishBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/4);
         questionInEnglishBox.getImage().setScale(3);
@@ -77,15 +77,15 @@ public class OptionsScreen extends AbstractScreen {
                 game.setQuestionInEnglish(!game.isQuestionInEnglish());
                 game.getPreferences().putBoolean(game.questionInEnglishPreferences,game.isQuestionInEnglish());
                 game.getPreferences().flush();
-                /*if(game.isQuestionInEnglish()){
+                if(game.isQuestionInEnglish()){
                     System.out.println("True");
                 }else{
                     System.out.println("False");
-                }*/
+                }
             }
         });
         stage.addActor(questionInEnglishBox);
-    }
+    }*/
 
     private void initTextInputCheckBox() {
         textInputBox = new CheckBox("   Sprawdzanie tekstowe",game.getSkin());

@@ -15,6 +15,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable;
+import com.badlogic.gdx.utils.TimeUtils;
 import com.badlogic.gdx.utils.Timer;
 
 import java.util.ArrayList;
@@ -155,7 +156,13 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void createLastQuestion() {
-        lastQuestion = new Question("Koniec","",skin2,game);
+        if(game.isComplex() == false){
+            lastQuestion = new Question("Press anywhere to go back to main menu","",skin2,game);
+        }
+        if(game.isComplex() == true){
+            lastQuestion = new Question("Press anywhere to continue to second part","",skin2,game);
+        }
+
     }
 
     private void reactOnClick() {
@@ -168,10 +175,12 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void initQuestionList() {
         loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game,choosenBook);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
-        arraySize = questionArrayList.size();
+        questionArrayList.remove(0);
+        //arraySize = questionArrayList.size();
     }
     private void initAnswerList(){
         answerArrayList = loadQuestionsAndAnswers.getAnswerArrayList();
+        answerArrayList.remove(0);
     }
     private void initBackToMenuButton() {
         goBackButtonCreator = new GoBackButtonCreator();
@@ -188,7 +197,6 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void checkAnswerButtons() {
         if (givenAnswer == true) {
-            //questionNumber++;
             correctAnswer();
             question.setCorrectAnswersToGo(question.getCorrectAnswersToGo() - 1);
             if(question.getCorrectAnswersToGo() < 1){
@@ -198,20 +206,6 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             wrongAnswer();
         }
         if(questionArrayList.isEmpty() == true){
-            /*stage.addActor(lastQuestion);
-            for(Answer an :answerButtonList){
-                an.setText("");
-            }
-            Button endGameButton = new Button(new Button.ButtonStyle());
-            endGameButton.addListener(new ClickListener() {
-                public void clicked(InputEvent event, float x, float y) {
-                    game.setScreen(new MenuScreen(game));
-                }
-            });
-            endGameButton.setHeight(game.SCREEN_HEIGHT);
-            endGameButton.setWidth(game.SCREEN_WIDTH);
-            stage.addActor(endGameButton);
-            */
             displayEndScreen();
         }else{
             createQuestion();
@@ -221,7 +215,6 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void checkAnswerText(){
         boolean isWrong = false;
         if (text.equals(question.getAnswer().toLowerCase())){
-            //questionNumber++;
             correctAnswer();
             question.setCorrectAnswersToGo(question.getCorrectAnswersToGo() - 1);
             if(question.getCorrectAnswersToGo() < 1){
@@ -230,38 +223,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         }else{
             wrongAnswer();
             isWrong = true;
-            /*
-            String correctAnswer = question.getAnswer();
-            if(correctAnswer.length() >= 30){
-                SplitText splitText = new SplitText();
-                correctAnswer = splitText.splitText(28,correctAnswer);
-            }
-            Label.LabelStyle labelStyle = new Label.LabelStyle(game.getFontRed(),new Color(225,73,70,1));
-            final Label label = new Label(correctAnswer,labelStyle);
-            label.setFontScale(1.5f);
-            label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2*1.5f,game.SCREEN_HEIGHT/4);
-            stage.addActor(label);
-            Timer.schedule(new Timer.Task() {
-                @Override
-                public void run() {
-                    label.remove();
-                }
-            }, 3);
-            */
             displayWrongAnswerLabel();
         }
+
         if(questionArrayList.isEmpty() == true){
-            /*stage.addActor(lastQuestion);
-            Button endGameButton = new Button(new Button.ButtonStyle());
-            endGameButton.addListener(new ClickListener() {
-                public void clicked(InputEvent event, float x, float y) {
-                    game.setScreen(new MenuScreen(game));
-                }
-            });
-            endGameButton.setHeight(game.SCREEN_HEIGHT);
-            endGameButton.setWidth(game.SCREEN_WIDTH);
-            stage.addActor(endGameButton);
-*/
             displayEndScreen();
         }else{
             if(isWrong == true){
@@ -307,7 +272,16 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         Button endGameButton = new Button(new Button.ButtonStyle());
         endGameButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
-                game.setScreen(new MenuScreen(game));
+                if(game.isComplex() == false){
+                    game.getPreferences().putLong(choosenBook+".TimeWhenCompleted",TimeUtils.millis());
+                    game.getPreferences().flush();
+                    game.setScreen(new MenuScreen(game));
+                }
+                if(game.isComplex() == true){
+                    game.setComplex(false);
+                    game.setQuestionInEnglish(false);
+                    game.setScreen(new GameScreen(game,choosenBook));
+                }
             }
         });
         endGameButton.setHeight(game.SCREEN_HEIGHT);

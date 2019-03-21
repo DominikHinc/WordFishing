@@ -3,8 +3,10 @@ package pl.dominikhinc.wordfishing.screens;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.TimeUtils;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
@@ -20,18 +22,34 @@ public class DifficultyChooseScreen extends AbstractScreen {
     private TextButton englishPolish;
     private TextButton complex;
     private String choosenBook;
-    private WordFishing game;
+    private Label timeSinceCompleted;
 
     public DifficultyChooseScreen(WordFishing game, String s) {
         super(game);
-       // choosenBook = s;
-       // this.game = game;
-       // initR();
+        choosenBook = s;
+        this.game = game;
+        game.setComplex(false);
+        initR();
     }
 
-    private void initR() {
+    private void initR(){
         initChooseButtons();
         initChooseButtonsListeners();
+        initTimeSinceCompletedLabel();
+    }
+
+    private void initTimeSinceCompletedLabel() {
+        System.out.println(game.getPreferences().getLong(choosenBook+".TimeWhenCompleted"));
+        if(game.getPreferences().getLong(choosenBook+".TimeWhenCompleted") == 0){
+            timeSinceCompleted = new Label("Ten zestaw słówek nigdy \nnie został ukończony",game.getSkin());
+            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3.5f);
+        }else{
+            long time = TimeUtils.millis() - game.getPreferences().getLong(choosenBook+".TimeWhenCompleted");
+            time = time/1000;
+            timeSinceCompleted = new Label("Czas od ostatniego ukończenia \ndanego zbioru słówek:\n"+time+" sec",game.getSkin());
+            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/4);
+        }
+        stage.addActor(timeSinceCompleted);
     }
 
     @Override
@@ -43,16 +61,20 @@ public class DifficultyChooseScreen extends AbstractScreen {
     private void initChooseButtonsListeners() {
         polishEnglish.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
+                game.setQuestionInEnglish(false);
                 game.setScreen(new GameScreen(game,choosenBook));
             }
         });
         englishPolish.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
+                game.setQuestionInEnglish(true);
                 game.setScreen(new GameScreen(game,choosenBook));
             }
         });
         complex.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
+                game.setQuestionInEnglish(true);
+                game.setComplex(true);
                 game.setScreen(new GameScreen(game,choosenBook));
             }
         });

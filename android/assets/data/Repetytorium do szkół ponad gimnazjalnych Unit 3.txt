@@ -1,4 +1,5 @@
-﻿archeologia/archaeology
+﻿ / 
+archeologia/archaeology
 architektura/architecture
 sztuka i wzornictwo/art and design
 bankowość i finanse/banking and finance

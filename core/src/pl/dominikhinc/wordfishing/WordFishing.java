@@ -16,7 +16,7 @@ public class WordFishing extends Game {
 	final public static int SCREEN_HEIGHT = 1920;
 	public final static String GAME_TITLE = "WordFishing";
     final public static String textInputPreferences = "textInputPreferences";
-	final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
+	//final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
 	final public static String correctAnswersNeeded = "correctAnswersNeeded";
 
 	private BitmapFont font;
@@ -27,6 +27,8 @@ public class WordFishing extends Game {
 	private boolean textInput = false;
 	private boolean paused;
 	private boolean questionInEnglish = false;
+
+    private boolean complex = false;
 
 	private int correctAnswersNeededInt = 1;
 
@@ -61,7 +63,7 @@ public class WordFishing extends Game {
 	private void initPreferences() {
 		 preferences = Gdx.app.getPreferences("WordFishing Preferences");
 		 textInput = preferences.getBoolean(textInputPreferences);
-		 questionInEnglish = preferences.getBoolean(questionInEnglishPreferences);
+		 //questionInEnglish = preferences.getBoolean(questionInEnglishPreferences);
 		 correctAnswersNeededInt = preferences.getInteger(correctAnswersNeeded);
 	}
 
@@ -87,6 +89,12 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public boolean isComplex() {
+        return complex;
+    }
+    public void setComplex(boolean complex) {
+        this.complex = complex;
+    }
 	public Skin getSkinSmallFont() {
 		return skinSmallFont;
 	}
