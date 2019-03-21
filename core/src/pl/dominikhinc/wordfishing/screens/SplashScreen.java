@@ -20,7 +20,7 @@ public class SplashScreen extends AbstractScreen {
             public void run() {
                 game.setScreen(new MenuScreen(game));
             }
-        }, 1);
+        }, 0.5f);
         //assetMenager = new AssetMenager(game);
     }
 

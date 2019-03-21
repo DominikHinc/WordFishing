@@ -33,6 +33,10 @@ public class WordFishing extends Game {
 	private Skin skin;
 	private Skin skin2;
 
+
+
+	private Skin skinSmallFont;
+
     private Texture defaultBg;
     private Texture correctAnswer;
     private Texture wrongAnswer;
@@ -83,6 +87,12 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public Skin getSkinSmallFont() {
+		return skinSmallFont;
+	}
+	public void setSkinSmallFont(Skin skinSmallFont) {
+		this.skinSmallFont = skinSmallFont;
+	}
 	public int getCorrectAnswersNeededInt() {
 		return correctAnswersNeededInt;
 	}

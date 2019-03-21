@@ -14,22 +14,18 @@ public class Answer extends TextButton {
     private String answer;
     private boolean isCorrect = false;
 
+    private WordFishing game;
+
     public Answer(String answer, Skin skin, WordFishing game) {
         super(answer, skin);
-        this.answer = answer;//.toLowerCase();
+        this.answer = answer;
+        this.game = game;
+        this.setTransform(true);
         init(game);
     }
 
     private void init(WordFishing game){
-        /*
-        String[] shownText_temp =  new String[2];
-        String shownText;
-        if(answer.length()>15){
-            shownText_temp[0] = answer.substring(0,12);
-            shownText_temp[1] = answer.substring(13 ,answer.length());
-            shownText = shownText_temp[0] +"\n"+ shownText_temp[1];
-            this.setText(shownText);
-        }*/
+
         this.setWidth(WIDTH*10);
 
         this.setHeight(HEIGHT);
@@ -60,54 +56,19 @@ public class Answer extends TextButton {
         if(answer.length()>=12){
             //splitText();
             SplitText splitText = new SplitText();
-            this.setText(splitText.splitText(10,answer));
+            this.setText(splitText.splitText(answer.length()/2,answer));
+
         }else {
             this.setText(answer);
         }
-    }
-
-    /*private void splitText() {
-
-        String[] shownText_temp =  new String[2];
-        String shownText = null;
-        char[] answerArray = answer.toCharArray();
-        int border = 10;
-        String tempor = answer.substring(border,answer.length());
-        if(answer.contains(" ")){
-            int toBack = border;
-            int toFront = border;
-            while(answerArray[toBack] != ' '  && (toBack > 0)){
-                toBack--;
-            }
-            if(tempor.contains(" ")){
-                while(answerArray[toFront] != ' ' &&  toFront < answer.length()-1){
-                    toFront++;
-                }
-            }else{
-                toFront = 99;
-            }
-
-            toBack = border - toBack;
-            toFront = toFront - border;
-            if(toBack <= toFront){
-                shownText_temp[0] = answer.substring(0,border-toBack);
-                shownText_temp[1] = answer.substring(border-toBack ,answer.length());
-                shownText = shownText_temp[0] +"\n"+ shownText_temp[1];
-            }
-            if(toFront < toBack){
-                shownText_temp[0] = answer.substring(0,toFront+border);
-                shownText_temp[1] = answer.substring(toFront+border ,answer.length());
-                shownText = shownText_temp[0] +"\n"+ shownText_temp[1];
-            }
-
+        if(answer.length() >= 25){
+            this.setStyle(game.getSkinSmallFont().get("default",TextButton.TextButtonStyle.class));
         }else{
-            shownText_temp[0] = answer.substring(0,border+1);
-            shownText_temp[1] = answer.substring(border+1 ,answer.length());
-            shownText = shownText_temp[0]+ "-" +"\n"+ shownText_temp[1];
+            this.setStyle(game.getSkin().get("default",TextButton.TextButtonStyle.class));
         }
 
-        this.setText(splitText.splitText(10,answer));
-    }*/
+    }
+
 
     public boolean getIsCorrect() {
         return isCorrect;

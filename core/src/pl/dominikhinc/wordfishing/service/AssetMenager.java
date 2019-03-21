@@ -26,6 +26,9 @@ public class AssetMenager {
 
     private void initSkins(WordFishing game) {
         game.setSkin(new Skin(Gdx.files.internal("glassy-ui.json")));
+        game.setSkinSmallFont(new Skin(Gdx.files.internal("glassy-ui.json")));
+        game.getSkinSmallFont().getFont("font").getData().setScale(0.7f);
+        game.getSkinSmallFont().getFont("font-big").getData().setScale(0.7f);
         game.setSkin2(new Skin(Gdx.files.internal("questionSkin/glassy-ui.json")));
 
     }

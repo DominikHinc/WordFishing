@@ -44,7 +44,7 @@ public class BookChooseScreen extends AbstractScreen {
             chooseButton.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y){
                     String s = list.getSelected();
-                    game.setScreen(new GameScreen (game,s));
+                    game.setScreen(new DifficultyChooseScreen (game,s));
                 }
             });
     }
