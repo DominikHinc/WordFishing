@@ -41,6 +41,7 @@ public class OptionsScreen extends AbstractScreen {
         initSlider();
         initSliderCountLabel();
         initInfoAboutSliderLabel();
+
     }
 
     private void initSliderCountLabel() {

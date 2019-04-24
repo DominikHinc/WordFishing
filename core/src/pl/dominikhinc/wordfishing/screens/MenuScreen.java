@@ -36,11 +36,12 @@ public class MenuScreen extends AbstractScreen {
             assetMenager = new AssetMenager(game);
             WASALREADYLOADED = true;
         }
-
+        game.setTextInput(game.getPreferences().getBoolean(game.textInputPreferences));
         initBg();
         initButtons();
         initButtonsListeners();
         initLogo();
+
     }
 
     private void initLogo() {
@@ -71,6 +72,7 @@ public class MenuScreen extends AbstractScreen {
         playButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
                 game.setScreen(new BookChooseScreen(game));
+
             }
             });
         optionsButton.addListener(new ClickListener() {

@@ -10,6 +10,7 @@ import com.badlogic.gdx.utils.TimeUtils;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
+import pl.dominikhinc.wordfishing.service.IdCalculate;
 import pl.dominikhinc.wordfishing.service.MenuButtonCreator;
 
 public class DifficultyChooseScreen extends AbstractScreen {
@@ -29,7 +30,14 @@ public class DifficultyChooseScreen extends AbstractScreen {
         choosenBook = s;
         this.game = game;
         game.setComplex(false);
+        game.setTextInput(game.getPreferences().getBoolean(game.textInputPreferences));
         initR();
+        game.getNotificationHandler().showNotification("Czas do nauki!","Mineły dwa dni od kiedy ukończyłeś "+choosenBook,10,IdCalculate.calculate(choosenBook)+2);
+        game.getNotificationHandler().showNotification("Czas do nauki!","Mineło pięć dni od kiedy ukończyłeś "+choosenBook,15,IdCalculate.calculate(choosenBook)+5);
+        game.getNotificationHandler().showNotification("Czas do nauki!","Mineło dziesięć dni od kiedy ukończyłeś "+choosenBook,20,IdCalculate.calculate(choosenBook)+10);
+        game.getNotificationHandler().cancelNotification(IdCalculate.calculate(choosenBook)+2);
+        game.getNotificationHandler().cancelNotification(IdCalculate.calculate(choosenBook)+5);
+        game.getNotificationHandler().cancelNotification(IdCalculate.calculate(choosenBook)+10);
     }
 
     private void initR(){
@@ -75,6 +83,7 @@ public class DifficultyChooseScreen extends AbstractScreen {
             public void clicked(InputEvent event, float x, float y){
                 game.setQuestionInEnglish(true);
                 game.setComplex(true);
+                game.setTextInput(false);
                 game.setScreen(new GameScreen(game,choosenBook));
             }
         });

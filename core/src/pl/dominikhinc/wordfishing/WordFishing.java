@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 import pl.dominikhinc.wordfishing.screens.SplashScreen;
-import pl.dominikhinc.wordfishing.service.SplitText;
+import pl.dominikhinc.wordfishing.service.NotificationHandler;
 
 public class WordFishing extends Game {
 
@@ -44,7 +44,15 @@ public class WordFishing extends Game {
     private Texture wrongAnswer;
 	private Texture logo;
 	private Texture goBackButton;
+	private NotificationHandler notificationHandler;
 
+	public NotificationHandler getNotificationHandler() {
+		return notificationHandler;
+	}
+
+	public void setNotificationHandler(NotificationHandler notificationHandler) {
+		this.notificationHandler = notificationHandler;
+	}
 
 
 	@Override
@@ -182,4 +190,6 @@ public class WordFishing extends Game {
 	public void setLogo(Texture logo) {
 		this.logo = logo;
 	}
+
+
 }

@@ -1,6 +1,5 @@
 package pl.dominikhinc.wordfishing.screens;
 
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -9,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
+import pl.dominikhinc.wordfishing.service.IdCalculate;
 
 public class HelpScreen extends AbstractScreen {
 
@@ -16,6 +16,7 @@ public class HelpScreen extends AbstractScreen {
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
     private Label helpLabel;
+
 
     public HelpScreen(WordFishing game) {
         super(game);
@@ -26,7 +27,9 @@ public class HelpScreen extends AbstractScreen {
         initBgImage();
         initBackToMenuButton();
         initHelpLabel();
+
     }
+
 
     private void initHelpLabel() {
         Label.LabelStyle labelStyle = new Label.LabelStyle();

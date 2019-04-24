@@ -36,7 +36,7 @@ public class BookChooseScreen extends AbstractScreen {
         }
 
     private void initChooseButton() {
-            chooseButton = new TextButton("Wybież" ,game.getSkin());
+            chooseButton = new TextButton("Wybierz" ,game.getSkin());
             chooseButton.setHeight(170);
             chooseButton.setWidth(game.SCREEN_WIDTH - game.SCREEN_WIDTH / 4);
             chooseButton.setPosition(game.SCREEN_WIDTH / 8,game.SCREEN_HEIGHT / 8 - chooseButton.getHeight());

@@ -24,7 +24,9 @@ import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.frames.Answer;
 import pl.dominikhinc.wordfishing.frames.Question;
 import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
+import pl.dominikhinc.wordfishing.service.IdCalculate;
 import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
+import pl.dominikhinc.wordfishing.service.NotificationHandler;
 import pl.dominikhinc.wordfishing.service.SplitText;
 
 
@@ -52,6 +54,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private boolean isTextInputOpened = false;
 
+
     public GameScreen(WordFishing game,String chooseBook) {
         super(game);
         init(chooseBook);
@@ -67,6 +70,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         initAnswerButtons();
         createQuestion();
         createLastQuestion();
+        setNotifications();
     }
 
     @Override
@@ -280,6 +284,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                 if(game.isComplex() == true){
                     game.setComplex(false);
                     game.setQuestionInEnglish(false);
+                    game.setTextInput(true);
                     game.setScreen(new GameScreen(game,choosenBook));
                 }
             }
@@ -287,6 +292,13 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         endGameButton.setHeight(game.SCREEN_HEIGHT);
         endGameButton.setWidth(game.SCREEN_WIDTH);
         stage.addActor(endGameButton);
+        setNotifications();
+    }
+
+    private void setNotifications() {
+        game.getNotificationHandler().showNotification("Czas do nauki!","Mineły dwa dni od kiedy ukończyłeś "+choosenBook,10,IdCalculate.calculate(choosenBook)+2);
+        game.getNotificationHandler().showNotification("Czas do nauki!","Mineło pięć dni od kiedy ukończyłeś "+choosenBook,15,IdCalculate.calculate(choosenBook)+5);
+        game.getNotificationHandler().showNotification("Czas do nauki!","Mineło dziesięć dni od kiedy ukończyłeś "+choosenBook,20,IdCalculate.calculate(choosenBook)+10);
     }
 
     private void wrongAnswer() {
