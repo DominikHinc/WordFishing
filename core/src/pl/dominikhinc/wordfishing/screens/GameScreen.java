@@ -6,6 +6,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
@@ -13,8 +14,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable;
+import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.badlogic.gdx.utils.Timer;
 
@@ -27,6 +30,7 @@ import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 import pl.dominikhinc.wordfishing.service.IdCalculate;
 import pl.dominikhinc.wordfishing.service.LoadQuestionsAndAnswers;
 import pl.dominikhinc.wordfishing.service.NotificationHandler;
+import pl.dominikhinc.wordfishing.service.NotificationUpdateService;
 import pl.dominikhinc.wordfishing.service.SplitText;
 
 
@@ -48,9 +52,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Question lastQuestion;
     private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
     private boolean givenAnswer;
-    //private int questionNumber = 0;
+    private TextField textField;
     private Texture correctAnswer, wrongAnswer, defaultBg;
     private String choosenBook;
+    private Button sendButton;
 
     private boolean isTextInputOpened = false;
 
@@ -70,8 +75,11 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         initAnswerButtons();
         createQuestion();
         createLastQuestion();
-        setNotifications();
+        initTextField();
+        //setNotifications();
     }
+
+
 
     @Override
     protected void init() {
@@ -90,6 +98,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void update() {
+
     }
 
     private void loadSkin() {
@@ -140,7 +149,28 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             }
         }
     }
+    private void initTextField() {
+        if(game.isTextInput() == true){
+            textField = new TextField("",game.getSkin());
+            textField.setSize(700,100);
+            textField.setPosition(game.SCREEN_WIDTH/2-textField.getWidth()/2,game.SCREEN_HEIGHT/2-textField.getHeight());
+            stage.addActor(textField);
 
+            Button.ButtonStyle buttonStyle = new Button.ButtonStyle();
+            TextureRegionDrawable textureRegionDrawable = new TextureRegionDrawable(new TextureRegion(new Texture("arrow-alt-right.png")));
+            buttonStyle.up = textureRegionDrawable;
+            buttonStyle.down = textureRegionDrawable;
+            sendButton = new Button(buttonStyle);
+            sendButton.setSize(100,100);
+            sendButton.setPosition(textField.getX()+textField.getWidth(),textField.getY());
+            sendButton.addListener(new ClickListener() {
+                public void clicked(InputEvent event, float x, float y) {
+                    reactOnClick();
+                }
+            });
+            stage.addActor(sendButton);
+        }
+    }
     private void createQuestion() {
         if(question != null){
             question.remove();
@@ -148,14 +178,14 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         currentQuestionIndex = MathUtils.random(0,questionArrayList.size()-1);
         question = questionArrayList.get(currentQuestionIndex);
         stage.addActor(question);
-        if(game.isTextInput() == true){
+        /*if(game.isTextInput() == true){
             question.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y) {
                     question.setTouchable(Touchable.disabled);
                     reactOnClick();
                 }
             });
-        }
+        }*/
         createAnswers();
     }
 
@@ -170,10 +200,14 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void reactOnClick() {
-            if(isTextInputOpened == false){
+            /*if(isTextInputOpened == false){
                 Gdx.input.getTextInput(this, question.getQuestion(), "", "Odpowiedź");
             }
-            isTextInputOpened = true;
+            isTextInputOpened = true;*/
+            this.text = textField.getText().toLowerCase();
+            checkAnswerText();
+            textField.setText("");
+
     }
 
     private void initQuestionList() {
@@ -226,6 +260,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             }
         }else{
             wrongAnswer();
+            Gdx.input.setOnscreenKeyboardVisible(false);
             isWrong = true;
             displayWrongAnswerLabel();
         }
@@ -234,11 +269,15 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             displayEndScreen();
         }else{
             if(isWrong == true){
-                question.setTouchable(Touchable.disabled);
+                //question.setTouchable(Touchable.disabled);
+                textField.setTouchable(Touchable.disabled);
+                sendButton.setTouchable(Touchable.disabled);
                 Timer.schedule(new Timer.Task() {
                     @Override
                     public void run() {
-                        question.setTouchable(Touchable.enabled);
+                        //question.setTouchable(Touchable.enabled);
+                        textField.setTouchable(Touchable.enabled);
+                        sendButton.setTouchable(Touchable.enabled);
                         createQuestion();
                     }
                 }, 3);
@@ -273,6 +312,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                 an.setText("");
             }
         }
+        Gdx.input.setOnscreenKeyboardVisible(false);
         Button endGameButton = new Button(new Button.ButtonStyle());
         endGameButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y) {
@@ -286,22 +326,56 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                     game.setQuestionInEnglish(false);
                     game.setTextInput(true);
                     game.setScreen(new GameScreen(game,choosenBook));
+                    setNotifications();
                 }
             }
         });
         endGameButton.setHeight(game.SCREEN_HEIGHT);
         endGameButton.setWidth(game.SCREEN_WIDTH);
         stage.addActor(endGameButton);
-        setNotifications();
     }
 
     private void setNotifications() {
-        game.getNotificationHandler().showNotification("Czas do nauki!","Mineły dwa dni od kiedy ukończyłeś "+choosenBook,10,IdCalculate.calculate(choosenBook)+2);
-        game.getNotificationHandler().showNotification("Czas do nauki!","Mineło pięć dni od kiedy ukończyłeś "+choosenBook,15,IdCalculate.calculate(choosenBook)+5);
-        game.getNotificationHandler().showNotification("Czas do nauki!","Mineło dziesięć dni od kiedy ukończyłeś "+choosenBook,20,IdCalculate.calculate(choosenBook)+10);
+        int lastBorder = game.getPreferences().getInteger(choosenBook+"days");
+        switch(lastBorder){
+            case 0:game.getPreferences().putInteger(choosenBook+"days",2);break;
+            case 2:game.getPreferences().putInteger(choosenBook+"days",3);break;
+            case 3:game.getPreferences().putInteger(choosenBook+"days",4);break;
+            case 4:game.getPreferences().putInteger(choosenBook+"days",5);break;
+            case 5:game.getPreferences().putInteger(choosenBook+"days",0);break;
+        }
+        game.getPreferences().flush();
+        int time = game.getPreferences().getInteger(choosenBook+"days");
+        if(time != 0){
+            if(time != 2){
+                if(game.getPreferences().getLong(choosenBook+".TimeWhenCompleted") != 0){
+                    long temp = ((TimeUtils.millis() - game.getPreferences().getLong(choosenBook+".TimeWhenCompleted"))/1000)/86400;
+                    int x = (int) temp - lastBorder;
+                    if(x > 0 && time - x > 0){
+                        time = time - x;
+                    }
+
+                }
+            }
+            game.getNotificationHandler().showNotification("Czas na nauke!","Musisz powtórzyć sobie: "+choosenBook,time*86400,IdCalculate.calculate(choosenBook)+1);
+            game.getNotificationHandler().showNotification("Czas na nauke!","Musisz powtórzyć sobie: "+choosenBook,(time+1)*86400,IdCalculate.calculate(choosenBook)+5);
+            game.getNotificationHandler().showNotification("Powiadomienie","Zakończenie nauki: "+choosenBook,(time+2)*86400,IdCalculate.calculate(choosenBook)+10);
+            NotificationUpdateService notificationUpdateService = new NotificationUpdateService(game);
+            notificationUpdateService.cancel(choosenBook);
+            game.getNotificationHandler().showNotification("Czas na nauke!","Musisz powtórzyć sobie: "+choosenBook,time*86400,IdCalculate.calculate(choosenBook)+1);
+            game.getNotificationHandler().showNotification("Czas na nauke!","Musisz powtórzyć sobie: "+choosenBook,(time+1)*86400,IdCalculate.calculate(choosenBook)+5);
+            game.getNotificationHandler().showNotification("Powiadomienie","Zakończenie nauki: "+choosenBook,(time+2)*86400,IdCalculate.calculate(choosenBook)+10);
+        }else{
+            game.getNotificationHandler().showNotification("Czas na nauke!","Musisz powtórzyć sobie: "+choosenBook,1,IdCalculate.calculate(choosenBook)+1);
+            game.getNotificationHandler().showNotification("Czas na nauke!","Musisz powtórzyć sobie: "+choosenBook,2,IdCalculate.calculate(choosenBook)+5);
+            game.getNotificationHandler().showNotification("Powiadomienie","Zakończenie nauki: "+choosenBook,3,IdCalculate.calculate(choosenBook)+10);
+            NotificationUpdateService notificationUpdateService = new NotificationUpdateService(game);
+            notificationUpdateService.cancel(choosenBook);
+        }
     }
 
     private void wrongAnswer() {
+        question.shake();
         float delay;
         if(game.isTextInput() == true){
             delay = 3;

@@ -16,7 +16,7 @@ public abstract class AbstractScreen implements Screen {
     protected WordFishing game;
 
     protected Stage stage;
-    private OrthographicCamera camera;
+    protected OrthographicCamera camera;
     protected SpriteBatch spriteBatch;
 
     public AbstractScreen(WordFishing game){

@@ -1,5 +1,7 @@
 package pl.dominikhinc.wordfishing.screens;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
@@ -7,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Slider;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
@@ -27,6 +30,7 @@ public class OptionsScreen extends AbstractScreen {
     private Label sliderCount;
     private Label infoAboutSlider;
 
+
     public OptionsScreen(WordFishing game) {
         super(game);
     }
@@ -36,13 +40,15 @@ public class OptionsScreen extends AbstractScreen {
         initBgImage();
         initBackToMenuButton();
         //initTextInputLabel();
-        initTextInputCheckBox();
+        //initTextInputCheckBox();
         //initQuestionInEnglishCheckBox();
-        initSlider();
-        initSliderCountLabel();
-        initInfoAboutSliderLabel();
+        //initSlider();
+        //initSliderCountLabel();
+        //initInfoAboutSliderLabel();
 
     }
+
+
 
     private void initSliderCountLabel() {
         sliderCount = new Label("",game.getSkin());
@@ -99,11 +105,7 @@ public class OptionsScreen extends AbstractScreen {
                 game.setTextInput(!game.isTextInput());
                 game.getPreferences().putBoolean(game.textInputPreferences,game.isTextInput());
                 game.getPreferences().flush();
-                /*if(game.isTextInput()){
-                    System.out.println("True");
-                }else{
-                    System.out.println("False");
-                }*/
+
             }
         });
         stage.addActor(textInputBox);
@@ -147,14 +149,14 @@ public class OptionsScreen extends AbstractScreen {
     }
 
     private void update() {
-        int tempp = (int) slider.getValue();
+        /*int tempp = (int) slider.getValue();
         String tempo = String.valueOf(tempp);
         sliderCount.setText(tempo + " razy należy");
         if(slider.isDragging()){
             game.getPreferences().putInteger(game.correctAnswersNeeded,tempp);
             game.getPreferences().flush();
             game.setCorrectAnswersNeededInt(tempp);
-        }
+        }*/
     }
 
 }

@@ -1,6 +1,8 @@
 package pl.dominikhinc.wordfishing.frames;
 
 
+import com.badlogic.gdx.scenes.scene2d.Action;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 
@@ -100,5 +102,12 @@ public class Question extends TextButton {
 
     public void setCorrectAnswersToGo(int correctAnswersToGo) {
         this.correctAnswersToGo = correctAnswersToGo;
+    }
+    public void shake(){
+        Action a = Actions.moveBy(20,0,0.05f);
+        Action b = Actions.moveBy(-20,0,0.05f);
+        Action c = Actions.moveBy(-20,0,0.05f);
+        Action d = Actions.moveBy(20,0,0.05f);
+        this.addAction(Actions.sequence(a,b,c,d));
     }
 }

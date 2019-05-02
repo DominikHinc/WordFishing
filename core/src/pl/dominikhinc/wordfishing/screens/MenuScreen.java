@@ -2,6 +2,7 @@ package pl.dominikhinc.wordfishing.screens;
 
 
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -13,13 +14,14 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import pl.dominikhinc.wordfishing.WordFishing;
 import pl.dominikhinc.wordfishing.service.AssetMenager;
 import pl.dominikhinc.wordfishing.service.MenuButtonCreator;
+import pl.dominikhinc.wordfishing.service.NotificationUpdateService;
 
 public class MenuScreen extends AbstractScreen {
 
     private Image bgImg;
     private Image logo;
     private TextButton playButton;
-    private TextButton optionsButton;
+    private TextButton contactButton;
     private TextButton helpButton;
     private MenuButtonCreator buttonCreator;
     private AssetMenager assetMenager;
@@ -35,7 +37,9 @@ public class MenuScreen extends AbstractScreen {
         if(WASALREADYLOADED == false){
             assetMenager = new AssetMenager(game);
             WASALREADYLOADED = true;
+
         }
+        Gdx.input.setOnscreenKeyboardVisible(false);
         game.setTextInput(game.getPreferences().getBoolean(game.textInputPreferences));
         initBg();
         initButtons();
@@ -62,10 +66,10 @@ public class MenuScreen extends AbstractScreen {
     private void initButtons() {
         buttonCreator = new MenuButtonCreator();
         playButton = buttonCreator.createButton("Rozpocznij", game);
-        optionsButton = buttonCreator.createButton("Opcje" , game);
+        contactButton = buttonCreator.createButton("Kontakt" , game);
         helpButton = buttonCreator.createButton("Pomoc" , game);
         stage.addActor(playButton);
-        stage.addActor(optionsButton);
+        stage.addActor(contactButton);
         stage.addActor(helpButton);
     }
     private void initButtonsListeners() {
@@ -75,9 +79,9 @@ public class MenuScreen extends AbstractScreen {
 
             }
             });
-        optionsButton.addListener(new ClickListener() {
+        contactButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
-                game.setScreen(new OptionsScreen(game));
+               game.setScreen(new OptionsScreen(game));
             }
         });
         helpButton.addListener(new ClickListener() {
