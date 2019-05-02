@@ -34,7 +34,7 @@ public class HelpScreen extends AbstractScreen {
     private void initHelpLabel() {
         Label.LabelStyle labelStyle = new Label.LabelStyle();
         labelStyle.font = game.getFont();
-        helpLabel = new Label("Kontakt:\nwordfishingkontakt@gmail.com\n\n\nAplikacja ma na celu pomoc w \nnauce słówek z języka angielskiego.\n\n\nZestawy słówek zaczerpnięte są\nz książek znajdujących się obecnie\nw programie nauczania." , labelStyle);
+        helpLabel = new Label("Nauczanie kompleksowe polega na \ndługotrwałym nauczeniu się danego \nzestawu słówek, dletego po \nwybraniu tej opcji aplikacja będzie \nprzypominać o regularnej nauce." , labelStyle);
         helpLabel.setPosition(100,game.SCREEN_HEIGHT - helpLabel.getHeight() - 400);
         stage.addActor(helpLabel);
     }

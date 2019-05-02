@@ -81,7 +81,7 @@ public class MenuScreen extends AbstractScreen {
             });
         contactButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
-               game.setScreen(new OptionsScreen(game));
+               game.setScreen(new ContactScreen(game));
             }
         });
         helpButton.addListener(new ClickListener() {

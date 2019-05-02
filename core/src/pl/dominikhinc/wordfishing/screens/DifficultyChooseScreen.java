@@ -43,7 +43,7 @@ public class DifficultyChooseScreen extends AbstractScreen {
     }
 
     private void initR(){
-        initTest();
+       // initTest();
         NotificationUpdate();
         initChooseButtons();
         initChooseButtonsListeners();
@@ -73,7 +73,7 @@ public class DifficultyChooseScreen extends AbstractScreen {
 
     private void initSliderCountLabel() {
         sliderCount = new Label("",game.getSkin());
-        sliderCount.setPosition(game.SCREEN_WIDTH/14 + slider.getWidth() + 50,game.SCREEN_HEIGHT/10 + slider.getHeight()/2);
+        sliderCount.setPosition(game.SCREEN_WIDTH/14 + slider.getWidth() + 50,game.SCREEN_HEIGHT/5 + slider.getHeight()/2);
         stage.addActor(sliderCount);
     }
 
@@ -82,14 +82,14 @@ public class DifficultyChooseScreen extends AbstractScreen {
         slider.setSize(450,100);
         slider.getStyle().knob.setMinHeight(75);
         slider.getStyle().knob.setMinWidth(75);
-        slider.setPosition(game.SCREEN_WIDTH/14,game.SCREEN_HEIGHT/10);
+        slider.setPosition(game.SCREEN_WIDTH/14,game.SCREEN_HEIGHT/5);
         slider.setValue(game.getCorrectAnswersNeededInt());
         stage.addActor(slider);
     }
 
     private void initTextInputCheckBox() {
         textInputBox = new CheckBox("   Sprawdzanie tekstowe",game.getSkin());
-        textInputBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/5);
+        textInputBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/8);
         textInputBox.getImage().setScale(3);
         textInputBox.setChecked(game.isTextInput());
         textInputBox.addListener(new ChangeListener() {
@@ -112,10 +112,27 @@ public class DifficultyChooseScreen extends AbstractScreen {
         }else{
             long time = TimeUtils.millis() - game.getPreferences().getLong(choosenBook+".TimeWhenCompleted");
             time = time/1000;
-            timeSinceCompleted = new Label("Czas od ostatniego ukończenia \ndanego zbioru słówek:\n"+time+" sec",game.getSkin());
-            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/4);
+
+            timeSinceCompleted = new Label("Czas od ostatniego ukończenia \ntego zestawu słówek:\n"+calculateTime(time),game.getSkin());
+            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3);
         }
         stage.addActor(timeSinceCompleted);
+    }
+
+    private String calculateTime(long time){
+        if(time < 60){
+            return String.valueOf(time)+" sec";
+        }
+        if(time >= 60 && time < 3600){
+            return String.valueOf(time/60) + " min";
+        }
+        if(time >= 3600 && time < 86400){
+            return  String.valueOf(time/3600)+" godz";
+        }
+        if(time >= 86400){
+            return String.valueOf(time/86400)+" dni";
+        }
+        return String.valueOf(time/86400)+" dni";
     }
 
     @Override
