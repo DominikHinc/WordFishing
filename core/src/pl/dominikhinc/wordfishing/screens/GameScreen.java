@@ -56,19 +56,21 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private Texture correctAnswer, wrongAnswer, defaultBg;
     private String choosenBook;
     private Button sendButton;
+    private String folder;
 
     private boolean isTextInputOpened = false;
 
 
-    public GameScreen(WordFishing game,String chooseBook) {
+    public GameScreen(WordFishing game,String chooseBook, String folder) {
         super(game);
-        init(chooseBook);
+        init(chooseBook,folder);
     }
 
-    protected void init(String chooseBook) {
+    protected void init(String chooseBook, String folder) {
         initBgImage();
         loadSkin();
         this.choosenBook = chooseBook;
+        this.folder = folder;
         initBackToMenuButton();
         initQuestionList();
         initAnswerList();
@@ -211,7 +213,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void initQuestionList() {
-        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game,choosenBook);
+        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game,choosenBook,folder);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
         questionArrayList.remove(0);
         //arraySize = questionArrayList.size();
@@ -325,7 +327,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
                     game.setComplex(false);
                     game.setQuestionInEnglish(false);
                     game.setTextInput(true);
-                    game.setScreen(new GameScreen(game,choosenBook));
+                    game.setScreen(new GameScreen(game,choosenBook,folder));
                     setNotifications();
                 }
             }

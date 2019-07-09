@@ -1,0 +1,107 @@
+﻿ / 
+lekkoatletyka/﻿athletics
+baseball/baseball
+boks/boxing
+kajakarstwo/canoeing
+wspinaczka/climbing
+krykiet/cricket
+kolarstwo/cycling
+nurkowanie/diving
+piłka nożna/football
+golf/golf
+gimnastyka/gymnastics
+jazda konna/horse-riding
+hokej na lodzie/ice hockey
+łyżwiarswo/ice-skating
+jazda na łyżworolkach/rollerblading
+rugby/rugby
+bieganie/running
+jazda na deskorolce/skateboarding
+narciarstwo/skiing
+jazda na snowboardzie/snowboarding
+squash/squash
+pływanie/swimming
+tenis stołowy/table tennis
+tenis ziemny/tennis
+siatkówka plażowa/beach volleyball
+podnoszenie ciężarów/weightlifting
+zapasy/wrestling
+piłka/ball
+kij/bat
+deska/board
+buty/boots
+kij golfowy/club
+strój kąpielowy/costume
+kąpielówki/trunks
+bramka/goal
+gogle/goggles
+kask/helmet
+siatka/net
+rakieta/racket
+narty/skis
+strój sportowca/strip
+pianka do nurkowania/wetsuit
+stadion lekkoatletyczny/athletics stadium
+ring/ring
+stok narciarski/ski slope
+boisko/pitch
+klub fitness/health and fitness centre
+lodowisko/rink
+basen olimpijski/olympic-size pool
+kort/court
+sportowcy/sportspeople
+lekkoatleta/athlete
+bokser/boxer
+kolarz/cyclist
+nurek/diver
+piłkarz/footballer
+gimnastyk/gymnast
+biegacz/runner
+pływak/swimmer
+sztangista/weightlifter
+trening/sport training 
+zawody sportowe/sport event
+wysportowany/athletic
+wygrać z kimś/beat
+kapitan/captain
+złapać/catch
+mistrz/champion
+wiwatować/cheer
+trener/coach
+konkurować/compete
+zremisować/draw
+brać udział/enter
+uderzyć/hit
+przyłączyć się/join
+kopnąć/kick
+przegrać/lose
+chybić/miss
+gracz/player
+pozycja/position
+ćwiczyć/practise
+strzelać gole/score goals
+kibicować/support
+zespół, drużyna/team
+rzucać/throw
+trenować/train
+instruktor/trainer
+wygrywać/win
+turniej/tournament
+zawodowy sportowiec/professional athlete
+kibic/supporter
+sędzia/referee
+pobrudzić się błotem/get muddy
+zestaw/kit
+okrążenie/lap
+chronić/protect
+potknąć się/trip
+pobić rekord /break a record
+brązowy medal/bronze medal
+zająć drugie miejsce/come second
+wpaść na kogoś/crash into
+zranić się/get hurt
+niezwykły/incredible
+karny/penalty
+rekordzista/record holder
+obóz sportowy /sports camp
+taktyka /tactics

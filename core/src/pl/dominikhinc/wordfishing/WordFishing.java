@@ -12,8 +12,8 @@ import pl.dominikhinc.wordfishing.service.NotificationHandler;
 
 public class WordFishing extends Game {
 
-	final public static int SCREEN_WIDTH = 1080;
-	final public static int SCREEN_HEIGHT = 1920;
+	public static int SCREEN_WIDTH = 1080;
+	public static int SCREEN_HEIGHT = 1920;
 	public final static String GAME_TITLE = "WordFishing";
     final public static String textInputPreferences = "textInputPreferences";
 	//final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
@@ -44,6 +44,18 @@ public class WordFishing extends Game {
     private Texture wrongAnswer;
 	private Texture logo;
 	private Texture goBackButton;
+
+
+
+	private Texture tempToDelete;
+
+
+
+	private Texture goBackerButton;
+
+
+
+	private Texture mcmrok;
 	private NotificationHandler notificationHandler;
 
 	public NotificationHandler getNotificationHandler() {
@@ -58,6 +70,8 @@ public class WordFishing extends Game {
 	@Override
 	public void create () {
 		init();
+		SCREEN_WIDTH = Gdx.graphics.getWidth();
+		SCREEN_HEIGHT = Gdx.graphics.getHeight();
 		this.setScreen(new SplashScreen(this));
 	}
 
@@ -89,7 +103,7 @@ public class WordFishing extends Game {
 
 	@Override
 	public void dispose () {
-
+		this.dispose();
 	}
 
 	/*
@@ -97,6 +111,24 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
+	public Texture getTempToDelete() {
+		return tempToDelete;
+	}
+	public void setTempToDelete(Texture tempToDelete) {
+		this.tempToDelete = tempToDelete;
+	}
+	public Texture getGoBackerButton() {
+		return goBackerButton;
+	}
+	public void setGoBackerButton(Texture goBackerButton) {
+		this.goBackerButton = goBackerButton;
+	}
+	public Texture getMcmrok() {
+		return mcmrok;
+	}
+	public void setMcmrok(Texture mcmrok) {
+		this.mcmrok = mcmrok;
+	}
 	public boolean isComplex() {
         return complex;
     }

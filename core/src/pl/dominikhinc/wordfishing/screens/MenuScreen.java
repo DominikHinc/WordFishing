@@ -75,7 +75,7 @@ public class MenuScreen extends AbstractScreen {
     private void initButtonsListeners() {
         playButton.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
-                game.setScreen(new BookChooseScreen(game));
+                game.setScreen(new PublisherChooseScreen(game));
 
             }
             });

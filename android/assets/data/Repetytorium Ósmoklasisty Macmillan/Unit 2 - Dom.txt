@@ -1,0 +1,138 @@
+﻿ / 
+mieszkanie/﻿apartment
+dom parterowy/bungalow
+przyczepa kempingowa/caravan
+uroczy/charming
+domek wiejski/cottage
+ciemny/dark
+dom wolnostojący/detached house
+drogi/expensive
+mieszkanie/flat
+ogromny/huge
+dom mobilny/mobile home
+nowoczesny/modern
+dom szeregowy/terraced house
+malutki/tiny
+brzydki/ugly
+w dużym bloku/in a big block of flats
+w ładnej dzielnicy miasta/in a nice part of town
+w centrum miasta/in the centre of the town
+na wsi/in the country
+w górach/in the mountains
+lesie/in the woods
+daleko od parku/far from a park
+blisko rzeki/near a river
+blisko morza/near the sea
+daleko od sklepów/far from the shops
+na wyspie/on an island
+na obrzeżach miasta/on the edge of town
+na parterze/on the ground floor
+na najwyższym piętrze/on the top floor
+na pierwszym piętrze/on the first floor
+w otoczeniu pól/surrounded by fields
+z dużym ogromnym ogrodem/with a huge garden
+wspaniałym widokiem/with a great view
+wieloma pokojami/with loads of rooms
+wieloma sąsiadami/with lots of neighbours
+dużą ilością miejsca w środku/with plenty of space inside
+dużą ilością miejsca na zewnątrz/with plenty of space outside
+grill/barbecue
+kawiarnia/cafe
+pojemnik na śmieci/dustbin
+garaż/garage
+ogród/garden
+żywopłot/hedge
+trawnik/lawn
+roślina/plant
+plac zabaw/playground
+basen/swimming pool
+fotel/armchair
+balkon/balcony
+piwnica/basement
+umywalka/basin
+wanna/bath
+łazienkna/bathroom
+sypialnia/bedroom
+koc/blanket
+regał na książki/bookcase
+łóżko piętrowe/bunk bed
+sufit/ceiling
+piwnica/cellar
+krzesło/chair
+komoda/chest of drawers
+garderoba,szatnia/cloakroom
+stolik kawowy/coffee table
+korytarz/corridor
+szafka kuchenna/cupboard
+zasłony/curtains
+poduszki ozdobne/cushions
+krzesło z jadalni/dinning chair
+jadalnia/dinning room
+stół w jadalni/dinning table
+hol wejściowy/entrance hall
+kominek/fireplace
+parter/ground floor
+kuchnia/kitchen
+salon/lounge
+lustro/mirror
+gabinet/office
+poduszka/pillow
+plakat/poster
+półka/shelf
+prysznic/shower
+kredens/sideboard
+zlew/sink
+sofa,kanapa/sofa
+dodatkowa sypialnia/spare bedroom
+stołek/stool
+toaleta/toilet
+szafa/wardrobe
+budzik/alarm clock
+centralne ogrzewanie/central heating
+kuchenka/cooker
+odtwarzacz DVD/DVD player
+zamrażarka/freezer
+lodówka/fridge
+grzejnik/heater
+szuszarka do włosów/hairdryer
+żelazko/iron
+czajnik/kettle
+kino domowe/home cinema
+kuchenka mikrofalowa/microwave
+piekarnik/oven
+nagłośnienie/sound system
+pralka/washing machine
+sprzątać łazienkę/clean the bathroom
+przygotowywać posiłek/cook a meal
+prasować/do the ironing
+prać/do the washing
+pomagać przygotowywać posiłek/help prepare a meal
+załadować zmywarkę/load the dishwasher
+słać łóżko/make your bed
+nakrywać do stołu/set the table
+wynosić śmieci/take the rubbish out
+sprzątać pokój/tidy your room
+zmywać naczynia/wash the dishes
+podlewać rośliny/water the plants
+meblować/furnish
+zmienić wystrój/redecorate
+odnowić/renovate
+wynajmować/rent
+sprzedać/sell
+dzielić pokój z/share a room with
+wygodne zakwaterowanie/comfortable accommodation
+bajka/fairy tale
+sklep meblowy/furniture shop
+butla gazowa/gas bottle
+wielki obszar/huge area
+sygnał telefonu/phone signal
+spać w namiocie/sleep in a tent
+lampy solarne/solar lights
+zatrzymać się w hotelu/stay in a hotel
+drzwi do sypialni/bedroom door
+zapięcie rowerowe/bike lock
+klucze do samochodu/car keys
+włacznik światła/light switch
+ramka obrazu/picture frame
+kosz na śmieci/rubbish bin
+pudło na zabawki/toy box

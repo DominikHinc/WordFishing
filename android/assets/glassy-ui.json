@@ -32,6 +32,12 @@ com.badlogic.gdx.graphics.Color: {
 		b: 1
 		a: 1
 	}
+	gray: {
+		r:192
+		g:192
+		b:192
+		a:0.6
+	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
 	pale-blue: {
@@ -113,7 +119,7 @@ com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
 	plain: {
 		font: font
 		fontColorSelected: white
-		fontColorUnselected: dark-cyan
+		fontColorUnselected: white
 		selection: pale-blue
 	}
 }

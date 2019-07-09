@@ -28,9 +28,11 @@ public class BookChooseScreen extends AbstractScreen {
         private ScrollPane scrollPane;
         private Skin skin;
         private TextButton chooseButton;
+        private String folder;
 
-        public BookChooseScreen(WordFishing game) {
+        public BookChooseScreen(WordFishing game, String folder) {
             super(game);
+            this.folder = folder;
             initList();
             initChooseButton();
         }
@@ -44,24 +46,20 @@ public class BookChooseScreen extends AbstractScreen {
             chooseButton.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y){
                     String s = list.getSelected();
-                    game.setScreen(new DifficultyChooseScreen (game,s));
+                    game.setScreen(new DifficultyChooseScreen (game,s,folder));
                 }
             });
     }
 
     private void initList() {
-            FileHandle dirHandle = Gdx.files.internal("data/");;
+
+            FileHandle dirHandle = Gdx.files.internal("data/"+folder+"/");;
             String l = null;
             ArrayList<String>listOfFileNames = new ArrayList<String>();
-            /*if (Gdx.app.getType() == Application.ApplicationType.Android) {
-                dirHandle = Gdx.files.internal("/data");
-            } else {
-                dirHandle = Gdx.files.internal("/data");
-             }*/
 
             for (FileHandle entry: dirHandle.list()) {
                 l = entry.name();
-                //System.out.println(l);
+
                 listOfFileNames.add(l);
             }
             String[] listOfBooks = new String[listOfFileNames.size()];
@@ -76,18 +74,13 @@ public class BookChooseScreen extends AbstractScreen {
             list.setItems(listOfBooks);
 
             scrollPane = new ScrollPane(list);
-            //scrollPane.setBounds(0, 0, game.SCREEN_WIDTH, game.SCREEN_HEIGHT);
+
             scrollPane.setHeight(game.SCREEN_HEIGHT - game.SCREEN_HEIGHT / 4);
             scrollPane.setWidth(game.SCREEN_WIDTH - game.SCREEN_WIDTH / 4);
             scrollPane.setPosition(game.SCREEN_WIDTH / 8 , game.SCREEN_HEIGHT / 8);
             scrollPane.setSmoothScrolling(true);
             scrollPane.setTransform(true);
-            //scrollPane.setScale(0.9f);
-            /*
-            list.setHeight(game.SCREEN_HEIGHT - game.SCREEN_HEIGHT / 4);
-            list.setWidth(game.SCREEN_WIDTH - game.SCREEN_WIDTH / 4);
-            list.setPosition(game.SCREEN_WIDTH / 8 , game.SCREEN_HEIGHT / 8);
-              */
+
 
             stage.addActor(scrollPane);
         }

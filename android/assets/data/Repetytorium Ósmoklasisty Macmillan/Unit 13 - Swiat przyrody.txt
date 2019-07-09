@@ -1,0 +1,136 @@
+﻿ / 
+pogoda/﻿the weather
+chmura/cloud
+pochmurny/cloudy
+zimny/cold
+suchy/dry
+mgła/fog
+mglisty/foggy
+mróz/frost
+mroźny/frosty
+upał/heat
+gorący/hot
+lód/ice
+oblodzony/icy
+błyskawica/lightning
+deszcz/rain
+deszczowy/rainy
+tęcza/rainbow
+świecić/shine
+przelotny deszcz/shower
+opady śniegu/snowfall
+śnieg/snow
+śnieżny/snowy
+burza/storm
+burzowy/stormy
+słońce/sun
+słoneczny/sunny
+światło słoneczne/sunshine
+grzmot/thunder
+wiatr/wind
+wietrzny/windy
+pory roku/the seasons
+jesień/autumn
+wiosna/spring
+lato/summer
+zima/winter
+rośliny/plants
+kwiat/flower
+liść/leaf
+liście/leaves
+korzeń/root
+ziarno/seed
+gleba,ziemia/soil
+łodyga/stem
+zwierzęta/animals
+mrówka/ant
+dziób/beak
+niedźwiedź/bear
+pszczoła/bee
+motyl/butterfly
+pazur/claw
+krowa/cow
+krokodyl/crocodile
+delfin/dolphin
+osioł/donkey
+kaczka/duck
+słoń/elephant
+pióro/feather
+lis/fox
+futro/fur
+żyrafa/giraffe
+koza/goat
+goryl/gorilla
+chomik/hamster
+hipopotam/hippo
+koń/horse
+kangur/kangaroo
+lew/lion
+jaszczurka/lisard
+małpa/monkey
+komar/mosquito
+mysz/mouse
+papuga/parrot
+łapa/paw
+pingwin/penguin
+świnia/pig
+królik/rabbit
+nosorożec/rhino
+rekin/shark
+owca/sheep
+wąż/snake
+pająk/spider
+ogon/tail
+tygrys/tiger
+wieloryb/whale
+wąs u zwierząt/whisker
+skrzydło/wing
+plaża/beach
+jaskinia/cave
+wybrzeże/coast
+pustynia/desert
+pole/field
+las/forest
+wzgórze/hill
+góra/mountain
+park/park
+ścieżka/path
+last deszczowy/rainforest
+rzeka/river
+morze/sea
+wschód słońca/sunrise
+zachód słońca/sunset
+dolina/valley
+wodospad/waterfall
+zanieczyszczenie środowiska/air pollution
+pojemnik na szkło/bottle bank
+zmiana klimatu/climate change
+przyjazny dla środowiska/environmentally friendly
+paliwo kopalne/fossil fueal
+globalne ocieplenie/global warming
+wysypisko śmieci/landfill
+transport publiczny/public transport
+przetwarzanie/recycle
+kosz do segregacji odpadów/recycling bin
+kosz na śmieci/rubbish bin
+poziom morza/sea level
+energia słoneczna/solar energy power
+toksyczne odpady/toxic waste
+korek uliczny/traffic jam
+kanion/canyon
+klif/cliff
+jezioro/lake
+ocean/ocean
+przeszkadzać/disturb
+fabryka/factory
+opłata/fee
+karmić/feed
+klon/maple
+topić/melt
+cecha krajobrazu/natural feature
+benzyna/petrol
+łańcuch górski/range
+krajobraz/scenery
+wybrzeże/seaside
+ruch uliczny/traffic
+fala/wave

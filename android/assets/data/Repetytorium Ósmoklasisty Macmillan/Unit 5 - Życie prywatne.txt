@@ -1,0 +1,132 @@
+﻿ / 
+brat/﻿brother
+szwagier/brother-in-law
+kuzyn/cousin
+córka/daughter
+ojciec/father
+teść/father-in-law
+wnuki/grandchildren
+wnuczka/granddaughter
+dziadek/grandfather
+babcia/grandmother
+dziadkowie/grandparents
+wnuk/ggrandson
+pradziadek/great-grandfather
+prababcia/great-grandmother
+siostra przyrodnia/half-sister
+brat przyrodni/half brotrher
+mąż/husband
+matka/mother
+teściowa/mother-in-law
+bratanek/nephew
+bratanica/niece
+rodzice/parents
+siostra/sister
+szwagierka/sister-in-law
+syn/son
+macocha/step-mother
+ojczym/step-father
+siostra przyrodnia od macochy lub ojczyma/step-sister
+brat przyrodni od macochy lub ojczyma/step-brother
+żona/wife
+adoptowany/adopted
+rozwiedziony/divorced
+małżeństwo/marriage
+ślub/wedding
+znajomy/acquaintance
+najlepszy przyjaciel/best friend
+najlepszy kolega/best mate
+chłopak z którym się jest w związku)/boyfriend
+dziewczyna z którą się jest w związku/girlfriend
+kolega z klasy/classmate
+ kolega z pracy/colleague
+narzeczony/fiancé
+narzeczona/fiancée
+współlokator/flatmate
+sąsiad/neighbour
+przepraszać/apologise
+wybaczać/forgive
+zdarzyć się/happen
+ranić czyjeś uczucia/hurt someone's feelings
+wynagrodzić coś komuś/make it up to someone
+nie przejmować się/not mind
+nie mieć czegoś na myśli/not mean it
+problem/problem
+szczotkować włosy/brush hair
+myć zęby/brush teeth
+zdążyć na autobus/catch the bus
+karmić psa/feed the dog
+ubierać się/get dressed
+iść do pracy/go to work
+jeść śniadanie/have breakfast
+brać prysznic/have a shower
+wziąć prysznic/take a shower
+wyjść z domu/leave the house
+dzwonić/ring
+zabrać psa na spacer/take the dog for a walk
+pojechać autobusem/take a bus
+obudzić się/wake up
+myć ręce/wash your hands
+korzystać z mediów społecznościowych/check social media
+słuchać muzyki/listen to music
+grać w gry wideo/play video games
+czytać/read
+jazda na deskorolce/skateboarding
+oglądać telewizję/watch TV
+Jestem wielkim fanem.../I'm a big fan of
+Interesuję się.../I'm interested in
+Pasjonuję się.../I'm into
+Uwielbiam.../I'm keen on
+moim ulubionym zajęciem jest.../My favorite thing is
+Moje hobby to.../My hobbies are
+drugi dzień świąt Bożego Narodzenia/Boxing Day
+karnawał/Carnival
+Święto Konstytucji/Constitution Day
+Wielki Piątek/Good Friday
+Halloween/Halloween
+Dzień Matki/Mother's Day
+Walentynki/Valentine's Day
+obchodzić/celebrate
+przebierać się/dress up
+jeść ciasto/eat cake
+jeść specjalne dania/eat special dishes
+wygłosić przemowę/give a speech
+dawać karty/give cards
+dawać prezenty/give presents
+iść do kościoła/go to church
+jeść obiad z rodziną/have a family dinner
+uczestniczyć w paradzie/have a parade
+nosić przebrania/wear costumes
+nosić maski/wear masks
+Która jest godzina?/What time is it?
+Która godzina?/What's the time?
+Czy wiesz która godzina?/Do you have the time?
+Czy masz zegarek?/Have you got the time?
+Jest dokładnie.../It's exactly
+Jest pięć po siódmej/It's five past seven
+Jest wpół do ósmej/It's half past seven
+Jest za dziesięć trzecia/It's ten to three
+Jest za kwadrans trzecia/It's quarter to three
+Jest za dwadzieścia pięć trzecia/It's twenty-five to three
+Jest godzina 17:15/It's five fifteen o'clock
+Jest godzina 10:30/It's ten thirty o'clock
+Jest godzina 11:00/It's eleven o'clock
+Jest pierwsza w nocy/It's one am
+Jest trzecia po południu/It's three pm
+Jest północ/It's midnight
+Jest południe/It's noon
+Jest południe/It's midday
+Jest trzecia rano/It's three in the morning
+Jest trzecia po południu/It's three in the afternoon
+Jest trzecia w nocy/It's three in the evening
+Jest prawie/It's almost
+coroczny/annual
+szwedzki stół/buffet
+spotkać się/get together
+wyprzedaż/sale
+stylowy/stylish
+rezerwować/book
+chłodny/chilly
+przygotowywać się/get ready
+zgadywać/guess
+odebrać kogoś/pick someone up

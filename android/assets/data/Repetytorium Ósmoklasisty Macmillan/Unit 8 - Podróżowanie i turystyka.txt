@@ -1,0 +1,132 @@
+﻿ / 
+lotnisko/﻿airport
+karta pokładowa/boarding pass
+nudny/boring
+przystanek autobusowy/bus stop
+personel pokładowy/cabin crew
+tani/cheap
+czysty/clean
+ niewygodny/uncomfortable
+wygodny/comfortable
+niebezpieczny/dangerous
+opóźnienie/delay
+brudny/dirty
+prowadźić samochód/drive
+kierowca/driver
+ekscytujący/exciting
+drogi/expensive
+szybki/fast
+lecieć/fly
+zabawny/fun
+garaż/garage
+strażnik/guard
+bagaż/luggage
+pasażer/passenger
+paszport/passport
+stacja benzynowa/petrol station
+pilot/pilot
+peron/platform
+solidny/reliable
+niesolidny/unreliable
+jeździć/ride
+bezpieczny/safe
+pas bezpieczeństwa/seatbelt
+wolny/slow
+dworzec kolejowy/railway station
+bilet/ticket
+kontroler biletów/ticket inspector
+korek uliczny/traffic jam
+kontenerowiec/container ship
+statek rejsowy/cruise ship
+balon/hot-air balloon
+rower/bike
+łódź/boat
+autobus/bus
+samochód/car
+autokar/coach
+prom/ferry
+helikopter/helicopter
+ciężarówka/lorry
+motocykl/motorbike
+samolot/plane
+deskorolka/skateboard
+statek kosmiczny/spaceship
+łódź podwodna/submarine
+pociąg/train
+tramwaj/tram
+ciężarówka/truck
+furgonetka/van
+kierunki /directions
+przejść przez/cross over
+dotrzeć do/get to
+minąć /go past
+iść prosto/go straight on
+po sąsiedzku/next door
+naprzeciwko/opposite
+tuż za rogiem/just round the corner
+skręcić w pierwszą w prawo/take the first right
+skręcić w drugą w lewo/take the second left
+najlepsza droga do /the best way to
+skręcić w prawo/turn right
+skręcić w lewo/turn left
+zwiedzanie/travel
+zwiedzanie/sightseeing
+aktywny wypoczynek/adventure holiday
+plecak/backpack
+wakacje na plaży /beach holiday
+rezerwacja /booking
+broszura/brochure
+pociągiem/by train
+wakacje pod namiotem/camping holiday
+kmping/campsite
+pływanie kajakiem /canoeing
+pokład/deck
+wycieczka/excursion
+opłata/fare
+lot/flight
+galeria/gallery
+zgubić się/get lost
+iść pieszo/go on foot
+pensjonat/guest house
+torebka damska/handbag
+piesza wycieczka/hiking
+wakacje /holiday
+hotel/hotel
+podróż /journey
+pływanie kajakiem/kayaking
+spóźnić się na pociąg/miss a train
+muzeum/museum
+autobus z odkrytym dachem/open-top bus
+wakacje zorganizowane/package holiday
+miejsce parkingowe/parking space
+recepcja/reception
+rezerwacja/reservation
+pas startowy/runway
+wycieczka szkolna/school trip
+zwiedzanie/sightseeing
+pokój jednoosobowy/single room
+pokój dwuosobowy/double room
+sklep z pamiątkami/souvenir shop
+walizka/suitcase
+opalanie się/sunbathing
+postój taksówek/taxi rank
+namiot/tent
+podróż/travel
+wycieczka/trip
+narciarstwo wodne/water-skiing
+sporty wodne/water sports
+unikać/avoid
+podróżować/get around
+środki transpotu/means of transport
+planować trasę/plan a route
+ubierać się modnie/dress fashionably
+pieszo/on foot
+zwiedzać atrakcje turystyczne/visit sights
+gościnny/welcoming
+chętny/willing to do
+meldować się/check in
+wsiadać/get in
+wysiadać/get off
+wysiadać z/get out of
+startować/take off
+latanie na spadochronie za motorówką/parascending

@@ -1,0 +1,115 @@
+﻿ / 
+kalkulator/﻿calculator
+gumka/rubber
+flamaster/felt-tip pen
+teczka/folder
+długopis żelowy/gel pen
+klej/glue
+zakreślacz/highlighter
+spinacz/paper clip
+piórnik/pencil case
+temperówka/pencil sharpener
+linijka/ruler
+nożyczki/scissors
+zszywacz/stapler
+taśma klejąca/tape
+stołówka/cafeteria,canteen
+korytarz/corridor
+siłownia/gym
+biblioteka/library
+plac zabaw/playground
+laboratorium/science lab
+plastyka/art
+biologia/biology
+chemia/chemistry
+wiedza o społeczeństwie/citizenship
+informatyka/computing
+technika/design and technology
+zajęcia teatralne/drama
+język angielski/English
+język francuski/French
+geografia/geography
+historia/history
+literatura/literature
+matematyka/maths
+języki obce nowożytne/modern foreign languages
+muzyka/music
+wychowanie fizyczne/physical education
+fizyka/physics
+przyroda/science
+plan lekcji/timetable
+przerwa/break
+świadectwo/certificate
+kolega z klasy/classmate
+odrabiać pracę domową/do homework
+kształcić uczniów/educate students
+pisanie wypracowań/essay writing
+nie zdać/fail
+godzina wychowawcza/form time
+wychowawca/form tutor
+charakter pisma/handwriting
+zadania domowe/homework assignments
+uczyć się języka angielskiego/learn English
+uczyć się języka niemieckiego/learn German
+lekcja/lesson
+ocena/mark
+robienie notatek/note taking
+poszukiwanie informacji w internecie/online research
+zdać/pass
+projekt/project
+praca nad projektem/project work
+uczeń/pupil
+czytać/read
+powtarzać do egzaminu/revise for an exam
+dyskutować w klasie/speak in class
+uczyć się o II wojnie światowej/study the Second World War
+osiągnąć sukces/succeed
+podejść do egzaminów/take exams
+uczyć/teach
+semestr/term
+test/test
+trenować/train
+trener/trainer
+korzystać ze słownika/using a dictionary
+w klasie VIII/in Year 8
+dogonić, nadrobić/catch up  with
+odstawać/fall behind
+dowiedzieć się /find out
+wręczyć/hand in
+zanotować/note down
+zadanie /assignment
+zajęcia pozalekcyjne/extra-curricular activities
+odpoczynek/leisure
+rekreacja/recreation
+relaks/relax
+zadanie/task
+zajęcia plastyczne/arts and crafts
+szachy/chess club
+gry komputerowe/computer games
+gotowanie/cookery
+taniec/dance class
+piłka nożna/football
+grafika komputerowa/graphic design
+wspinaczka na ścianie /indoor wall climbing
+klub pływacki /swim club
+klarnet/clarinet
+perkusja /drums
+flet/flute
+gitara/guitar
+pianino/piano
+skrzypce/violin
+przygotowywać się /get ready
+wyglądać brzydko/look ugly
+zarabiać pieniądze/make money
+podejmować decyzję /take a decision
+wydawać pieniądze/spend money
+zainteresować się czymś/take an interest
+nosić mundurek szkolny /wear a school uniform
+być gotowym na coś/be ready for
+być zmartwiony czymś/be upset about
+być znudzony czymś/get bored with
+należeć do/belong to
+pożyczać od /borrow from
+nie zgadzać się z /disagree with
+przygotowywać się do /prepare for
+powtarzać do/revise for

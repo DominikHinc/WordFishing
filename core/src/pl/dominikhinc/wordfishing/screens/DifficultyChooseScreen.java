@@ -31,11 +31,13 @@ public class DifficultyChooseScreen extends AbstractScreen {
     private CheckBox textInputBox;
     private Slider slider;
     private Label sliderCount;
+    private String folder;
 
-    public DifficultyChooseScreen(WordFishing game, String s) {
+    public DifficultyChooseScreen(WordFishing game, String s, String folder) {
         super(game);
         choosenBook = s;
         this.game = game;
+        this.folder = folder;
         game.setComplex(false);
         game.setTextInput(game.getPreferences().getBoolean(game.textInputPreferences));
         initR();
@@ -145,13 +147,13 @@ public class DifficultyChooseScreen extends AbstractScreen {
         polishEnglish.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
                 game.setQuestionInEnglish(false);
-                game.setScreen(new GameScreen(game,choosenBook));
+                game.setScreen(new GameScreen(game,choosenBook,folder));
             }
         });
         englishPolish.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
                 game.setQuestionInEnglish(true);
-                game.setScreen(new GameScreen(game,choosenBook));
+                game.setScreen(new GameScreen(game,choosenBook,folder));
             }
         });
         complex.addListener(new ClickListener() {
@@ -159,7 +161,7 @@ public class DifficultyChooseScreen extends AbstractScreen {
                 game.setQuestionInEnglish(true);
                 game.setComplex(true);
                 game.setTextInput(false);
-                game.setScreen(new GameScreen(game,choosenBook));
+                game.setScreen(new GameScreen(game,choosenBook,folder));
             }
         });
     }

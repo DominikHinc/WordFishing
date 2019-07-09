@@ -1,0 +1,104 @@
+﻿ / 
+sklep/﻿shop
+piekarnia/baker's
+księgarnia/bookshop
+sklep mięsny/butcher's
+drogeria/chemist's
+sklep odzieżowy/clothes shop
+sklep komputerowy/computer store
+sklep z grami/game store
+dom towarowy/department store
+sklep elektroniczny/electronics store
+warzywniak/greengrocer's
+kiosk/newsagent's
+sklep zoologiczny/pet shop
+sklep obuwniczy/shoe shop
+sklep sportowy/sports shop
+supermarket/street market
+zwyczaje zakupowe/spending habits
+okazja/bargain
+kupić coś używanego/buy something second-hand
+prezent/gift
+artykuł/item of clothing
+zbyt drogi/overpriced
+kieszonkowe/pocket money
+oszczędzać pieniądze/save money
+rozglądać się/shop around
+wydawać pieniądze na/spend money on
+oglądanie wystaw sklepowych/window-shopping
+sposoby płatności/means of payment
+pozwalać sobie na coś/afford
+konto bankowe/bank account
+rachunek/bill
+zarezerwować stolik/book a table
+reszta/change
+przymierzalnia/changing room
+karta kredytowa/credit card
+dostarczać/deliver
+żądać/demand
+rabat/discount
+dystrybucja/distribution
+zrzucić/drop
+za pół ceny/half price
+w gotówce/in cash
+w magazynie/in stock
+ numer/number
+przy odbiorze/on delivery
+zamawiać/oreder
+kolejka/queue
+paragon/receipt
+rząd/row
+związać/tie
+zawinąć/wrap
+wymiana/replacing
+zwrot produktów/returning goods
+zniszczony/damaged
+wymiana/exchange
+pasować/fit
+wadliwy/faulty
+zwrot pieniędzy/refund
+serwis/repair service
+zwrot/return
+usuługi/services
+elektryk/electrician
+fryzjer/hairdresser
+prawnik/lawyer
+mechanik/mechanic
+optyk/optician
+hydraulik/plumber
+weterynarz/vet
+bmx/bmx
+rower miejski/city bike
+rower górski/mountain bike
+rower szosowy/road bike
+tandem/tandem
+akcesoria/accessories
+przekonywać/persuade
+niedorzeczny/ridiculous
+nieuprzejmy/rude
+monitor komputerowy/computer monitor
+pobliski sklepik/corner shop
+karta debetowa/debit card
+pralnia chemiczna/dry cleaner's
+centrum handlowe/shopping centre
+galeria handlowa/mall
+papier do pakowania/wrapping paper
+dostępny/available
+obroża/collar
+dział reklamacji/complaints department
+markowa odzież/designer label
+zniesmaczony/disgusted
+naprawiać/fix
+darmowy/free
+gwarancja/guarantee
+umawiać spotkanie/make an appointment
+opakowanie/packaging
+odebrać/pick sth up
+wyprzedaż/sale
+rozmiar/siza
+stragan/stall
+bluza sportowa/sweatshirt
+zwrócić coś do sklepu/take something back to the shop
+przymierzać coś/try something on
+różnorodność/variety
+wyprzedaż garażowa/yard sale

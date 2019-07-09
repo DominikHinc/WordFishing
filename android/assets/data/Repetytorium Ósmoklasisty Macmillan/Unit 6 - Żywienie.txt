@@ -1,0 +1,139 @@
+﻿ / 
+Żywność/﻿food products
+wołowina/beef
+herbatniki/biscuits
+chleb/bread
+brokół/broccoli
+kapusta/cabbage
+ciastka/cakes
+ser/cheese
+kurczak/chicken
+tabliczka czekolady/chocolate bar
+kawa/coffee
+cola/cola
+chipsy/crisps
+ogórek/cucumber
+nabiał/dairy products
+napoje/drinks
+ryba/fish
+owoc/fruit
+winogrona/grapes
+papryka/pepper
+szynka/ham
+sok/juice
+sałata/lettuce
+mleko/milk
+grzyby/mushrooms
+orzechy/nuts
+olej/oliwa/oil
+cebula/onion
+makaron/pasta
+wieprzowina/pork
+ziemniak/potato
+ryż/rice
+bułka/roll
+łosoś/salmon
+sól/salt
+kanapka/sandwich
+kiełbaska/sausage
+owoce morza/seafood
+przekąski/snacks
+przyprawy/spices
+szpinak/spinach
+truskawka/strawberry
+słodycze/sweets
+herbata/tea
+pomidor/tomato
+tuńczyk/tuna
+indyk/turkey
+warzywo/vegetable
+jogurt/yoghurt
+przygotowanie jedzenia/preparing food
+gotowanie jedzenia/cooking food
+narzędzia/equipment
+deska do krojenia/chopping board
+miska/bowl
+puszka/can
+filiżanka/cup
+widelec/fork
+patelnia/frying pan
+nóż/knife
+garnek/pan
+rondel/pot
+talerz/plate
+otwieracz do konswer/tin opener
+dodawać/add
+kroić/cut
+smarzyć/fry
+grylować/grill
+podgrzewać/heat up
+obierać/peel
+przepis/recipe
+ciąć na plastry/slice
+smarować /spread
+okreslenie smaku/describing taste
+gorzki/bitter
+słony/salty
+słony/savoury
+kwaśny/sour
+pikantny/spicy
+słodki/sweet
+jedzenie poza domem /eating out
+być gotowym do złożenia zamówienia /be ready to order
+rezerwować stolik/book a table
+stołówka /canteen
+szef kuchni/chef
+klient/customer
+smacznego/enjoy your meal
+wejść do restauracji/enter the restaurant
+zostawić napiwek/leave a tip
+przeglądać menu/look at the menu
+menadżer/manager
+zamówić posiłek/order a meal
+zamówić deser/order dessert
+zapłacić rachunek/pay the bill
+ przeczytać recenzję restauracji /read a restaurant review
+bar kanapkowy /sandwich bar
+specjalność kuchni/special
+stolik dla dwóch osób/table for two
+wegański/vegan
+wegetariański/vegetarian
+kelnerka/waitress
+kelner/waiter
+nawyki żywieniowe /eating habits
+rodzaje przyjęć/parties
+bankiet/banquet
+grill/barbecue
+jeść poza domem/eat out
+piknik/picnic
+przyjmować gości /entertain guests
+jeść pomiędzy posiłkami/snack between meals
+za granicą/abroad
+pomocnik szefa/assistant chef
+technika gotowania/cooking technique
+nagroda kulinarna/culinary award
+zachwycający/delightful
+zmywarka/dishwasher
+przekazywać/hand down
+właściciel/owner
+opłacać się/pay off
+być gotowym do jedzenia/be ready to eat
+napełnić koszyk/fill your basket
+wyjść zjeść coś poza domem/go out to eat
+urządzić piknik/have a picnic
+zjeść tort/have toast
+siedzieć na zewnątrz/sit outside
+przestrzegać diety/stick to a diet
+kipieć/boil over
+siekać/chop up
+ograniczać/cut down on
+zjadać wszystko/eat up
+podgrzewać/warm up
+piekarnia/bakery
+być na ścisłej diecie/be on a strict diet
+węglowodany/carbohydrates
+cieńki naleśnik/crepe
+dieta niskowęglowodanowa/low-carb diet
+majonez/mayonnaise
+pomyłka/mix-up
+białko/protein

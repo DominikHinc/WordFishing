@@ -15,12 +15,12 @@ public class LoadQuestionsAndAnswers {
     private ArrayList<Question> questionArrayList;
     private ArrayList<String> answerArrayList;
 
-    public LoadQuestionsAndAnswers(Skin skin ,Skin skin2, WordFishing game, String choosenBook){
-        initQuestions(skin,skin2,game,choosenBook);
+    public LoadQuestionsAndAnswers(Skin skin ,Skin skin2, WordFishing game, String choosenBook, String folder){
+        initQuestions(skin,skin2,game,choosenBook,folder);
     }
 
-    private void initQuestions(Skin skin,Skin skin2, WordFishing game,String choosenBook) {
-        FileHandle file = fileHandle(choosenBook);
+    private void initQuestions(Skin skin,Skin skin2, WordFishing game,String choosenBook,String folder) {
+        FileHandle file = fileHandle(choosenBook,folder);
         questionArrayList = new ArrayList<Question>();
         answerArrayList = new ArrayList<String>();
         String text = file.readString();
@@ -53,8 +53,8 @@ public class LoadQuestionsAndAnswers {
         }
 
     }
-    public FileHandle fileHandle(String choosenBook){
-        FileHandle file = Gdx.files.internal("data/"+choosenBook+".txt");
+    public FileHandle fileHandle(String choosenBook, String folder){
+        FileHandle file = Gdx.files.internal("data/"+folder+"/"+choosenBook+".txt");
         /*
         switch (choosenBook){
             case"Repetytorium do szkol ponad gimnazjalnych Unit 3":file = Gdx.files.internal("data/Repetytorium do szkol ponad gimnazjalnych Unit 3.txt");break;

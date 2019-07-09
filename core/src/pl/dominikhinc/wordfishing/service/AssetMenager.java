@@ -22,6 +22,9 @@ public class AssetMenager {
         game.setWrongAnswer(new Texture("Wrong_Answer.png"));
         game.setLogo(new Texture("Logo.png"));
         game.setGoBackButton(new Texture("SYMB_LEFTARROW.png"));
+        game.setMcmrok(new Texture("macmillan repetytorium osmoklasisty.png"));
+        game.setGoBackerButton(new Texture("GoForward.png"));
+        game.setTempToDelete(new Texture("repetytorium-do-szkol-ponadgimnazjalnych.jpg"));
     }
 
     private void initSkins(WordFishing game) {

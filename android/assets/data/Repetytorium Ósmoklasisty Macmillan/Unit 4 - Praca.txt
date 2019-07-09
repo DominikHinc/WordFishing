@@ -1,0 +1,115 @@
+﻿ / 
+księgowy/﻿accountant
+aktor/actor
+aktorka/actress
+kierowca karetki/ambulance driver
+pracownik banku/bank clerk
+operator filmowy/cameraman
+szef kuchni/chef
+programista/computer programmer
+kucharz/cook
+dentsta/dentist
+lekarz/doctor
+intruktor jazdy/driving instructor
+służby ratownicze/emergency services
+inżynier/engineer
+rozrywka i media/entertainment and media
+pracownik fabryki/factory worker
+strażak/firefighter
+stewardessa/flight attendant
+sektor hotelarski i gastronomiczny/food and hospitality
+fryzjer/hairdresser
+dziennikarz/joutnalist
+sędzia/judge
+prawo/law
+prawnik/lawyer
+kierowca ciężarówki/lorry driver
+menadżer/manager
+mechanik/mechanic
+model/model
+pielęgniarz/nurse
+ratownik medyczny/paramedic
+policjant/police officer
+profesor/professor
+przedstawiciel handlowy/sales representative
+naukowiec/scientist
+sekretarz/secretary
+sprzedawca w sklepie/shop assistant
+projektant oprogramowania/sofrware designer
+taksówkarz/taxi driver
+nauczyciel/teacher
+technik/technican
+sektor usług/the service sector
+agent biura podróży/travel agent
+prezenter telewizyjny /TV presenter
+kelner/waiter
+kelnerka/waitress
+rachunek bankowy/bank account
+nudny/boring
+wymagający/challenging
+niebezpieczny/dangerous
+ekscytujący/exciting
+mieć dużą odpowiedzialność/have a lot of responsibility
+opiekować się kimś/look after sb
+ryzykowny/risky
+satysfakcjonujący/satisfying
+obsługiwać klientów/serve customers
+stymulujący/stimulating
+dobrze płatny/well-paid
+źle płatny/poorly-paid
+pracować na zewnątrz/work outdoors
+pracować w pomieszczeniu/work indoors
+ubiegać się o pracę/apply for a job
+być bezrobotnym /be unemployed
+być dobrze opłacanym/be well paid
+awansować/be,get promoted
+współpracownicy/colleagues
+umiejętności komunikacyjne/communication skills
+dojeżdżać do pracy/commute
+zarabiać pieniądze/earn money
+pensja/a salary
+znaleźć pracę/find work
+przywódca /leader
+cechy osobiste/personal qualities
+niezawodny/reliable
+mocne strony/strengths
+stresujący/stressful
+pracować za granicą/work abroad
+doświadczenie zawodowe/work experience
+pracować w pełnym wymiarze godzin/work full-time
+pracować w niepełnym wymiarze/work part-time
+pracować w nadgodzinach/work overtime
+godziny pracy /working hour
+opieka nad dzieckiem/babysitting
+mycie samochodu/car washing
+wyprowadzanie psa/dog walking
+pakowanie prezentów/gift wrapping
+pakowanie zakupów przy kasie/grocery bagging
+rozdawać ulotki/hand out leaflets
+roznoszenie prasy/newspapers delivery
+czesanie zwierząt/pet grooming
+opiekowanie się zwierzęciem w czasie nieobecności właściciela/pet sitting
+umieć gospodoarować pieniędzmi/be responsible with money
+spędzać czas z/hang out with
+mieć zdecydowane pogłądy na temat/have strong views on
+organizować swój czas/organise your time
+wykonywać pracę/do a job
+otrzymać szanse zrobienia/get the chance to do
+mieć szanse zrobienia/have the chance to do
+tajemniczy klient/mistery shooper
+zdumiony/amazed
+zdumiewający/amazing
+znudzony/bored
+nudny/boring
+w obliczu wyzwania/challenged
+stanowiący wyzwanie/challenging
+rozczarowujący/disappointing
+rozczarowany/disappointed
+ekscytujący/exciting
+podekscytowany/excited
+wyczerpujący/exhausting
+wyczerpany/exhausted
+przyjemny/pleasing
+zadowolony/pleased
+męczyć/tiring
+zmęczony/tired

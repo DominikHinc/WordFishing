@@ -1,0 +1,138 @@
+﻿ / 
+gra aktorska/﻿acting
+aktorka/actress
+aktor/actor
+autor/author
+grupa/group
+zespół/band
+pędzel/brush
+obsada/cast
+kino/cinema
+klasyczny/classical
+koncert/concert
+tancerz/dancer
+projektować/design
+reżyser/director
+rysować/draw
+rysunek/drawing
+projektant mody/fashion designer
+ilustracje/illustrations
+instrument/instrument
+pierwszoplanowy aktor/lead actor
+główny bohater/main character
+muzyk/musician
+powieść/novel
+orkiestra/orchestra
+malować/paint
+malarz/painter
+obraz/painting
+występować/perform
+fotografia/photography
+fabuła/plot
+wiersz/poem
+poeta/poet
+muzyka pop/pop music
+portret/portrait
+wystawiać sztukę/put on
+muzyka rock/rock music
+science fiction/science fiction
+opowiadanie/short story
+śpiewać/sing
+szkic/sketch
+piosenka/song
+ścieżka dźwiękowa do filmu/soundtrack
+scena/stage
+melodia/tune
+pisać/write
+pisarz/writer
+występuje w nim/it stars
+to jest o/it's about
+zatytułowany jest/it's called
+został wyreżyserowany przez/it's directed by
+akcja rozgrywa się w/it's set in
+został napisany przez/it's written by
+ona gra/she plays
+wydarzenia kulturalne/cultural events
+galeria sztuki/art gallery
+atrakcja/attraction
+widownia, publiczność/audience
+namiot cyrkowy/big top
+sztuczka karciana/card trick
+karnawał/carnival
+celebryta/celebrity
+cyrk/circus
+jarmark/fair
+pokaz mody/fashion show
+festiwal/festival
+żongler/juggler
+głośniki/loud speakers
+pokaz magii/magic show
+mikrofon/microphone
+model/model
+koncert na świeżym powietrzu/outdoor concert
+parada/parade
+występ/performance
+prezenter/presenter
+królik/rabbit
+wybieg/runway
+ekran/screen
+kolekcja wiosenna/spring colletion
+trapez/trapeze
+dzieło sztuki/work of art
+media/the media 
+media społecznościowe/social media
+reklama/advertisement
+artykuł/article
+kreskówka/cartoon
+kanał/channel
+komiks/comic
+program kulinarny/cooking show
+serial kryminalny/crime series
+film dokumentalny/documentary
+pobierać/download
+nagłówek/headline
+obraz/image
+osoba przeprowadzająca wywiad/interviewer
+dziennikarz/journalist
+gazeta ogólnokrajowa/national newspaper
+publikować/post
+reality show/reality show
+udostępniać w sieci/share online
+subskrybować/subscribe to sth
+czasopismo dla nastolatków/teen magazine
+program podróżniczy/travel show
+wysyłać/upload
+strona internetowa/website
+mieć talent do pływania/be talented at swimming
+próba/rehearsal
+rola/role
+scena/scene
+błyszczeć/shine
+grać główną rolę/star
+dubler/understudy
+wstęp/admisson
+strzała/arrow
+łuk/bow
+panna młoda/bride
+wychowywać/bring up
+wiadro/bucket
+kolekcjoner/collector
+prezentować/display
+ofiarowywać/donate
+wejście/entrance
+wystawa/exhibit
+fundować/found
+zranić się/get hurt
+pan młody/groom
+rozdawać/hand out
+szczęśliwe zakończenie/happy ending
+zabawa w chowanego/hide and seek
+imponować/impress
+przedmiot/item
+tekst piosenki/lyrics
+farby/paints
+przekonywać/persuade
+filmować/shoot
+śmierdzący/smelly
+węże i drabiny /snakes and ladders
+krawat/tie
