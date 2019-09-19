@@ -11,7 +11,6 @@ import pl.dominikhinc.wordfishing.service.GoBackButtonCreator;
 
 public class ContactScreen extends AbstractScreen {
 
-    private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
     private Label helpLabel;
@@ -31,10 +30,9 @@ public class ContactScreen extends AbstractScreen {
 
 
     private void initHelpLabel() {
-        Label.LabelStyle labelStyle = new Label.LabelStyle();
-        labelStyle.font = game.getFont();
-        helpLabel = new Label("Kontakt:\nwordfishingkontakt@gmail.com\n\n\nAplikacja ma na celu pomoc w \nnauce słówek z języka angielskiego.\n\n\nZestawy słówek zaczerpnięte są\nz książek znajdujących się obecnie\nw programie nauczania." , labelStyle);
-        helpLabel.setPosition(100,game.SCREEN_HEIGHT - helpLabel.getHeight() - 400);
+        helpLabel = new Label("Kontakt:\nwordfishingkontakt@gmail.com\n\n\nAplikacja ma na celu pomoc w \nnauce słówek z języka angielskiego.\n\n\nZestawy słówek zaczerpnięte są\nz książek znajdujących się obecnie\nw programie nauczania." , game.getSkin());
+        //helpLabel = new Label("ąśęńółĄŚĘÓŃŁćĆŻżŹźaAbBcCdDeEfFgGhHiIjJkKlLmMnNoOuUpPrRsStTwWxXyYzZ",game.getSkin(),"test");
+        helpLabel.setPosition(100*WordFishing.SCALE,game.SCREEN_HEIGHT - helpLabel.getHeight() - 400*WordFishing.SCALE);
         stage.addActor(helpLabel);
     }
 
@@ -51,8 +49,6 @@ public class ContactScreen extends AbstractScreen {
     }
 
     private void initBgImage() {
-        bgImage = new Image(game.getDefaultBg());
-        stage.addActor(bgImage);
     }
 
     @Override

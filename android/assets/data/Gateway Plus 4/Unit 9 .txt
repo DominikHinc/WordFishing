@@ -1,0 +1,81 @@
+﻿ / 
+szerokopasmowy/﻿broadband
+kamera video/camcorder
+ładowarka/charger
+zasięg/coverage
+urządzenie/device
+aparat cyfrowy/digital camera
+zmywarka/dishwasher
+pamięć przenośna/flash drive
+suszarka do włosów/hairdryer
+klawiatura/keyboard
+laptop/laptop
+drukarka laserowa/laser printer
+mikrofalówka/microwave
+komórka/mobile phone
+sieć/network
+wtyczka/plug
+pilot/remote control
+nawigacja satelitarna/satnav
+ekran dotykowy/touch screen
+odkurzacz/vacuum cleaner
+pralka/washing machine
+bazprzewodowy/wireless
+dostosować/adjust
+zawiesić się/crash
+usunąć/delete
+wybierać numer/dial
+pobierać dane/download
+zawiesić się/freeze
+rozładowac się/go dead
+włożyć/insert
+instalować/install
+włączyć do kontaktu/plug in
+nacisnąć/press
+naciskać/push
+doładować/recharge
+wybierać/select
+nastawiać/set
+oglądać coś online/stream
+pisać na klawiaturze/type
+unowoczesniac/upgrade
+dostęp/access
+przypisywać/assign
+dołączyć/attach
+robić kopie zapasową/back up
+szczekać/bark
+bateria/battery
+brzęczeć/beep
+zakrzywiać/bend
+dokuczać/bully
+postać/character
+peleryna/cloak
+urządzenie skrywające/cloaking device
+obroża/collar
+ograniczać coś/cut down on
+folia/foil
+włączyć się/go off
+przełomowy/groundbreaking
+włamać się do/hack into
+klucz/key
+monitor LCD/LCD monitor
+zalogować/log in,on
+przedstawiać w skrócie/outline
+wylogować się/log out,of
+odbierać/pick up
+wydrukować/print out
+odbiornik/receiver
+zastępować/replace
+odtworzyć/reproduce
+działać na/run on
+wyczerpać się/run out
+zapach/scent
+wygaszacz ekranu/screen saver
+przewijać/scroll
+źródło/source
+żródło/supply
+identyfikator/tag
+do góry nogami/upside down
+zużywać/use up
+przewód/wire
+gołym okiem/with the naked eye

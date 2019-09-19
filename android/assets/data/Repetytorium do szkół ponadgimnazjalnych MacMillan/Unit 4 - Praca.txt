@@ -1,0 +1,265 @@
+﻿ / 
+księgowy/accountant
+aktor/actor
+architekt/architect
+pracownik banku/bank clerk
+golibroda/barber
+mechanik/car mechanic
+kasjer/cashier
+szef kuchni/chef
+sprzątaczka/cleaner
+programista/computer programmer
+kucharz/cook
+dentysta/dentist
+dietetyk/dietician
+reżyser/director
+instruktor jazdy/driving instructor
+ekonomista/econimist
+redaktor/editor
+elektryk/electrician
+inżynier/engineer
+rolnik/farmer
+strażak/firefighter
+stewardessa/flight attendant
+fryzjer/hairdresser
+dekorator wnętrz/interior decorator
+dziennikarz/journalist
+sędzia/judge
+prawnik/lawyer
+bibliotekarz/librarian
+kierowca ciężarówki/lorry driver
+kierownik/manager
+muzyk/musician
+prezenter wiadomości/newsreader
+pielęgniarka/nurse
+osobista asystentka/personal assistant
+farmaceuta/pharmacist
+hydraulik/plumber
+policjant/police officer
+polityk/politician
+listonosz/postman
+listonoszka/postwoman
+recepcjonista/receptionist
+przedstawiciel handlowy/sales representative
+sekretarka/secretary
+sprzedawca/shop assistant
+żołnierz/soldier
+chirurg/surgeon
+taksówkarz/taxi driver
+nauczyciel/teacher
+tłumacz/translator
+pracownik biura turystycznego/travel agent
+weterynarz/vet
+weterynarz/veterinary surgeon
+kelner/waiter
+kelnerka/waitress
+twórca stron internetowych/webmaster
+adwokat/barrister
+kosmetyczka/beautician
+księgowy/bookkeeper
+murarz/bricklayer
+stolarz/carpenter
+urzędnik państwowy/civil servant
+autor tekstów reklamowych/copywriter
+kwiaciarka/florist
+lekarz/physician
+notariusz/solicitor
+krawiec/tailor
+poborca podatkowy/tax collector
+terapeuta/therapist
+ambitny/challenging
+jako wolny strzelec/freelance
+fizyczny/manual
+motywujący/motivating
+powtarzalny/repetitive
+odpowiedzialny/responsible
+stresujący/stressful
+męczący/tiring
+niestawiający wymagań/undemanding
+niepłatny/unpaid
+dobrowolny/voluntary
+dobrze płatny/well-paid
+niewymagający/cushy
+bez perspektyw/dead-end
+robiący wrażenie/glamourous
+na wysokim stanowisku/high-powered
+nieciekawy/mundane
+dający satysfakcję/rewarding
+ubiegać się o coś/apply for sth
+w pracy/at work
+zarządzać czymś/be in charge of sth
+być odpowiedzialnym za coś/be responsible for sth
+utrzymywać się z czegoś/do sth for a living
+szukać czegoś/look for sth
+zarabiać na życie jako ktoś/make a living as sb
+brać na siebie za dużo obowiązków/take on too much work
+odrzucać coś/turn sth down
+pracować w firmie/work for a company
+pracować z domu/work from home
+pracować w branży turystycznej/work in the tourist industry
+pracować pod presją/work under pressure
+pracować za pomocą czegoś/work with sth
+być źle opłacanym/be badly paid
+być dobrze opłacanym/be well paid
+mieć wolne w pracy/be off wok
+mieć niezłą pensję/be on a pretty good salary
+nie mieć pracy/be out of work
+mieć dobrą dniówkę/be paid good wages
+szef/boss
+praca tymczasowa/casual work
+wpinać się po szczeblach kariery/climb the career ladder
+kolega z pracy/colleague
+pracować w nadgodzinach/do overtime
+jeździć samochodem służbowym/drive a company car
+przyzwoicie zarabiać/earn a decent salary
+przyjaciel/friend
+praca na pełen etat/full-time job
+dostać premię/get a bonus
+dostać podwyższkę/get a pay rise
+dostać awans/get promoted
+dostać trzytygodniowy płatny urlop/get three weeks' paid holiday
+mieć szansę na awans/have the chance of promotion
+praca w niepełnym wymiarze godzin/part-time job
+dodatkowe korzyści/perks
+praca na stałe/pernament job
+personel/personnel
+odejść z pracy/quit a job
+odejść z pracy/resign from a job
+stabilna praca/stable job
+personel/staff
+przejść na wcześniejszą emeryturę/take early retirement
+praca tymczasowa/temporary job
+mieć elastyczne godziny pracy/work flexitime
+pracować do późna/work long hours
+pracować na zmiany/work shifts
+wypracować sobie pozycję/work our way up
+być przytłoczonym czymś/be bogged down in sth
+być do czegoś stworzonym/be cut out for sth
+być w ciągłym biegu/be on the go
+mieć dużo na głowie/be snowed under with
+perspektywy zawodowe/career prospects
+konkurencyjne wynagrodzenie/competitive salary
+zajmować się papierkową robotą/do paperwork
+zelżeć/ease off
+doświadczenie/experience
+stawić czemuś czoło/face up to sth
+wręczyć wymówienie/hand in your notice
+doświadczenie zawodowe/job record
+rzucić coś/pack sth in
+pomijać kogoś/pass sb over
+obciążać kogoś pracą/rush sb off their feet
+charować nad czymś/slog away at sth
+składać/submit
+wziąć wolne z powodu choroby/take time off sick
+wolne stanowisko/vacancy
+pracować pod presją czasu/work to tight deadlines
+rynek pracy/labour market
+ubiegać się o pracę/apply for a job
+załączyć CV/attach your CV
+zostać przyjętym do pracy/be accepted for a job
+zostać wyrzucownym z pracy/be fired
+zostać wyrzucownym z pracy/be sacked
+zostać zwolnionym w ramach redukcji etatów/be made redundant
+być na zasiłku/be on the dole
+zostać odrzuconym/be rejected
+zostać zamkniętym (o firmie)/close down
+wypełniać/fill in
+zbankrutować/go bankrupt
+rozpoczać strajk/go on strike
+rozmowa o pracę/interview
+robić na kimś dobre wrażenie/make the right impression on sb
+doświadczenie zawodowe/professional experience
+kwalifikacje/qualifications
+list polecający/reference letter
+związek zawodowy/trade union
+bezrobotny/unemployed
+dniówka/wages
+osiągniecie/achievement
+kandydant/applicant
+zgłoszenie/application
+przejść do następnego etapu/be shortlisted
+nadrobić zaległości w pracy/clear the backlog of work
+zdemotywowany/demotivated
+nadający się do zatrudnienia/employable
+zatrudnienie/employment
+osoba poszukująca pracy/job seeker
+bezrobotny/jobless
+Dobra robota, oby tak dalej!/Keep up the good work!
+branża/line of work
+nie kiwnąć palcem/never do a stroke of work
+przepracowany/overworked
+presja w pracy/pressure of work
+pracownik sezonowy/seasonal worker
+opiekunka do dzieci/babysitter
+pracownik instytucji charytatywnej/charity worker
+kasjer/checkout assistant
+kurier/delivery boy
+kurierka/delivery girl
+osoba zbierająca owoce/fruit picker
+praca wakacyjna/holiday job
+ratownik/lifeguard
+praca sezonowa/seasonal work
+opiekun na obozie letnim/summer camp supervisor
+przewodnik/tour guide
+wolontariat/voluntary work
+praca weekendowa/weekend job
+wybróbować coś/check sth out
+znaleźć dla kogoś czas/fit sb in
+dać sobie dużo czasu/give oneself plenty of time
+mieć pustkę w głowie/sb's mind go blank
+nie mówiąc o czymś/let alone sth
+skontaktować kogoś z kimś/link sb up with sb
+podlegać komuś/answer to sb
+oklaskiwać kogoś/applaud sb
+przekomarzać się/banter
+być dla kogoś korzystnym/be beneficial to sb
+przypominać o czymś/be reminiscent of sth
+przykuwać czyjąś uwagę/catch sb's eye
+wynalazek/contraption
+szkodliwy dla kogoś/detrimental to sb
+drżeć na myśl o czymś/dread sth
+wprowadzać zasady w życie/enforce rules
+przesadny/far-fetched
+zostać dobrze przyjętym/go down well
+pieniężny/monetary
+wzrost czegoś/surge in sth
+akceptowany/acceptable
+nieakceptowany/unacceptable
+plasować się w czołówce/come out on top
+niewymagający/undemanding
+wymagający/demanding
+zależeć od czegoś/depend on sth
+niepożądany/undesirable
+pożądany/desirable
+poświęcić czemuś życie/devote sb's life to sth
+realizować swoje pasje/follow sb's pursuits
+być źródłem stresu/give stress
+bezstresowy/stressless
+wykorzystywać coś/take advantage of sth
+mieć pierszeństwo/takie priority
+przyjmować coś/admit sth
+stosować w życiu codziennym/apply sth to real life situations
+oceniać/assess
+przypisywać zadanie/assign a task
+być skutecznym narzędziem/be an effective tool
+dążyć do czegoś/be intent on sth
+wyjaśniać/clarify
+przyznawać/confess
+pokazywać/demonstrate
+podkreślać/emphasise
+przyszli pracownicy/employess-to-be
+oceniać/evaluate
+wyjaśniać/explain
+zrozumieć coś/gain an insight
+zrozumieć coś/get the idea of sth
+dać komuś przewagę/give an edge
+doświadczenie praktyczne/hands-on experience
+podkreślać/highlight
+wskazywać/indicate
+utrzymywać/maintain
+wkazywać na coś/point sth out
+odbywać w formie stażu/realised through internship
+wynagrodzenie/remuneration
+zobaczyć na własne oczy/see for oneself
+szukać nowych możliwości/seek new opportunities
+zrobić rekonesans/test the waters

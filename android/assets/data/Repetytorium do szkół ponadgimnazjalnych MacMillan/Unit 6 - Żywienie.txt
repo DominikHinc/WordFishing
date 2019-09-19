@@ -1,0 +1,315 @@
+﻿ / 
+artykuły spożywcze/food products
+owoce/fruit
+jeżyna/blackberry
+wiśnia/cherry
+winogrona/grape
+brzoskwinia/peach
+gruszka/pear
+malina/raspberry
+truskawka/strawberry
+morela/appricot
+jagoda/blueberry
+mandarynka/tangerine
+warzywa/vegetables
+fasola/bean
+burak/beetroot
+brokuł/broccoli
+kapusta/cabbage
+ogórek/cucumber
+czosnek/garlic
+por/leek
+sałata/lettuce
+cebula/onion
+groszek/pea
+ziemniak/potato
+szpinak/spinah
+kukurydza/sweet corn
+papryka/sweet pepper
+pomidor/tomato
+szparagi/asparagus
+bakłażan/aubergine
+kalafior/cauliflower
+cukinia/couragette
+chrzan/horseradish
+jarmuż/kale
+rzodkiewka/radish
+mięso/meat
+bekon/bacon
+wołowina/beef
+kurczak/chicken
+jagnięcina/lamb
+wieprzowina/pork
+kiełbasa/sausage
+stek/steak
+indyk/turkey
+żeberka/spare ribs
+dziczyzna/venison
+ryba/fish
+owoce morza/seafood
+śledź/herring
+homar/lobster
+makrela/mackerel
+krewetka/prawn
+łosoś/salmon
+pstrąg/trout
+tuńczyk/tuna
+napoje/drinks
+napój gazowany/fizzy drink
+świeżo wyciskany sok/freshly-squeezed juice
+lemoniada/lemonade
+mleko/milk
+woda gazowana/sparkling water
+woda niegazowana/still water
+ser żółty/cheese
+ciasteczka/biscuits
+chleb/bread
+masło/butter
+płatki zbożowe/cereal
+twaróg/cottage cheese
+śmietana/cream
+chipsy/crisps
+jajko/egg
+mąka/flour
+miód/honey
+dżem/jam
+majonez/mayonnaise
+musztarda/mustard
+olej/oil
+oliwa/olive oil
+makaron/pasta
+pieprz/pepper
+ryż/rice
+bułki/rolls
+sól/salt
+cukier/sugar
+jogurt/yoghurt
+szczypiorek/chives
+cynamon/cinnamon
+serek śmietankowy/cream cheese
+curry/curry
+imbir/ginger
+mięta/mint
+sos grzybowy/mushroom sauce
+orzech/nut
+pietruszka/parsley
+placki ziemniaczane/potato pancakes
+rozmaryn/rosemary
+tymianek/thyme
+ocet/vinegar
+kolokacje/collocations
+tabliczka czekolady/bar of chocolate
+miska płatków/bowl of cereal
+cytrusy/citrus fruit
+filiżanka herbaty/cup of tea
+suszone śliwki/dried plums
+świeże maliny/fresh raspberries
+mrożone maliny/frozen raspberries
+słoik marmolady/jar of marmelade
+bochenek chleba/loaf of bread
+paczka chipsów/packet of crisps
+talerz kanapek/plate of sandwiches
+surowa marchewka/raw carrot
+czerstwy chleb/stale bread
+puszka pomidorów/tin of tomatoes
+pomidory w puszcze/tinned tomatoes
+czarna kawa/black coffe
+biała kawa/white coffe
+ser pleśniowy/blue cheese
+pierś kurczka/chicken breast
+udko kurczka/chicken leg
+skrzydełko kurczaka/chicken wing
+gorzka czekolada/dark chocolate
+ser kozi/goat's cheese
+kawa mielona/ground coffe
+kawa rozpuszczalna/instant coffe
+dojrzały ser/mature cheese
+czekolada deserowa/plain chocolate
+kotlety wieprzowe/pork chops
+wieprzowina zapiekana w cieście/pork pie
+potrawka wieprzowa/pork strew
+chleb żytni/rye bread
+chleb krojony/slice bread
+czekolada nadziewana/soft-centre chocolate
+chleb pełnoziarnisty/wholemeal bread
+ wyposażenie kuchni/kitchen equipment
+deska do krojenia/chopping board
+widelec/fork
+patelnia/frying pan
+czajnik/kettle
+nóż/knife
+kubek/mug
+talerz/plate
+rondel/saucepan
+spodek/saucer
+łyżka/spoon
+łyżeczka/teaspoon
+korkociąg/corkscrew
+zastawa stołowa/crockery
+szućce/cutlery
+łyżka wazowa/ladle
+sito/sieve
+otwieracz do puszek/tin opener
+drewniana łyżka/wooden spoon
+dodawać/add
+ubijać/beat
+zmiksować/blend
+zagotować/boil
+przypalać/burn
+siekać/chop
+gotować/cook
+pokroić/cut up
+odcedzać/drain
+smmażyć/fry
+trzeć na tarce/grate
+podgrzewać/heat
+przyrządzać/make
+mieszać/mix
+roztapiać/melt
+obierać ze skórki/peel
+układać/place
+wlewać/pour
+piec/roast
+przyprawiać/season
+posypywać/sprinkle
+wyciskać/squeeze
+gotować na parze/steam
+mieszać/stir
+smak/taste
+gorzki/bitter
+mdły/bland
+pyszny/delicious
+wstrętny/disgusting
+tłusty/fatty
+smakowity/flavoursome
+tłusty/greasy
+apetyczny/mouth-watering
+odpychający/off-puttting
+przegotowany/overdone
+dojrzały/ripe
+smakowity/savoury
+przyprawiający o mdłości/sickly
+kwaśny/sour
+pikantny/spicy
+słodki/sweet
+mdły/tasteless
+miękki/tender
+grill/barbecue
+rachunek/bill
+śniadanie/breakfast
+późne śniadanie/brunch
+kucharz/cook
+kuchenka/cooker
+danie/course
+pustynia/desert
+deser/dessert
+obiad/dinner
+potrawa/dish
+jeść w mieście/eat out
+zapuścić się/go off
+zużywać/go through
+lunch/lunch
+posiłek/meal
+paragon/receipt
+przepis/recipe
+skończyć się/run out of sth
+przekąska/snack
+kolacja/supper
+gustowny/tasteful
+smaczny/tasty
+podwieczorek/tea
+coś komuś nie służy/disagree with sb
+wypić czyjeś zdrowie/drink to sb
+jeść w domu/eat in
+najadać się/fill up
+wypić jednym haustem/gulp down
+ugryźć/have a bite
+przeżuwać/munch on
+skubnąć/nibble
+podjadać/pick at
+obżerać się/pig out
+sączyć/pour
+przygotować naprędce/rustle up
+wcinać coś/scoff
+sączyć coś/sip
+podjadać/snack on
+połykać/swallow
+pożerać/wolf down
+lokale gastronomiczne/eating places
+w przystęonej cenie/affordable
+atmosfera/atmosphere
+średni/average
+rezerwować/book
+danie główne/main course
+zamawiać/order
+serwować/serve
+obsługa/service
+opłata za obsługe/service charge
+zestaw/set menu
+stolik dla dwojga/table for two
+tajska restauracja z jedzeniem na wynos/Thai takeaway
+napiwek/tip
+diety/diets
+zrównoważona dieta/balanced diet
+gotowe danie/convenience meal
+fast food/fast food
+dieta bezglutenowa/gluten-free diet
+przejść na dietę/go on a diet
+zdrowa dieta/healthy diet
+ciężkostrawny posiłek/heavy meal
+śmieciowe jedzenie/junk food
+lekki posiłek/light meal
+tracić na wadze/lose weight
+dieta niskotłuszczowa/low-fat diet
+przybierać na wadze/put on weight
+gotowe danie/ready-made meal
+trzymać się diety/stick to a diet
+należeć do przeszłości/be a thing of the past
+Czy można to zrobić później?/Can we make it later?
+zbankrutować/go out of business
+lubić słodycze/have a sweet tooth
+brzmi jak dobry plan/it sounda like a plan
+przywiązywać dużą wagę do czegoś/be particular about sth
+zniechęcający/daunting
+zapłacić/fork out
+poza tym/other than that
+płacić z góry/pay upfront
+pocieszać/reassure
+zgłosić/submit
+nieuzasadniony/unfounded
+dążyć do czegoś/work sb's way through sth
+uwielbiać coś/adore sth
+być dla kogoś ważnym/be a big deal to sb
+tworzyć więź/bond
+budować związki/build relationships
+czerpać z czegoś przyjemność/enjoy dth
+niezbędny/essential for
+duza różnorodność/great variety of sth
+mieć szanse/have the chance
+mieć możliwość/have the opportunity
+oczywisty/obvious
+przygotować z/prepare from
+poczucie przynależności/sense of belonging
+usiąść razem/sit down together
+klarowny/straightforward
+porozmawiać o czymś/talk sth over
+mieć ugruntowaną pozycję/be well-estabilished
+stać się powrszechną praktyką/become common practise
+jadalny/edible
+nadmiar jedzenia/excess food
+nadający się do spożycia/fit for consumption
+kupować/get
+kupować/buy
+kupować/purchase
+inicjatywa/initiative
+inicjatywa/movement
+inicjatywa/trend
+brać w czymś udział/partake
+brać w czymś udział/participate
+brać w czymś udział/take part in sth
+szybko się rozprzestrzeniać/spread fast
+pojawiać się/spring up
+wstrząsać się z obrzydzeniem na myśl/squirm at the idea
+podbijać świat/take the world by storm
+sytuacja korzystna dla wszystkich/win-win situation
+społeczeństwo które nie pozostawia odpadów/zero-waste society

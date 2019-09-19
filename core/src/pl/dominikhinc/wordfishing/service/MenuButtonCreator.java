@@ -17,8 +17,8 @@ public class MenuButtonCreator {
         skin = game.getSkin();
         this.game = game;
         grajButton = new TextButton(text,skin);
-        grajButton.setHeight(85*2);
-        grajButton.setWidth(306*2);
+        grajButton.setHeight(85*2*WordFishing.SCALE);
+        grajButton.setWidth(306*2*WordFishing.SCALE);
         grajButton.setOrigin(grajButton.getWidth() / 2 , grajButton.getHeight() / 2);
         grajButton.setPosition(game.SCREEN_WIDTH / 2 - grajButton.getWidth() / 2 , game.SCREEN_HEIGHT - whichLine * game.SCREEN_HEIGHT / 10);
         whichLine++;

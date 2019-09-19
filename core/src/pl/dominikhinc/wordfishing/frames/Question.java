@@ -22,9 +22,11 @@ public class Question extends TextButton {
 
 
     public Question(String question,String answer, Skin skin, WordFishing game) {
-        super(question, skin);
+        super(question, game.getSkin(),"question");
         this.question = question;//.toLowerCase();
         this.answer = answer;//.toLowerCase();
+        this.getLabel().setWrap(true);
+        this.setTransform(true);
         init(game);
 
     }
@@ -36,14 +38,14 @@ public class Question extends TextButton {
         }else{
 
         }*/
-        this.setWidth(WIDTH*10);
-        this.setHeight(HEIGHT );
-        this.setOrigin(WIDTH / 2 , HEIGHT / 2);
+        this.setWidth(WIDTH*10*WordFishing.SCALE);
+        this.setHeight(HEIGHT *WordFishing.SCALE);
+        this.setOrigin(WIDTH*WordFishing.SCALE / 2 , HEIGHT*WordFishing.SCALE / 2);
         this.setPosition(game.SCREEN_WIDTH / 2 - this.getWidth() / 2 , game.SCREEN_HEIGHT / 1.7f);
-        if(question.length() > 25){
+        /*if(question.length() > 25){
             SplitText splitText = new SplitText();
             this.setText(splitText.splitText(22,question));
-        }
+        }*/
         correctAnswersToGo = game.getCorrectAnswersNeededInt();
     }
 

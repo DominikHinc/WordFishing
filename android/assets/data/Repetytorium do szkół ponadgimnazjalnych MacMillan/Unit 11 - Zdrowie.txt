@@ -1,0 +1,255 @@
+﻿ / 
+mieć na coś alergię/be allergic to sth
+mieć zawroty głowy/be dizzy
+być chorym/be sick
+być zestresowanym/be stressed
+czuć się lepiej/feel better
+czuć się słabo/feel faint
+źle się czuć/feel unwell
+zachorować/get sick
+wyzdrowieć/get well
+wyglądać blado/look pale
+cierpieć na coś/suffer from sth
+co jest/what is wrong
+być obolałym/ache all over
+czuć się jak nowo narodzony/be as good as new
+być zmęczony po podróży przez kilka stref czasowych/be jet-lagged
+wracać do zdrowia/be on the mend
+mieć dreszcze/be shivery
+być okazem zdrowia/be the picture of health
+nie najlepiej się czuć/feel a bit under the weather
+nie być w formie/feel a little off-colour
+być wyczerpanym/feek shattered
+kostka/ankle
+ręka/arm
+plecy/back
+kręgosłup/backbone
+krew/blood
+mózg/brain
+policzek/cheek
+klatka piersiowa/chest
+podbródek/chin
+ucho/ear
+łokieć/elbow
+oko/eye
+brew/eyebrow
+rzęsa/eyelash
+powieka/eyelid
+palec u ręki/finger
+stopa/foot
+czoło/forehead
+głowa/head
+serce/heart
+pięta/heel
+biodro/hip
+nerka/kidney
+kolano/knee
+noga/leg
+usta/lips
+wątroba/liver
+płuca/lungs
+usta/mouth
+mięsień/muscle
+szyja/neck
+nos/nose
+bark/shoulder
+skóra/skin
+żołądek/stomach
+udo/thigh
+gardło/throat
+kciuk/thumb
+palec u nogi/toe
+język/tongue
+ząb/tooth
+talia/waist
+nadgarstek/wrist
+pęcherz moczowy/bladder
+łydka/calf
+dziąsło/gum
+staw/joint
+knykieć/knuckle
+dłoń/palm
+żebro/rib
+czaszka/skull
+żyła/vein
+antybiotyki/antibiotics
+ból pleców/cackache
+bandaż/bandage
+odczuwać ból/be in pain
+podbite oko/black eye
+bąbel/bliste
+paczka chusteczek/box of tissues
+złamać nogę/beak a leg
+rak/cancer
+przeziębić się/catch a cold
+kaszel/cough
+syrop na kaszel/cough mixture
+opisac objawy choroby/describe the symptoms
+badać kogoś/examine sb
+krople do oczu/eye drops
+mieć mdłości/feel sick
+ gorączka/fever
+grypa/flu
+zatrucie pokarmowe/food poisoning
+wykurować się z czegoś/get over sth
+wypocząć/get plenty of rest
+udzielać pierwszej pomocy/give first aid
+udzielać porad medycznych/give medical advice
+zrobić komuś zastrzyk/give sb a injection
+iść do apteki/go to the chemist's
+mieć atak serca/have a heart attack
+mieć udar/have a stroke
+mieć prześwietlenie/have an X-ray
+katar sienny/hay fever
+stracić apetyt/lose one's appetite
+zapisać się na wizytę/make an appointment
+lekarstwo/medicine
+migrena/migraine
+krwotok z nosa/nosebleed
+maść/ointment
+środek przeciwbólowy/painkiller
+zarażać/pass on an infection
+zarazić się wirusem/pick up a virus
+założyć na coś gips/put sth in plaster
+wysypka/rash
+wyzdrowieć/recover from sth
+mieć wysoką temperaturę/run a high temperature
+katar/runny nose
+ból gardła/sore throat
+zostać w łóżku/stay in bed
+gabinet lekarski/surgery
+spuchnięta ręka/swollen hand
+przyjmować porady medyczne/take medical advice
+mierzyć komuś ciśnienie krwi/take one's blood pressure
+sprawdzać komuś puls/take one's pulse
+mierzyć komuś temperaturę/take one's temperature
+infekcja wirusowa/viral infection
+wypisywać receptę/write a prescription
+siniak/bruise
+guz/bump
+dostać wysypki/come out in rash
+choroba zakazna/contagious disease
+wyleczyć/cure
+choroba/disease
+śmiertelna choroba/fatal diesase
+zostać użądlonym/get stung
+mieć grypę żołądkową/go down with a stomach bug
+mieć drzazgę/have a splinter
+mieć niestrawność/have indigestion
+choroba/illness
+choroba zakazna/infectious disease
+kontuzja/injury
+mdłości/nausea
+zemdleć/pass out
+cierpieć na silne bóle głowy/suffer from splitting headaches
+okropna choroba/terrible diesease
+leczyć/treat
+skręcić kostkę/twist one's ankle
+wymioty/vomiting
+rana/wound
+unikać ćwiczeń/avoid excercising
+być w formie/be in good shape
+mieć nadwagę/be overweight
+ograniczyć spożywanie niezdrowego jedzenia/cut down junk food
+regularnie się badać/do regular medical tests
+maniak ćwiczeń fizycznych/fitness freak
+być na zrównoważonej diecie/follow a well-balanced diet
+nie móc złapać oddechu/get out of breath
+rzucić palenie/give up smoking
+zapisać się na siłownię/join a gym
+zachwać formę/keep fit
+mieć stresujący tryb życia/lead a pretty stressful life
+ćwiczyć/work out
+niewidomy/blind
+opiekun osoby niepełnosprawnej/carer
+głuchy/deaf
+niemy/dumb
+pies przwodnik/guide dog
+aparat słuchowy/hearing aid
+niedosłyszący/partially deaf
+niepełnosprawny fizycznie/physically disabled
+język migowy/sing language
+jąkać się/stammer
+laska/walking stick
+wózek inwalidzki/wheelchair
+uzależnienie/addiction
+doradca/counsellor
+dopalacze/designer drugs
+handlarz dopalaczami/drug trafficker
+stać się uzależnionym od czegoś/get addicted to sth
+uzależnić się od czegoś/get hooked on sth
+terapeuta/therapits
+rzucić narkotyki/come off drugs
+narkoman/drug addict
+odurzyć się narkotykami/get high
+ośrodek odwykowy/rehab centre
+nie brać narkotyków/stay clean
+przedawkować/take an overdose
+ambulans/ambulance
+zostać przyjętym do szpitala/be admitted to hospital
+być w stanie krytycznym/be in critical condition
+ofiara/casualty
+zasięgnąć porady lekarza/consult a doctor
+szpitalny oddział ratunkowy/emergency unit
+badanie/examination
+przychodnia/health centre
+wizyta domowa/home visit
+całkowicie wyzdrowieć/make a full recovery
+sala operacyjna/operating theatre
+ratownik medyczny/paramedic
+odnieśc niewielkie obrażenia/suffer minor injuries
+kule/crutches
+opatrzyć ranę/dress a wound
+dostać znieczulenie ogólne/get a general anaesthetic
+ szwy/stitches
+nosze/stretcher
+oddział szpitalny/wward
+rozweselać kogoś/cheer sb up
+wychodzić z domu/get out
+przygnębiać kogoś/get sb down
+mieć prawidłową postawę/have a good posture
+nieunikniony/inescapable
+pominąć/leave sth out
+dopasowywać coś/readjust sth
+mówić otwarcie/speak out
+dostarczać coś/supply sth
+wyładować się na kimś/take it out on sb
+wyjmować coś/take sth out
+zużywać się/wear out
+przerażać/appal
+mieć działanie uzależniajce/be addictive
+sztucznie coś rozdmuchać/blow sth out of proportion
+bojkotować/boycott
+brak zaufania pomiędzy kimś a kimś/distrust between sb and sb
+manipulacja/manipulation
+powracający ból ucha/persistent ear ache
+rozgłos/publicity
+sztywność/stiffness
+zeznawać przciwko komuś/testify against sth
+intensywne ćwiczenia/vigorous exercise
+mieć wpływ na coś/affect sth
+leczyć/cure
+zdiagnozować/diagnose
+diagnoza/diagnosis
+zaburzenie/disorder
+efekt/effect
+wpływ/impact
+trudności w uczeniu/learning disorders
+choroba psychiczna/mental illnes
+proces/process
+osoba chora/sufferer
+wsparcie/support
+odróżniać coś od czegoś/tell the difference between sth and sth
+leczyć/treat
+terapia/treatment
+uspokajać/assure sb
+być łatwo zauważalnym/be easy to spot
+być na coś chorym/be ill with sth
+mieć szkodliwy wpływ na coś/have a detrimental effect on sth
+stanowić dla kogoś ogromne wyzwanie/pose a serious challenge to sb
+skierować kogośdo specjalisty/refer sb to specialist
+być w genach/run in the family
+przeprowadzać badania/run tests
+ciężka postać choroby/severe form of an illness
+mieć poważny negatywny wpływ na coś/severely affect sth
+zdradzać objawy zaburzeń lękowych/show signs of anxiety

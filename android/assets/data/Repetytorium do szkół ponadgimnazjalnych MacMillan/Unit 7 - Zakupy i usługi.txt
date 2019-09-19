@@ -1,0 +1,216 @@
+﻿ / 
+towary/merchandieses
+rodzaje sklepów/types of shops
+portal aukcyjny/auction site
+piekarnia/bakery
+księgarnia/bookshop
+sklep mięsny/butcher's
+giełda rzeczy używanych/car boot sale
+sklep należacy do sieci handlowej/chain store
+sklep charytatywny/charity shop
+apteka/chemist's
+sklep odzieżowy/clothes shop
+dom towarowy/department store
+sklep z artykułami do majsterkowania/DIT shop
+kwieciarnia/florist's
+sklep meblowy/furniture shop
+sklep ogrodniczy/garden centre
+warzywniak/greengrocer's
+sklep spożywczy/grocer's
+jubiler/jeweller's
+corener shop/sklep osiedlowy/local
+stoisko/market stall
+sklep muzyczny/music shop
+kios z gazetami/newsagent's
+ sklep zoologiczny/pet shop
+sklep"wszystko za funta"/pound store
+sklep obuwniczy/shoe shop
+centrum handlowe/shopping mall
+sklep sportowy/sports shop
+sklep z zabawkami/toy shop
+automat/vending machine
+cukiernia/confectioner's
+pralnina chemiczna/dry cleaner's
+sklep rybny/fishmonger's
+pchli targ/flea market
+sklep z upominkami/gift sop
+sklep monopolowy/off-licence
+duże centrumpri/retail park
+sklep papierniczy/stationery shop
+okazaja cenowa/bargain
+uczciwa cena/fair price
+za połowę ceny/half-price
+ niska cena/low price
+najwyższej jakości/top quality
+wart/worth
+pozwolić sobie na coś/afford
+być bardzo popularnym/be a real hit
+być wartym swojej ceny/be worth the money
+kartą/be card
+torba na zakupy/carrier bag
+pobrać opłatę za coś/charge for sth
+kasa/checkout
+kosztować/cost
+przymierzalnia/fitting room
+mieć coś na stanie/have sth in stock
+dziura/hole
+na wyprzedaży/in a sale
+zachować paragon/keep a receipt
+zrobić listę zakupów/make a shopping list
+brakujący guzik/missing button
+nie działać/not work
+w promocji/on special offer
+zepsuty/out of order
+tańszy o 5 funtów/five pounds off
+kolejka/queue
+paragon/receipt
+przecenić z 2 do 1/reduce from two to one
+zwrócić towar/return on item
+zarysowany/scratched
+wyprzedać/sell out
+obsłużyć/serve
+robić zakupy/shop
+wózek sklepowy/shopping trolley
+skurczyć się/shrink
+rozmiar/size
+zaciąć się/stick
+zwrócić/take back
+przymierzyć coś/try on
+kupić hurtowo/buy in bulk
+kupić na raty/buy in installments
+kupić pod wpływem impulsu/buy on impulse
+kupić coś za bezcen/buy sth for a song
+mieć przy sobie pieniądze/carry some money on sb
+kosztować fortunę/cost a packet
+kosztować tyle co nic/cost next to nothing
+bardzo tanie/dirt cheap
+mało kosztować/not cost sb a penny
+przepłacać za coś/pay through the nose for sth
+płacić z góry/pay upfront
+kosztowny/pricey
+odłożyć pieniądze/put money aside
+naciągactwo/rip-off
+oszczędzać na czarną godzinę/save money for a rainy day
+szukać okazji/shop around
+wydać na coś pieniądze/spend money on sth
+uzupełnić zapasy/stock up on
+salon piękności/beauty salon
+punkt ksero/copy shop
+gabinet lekarski/doctor's surgery
+warsztat samochodowy/garage
+pralnia samoobsługowa/launderette
+komisariat/police station
+poczta/post office
+stacja obsługi pojazdów/service station
+urząd skarbowy/tax office
+biuro podróży/travel agency
+rada/council
+kurier/courier
+optyk/opician
+adwokat/solicitor
+zakład pogrzebowy/undertaker
+reklama/advertisement
+billboard/billboard
+prospekt/brochure
+ogłoszenie drobne/classified ad
+reklama komercyjna/commercial
+konkurencyjne ceny/competitive prices
+ulotka/flier
+karta podarunkowa/gift card
+logo/logo
+punkty lojalnościowe/loyalty point
+kampania reklamowa/marketing campaign
+plakat/poster
+slogan/slogan
+oferta specjalna/special offer
+udział znanej osoby w reklamie/celebrity endorsement
+akwizycja przez telefon/cold calling
+lokowanie produktu/product placement
+rekomendacje użytkowników/user experience
+reklama wirusowa/viral advertising
+środki płatnicze/methods of payment
+transakcja bezdotykowa/contactless payment
+gotówką/in cash
+włożyć kartę/insert a card
+drobne/loose change
+wypłacić pieniądze/take money out
+wyciąg bankowy/bank statement
+pożyczyć od kogoś/borrow
+sprawdzić stan konta/check the balance
+pożyczyć komuś/lend
+wykonywać przelewy bankowe/make bank transfers
+oddać komuś pieniądze/pay sth back
+konto oszczędnościowe/savings account
+założyć coś/set sth up
+wziąć pożyczkę/take out a loan
+monety/coins
+kredyt/credit
+konto bieżące/current account
+dług/debt
+wpłata/deposit
+kurs wymiany walut/exchange rate
+oprocentowanie/interest rate
+pożyczka/loan
+kredyt hipoteczny/mortgage
+banknoty/notes
+konto oszczędnościowe/savings account
+stałe zlecenie/standing order
+ubezpieczenie/insurance
+być ubezpieczony od czegoś/be insured against sth
+otrzymać wycenę/get a quote
+obejmować coś/cover sth
+składka ubezpieczeniowa/premium
+czytać drobny druk/read the small print
+wykupić ubezpieczenie/take out insurance
+broker/broker
+prowizja/commision
+wszechstronna polisa ubezpieczeniowa/comprehensive insurance police
+fałszywe roszczenie/fraudulent claim
+firma ubezpieczeniowa/insurance company
+przedłużyć ubezpieczenie/renew your insurance
+odciąć coś/cout of sth
+poskutkować/do the trick
+wymienić coś/get a replacement
+uporać się z czymś/get through sth
+nic dziwnego/no wonder
+wybrać coś/pick out sth
+okazać się niemożliwym do spełnienia/prove impossible to do sth
+zdjąć coś szybko/pull of sth
+zacząc/start off
+spuchnąć/swell
+w międzyczasie/along the line
+wzrosnąć/be on the rise
+przygotować się do czegoś/build up to sth
+wiedza powszechna/common knowledge
+na wszelki wypadek/for all eventualities
+być oczywistym/go without saying
+podnieść/hike up
+najprawdopodobniej/in all likelihood
+nieść za sobą koszty/incur expenses
+wprowadzać na rynek/put on the market
+zarobić dużo pieniędzy/rake in
+złagodzić/temper
+uwielbiać/adore
+wyszukiwać/browse
+iść z kimś/come along with sb
+opinia klienta/customer feedback
+polować na promocje/hunt for bargains
+uważać/pay attention
+wybrać/pick
+nabyć/purchase
+polecić/recommend
+wymagać/require
+kupować podstawowe produkty/shop for needs
+towarzyszyć komuś/accompany sb
+sprowadzać się do czegoś/be down to sth
+porównując/by comparison
+grupowe zajęcia/collaborative activity
+zajęcia indywidualne/solitary activity
+sprzyjący czemuś/conducive to sth
+dostosować się do czegoś/conform to sth
+upewnić się/ensure
+być prawdziwym/hold true
+promienieć/raiate with sth
+sprzedawca detaliczny/retailer
+umocnić/strengthen
+celować w kogoś/target sb

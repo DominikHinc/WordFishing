@@ -132,9 +132,6 @@ public class OptionsScreen extends AbstractScreen {
     }
 
     private void initBgImage() {
-        //TODO Make better background
-        bgImage = new Image(game.getDefaultBg());
-        stage.addActor(bgImage);
     }
 
     @Override

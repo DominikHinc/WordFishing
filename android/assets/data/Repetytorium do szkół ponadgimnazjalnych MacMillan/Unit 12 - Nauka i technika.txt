@@ -1,0 +1,230 @@
+﻿ / 
+naukowcy/scientists
+dziedziny nauki/areas of science
+anatomia/anatomy
+archeologia/archaeology
+astronomia/astronomy
+biologia/biology
+biotechnologia/biotechnology
+chemia/chemistry
+informatyka/computer science
+ekologia/ecology
+ekonomia/economics
+inżynieria/engineering
+genetyka/genetics
+geologia/geology
+językoznawstwo/linguistics
+matematyka/mathematics
+meteorologia/meteorology
+oceanografia/oceanography
+filozofia/philosophy
+fizyka/physics
+psychologia/psychology
+socjologia/sociology
+statystyka/statistics
+naukowcy/scientists
+anatom/anatomist
+archeolog/archaeologist
+astronom/astronomer
+biolog/biologist
+biotechnolog/biotechnologist
+chemik/chemist
+informatyk/computer scientist
+ekolog/ecologist
+ekonomista/economist
+inżynier/engineer
+etnograf/ethnographer
+genetyk/geneticist
+geolog/geologist
+językoznawca/linguist
+matematyk/mathematician
+meteorolog/meteorologist
+oceanograf/oceanographer
+filozof/philosopher
+fizyk/physicist
+psycholog/psychologist
+socjolog/sociologist
+statystyk/statistician
+wynalazki/inventions
+odkrycia/discoveries
+badania naukowe/scientific research
+zaawansowana/advanced
+podstawowa/basic
+aktualna/current
+nowatorska/cutting-edge
+cyfrowa/digital
+innowacyjna/innovative
+wątpliwej jakości/low
+nowoczesna/modern
+przestarzała/outdate
+współczesna/present-day
+najnowsza/the latest
+aktualna/up-to-date
+inne/other
+analizować dowody/analyse the evidence
+prowadzić badania naukowe/carry out scientific research
+przeprowadzać eksperyment/perform an perform experiment
+zbierać dowody/collect the evidence
+projektować/desing
+sformułować hipotezę badawczą/formulate a hypothesis
+urządzenie/device
+odkrywać/discover
+odkrycie/discovery
+gadżet/gadget
+mieć pozytywny wpływ na coś/have a positive influence on sth
+wynaleźć/invent
+wynalazek/invention
+wynalazca/inventor
+szukać dowodów/look for the evidence
+robić różnicę/make a difference
+potwierdzać hipotezę badawczą/prove a hypothesis
+przeprowadzać testy/run scientific tests
+pracować w jakimś zawodzie/work as sb
+postęp/advancement
+urządzenie/appliance
+aplikacja/application
+stosować technologię/apply technology
+dojść do wniosku/reach a conclusion
+opierać sie na badaniach naukowych/be based on research
+wymyślić rozwiązanie/come up with a solution
+zbierać wyniki badań/compile findings
+prowadzić badania naukowe/undertake scientific research
+potwierdzać wyniki badań/confirm findings
+opracowywać lekarstwo/develop a cure
+rozwój/development
+odkryć lekarstwo/discover a cure
+odkrywanie/exploration
+przewidywania/predictions
+proponować rozwiązanie/put forward a solution
+ogłosić odkrycie/report findings
+szukać lekarstwa/seek a cure
+wykorzystywać technologię/take advantage of technology
+opracowywać rozwiązanie/work out a solution
+korzystanie z urządzeń technicznych/using technology
+aplikacja/app
+przeszukiwać Internet/browse the Internet
+przycisk/button
+ładować/charge
+łączyć się z Internetem/connect to the Internet
+pobierać/download
+elektryczna szczoteczka do zębów/electric toothbrush
+suszarka do włosów/hairdryer
+słuchawki/headphones
+instalować/install
+odinstalować/uninstall
+lampa/lamp
+żarówka/light bulb
+kuchenka mikrofalowa/microwave oven
+telefon komórkowy/mobile phone
+podłączać coś/plug in sth
+push/wciskać/press
+drukarka/printer
+włączać/switch on
+wyłączać/switch off
+dostać wiadomość tekstową/receive a text message
+pilot/remote control
+antena satelitarna/satellite dish
+nawigacja satelitarna/satnav
+wysłać wiadomość głosową/send a text Message
+przeglądać Internet/surf the Internet
+dotykać/touch
+podgłaśniać/turn up the volume
+przyciszać/turn down the volume
+odłączać/unplug sth
+koło/wheel
+napisać wiadomość tekstową/write a text message
+utylizować stare baterie/dispose of old batteries
+elektrośmieci/e-waste
+przedłużacz/extension lead
+łączyć się z Internetem/go online
+wkład z tuszem do drukarki/ink cartridge
+wpisywać coś/key in sth
+logować się/log on
+nie działać/malfunction
+gniazdko elektryczne/socket
+technologie informacyjno-komunikacyjne/information and communication technology
+załączać/attach
+robić kopię zapasową/back up
+pogrubienie/bold
+punktory/bullets
+wytnij/cut
+usuń/delete
+słuchawki do uszu/ear buds
+pamięć przenośna/flash drive
+nazwa czcionki/font name
+przekazywać dalej/forward
+kursywa/italics
+instructions/instrukcja/manual
+podkładka pod myszkę/mouse mat
+wklej/paste
+publikować w sieci/post
+przenośne źródło zasilania/power bank
+drukować/print
+odpowiadać na e-maila/reply to an email
+router/router
+zapisywać/save
+ekran/screen
+technika/technique
+technologia/technology
+podkreślenie/underline
+cofnij/undo
+aktualizować/update
+wysyłać do Internetu/upload
+wielkie litery/upper case
+małe litery/lower case
+strona w Internecie/website
+szerokopasmowe połączenie z internetem/broadband
+maniak komputerowy/computer geek
+natychmiastowe przesyłanie wiadomości/instant messaging
+wykonywać połączenie wideo/make video calls
+funkcja przewidywania tekstu/predictive texting
+prowadzić zajęcia przez Internet/run webinars
+transmitować coś na żywo/stream sth live
+awarie techniczne/technical failures
+być zepsutym/be out of order
+zepsuć się/break down
+ładowarka/charger
+wirus komputerowy/computer virus
+paść/crash
+zawiesić się/freeze
+włamywać się do systemu/hack into a system
+tracić połączenie z Internetem/lose Internet connection
+przerwa w dostawie prądu/power cut
+odzyskiwać dane/recover data
+rozładować się/run down
+kończyć się/run out of sth
+być jak nowy/be as good as new
+wrócić do nadawcy/bounce back
+chronić się przed kradzieżą tożsamości/protect oneself against identity fraud
+uruchamiać ponownie computer/reboot a computer
+arkusz kalkulacyjny/spreadsheet
+być samotnym/be lonely
+mieć z czymś związek/be related to sth
+starszy/elderly
+zgłoszenie/entry
+odłożyć coś na następny dzień/leave sth until tomorrow
+być rzeczą powszechnie znaną/be common knowledge
+zgadzać się z czymś/be on board with sth
+być w toku/be work in progress
+udzielać jasnych wskazówek/give explicit instructions
+wyjawiać/give sth away
+utrudniać/hamper
+trafić na pierwsze strony gazet/hit the headlines
+wymagać poprawek/need refinements
+wzajemne oskarżenia/recriminations
+niechęć/reluctance
+bez sięgania po coś/without recourse to sth
+stosować technologię/apple technology
+doświadczać czegoś w prawdziwym życiu/experience things hands-on
+przeprowadzać skomplikowane operacje/perform complex surgeries
+wydłużać ludzkie życie/prolong human life
+być zdolnym do czegoś/be capable of something
+być przed czymś postawionym/be faced with sth
+wykrywać oznaki przyszłych chorób/detect signs of oncoming diseases
+powstrzymywać rozwój czegoś/deter sth from developing
+dorównywać poprzednim pokoleniom/emulate the past generations
+polepszać geny/enhance genes
+urzeczywistnić wizję/materialise a vision
+dążyć do czegoś/strive for sth
+z zadowoleniem przyjmować osiągnięcie/welcom a development
+bardzo czegoś pragnąć/yearn for sth

@@ -1,0 +1,276 @@
+﻿ / 
+pogoda/weather
+klimat/climate
+jesień/autumn
+błękitne niebo/blue sky
+mroźny/chilly
+bezchmurne niebo/clear sky
+pochmurny/cloudy
+nieustający deszcz/constant rain
+stopnie Celsjusza/degrees Celsius
+gęsta mgła/heavy fog
+spaść do 5 stopni/drop to five degrees
+mglisty/foggy
+mróz/frost
+wzrastać/go up
+wysokie temperatury/high temperatures
+niskie temperatury/low temperatures
+silny wiatr/strong wind
+lodowaty/icy
+słaby deszcz/light rain
+silny deszcz/hard rain
+delikatny wietrzyk/light wind
+łagodny/mild
+bardzo pochmurny/overcast
+bardzo słonecznie/plenty of sunshine
+deszczowy/rainy
+dochodzić do 10 stopni/reach ten degrees
+deszczowy/showery
+śnieżny/snowy
+okres brzydkiej pogody/spell of bad weather
+wiosna/spring
+pozostaje ciepło/stay warm
+burzowy/stormy
+lato/summer
+słoneczny/sunny
+ciepły/warm
+wietrzny/windy
+zima/winter
+upalnie/baking
+wietrznie/blowy
+mżawka/drizzle
+bardzo wietrznie/gale-like
+fala upałów/heatwave
+lać/pour down
+orzeźwiający wietrzyk/refreshing breeze
+przelotny deszczyk/scattered shower
+skwar/scorcher
+rzęsity deszcz/torrential downpour
+upał nie do wytrzymania/unbearable heat
+roślina/plant
+gałąź/branch
+krzak/bush
+trawa/grass
+liść/leaf
+korzeń/root
+nasiona/seed
+gleba/soil
+drzewo/tree
+chwast/weed
+kora/bark
+kwiaty/blossom
+pąk/bud
+płatek/petal
+łodyga/stem
+kolec/thorn
+pień/trunk
+gałązka/twig
+nietoperz/bat
+pszczoła/bee
+ptak/bird
+motyl/butterfly
+jeleń/deer
+delfin/dolphin
+zwierzęta domowe/domestic animals
+osioł/donkey
+orzeł/eagle
+zwierzęta gospodarskie/farm animals
+ryba/fish
+mucha/fly
+lis/fox
+świnka morska/guinea pig
+owad/insect
+meduza/jellyfish
+jaszczurka/lizard
+ssak/mammal
+komar/mosquito
+ośmiornica/octopus
+sowa/owl
+papuga/parrot
+gołąb/pigeon
+niedźwiedź polarny/polar bear
+królik/rabbit
+szczur/rat
+gad/reptile
+łosoś/salmon
+konik morski/seahorse
+rekin/shark
+wąż/snake
+łabądź/swan
+pstrąg/trout
+żółw/turtle
+zwierzęta wodne/water animals
+wieloryb/whale
+dzikie zwierzęta/wild animals
+wilk/wolf
+płaz/amphibian
+dziób/beak
+ptak drapieżny/bird of prey
+szpon/claw
+pióro/feather
+płetwa/fin
+kopyto/hoof
+grzywa/mane
+łapa/paw
+drapieżnik/predator
+gryzoń/rodent
+łuska/scale
+ogon/tail
+wąś/whisker
+skrzydło/wing
+krajobraz/landscape
+jaskinia/cave
+klif/cliff
+wybrzeże/coast
+rafa koralowa/coral reef
+pustynia/desert
+pole/field
+wioska rybacka/fishing village
+płynąć/flow
+las/forest
+wzgórze/hill
+wyspa/island
+dżungla/jungle
+jezioro/lake
+góra/mountain
+szczyt góry/mountain peak
+przyroda/nature
+ocean/ocean
+ścieżka/path
+las deszczowy/rainforest
+rzeka/river
+droga/road
+szlak/route
+krajobraz/scenery
+morze/sea
+brzeg/shore
+strumień/stream
+dolina/valley
+wulkan/volcano
+wodospad/waterfall
+mały las/wood
+zagrożenia środowiska/environmental threats
+kwaśne deszcze/acid rain
+powodować zniszczenine czegoś/cause destruction to sth
+zmiana klimatu/climate change
+gatunek zagrożony wyginięciem/endangered species
+problem środowiska/environmental problem
+wymarły gatunek/extinct species
+globalne ocieplenie/global warming
+efekt cieplarniany/greenhouse effect
+topniejące lodowce/melting ice caps
+przeludnienie/overpopulation
+warstwa ozonowa/ozone layer
+podnoszący się stan wód/rising sea levels
+stanowić zagrożenie dla czegoś/threaten sth
+jakość powietrza/air quality
+być zagrożonym wyginięciem/be in danger of extinction
+wyczerpywać/deplete
+spaliny/exhaust fumes
+wyrzucanie śmieci/fly-tipping
+paliwo kopalne/fossil fuel
+wytwarzać energię elektryczną/generate energy
+wysypisko śmieci/landfill site
+naturalne siedlisko/natural habitat
+toksyczne odpady/toxic waste
+nienadający się do zamieszkania/uninhabitable
+unikać korzystania z plastikowych torebek/avoid using plastic bags
+zabronić stosowania środków owadobójdczych/ban pesticides
+budować ścieżki rowerowe/build bike routes
+rozwijać odnawialne źródła energii/develope renewable energy sources
+tankować samochód paliwem bezołowiowym/fill the car up with unleaded petrol
+zaangażować się w ochronę przyrody/get involved in wildlife consercation
+inwestować w energię słoneczną/invest in solar energy
+poddawać odpady recyklingowi/recycle waste
+korzystać z transportu publicznego/use public transport
+ograniczać coś/cut down on sth
+zrezygnować z czegoś/give up on sth
+troszczyć się o coś/look after sth
+skończyć się/run out of sth
+segregować odpady/sort out rubbish
+wyrzucić/throw away
+wyłączyć/turn off
+klęski żywiołowe/natural disasters
+lawina/avalanche
+susza/drought
+trzęsienie ziemi/earthquake
+powódź/flood
+pożar lasu/forest fire
+huragan/hurricane
+tsunami/tsunami
+erupcja wulkanu/volcanic eruption
+chmura pyłu wulkanicznego/ash cloud
+być uwięzionym pod gruzami/be trapped in the rubble
+śnieżyca/blizzard
+zdmuchnąć coś z powierzchni ziemi/blow sth off
+wylewać/burst its banks
+powodować pęknięcia nawierzchni dróg/cause cracks in a road
+niszczyć pola uprawne/destroy crops
+klęska głodu/famine
+burza gradowa/hailstorm
+osuwisko/landslide
+mieć siłę 5 stopni w skali Richtera/measure five on the Richter scale
+uchodźca/refugee
+uratować kogoś/rescue sb
+głodujący/starving
+fala pływowa/tidal wace
+wstrząs/tremor
+trąba powietrzna/twister
+przestrzeń kosmiczna/The Universe
+astronauta/astronaut
+Ziemia/Earth
+Jowisz/Jupiter
+wylądować na Księżycu/land on the Moon
+wystrzelić coś w przestrzeń kosmiczną/launch sth into space
+Mars/Mars
+Merkury/Mercury
+Neptun/Neptune
+umieścić coś na orbicie/put sth into orbit
+satelita/satellite
+Saturn/Saturn
+prom kosmiczny/space shuttle
+stacja kosmiczna/space station
+turystyka kosmiczna/space tourism
+Uran/Uranus
+Wenus/Venus
+głęboki na stopę/a foot deep
+urodzinowa niespodzianka/birthday treat
+posprzątać/clear up
+nieustanny powód do zmartwień/constant worry
+przystawać na coś/go along with sth
+ślizgawica/icy conditions
+w perspektywie/in sight
+być czymś zapchanym/be clogged with sth
+w złym stanie/beaten-up
+szczątki/debris
+wyraźny cel/express purpose of sth
+patrzeć na kogoś ze złością/give sb filthy look
+brutalnie szczera relacja dotycząca czegoś/gritty account of sth
+wywoływać efekt domina/have a knock-on effect on sth
+mieć na coś katastrofalny wpływ/have catastrophic results on sth
+zanieczyszczenie powietrza/air pollution
+jakość powietrza/air quality
+problemy z oddychaniem/breathing difficulties
+ogromny powód do zmartwień/great cause for concern
+szkodliwy/harmful
+ogrzewać dom/heat up your house
+paliwo opałowe/heating fuel
+średnia długość życia/life expectancy
+trujący/poisonous
+region/region
+miejscowość uzdrowniskowa/spa town
+niepokojący/worrying
+odświeżacz powietrza/air freshener
+być na coś wystwionym/be exposed to sth
+przestać coś robić/cease to do sth
+środek czyszczący/cleaning agent
+zaskakiwać/come in for a surprise
+rosnący niepokój/growing concern
+wdychać/inhale
+ograniczać coś do minimum/keep sth to minimum
+źródło zanieczeszczeń/pollutant
+wydobywać się/spew out sth
+przychodzić na myśle/spring to mind
+/
+/
+/

@@ -1,0 +1,280 @@
+﻿ / 
+środki transporty/means of transport
+autobus/bus
+kajak/canoe
+autokar/coach
+prom/ferry
+kuter rybacki/fishing boat
+helikopter/helicopter
+balon na gorące powietrze/hot-air balloon
+ciężarówka/lorry
+motocykl/motorbike
+samolot/plane
+hulajnoga/scooter
+statek/ship
+statek kosmiczny/spaceship
+motorówka/speedboat
+pociąg/train
+tramwaj/tram
+furgonetka/van
+jacht/yacht
+ciężarówka z naczepą/articulated lorry
+kolejka linowa/cable car
+statek wycieczkowy/cruise liner
+autobus piętrowy/double-decker
+samochód z napędem na cztery koła/four-by-four
+lotnia/hang-glider
+żaglówka/sailing boat
+wyciąg narciarski/ski lift
+samochód sportowy/sports car
+terminal pasażerski na lotnisku/airport terminal
+przystanek autobusowy/bus stop
+parking/car park
+stanowisko odprawy/check-in desk
+stacja rowerów miejskich/city bike station
+dworzec autobusowy/coach station
+hala odlotów/departure lounge
+sklep w strefie bezcłowej/duty-free shop
+terminal promowy/ferry terminal
+cel podróży/final destination
+bramka/gate
+stanowisko informacji/information desk
+pas ruchu/lane
+przejazd kolejowy/level crossing
+autostrada/motorway
+poczekalnia/passenger waiting room
+przejście dla pieszych/pedestrian crossing
+stacja benzynowa/petrol statin
+platforma/platform
+stacja kolejowa/train station
+rondo/roundabout
+pas startowy/runway
+postój taksówek/taxi rank
+kasa biletowa/ticket office
+punkt poboru opłat/tollbooth
+tor kolejowy/track
+przedział w pociągu/train compartment
+tunel/tunnel
+stacja metra/underground station
+pytać o drogę/ask for directions
+punkt odbioru bagażu/baggage reclaim
+wejść na pokład samolotu/board a plane
+karta pokładowa/boarding pass
+złapać pociąg/catch a train
+przesiąść się do innego pociągu/change trains
+przejść przez odprawę/check in
+czas odjazdu i przyjazdu/departure and arrival time
+stewardessa/flight attendant
+dojechać od domu/get home
+zgubić się/get lost
+wysiąść/get off
+podwieźć kogoś/give somebody a lift
+przejść przez/go through
+wylądować/land
+odjechać/leave
+spóźnić się na pociąg/miss a train
+wczasy zoorganizowane/package holiday
+kontrola paszportowa/passport control
+znak drogowy/road sign
+prace drogowe/roadworks
+bezpieczne lądowanie/safe landing
+bilet okresowy/season ticket
+wystartować/take off
+kontroler biletów/ticket inspector
+biletomat/ticket machine
+korek uliczny/traffic jam
+sygnalizacja świetlna/traffic lights
+odwołać rezerwację/cancel a booking
+podwieźć kogoś/drop somebody off
+zatankować do pełna/fill up
+przyjechać/get in
+utknąć w/get stuck in
+złapać gumę/have a puncture
+przestrzegać ograniczenia prędkości/keep to the speed limit
+przyjechać po kogoś/pick somebody up
+przyjechać na czas/run on time
+godziny szczytu/rush hour
+zwolnić/slow down
+przyśpieszyc/speed up
+wylądować/touch down
+mieć zapięty pas bezpieczeństwa/wear a seat belt
+informacja turystyczna/tourist information
+zakwaterowanie/accomadation
+opłata za wstęp/admission charge
+broszura/brochure
+wydarzenie/event
+ulotka/leaflet
+godziny otwarcia/opening and closing time
+ciekawe miejsce/place of interest
+parki krajobrazowe/places of natural beauty
+pocztówka/postcard
+wycieczka ze zwiedzaniem/sightsseing tour
+pamiątka/souvenir
+baza noclegowa/accommodation
+pensjonat oferujący noclegi ze śniadaniem/bed and breakfast
+zarezerwować z wyprzedzenie/book in advance
+chata/cabin
+samochód kempingowy/camper van
+kemping/campsite
+przyczepa kempingowa/caravan
+z łazienką/en suite
+pensjonat/guest house
+luksusowy/posh
+rozbić namiot/put up a tent
+wynajać domek/rent a cottage
+miejscowość wypoczynkowa/resort
+z własnym wyżywieniem/self-catering
+pokój jednoosbowy/single room
+wolny pokój/vacancy
+z widokiem na morze/with a sea view
+schronisko młodzieżowe/youth hostel
+wycieczki/excursions
+zwiedzanie/sightseeing
+aktywny wypoczynek/adventure holiday
+wędóweka z plecakiem/backpacking holiday
+wczasy nad morzem/beach holiday
+którki wyjazd turystyczny do dużego miasta/city break
+przeprawa/crossing
+rejs wycieczkowy/cruise
+wycieczka/excursion
+podróż/journey
+wycieczka objazdowa/tour
+podróżować/travel
+krótka podróż/trip
+rejs/voyage
+wakacje zimowe/winter holiday
+ wczasy all-inclusive/all-inclusive holiday
+wspaniały widok/amazing view
+starożytne ruiny/ancient ruins
+widok zapierający dech w piersiach/breathtaking view
+tani lot/budget flight
+zrelaksować się/chill out
+ochłodzić się/cool off
+bezpośredni lot/direct flight
+badać/explore
+dodatkowe koszty/extras
+wycieczka z przewodnikiem/guided tour
+sezon wakacyjny/high season
+historyczne ruiny/historical ruins
+podróżować/hitchhike
+długi lot/long-haul flight
+robić plany/make arrangements
+wysoka temperatura/melting temperature
+pełen turystów/packed with tourists
+kamienista plaża/pebbly beach
+piaszczysta plaża/sandy beach
+skwar/scorching temperature
+oszałamiający widok/stunning view
+organizator imprez turystycznych/tour operator
+podróżować za granicę/travel abroad
+biuro podróży/travel agnecy
+podróżować w pierwszej klasie/travel first class
+podróżować swobodnie/travel freely
+przemysł turystyczny/travel industry
+ubezpieczenie turystyczne/travel insurance
+plan podróży/travel itinerary
+podróżować z niewielkim bagażem/travel light
+podróżować na północ/travel north
+podróżować przy ograniczonym budżecie/travel on a tight budget
+plany na podróż/travel plans
+wracać z podróży/travel return
+choroba lokomocyjna/travel sickness
+podróżować w pojedynkę/travel solo
+czas podróży/travel time
+podróżować w odległe miejsca/travel widely
+pisarz podróżniczy/travel writer
+nieznośnie wysoka temperatura/unbearably hot temperature
+dziewicza plaża/unspoilt beach
+dobrze zachowane ruiny/well-preserved ruins
+wypadek/accident
+mieć chorobę morską/be seasick
+zepsuć się/break down
+wezwać pogotowie/call an ambulance
+rozbić się/crash
+utonąć/drown
+szpitalny oddział ratunkowy/emergency unit
+dostać mandat za zbyt szybką jazdę/get a speeding ticket
+spalić się na słońcu/get sunburnt
+ratownik/lifeguard
+kamizelka ratunkowa/lifejackte
+uratować/rescue
+ukraść coś/steal something
+przeżyć/survive
+zostać potrąconym/be knocked down
+zostać przejechanym/be run over
+stłuczka/bump
+katastrofa/catastrophe
+ofiara śmiertelna/fatality
+czołowe zderzenie/head-on collision
+ranny/injured
+katastrofa lotnicza/plane crash
+zatonąć/sink
+radzić sobie z czymś/deal with something
+doprowadzić kogoś do szału/drive somebody mad
+działać komuś na nerwy/get on somebody's nerves
+zacząć coś/go ahead with something
+zdecydować się na coś/go for something
+wypaść z branży/go out of business
+świetnie się bawić/have a ball
+natrzeć/lather
+narzekać/moan
+chłonąć słońce/soak up the sun
+sąsiadujący/adjacent
+przystępność ceny/affordability
+czystość/cleanliness
+oczekiwania/expectations
+niedogodność/inconvenience
+utrzymanie/maintenanace
+robić hałas/make a racket
+stłumić/muffle
+cisza i spokój/peace and quiet
+skrupuły/qualms
+pytać/query
+harmider/racket
+poszukiwacz przygód/adventurer
+uzyskać wizę/arrange a visa
+odwaga/bravery
+pobić rekord/break the record
+radzić sobie z czymś/cope with something
+trudność/difficulty
+zmierzyć się z czymś/face up to something
+poszerzyć horyzonty/gain a new perspectives
+rozwinąć się/grow as a person
+opuścić strefę komfortu/leave somebody's comfort zone
+zaplanować podróż/plan an itinerary
+zastanowić się nad czymś/reflect on sth
+zrewolucjonizować/revolutionise
+uodpornić się/toughen up
+podróżnik/traveller
+nieoczekiwany/unexpected
+wzbudzić czyjeś zainteresowanie/arouse somebody's interests
+być pozbawionym snu/be deprived of sleep
+urzeczywistnić się/come true
+podjąć nowe wyzwanie/embark on a new challenge
+odkrywać świat/explore the world
+dwa tygodnie/fortnight
+sfinansować wycieczkę/fund a trip
+pozyskać sponsora/get a sponsorship
+poddać się/give up
+mieć odwagę/have the guts
+życiowe ambicje/long-held ambitions
+stanowić wyzwanie/present a challenge
+dokończyć projekt/see a project through
+odwiedzić miejsce/set foot in a place
+budzący respekt/awe-inspiring
+wspaniały/awesome
+rozległy/extensive
+fantastyczny/fabulous
+hojny/generous
+gigantyczny/gigantic
+imponujący/impressive
+wystawny/lavish
+wspaniały/magnificent
+cudowny/marvellous
+masywny/massive
+cudowny/miraculous
+mityczny/mythical
+wybitny/oustanding
+przytłaczający/overwhelming
+obfity/plentiful
+nierealny/unreal

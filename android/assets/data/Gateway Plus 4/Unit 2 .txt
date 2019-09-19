@@ -1,0 +1,118 @@
+﻿ / 
+dyrektor banku/﻿bank manager
+rolnik/farmer
+strażak/firefighter
+górnik/miner
+pielęgniarka/nurse
+osobisty asystent/personal assistant
+pilot/pilot
+woźny/school caretaker
+socjolog/sociologist
+programista/software designer
+nauczyciel/teacher
+warunki/conditions
+pracować na zmiany/do shift work
+ruchomy czas pracy/flextime
+od 9 do 17/from nine to five
+na pełen etat/full-time
+wewnątrz/indoors
+długo/long hours
+fizyczna/manual
+zewnętrzna na zewnątrz/outdoors
+w godzinach naliczonych/overtime
+w niepełnym wymiarze godzin/part-time
+kwalifikacje/qualifications
+samozatrudniony/self-employed
+stresujący/stressful
+dobrze płatny/well-paid
+zakwaterowanie/accommodation
+ubiegać się o prace/apply for a job
+wykres słupkowy/bar graph
+zwolninym/be fired,sacked,dismissed
+otrzymać oferte pracy/be offered a job
+stać się bezrobotnym/become unemployed
+zostać zwolnionym/be made redundant
+zachowywać się/behave
+ugryżć/bite
+szef/boss
+kandydat/candidate
+kanał telewizyjny/channel
+narzekać/complain
+tłum/crowd
+zajmować się/deal with
+rozproszenie/distraction
+prawo jazdy/driving licence
+zarabiać/earn
+recesja gospodarcza/economic recession
+wykształcony/educated
+pracownik/employee
+doświadczenie/experience
+wypełniać/fill in
+elastyczny/flexible
+na przykład/for instance
+ponadto/furthermore
+wyprzedzić innym/get ahead
+działać komuś na nerwy/get on somebody's nerves
+dostać awans/get promotion
+wózek golfowy/golf buggy
+teren/ground
+nagłówek/headline
+jednakże/however
+pośpiech/hurry
+w dodatku/in addition
+incydent/incident
+meduza/jellyfish
+nie szczędzić wysiłków/keep at it
+trwać/last
+wykres liniowy/line graph
+miejsce/location
+szukać pracy/look for a job
+luksus/luxury
+modelowy/model
+niemniej jednak/nevertheless
+na podstawie/on the basis of
+struś/ostrich
+papierowa robota/paperwork
+pasażer/passenger
+wykres kołowy/pie chart
+konferencja prasowa/press conference
+promować/promote
+promocyjny/promotional
+odpowiednio/properly
+cytat/quote
+zdierać/raise
+zrezygnowac/resign
+odpowiedzialny za/responsible for
+przejść na emeryture/retire
+śmieci/rubbish
+pensja/salary
+zakładać/set up
+dzielić/share
+pojedyńczy/single
+przemoczony/soaking wet
+rozwiązać/solve
+zapasowy/spare
+ukąszenie/sting
+podsumować/sum up
+wymagający kwalifikacji/skilled
+przejmować/take over
+krawat/tie
+przewodnik/tour guide
+szkolenie/training
+wędrować/trek
+odrzucać/turn down
+otwierać/unlock
+przesyłać dane/upload
+willa/villa
+broń/weapon
+co więcej/what is more
+pracować nad/work on
+wypalić się/burn out
+podliczyć utarg/cash up
+nadganiać zaległości/knuckle down
+zwolnić/lay off
+dotrzymywać terminów/meet deadlines
+fizyczny/menial
+prowadzić firme/run a business
+wziąć wolny dzień/take a day off
+pracować w domu/work from home

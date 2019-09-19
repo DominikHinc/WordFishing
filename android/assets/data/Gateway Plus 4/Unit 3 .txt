@@ -1,0 +1,93 @@
+﻿ / 
+asteroida/﻿asteroid
+astronauta/astronaut
+astronom/astronomer
+drugi pilot/co-pilot
+kosmos/cosmos
+załoga/crew
+grawitacja/gravity
+lądować/land
+lądowanie/landing
+wystrzelić/lauch
+sztuczny satelita/man-made satellite
+meteoryt/meteorite
+misja/mission
+naturalny sateltita/natural satellite
+orbita/orbit
+prom kosmiczny/space shuttle
+stacja kosmiczna/space station
+statek kosmiczny/space craft
+teleskop/telescope
+wszechświat/universe
+spotkanie/appointment
+atmosfera/atmosphere
+rozpad/breakup
+reakcja łańcuchowa/chain reaction
+zderzyć się/collide
+zasiedlić/colonise
+współpracować/cooperate
+zniszczyć/damage
+szczątki/debris
+zniszczyć/destroy
+unieruchomić/disable
+wada/disadvantage
+nie zgadzać się/disagree
+zniknąć/disappear
+być nieposłusznym/disobey
+upuścić/drop
+spotkanie/encounter
+niezbędny/essential
+były prezydent/ex-president
+śmiertelny/fatal
+fragment/fragment
+rękawiczka/glove
+nielogiczny/illogical
+niecierpliwy/impatient
+niemożiwy/impossible
+nieprawdopodobny/improbable
+bez pośpiechu/in no hurry
+podróż/travel
+wycieczka/tour
+układ słoneczny/solar system
+antena sateitarna/satellite dish
+rakieta/rocket
+obserwatorium/observatory
+galaktyka/galaxy
+lot/flight
+ekspedycja/expedition
+wycieczka/excursion
+wyprawa/voyage
+niezwykły/unusual
+zakończony niepowodzeniem/unsuccessful
+niemożliwy do zatrzymania/unstoppable
+niepotrzebny/unnecessary
+nieprawdopodobnie/unlikely
+nieoczekiwany/unexpected
+niedostatecznie wynagrodzony/underpaid
+niedoceniony/underestimate
+niewiarygodny/unbelievable
+błahy/trivial
+wycieczka/trip
+przepisać/rewrite
+ponowne wejście/re-entry
+wejść ponownie/re-enter
+jeszcze raz rozważyć/reconsider
+prehistoryczny/prehistoric
+w ciąży/pregnant
+przewidywać/predict
+magistrant/postgraduate
+po 1990 roku/post-1990
+przludniony/overpopulated
+przepełniony/overbooked
+naturalne bogactwa naturalne/natural resources
+źle zrozumieć/misunderstand
+błędnie obliczyć/miscalculate
+załogowy/manned
+śmieci/junk
+podróż/journey
+nieodpowiedzialny/irresponsible
+nieregularny/irregular
+niewidzialny/invisible
+międzynarodowy/international
+niekompletny/incomplete
+niezdolny/incapable

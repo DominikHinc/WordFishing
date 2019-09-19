@@ -20,8 +20,8 @@ public class GoBackButtonCreator {
         buttonStyle.up = buttonUp;
         buttonStyle.down = buttonUp;
         buttonToReturn = new Button(buttonStyle);
-        buttonToReturn.setHeight(66*2);
-        buttonToReturn.setWidth(93*2);
+        buttonToReturn.setHeight(66*2*WordFishing.SCALE);
+        buttonToReturn.setWidth(93*2*WordFishing.SCALE);
         buttonToReturn.setOrigin(buttonToReturn.getWidth() / 2 , buttonToReturn.getHeight() / 2);
         buttonToReturn.setPosition(buttonToReturn.getWidth() / 3, game.SCREEN_HEIGHT-buttonToReturn.getHeight() * 1.5f);
 

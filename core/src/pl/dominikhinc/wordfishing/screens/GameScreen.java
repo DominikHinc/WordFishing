@@ -36,12 +36,10 @@ import pl.dominikhinc.wordfishing.service.SplitText;
 
 public class GameScreen extends AbstractScreen implements Input.TextInputListener {
 
-    private Image bgImage;
     private GoBackButtonCreator goBackButtonCreator;
     private Button goBackButton;
     private Question question;
     private Skin skin;
-    private Skin skin2;
     private String text;
     private ArrayList<Question> questionArrayList;
     private ArrayList<String> answerArrayList;
@@ -53,10 +51,11 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private LoadQuestionsAndAnswers loadQuestionsAndAnswers;
     private boolean givenAnswer;
     private TextField textField;
-    private Texture correctAnswer, wrongAnswer, defaultBg;
     private String choosenBook;
     private Button sendButton;
     private String folder;
+    private Label answerReaction;
+
 
     private boolean isTextInputOpened = false;
 
@@ -78,9 +77,14 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
         createQuestion();
         createLastQuestion();
         initTextField();
+        initAnswerReacion();
         //setNotifications();
     }
 
+    private void initAnswerReacion() {
+        answerReaction = new Label("",skin,"gibson");
+        stage.addActor(answerReaction);
+    }
 
 
     @Override
@@ -105,16 +109,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void loadSkin() {
         skin = game.getSkin();
-        skin2 = game.getSkin2();
     }
 
     private void initBgImage() {
-        //TODO Make better background
-        defaultBg = game.getDefaultBg();
-        correctAnswer = game.getCorrectAnswer();
-        wrongAnswer = game.getWrongAnswer();
-        bgImage = new Image(defaultBg);
-        stage.addActor(bgImage);
+
     }
     private void initAnswerButtons() {
         if(game.isTextInput() == false){
@@ -154,16 +152,16 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void initTextField() {
         if(game.isTextInput() == true){
             textField = new TextField("",game.getSkin());
-            textField.setSize(700,100);
+            textField.setSize(700*WordFishing.SCALE,100*WordFishing.SCALE);
             textField.setPosition(game.SCREEN_WIDTH/2-textField.getWidth()/2,game.SCREEN_HEIGHT/2-textField.getHeight());
             stage.addActor(textField);
 
             Button.ButtonStyle buttonStyle = new Button.ButtonStyle();
-            TextureRegionDrawable textureRegionDrawable = new TextureRegionDrawable(new TextureRegion(new Texture("arrow-alt-right.png")));
+            TextureRegionDrawable textureRegionDrawable = new TextureRegionDrawable(new TextureRegion(game.assetManager.get("arrow-alt-right.png",Texture.class)));
             buttonStyle.up = textureRegionDrawable;
             buttonStyle.down = textureRegionDrawable;
             sendButton = new Button(buttonStyle);
-            sendButton.setSize(100,100);
+            sendButton.setSize(100*WordFishing.SCALE,100*WordFishing.SCALE);
             sendButton.setPosition(textField.getX()+textField.getWidth(),textField.getY());
             sendButton.addListener(new ClickListener() {
                 public void clicked(InputEvent event, float x, float y) {
@@ -193,10 +191,10 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
 
     private void createLastQuestion() {
         if(game.isComplex() == false){
-            lastQuestion = new Question("Press anywhere to go back to main menu","",skin2,game);
+            lastQuestion = new Question("Press anywhere to go back to main menu","",skin,game);
         }
         if(game.isComplex() == true){
-            lastQuestion = new Question("Press anywhere to continue to second part","",skin2,game);
+            lastQuestion = new Question("Press anywhere to continue to second part","",skin,game);
         }
 
     }
@@ -213,7 +211,7 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     }
 
     private void initQuestionList() {
-        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin2, game,choosenBook,folder);
+        loadQuestionsAndAnswers = new LoadQuestionsAndAnswers(skin, skin, game,choosenBook,folder);
         questionArrayList = loadQuestionsAndAnswers.getQuestionArrayList();
         questionArrayList.remove(0);
         //arraySize = questionArrayList.size();
@@ -238,18 +236,22 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void checkAnswerButtons() {
         if (givenAnswer == true) {
             correctAnswer();
+
             question.setCorrectAnswersToGo(question.getCorrectAnswersToGo() - 1);
             if(question.getCorrectAnswersToGo() < 1){
                 questionArrayList.remove(currentQuestionIndex);
+
+            }
+            if(questionArrayList.isEmpty() == true){
+                displayEndScreen();
+            }else{
+                createQuestion();
             }
         } else {
             wrongAnswer();
+            displayWrongAnswerLabel();
         }
-        if(questionArrayList.isEmpty() == true){
-            displayEndScreen();
-        }else{
-            createQuestion();
-        }
+
 
     }
     private void checkAnswerText(){
@@ -294,10 +296,15 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
             SplitText splitText = new SplitText();
             correctAnswer = splitText.splitText(23,correctAnswer);
         }
-        Label.LabelStyle labelStyle = new Label.LabelStyle(game.getFontRed(),new Color(225,73,70,1));
-        final Label label = new Label(correctAnswer,labelStyle);
-        label.setFontScale(1.5f);
-        label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2*1.5f,game.SCREEN_HEIGHT/4);
+        final Label label = new Label(correctAnswer,skin,"wrong");
+        label.setColor(0.9f, 0.1f, 0.1f,1);
+        if(game.isTextInput()){
+            label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2,game.SCREEN_HEIGHT/4);
+        }else{
+            label.setPosition(game.SCREEN_WIDTH/2-label.getWidth()/2,game.SCREEN_HEIGHT/2 - label.getHeight());
+        }
+
+
         stage.addActor(label);
         Timer.schedule(new Timer.Task() {
             @Override
@@ -379,28 +386,60 @@ public class GameScreen extends AbstractScreen implements Input.TextInputListene
     private void wrongAnswer() {
         question.shake();
         float delay;
-        if(game.isTextInput() == true){
+       // if(game.isTextInput() == true){
             delay = 3;
-        }else{
-            delay = 1.5f;
+       // }else{
+        //    delay = 1.5f;
+        //}
+        currentColor.set(0.735f, 0.052f, 0.052f,1);
+        answerReaction.setText("WRONG");
+        answerReaction.setPosition(question.getX() + question.getWidth()/4,question.getY()-answerReaction.getHeight()-60);
+        answerReaction.setColor(0.9f, 0.1f, 0.1f,1);
+        if(answerButtonList != null && !answerButtonList.isEmpty()) {
+            for (Answer answer : answerButtonList) {
+                answer.setTouchable(Touchable.disabled);
+            }
         }
-        bgImage.setDrawable(new SpriteDrawable(new Sprite(wrongAnswer)));
         Timer.schedule(new Timer.Task() {
             @Override
             public void run() {
-                bgImage.setDrawable(new SpriteDrawable(new Sprite(defaultBg)));
+                shuffleColor();
+                answerReaction.setText("");
+                if(game.isTextInput() == false){
+                    createQuestion();
+                }
+                if(answerButtonList != null && !answerButtonList.isEmpty()) {
+                    for (Answer answer : answerButtonList) {
+                        answer.setTouchable(Touchable.enabled);
+                    }
+                }
             }
         }, delay);
     }
 
     private void correctAnswer() {
-        bgImage.setDrawable(new SpriteDrawable(new Sprite(correctAnswer)));
+        currentColor.set(0.052f, 0.535f, 0.095f,1);
+        answerReaction.setText("CORRECT");
+        answerReaction.setPosition(question.getX()+ question.getWidth()/6,question.getY()-answerReaction.getHeight()-60);
+        answerReaction.setColor(0.1f, 0.7f, 0.1f,1);
+        if(answerButtonList != null && !answerButtonList.isEmpty()){
+            for(Answer answer: answerButtonList){
+                answer.setTouchable(Touchable.disabled);
+            }
+        }
+
         Timer.schedule(new Timer.Task() {
             @Override
             public void run() {
-                bgImage.setDrawable(new SpriteDrawable(new Sprite(defaultBg)));
+                shuffleColor();
+                answerReaction.setText("");
+                if(answerButtonList != null && !answerButtonList.isEmpty()) {
+                    for (Answer answer : answerButtonList) {
+                        answer.setTouchable(Touchable.enabled);
+                    }
+                }
             }
-        }, 1.5f);
+        }, 1f);
     }
 
     public void input(String text) {

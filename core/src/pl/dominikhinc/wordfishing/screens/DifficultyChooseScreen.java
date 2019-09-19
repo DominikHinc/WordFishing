@@ -1,7 +1,10 @@
 package pl.dominikhinc.wordfishing.screens;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -32,6 +35,9 @@ public class DifficultyChooseScreen extends AbstractScreen {
     private Slider slider;
     private Label sliderCount;
     private String folder;
+    private CheckBox personalListCheckBox;
+    private TextButton configPersonalList;
+    private Label isCreatedLabel;
 
     public DifficultyChooseScreen(WordFishing game, String s, String folder) {
         super(game);
@@ -48,20 +54,60 @@ public class DifficultyChooseScreen extends AbstractScreen {
        // initTest();
         NotificationUpdate();
         initChooseButtons();
+        initConfigPersonalListButton();
         initChooseButtonsListeners();
         initTimeSinceCompletedLabel();
         initTextInputCheckBox();
         initSlider();
         initSliderCountLabel();
-
+        initPeronalListCheckBox();
+        initIsCreatedLabel();
     }
 
-    private void initTest() {
-        int lib = (game.getPreferences().getInteger(choosenBook+"days")+2)*86400;
-        long xd = (TimeUtils.millis() - game.getPreferences().getLong(choosenBook+".TimeWhenCompleted"))/1000;
-        Label label = new Label(String.valueOf(xd) +" > "+ String.valueOf(lib),game.getSkin());
-        stage.addActor(label);
+    private void initIsCreatedLabel() {
+        isCreatedLabel = new Label("Lista nie została stworzona",game.getSkin());
+        FileHandle file = Gdx.files.local("personal/"+folder+"/"+choosenBook+".txt");
+        if(file.exists()){
+            isCreatedLabel.setColor(0.1f, 0.7f, 0.1f,1);
+            isCreatedLabel.setText("Lista została storzona");
+        }else{
+            isCreatedLabel.setColor(0.9f, 0.1f, 0.1f,1);
+            isCreatedLabel.setText("Lista nie została stworzona");
+            personalListCheckBox.setChecked(false);
+            game.isPersonalList = personalListCheckBox.isChecked();
+            game.getPreferences().putBoolean(WordFishing.personalListUse,game.isPersonalList);
+            game.getPreferences().flush();
+            personalListCheckBox.setTouchable(Touchable.disabled);
+        }
+        isCreatedLabel.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/24);
+        stage.addActor(isCreatedLabel);
     }
+
+    private void initConfigPersonalListButton() {
+        configPersonalList = new TextButton("Utwórz własną liste",game.getSkin());
+        configPersonalList.getLabel().setWrap(true);
+        configPersonalList.setSize(306*WordFishing.SCALE,170*WordFishing.SCALE);
+        configPersonalList.setPosition(WordFishing.SCREEN_WIDTH - WordFishing.SCREEN_WIDTH/8-configPersonalList.getWidth(),WordFishing.SCREEN_HEIGHT/12);
+        stage.addActor(configPersonalList);
+    }
+
+    private void initPeronalListCheckBox() {
+        personalListCheckBox = new CheckBox("   Użyj listy własnej",game.getSkin());
+        personalListCheckBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/12);
+        personalListCheckBox.getImage().setOrigin(personalListCheckBox.getImage().getWidth()/2,personalListCheckBox.getImage().getHeight()/2);
+        personalListCheckBox.getImage().setScale(3*WordFishing.SCALE);
+        personalListCheckBox.setChecked(game.getPreferences().getBoolean(WordFishing.personalListUse));
+        personalListCheckBox.addListener(new ChangeListener() {
+            @Override
+            public void changed (ChangeListener.ChangeEvent event, Actor actor) {
+                game.isPersonalList = personalListCheckBox.isChecked();
+                game.getPreferences().putBoolean(WordFishing.personalListUse,game.isPersonalList);
+                game.getPreferences().flush();
+            }
+        });
+        stage.addActor(personalListCheckBox);
+    }
+
 
     private void NotificationUpdate() {
         if(game.getPreferences().getInteger(choosenBook+"days") != 0 && game.getPreferences().getLong(choosenBook+".TimeWhenCompleted") != 0){
@@ -75,15 +121,15 @@ public class DifficultyChooseScreen extends AbstractScreen {
 
     private void initSliderCountLabel() {
         sliderCount = new Label("",game.getSkin());
-        sliderCount.setPosition(game.SCREEN_WIDTH/14 + slider.getWidth() + 50,game.SCREEN_HEIGHT/5 + slider.getHeight()/2);
+        sliderCount.setPosition(game.SCREEN_WIDTH/14 + slider.getWidth() + 50*WordFishing.SCALE,game.SCREEN_HEIGHT/5 + slider.getHeight()/2);
         stage.addActor(sliderCount);
     }
 
     private void initSlider() {
         slider = new Slider(1,9,0.05f,false,game.getSkin());
-        slider.setSize(450,100);
-        slider.getStyle().knob.setMinHeight(75);
-        slider.getStyle().knob.setMinWidth(75);
+        slider.setSize(450*WordFishing.SCALE,100*WordFishing.SCALE);
+        slider.getStyle().knob.setMinHeight(50*WordFishing.SCALE);
+        slider.getStyle().knob.setMinWidth(50*WordFishing.SCALE);
         slider.setPosition(game.SCREEN_WIDTH/14,game.SCREEN_HEIGHT/5);
         slider.setValue(game.getCorrectAnswersNeededInt());
         stage.addActor(slider);
@@ -92,7 +138,8 @@ public class DifficultyChooseScreen extends AbstractScreen {
     private void initTextInputCheckBox() {
         textInputBox = new CheckBox("   Sprawdzanie tekstowe",game.getSkin());
         textInputBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/8);
-        textInputBox.getImage().setScale(3);
+        textInputBox.getImage().setOrigin(textInputBox.getImage().getWidth()/2,textInputBox.getImage().getHeight()/2);
+        textInputBox.getImage().setScale(3*WordFishing.SCALE);
         textInputBox.setChecked(game.isTextInput());
         textInputBox.addListener(new ChangeListener() {
             @Override
@@ -109,14 +156,14 @@ public class DifficultyChooseScreen extends AbstractScreen {
     private void initTimeSinceCompletedLabel() {
 
         if(game.getPreferences().getLong(choosenBook+".TimeWhenCompleted") == 0){
-            timeSinceCompleted = new Label("Ten zestaw słówek nigdy \nnie został ukończony",game.getSkin());
-            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3.5f);
+            timeSinceCompleted = new Label("Nie Ukończono",game.getSkin(),"ukon");
+            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/2 - timeSinceCompleted.getWidth()/2,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3.5f);
         }else{
             long time = TimeUtils.millis() - game.getPreferences().getLong(choosenBook+".TimeWhenCompleted");
             time = time/1000;
 
-            timeSinceCompleted = new Label("Czas od ostatniego ukończenia \ntego zestawu słówek:\n"+calculateTime(time),game.getSkin());
-            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3);
+            timeSinceCompleted = new Label("Ukończono:\n "+calculateTime(time)+"  temu",game.getSkin(),"ukon");
+            timeSinceCompleted.setPosition(game.SCREEN_WIDTH/2 - timeSinceCompleted.getWidth()/2,game.SCREEN_HEIGHT - game.SCREEN_HEIGHT/3);
         }
         stage.addActor(timeSinceCompleted);
     }
@@ -164,6 +211,11 @@ public class DifficultyChooseScreen extends AbstractScreen {
                 game.setScreen(new GameScreen(game,choosenBook,folder));
             }
         });
+        configPersonalList.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y){
+                game.setScreen(new PersonalListScreen(game,choosenBook,folder));
+            }
+        });
     }
 
     private void initChooseButtons() {
@@ -190,8 +242,6 @@ public class DifficultyChooseScreen extends AbstractScreen {
     }
 
     private void initBgImage() {
-        bgImage = new Image(game.getDefaultBg());
-        stage.addActor(bgImage);
     }
 
     @Override

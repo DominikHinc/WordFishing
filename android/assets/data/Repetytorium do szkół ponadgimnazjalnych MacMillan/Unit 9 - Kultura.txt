@@ -1,0 +1,268 @@
+﻿ / 
+dziedziny kultury/forms of culture
+film/film
+film przygodowy/adventure film
+przebój kinowy/blockbuster
+kreskówka/cartoon
+obsada/cast
+film dokumentalny/documentary
+film fantasy/fantasy film
+fabuła/plot
+komedia romantyczna/romcom
+scena/scene
+film science-fiction/sci-fi film
+plan filmowy/set
+ścieżka dźwiękowa/soundtrack
+efekty specjalne/special effects
+film szpiegowski/spy film
+thriller/thriller
+western/western
+klapa finansowa/box-office disaster
+sukces kasowy/box-office hit
+kontynuacja/sequel
+napisy/subtitles
+rola drugoplanowa/supporting role
+zwiastun/trailer
+sztuki piękne/fine arts
+wystawa/exhibition
+galeria sztuki/gallery
+krajobraz/landscape
+mural/mural
+obraz olejny/oil painting
+autoportret/self-portrait
+szkic/sketch
+martwa natura/still life
+farby akwarelowe/watercolours
+popiersie/bust
+rzeźba/statue
+literature/literature
+bestseller/bestseller
+rozdział/chapter
+okładka/cover
+belerystyka/fiction
+literature faktu/non-fiction
+książka w miękkiej oprawie/paperback
+notka wydawnicza/blurb
+mól ksiżkowy/bookworm
+bajka/fairy tale
+zwrotka/verse
+muzyka/music
+album/album
+zespół muzyczny/band
+chór/choir
+tekst piosenki/lyrics
+orkiestra/orchestra
+singiel/single
+utwór/track
+melodia/tune
+lista przebojów/charts
+nowe wykonanie/cover version
+koncert/gig
+teatr/theatre
+akt/act
+kostiumy/costumes
+kurtyna/curtain
+antrakt/interval
+scenariusz/script
+scena(miejsce w teatrze)/stage
+publiczność/audience
+rząd/row
+trema/stage fright
+owacje na stojąco/standing ovation
+twórcy i ich dzieła/artists and their work
+twórcy/artists
+aktor/actor
+aktorka/actress
+autor/author
+tancerz baletowy/ballet dancer
+kamerzysta/camera operator
+kompozytor/composer
+dyrygent/conductor
+ilustrator/illustrator
+powieściopisarz/novelist
+malarz/painter
+scenarzysta/playwright
+poeta/poet
+rzeźbiarz/sculptor
+wokalista/singer
+autor piosenek/songwriter
+pisarz/writer
+artysta uliczny/busker
+rysownik kreskówek/cartoonist
+choreograf/choreographer
+osoba malująca na chodniku/pavement artist
+scenarzysta/scriptwriter
+artysta stand-upowy/stand-up comedian
+kaskader/stuntman
+kaskaderka/stuntwoman
+lektor/voice-over artist
+uczestnictwo w kulturze/participating in cultural events
+grać/act
+zabawny/amusing
+przyciągać uwagę/attract attencion
+przesłuchanie/audition
+nagroda/award
+oparty na/based on
+być w trasie koncertowej/be on tour
+znaleźć się na liście finalistów/be shortlisted
+zanudzić kogoś na śmierć/bore sb to death
+nudny/boring
+znakomity/brilliant
+obsadzać role w filmie/cast the film
+pomysłowy/clever
+być opublikowanym/come out
+wymyślić coś/come up with sth
+sala koncertowa/concert hall
+rozczarowujący/disappointing
+nudny/dull
+lekki/easy-to-read
+wydanie/edition
+przyjemny/enjoyable
+fascynujący/fascinating
+śmieszny/funny
+dać świetny występ/give a great show
+bardzo fajny/great fun
+porywający/gripping
+trudny do zrozumienia/heavy going
+pomysłowy/imaginative
+pouczający/informative
+nauczyć się czegoś na pamięć/learn sth by heart
+koncert na żywo/live concert
+zmyślić coś/make sth up
+wydarzenie na świeżym powietrzu/open-air event
+premiera/opening night
+przewidywalny/predictable
+zrobić show/put on a show
+odłorzyć coś/put sth down
+entuzjastyczna recenzja/rave review
+czytać/read
+wydać/release
+wyprzedać się/sell out
+pokaz/show
+głupi/silly
+scena/stage
+gwiazda/star
+festiwal uliczny/street festiwal
+występ teatralny/theatre performance
+bilet/ticket
+rola tytułowa/title role
+dostroić instrument/tune
+wyłączyć coś/turn sth off
+nieciekawy/uninteresting
+brutalny/violent
+instrumenty muzyczne/musical instruments
+wiolonczela/cello
+bębny/drums
+flet/flut
+gitara/guitar
+pianino/piano
+saksofon/saxophone
+tamburyn/tambourine
+trąbka/trumpet
+skrzypce/violin
+ksylofon/xylophone
+nie móc oderwać się od ekranu/be glued to the screen
+zatłoczony/be packed with sth
+wygwizdać/boo
+wiwatować/cheer
+statysta/extra
+trzymać kogoś w napięciu/keep sb on the edge of their seat
+żyć w blasku fleszy/live in the limelight
+powieść/novel
+próba generalna/dress rehearsal
+serial/serial
+program w odcinkach/series
+kręcić sceny w plenerze/shoot on location
+opowiadanie/dhort story
+widz na żywo/spectator
+wyróżniać się z tłumu/stand out from the crowd
+widz przed telewizorem/viewer
+media/mass media
+agencja reklamowa/advertising company
+artykuł/article
+telewizja śniadaniowa/breakfast tv
+wiadomości z ostatniej chwili/breaking news
+transmitować/broadcast
+talk show/chat show
+reklama/commercial
+gazeta codzienna/daily
+wydanie/edition
+teleturniej/game show
+tytuł artykułu/headline
+gospodarz programu/host
+wywiad/interview
+dziennikarz/journalist
+trzymać się terminów/keep to deadlines
+być na pierwszych stronach gazet/make the headlines
+media/media
+wiadomości/news bulletin
+opera mydlana/soap opera
+przegląd wydarzeń sportowych/sports highlights
+tabloid/tabloid
+stacja telewizyjna/tv station
+prognoza pogody/weather forecast
+stronniczy/biased
+nakład/circulation
+sprawozdanie/coverage
+artykuł/feature
+kolorowy magazyn/glossy magazine
+plotki/gossip
+przenikliwy/incisive
+dogłębny/in-depth
+najnowsze wiadomości/news feeds
+nekrolog/obituary
+jednostronny/one-sided
+prasa/press
+poważna gazeta/quality paper
+sensacyjny/sensacional
+rozwiązywać krzyżówki/solve crosswords
+dodatek do gazety/suplement
+wydanie weekendowe/weekend edition
+być nominowanym do czegoś/be up for sth
+życiowa szansa/chance of a lifetime
+mieć okazję do zrobienia czegoś/have a chance of doing sth
+planować coś/line up sth
+wskazywać na coś/point sth out
+zająć dużo czasu/take a long time
+brać coś na serio/take sth seriously
+gust w jakiejś dziedzinie/taste in sth
+padać z nóg/be dead on one’s feet
+lider zespołu/front man
+wyjść bez szwanku/get away scot-free
+wyjść z czyjejś strefy komfortu/get out of sb’s comfort zone
+być jak słoń w składzie porcelany/have got two left feet
+dać z siebie wszystko/push oneself to the limit
+stanąć na wysokości zadania/rise to an occasion
+niedopowiedzenie/understatement
+być czegoś świadomym/be aware of sth
+być czegoś pełnym/be full of sth
+winić kogoś za coś/blame sb for sth
+bardzo głośny/blasting
+uszczerbek/damage
+wyrazić co czujesz/express the way you fell
+czepialski/fussy
+mieć na coś negatywny wpływ/have a negative effect on sth
+brak pewności siebie/insecurity
+prowadzić do czegoś/lead to sth
+słuchać muzyki/listen to music
+zatracać się w czymś/lose oneself in sth
+złagodzić napięcie/relieve tension
+bodziec/stimulus
+wyłączyć/switch off
+podgłośnić/turn up the volume
+być bardzo modnym/be a real crazy
+być powiwem świeżego powietrza/be whiff of fresh air
+być pozbawianym czegoś/be devoid of sth
+przełom/breakthrough
+zrelaksować się/chill out
+narodzić się/come into being
+wywodzić się skądś/derive from
+dawać komuś pozytywną energię/give sb positive vibes
+przełomowy/groundbreaking
+wywodzić się skądś/have its origins
+wprawiać w dobry nastrój/offer a feel-good factor
+rozmyślać nad czymś/ponder about sth
+powstać/start to exist
+podbić świat/sweep the world off its feet
+podbić świat/take the world by storm
+zrelaksować się/unwind

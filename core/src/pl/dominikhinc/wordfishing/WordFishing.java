@@ -1,26 +1,34 @@
 package pl.dominikhinc.wordfishing;
 
+import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.utils.Array;
 
 import pl.dominikhinc.wordfishing.screens.SplashScreen;
+import pl.dominikhinc.wordfishing.service.AssetMenager;
+import pl.dominikhinc.wordfishing.service.BackgroundTile;
 import pl.dominikhinc.wordfishing.service.NotificationHandler;
 
 public class WordFishing extends Game {
 
 	public static int SCREEN_WIDTH = 1080;
 	public static int SCREEN_HEIGHT = 1920;
+	public static float SCALE = 1;
 	public final static String GAME_TITLE = "WordFishing";
     final public static String textInputPreferences = "textInputPreferences";
 	//final public static String questionInEnglishPreferences = "questionInEnglishPreferences";
 	final public static String correctAnswersNeeded = "correctAnswersNeeded";
-
-	private BitmapFont font;
-    private BitmapFont fontRed;
+	final public static String personalListUse = "personalListUse";
+	final public static String randomColor = "randomColor";
+	final public static String backgroundCol = "backgroundColor";
 
 	private Preferences preferences;
 
@@ -33,30 +41,26 @@ public class WordFishing extends Game {
 	private int correctAnswersNeededInt = 1;
 
 	private Skin skin;
-	private Skin skin2;
 
+	private AssetMenager assetMenager;
+	public AssetManager assetManager;
 
 
 	private Skin skinSmallFont;
 
-    private Texture defaultBg;
-    private Texture correctAnswer;
-    private Texture wrongAnswer;
 	private Texture logo;
 	private Texture goBackButton;
 
+    private Array<BackgroundTile> backgroundTiles;
 
+	public Color backgroundColor;
 
-	private Texture tempToDelete;
-
-
-
-	private Texture goBackerButton;
-
-
-
+	private Texture mcmRPG;
 	private Texture mcmrok;
 	private NotificationHandler notificationHandler;
+	public boolean isPersonalList;
+	public boolean isRandomColor = true;
+
 
 	public NotificationHandler getNotificationHandler() {
 		return notificationHandler;
@@ -69,24 +73,78 @@ public class WordFishing extends Game {
 
 	@Override
 	public void create () {
-		init();
 		SCREEN_WIDTH = Gdx.graphics.getWidth();
 		SCREEN_HEIGHT = Gdx.graphics.getHeight();
+		calculateScale();
+
+		backgroundColor = new Color();
+		init();
 		this.setScreen(new SplashScreen(this));
 	}
 
 	private void init(){
+		Gdx.app.setLogLevel(Application.LOG_DEBUG);
+		//Gdx.gl20.glLineWidth(300);
 		initFont();
 		initSkin();
 		initPreferences();
+		backgroundTiles = new Array<>();
+		for(int i = 0; i < SCREEN_WIDTH;i+=120){
+            for(int j = 0; j < SCREEN_HEIGHT;j+=120){
+                backgroundTiles.add(new BackgroundTile());
+            }
+        }
 	}
 
 
 	private void initPreferences() {
 		 preferences = Gdx.app.getPreferences("WordFishing Preferences");
-		 textInput = preferences.getBoolean(textInputPreferences);
+		 if(preferences.contains(textInputPreferences)){
+			 textInput = preferences.getBoolean(textInputPreferences);
+		 }else{
+		 	textInput = false;
+		 }
+		 if(preferences.contains(personalListUse)){
+			 isPersonalList = preferences.getBoolean(personalListUse);
+		 }else{
+		 	isPersonalList = false;
+		 }
+
 		 //questionInEnglish = preferences.getBoolean(questionInEnglishPreferences);
-		 correctAnswersNeededInt = preferences.getInteger(correctAnswersNeeded);
+		if(preferences.contains(correctAnswersNeeded)){
+			correctAnswersNeededInt = preferences.getInteger(correctAnswersNeeded);
+		}else{
+			correctAnswersNeededInt = 1;
+		}
+
+		 if (preferences.contains(randomColor)){
+			 isRandomColor = preferences.getBoolean(randomColor);
+		 }else {
+		 	isRandomColor = true;
+		 }
+
+		 float r = 0.17f;
+		 float g = 0.4f;
+		 float b = 0.7f;
+		 float a = 0.5f;
+		 if(preferences.contains(backgroundCol+"r")){
+			 r = preferences.getFloat(backgroundCol+"r");
+			 g = preferences.getFloat(backgroundCol+"g");
+			 b = preferences.getFloat(backgroundCol+"b");
+			 //a =preferences.getFloat(backgroundCol+"a");
+		 }
+
+		 backgroundColor.set(r,g,b,a);
+	}
+	public void calculateScale(){
+		SCALE = (float)SCREEN_WIDTH/1080;
+		if(skin != null){
+			skin.getFont("font_primary_128").getData().setScale(SCALE);
+			skin.getFont("font_ukon_128").getData().setScale(SCALE);
+			skin.getFont("font_gibson_128").getData().setScale(SCALE);
+			skin.getFont("font_primary_64").getData().setScale(SCALE);
+
+		}
 	}
 
 	private void initSkin() {
@@ -111,17 +169,24 @@ public class WordFishing extends Game {
 	* Setters and Getters*
 	* ********************
 	 */
-	public Texture getTempToDelete() {
-		return tempToDelete;
+
+    public Array<BackgroundTile> getBackgroundTiles() {
+        return backgroundTiles;
+    }
+
+    public void setSkin(Skin skin) {
+        this.skin = skin;
+    }
+
+	public void setAssetMenager(AssetMenager assetMenager) {
+		this.assetMenager = assetMenager;
 	}
-	public void setTempToDelete(Texture tempToDelete) {
-		this.tempToDelete = tempToDelete;
+
+	public Texture getMcmRPG() {
+		return mcmRPG;
 	}
-	public Texture getGoBackerButton() {
-		return goBackerButton;
-	}
-	public void setGoBackerButton(Texture goBackerButton) {
-		this.goBackerButton = goBackerButton;
+	public void setMcmRPG(Texture mcmRPG) {
+		this.mcmRPG = mcmRPG;
 	}
 	public Texture getMcmrok() {
 		return mcmrok;
@@ -153,9 +218,6 @@ public class WordFishing extends Game {
 	public void setGoBackButton(Texture goBackButton) {
 		this.goBackButton = goBackButton;
 	}
-	public BitmapFont getFontRed() {
-		return fontRed;
-	}
 	public boolean isQuestionInEnglish() {
 		return questionInEnglish;
 	}
@@ -177,45 +239,10 @@ public class WordFishing extends Game {
 	public boolean isPaused() {
 		return paused;
 	}
-	public BitmapFont getFont() {
-		return font;
-	}
+
 	public Skin getSkin() {
 		return skin;
 	}
-	public Skin getSkin2() {
-		return skin2;
-	}
-    public Texture getDefaultBg() {
-        return defaultBg;
-    }
-    public void setDefaultBg(Texture defaultBg) {
-        this.defaultBg = defaultBg;
-    }
-    public Texture getCorrectAnswer() {
-        return correctAnswer;
-    }
-    public void setCorrectAnswer(Texture correctAnswer) {
-        this.correctAnswer = correctAnswer;
-    }
-    public Texture getWrongAnswer() {
-        return wrongAnswer;
-    }
-    public void setWrongAnswer(Texture wrongAnswer) {
-        this.wrongAnswer = wrongAnswer;
-    }
-    public void setSkin(Skin skin) {
-        this.skin = skin;
-    }
-    public void setSkin2(Skin skin2) {
-        this.skin2 = skin2;
-    }
-    public void setFontRed(BitmapFont fontRed) {
-        this.fontRed = fontRed;
-    }
-    public void setFont(BitmapFont font) {
-        this.font = font;
-    }
 	public Texture getLogo() {
 		return logo;
 	}

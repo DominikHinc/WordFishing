@@ -21,14 +21,18 @@ public class Answer extends TextButton {
         this.answer = answer;
         this.game = game;
         this.setTransform(true);
-        init(game);
+        init();
     }
 
-    private void init(WordFishing game){
+    private void init(){
 
-        this.setWidth(WIDTH*10);
+        this.setWidth(WIDTH*10*WordFishing.SCALE);
 
-        this.setHeight(HEIGHT);
+        this.setHeight(HEIGHT*WordFishing.SCALE);
+
+        this.getLabel().setWrap(true);
+
+        this.setSkin(game.getSkin());
 
         setOrigin(this.getWidth()/2,this.getHeight()/2);
     }
@@ -53,19 +57,20 @@ public class Answer extends TextButton {
     public void setAnswer(String answer){
         this.answer = answer;
         this.setText(answer);
-        if(answer.length()>=12){
+        /*if(answer.length()>=12){
             //splitText();
             SplitText splitText = new SplitText();
             this.setText(splitText.splitText(answer.length()/2,answer));
 
         }else {
             this.setText(answer);
-        }
-        if(answer.length() >= 25){
+        }*/
+        /*if(answer.length() >= 25){
             this.setStyle(game.getSkinSmallFont().get("default",TextButton.TextButtonStyle.class));
-        }else{
-            this.setStyle(game.getSkin().get("default",TextButton.TextButtonStyle.class));
-        }
+        }else{*/
+            //
+        // this.setStyle(game.getSkin().get("default",TextButton.TextButtonStyle.class));
+       // }
 
     }
 

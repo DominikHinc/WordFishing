@@ -1,0 +1,102 @@
+﻿ / 
+Ambitny/﻿Ambitious
+Arogancki/Arrogant
+Asertywny/Assertive
+Zarozumiały/Big-headed
+Apodyktyczny/Bossy
+Tolerancyjny/Broad-minded
+opryslkliwy/Brusque
+Bystry/Clever
+Zdeterminowany/Determined
+Tępy/Dumb
+Wyluzowany/Easygoing
+Szczery/Frank
+Przyjazny/Friendly
+Kochający zabawe/Fun-loving
+hojny/Generous
+Utalentowany/Gifted
+Cieżko pracujący/Hard-working
+Niedojrzały/Immature
+Niecierpliwy/Impatient
+Nieuprzejmy/Impolite
+Niepewny siebie/Insecure
+Leniwy/Lazy
+Dojrzały/Mature
+Niechlujny/Messy
+Skromny/Modest
+Ograniczony/Narrow-minded
+Nerwowy/Nervous
+hałaśliwy/Noisy
+Otwarty/Outgoing
+Cierpliwy/Patient
+Uprzejmy/Polite
+Nachalny/Pushy
+Cichy/Quiet
+Powsciagliwy/Reserved
+Niegrzeczny/Rude
+Pewny siebie/Self-confident
+Poważny/Serious
+Mało pojętny/Slow
+Uparty/Stubborn
+Głupi/Stupid
+Taktowny/Tactful
+Nietaktowny/Tactless
+Schludny/Tidy
+Skąpy/Tight-fisted
+Nieprzyjazny/Unfriendly
+Niechlujny/Untidy
+Zdolność/Ability
+Działanie/Action
+Działalność/Activity
+Aktor/Actor
+Wygląd/Appearance
+Pewność siebie/Confidence
+Tworzenie/Creation
+Kreatywność/Creativity
+Twórca/Creator
+Różnica/Difference
+Odróżniać/Distinguish
+Wycofać sie/Drop out of
+Edukacja/Education
+Pedagog/Educator
+Bez wysiłku/Effortlessly
+Elektryk/Electrician
+Elektryczność/Electricity
+Stawiący elite/Elite
+Pracodawca/Employer
+Zatrudnienie/Employment
+Zachęcający/Encouraging
+Kompetencja/Expertise
+Szczęście/Happiness
+Ledwie/Hardly
+Poprawa/Improvement
+Wynalazek/Invention
+Wynalazca/Inventor
+Badanie/Investigation
+Szaleństwo/Madness
+Muzyk/Musician
+Wybitny/Outstanding
+Artysta/Performer
+Potencjał/Potential
+Cudowne dziecko/Prodigy
+Profesor/Professor
+Znaczenie/Relevance
+Mniej wiecej/Roughly
+Naukowiec/Scientist
+Wrażliwy/Sensitive
+Solista/Soloist
+Wspierający/Supportive
+Utalentowany/Talented
+Dotyk/Touch
+Skrzypek/Violinist
+Zdystansowany/Aloof
+Pogodny/Cheerful
+Sumienny/Conscientious
+Skrępowany/Constrained
+Uprzejmy/Courteous
+Znający sie na rzeczy/Knowledgeable
+Niedbały/Negligent
+Natrętny/Obtrusive
+Rozrzutny/Spendthrift
+Nadąsany/Sulky
+Pełen energii/Vivacious

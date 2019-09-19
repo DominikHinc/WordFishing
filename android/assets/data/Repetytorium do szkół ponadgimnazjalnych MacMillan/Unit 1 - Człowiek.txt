@@ -1,0 +1,328 @@
+﻿ / 
+dane osobowe/﻿personal data
+kraj pochodzenia/country of origin
+kraj zamieszkania/country of residence
+aktualny adres/current adress
+data urodzenia/date of birth
+nazwisko/last name
+imię/first name
+płeć/gender
+stan cywilny/marital status
+drugie imię/middle name
+narodowość/nationality
+zawód/occupation
+nick na portalach społecznościowych/social media nick
+kod pocztowy/postcode
+wygląd zewnętrzny/apperance
+atrakcyjny/attractive
+nieatrakcyjny/unattractive
+piękny/beatiful
+przystojny/handsome
+ładny/pretty
+brzydki/ugly
+ładnie ubrany/well-dressed
+uroczy/cute
+wspaniały/gorgeous
+pospolity/plain
+niechlujny/scruffy
+budowa ciała/build
+gruby/fat
+umięśniony/muscular
+otyły/obese
+średniego wzrostu/of average height
+z nadwagą/overweight
+puszysty/plump
+szczupły/slim
+chudy/skinny
+dobrze zbudowany/well–built
+pulchny/chubby
+zgrabny/shapely
+krępy/stocky
+włosy/hair
+łysy/bald
+kręcone/curly
+ciemne/dark
+farbowane/dyed
+proste/straight
+falowane/wavy
+na jeża/crew cut
+rude/ginger
+cechy charakterystyczne/special features
+broda/beard
+aparat na zęby/dental brace
+piegi/freckles
+wąsy/moustache
+kolczyk/piercing
+blizna/scar
+tatuaż/tattoo
+zmarszczki/wrinkles
+znamię/birthmark
+grzywka/fringe
+kozia bródka/goatee
+pieprzyk/mole
+blady/pale
+przedziałek/parting
+ograniczyć spożycie czegoś/cut down on sth
+zmieścić się w czymś (ubraniu)/get into sth
+przejść na dietę/go on diet
+umawiać się z kimś/go out with sb
+wyglądać jak ktoś/look like sb
+zrobić wspaniałe wrażenie na kimś/make a great impresion on sb
+odróżniać od kogoś/make diffrent from sb
+przygrać na wadze/put on weight
+polecić coś komuś/recommend sth to sb
+przypominać kogoś z wyglądu/remind sb of sb
+podobny do kogoś/similar to sb
+odziedziczyć po kimś wygląd/take after sb
+ciuchy/clothes
+pasek/belt
+bluzka/blouse
+kozaki/boots
+biustonosz/bra
+czapka z daszkiem/cap
+sweter/cardigan
+płaszcz/coat
+sukienka/dress
+kolczyki/earrings
+buty na płaskim obcasie/flats
+polar/fleece
+klapki japonki/flop-flops
+rękawiczki/gloves
+opaska na włosy/hairband
+torebka/handbag
+kapelusz/hat
+buty na obcasie/high heels
+bluza z kapturem/hoodie
+kurtka/jacket
+sweter/jumper
+leginsy/leggings
+naszyjnik/necklace
+majtki/pants
+pierścionek/ring
+sandały/sandals
+koszuka/shirt
+szorty/shorts
+spódnica/skirt
+kapcie/slippers
+szalik/scarf
+skarpeta/sock
+garnitur/suit
+podkoszulka/sweatshirt
+krawat/tie
+rajstopy/tights
+dres/tracksuit
+obuwie sportowe/trainers
+spodnie/trousers
+kamizelka/waistcoat
+kalosze/wellies
+wzory/paterns
+w kratkę/checked
+dzinsowy/denim
+bez wzoru/plain
+w kropki/spotted
+w paski/striped
+wełniany/woolen
+sztruksowy/corduroy
+jedwabny/silk
+zamszowy/suede
+w kratę/tartan
+aksamitny/velvet
+niedrogi/affordable
+workowaty/baggy
+wygodny/comfortable
+niewygodny/uncomfortable
+wystroić się/dress up
+modny/fashionable
+niemodny/unfashionable
+pasować komuś/fit sb
+ubierać się/get dressed
+rozbierać się/undressed
+pasować do siebie (o elementach ubrania)/go with sth
+z długim rękawem/long-sleeved
+pasować do czegoś/match sth
+założyć coś na siebie/put on sth
+buty do biegania/running shoes
+z krótkim rękawem/short-sleeved
+pasować komuś (o ubraniu)/suit sb
+przymierzać coś/try sth on
+mieć coś na sobie/wear sth
+znoszony/worn out
+beżowy/beige
+elegancki/chic
+obcisły/close-fitting
+kołnierz/collar
+rozszerzający się ku dołowi (o ubraniu)/flared
+na czasie/hip
+luźny/loose
+rękaw/sleeve
+modny/trendy
+podkoszulek/vest
+zamek błyskawiczny/zip
+cechy charakteru/features of character
+roztargniony/absent-minded
+zabawny/amusing
+kłótliwy/argumentative
+arogancki/arrogant
+apodyktyczny/bossy
+odważny/brave
+ostrożny/carefule
+troskliwy/caring
+dziecinny/childlish
+mądry/clever
+okrutny/cruel
+wyluzowany/easygoing
+lubiący dobra zabawę/fun-loving
+ciężko pracujący/hard working
+pomocny/helpful
+mało pomocny/unhelpful
+szczery/honest
+nieszczery/dishonest
+pomysłowy/imaginative
+mało pomysłowy/unimaginatice
+uprzejmy/kind
+nieuprzejmy/unkind
+leniwy/lazy
+dojrzały/mature
+skąpy/mean
+bałaganiarski/messy
+skromny/modest
+naiwny/naive
+o wąskich horyzontach/narrow-minded
+hałasliwy/noisy
+otwarty/open-minded
+towarzyski/outgoing
+cierpliwy/patient
+niecierpliwy/impatient
+uprzejmy/polite
+cichy/quiet
+niegrzeczny/rude
+pewny siebie/self-confident
+samoświadomy/self-conscious
+samolubny/selfish
+niesamolubny/unselfish
+rozsądny/sensible
+wrażliwy/sensitive
+niewrażliwy/insensitive
+nieśmiały/shy
+towarzyski/sociable
+uparty/stubborn
+głupi/stupid
+gadatliwy/talkative
+porządny/tidy
+nieporządny/untidy
+tolerancyjny/tolerant
+nietolerancyjny/intolerant
+ambitny/ambitious
+zarozumialec/big-head
+obcesowy/blunt
+leń/couch potato
+tchórz/coward
+zdeterminowany/determinded
+oszczędny/economical
+ekstrawagancki/extravagant
+szczery/frank
+hojny/generous
+śmieszek/laugh
+zawzięty/obstinate
+utrapienie/pain in the neck
+natarczywy/pushy
+pewny siebie/self-assured
+zadufany w sobie/self-important
+skąpy/tight-fisted
+malkontent/wet blanket
+uczucia/feelings
+emocje/emotions
+zły/angry
+zaniepokojony/anxious
+mieć dość/be sick and tired
+zmartwiony/concerned
+zdezorientowany/confused
+rozgniewany/cross
+przybity/depressed
+rozczarowany/disappointed
+zawstydzony/embarrassed
+zazdrosny/envious
+podeksytowany/excited
+wyczerpany/exhausted
+znudzony/fed up
+wściekły/furious
+szczęśliwy/happy
+przerażony/horrified
+zazdrosny/jealous
+przygnebiony/miserable
+zagubiony/mixed up
+zdenerwowany/nervous
+zadowolony/pleased
+dumny/proud
+smutny/sad
+przestraszony/scared
+podekscytowany/terrified
+zmęczony/tired
+przygnebiony/upset
+zmartwiony/worried
+być w dołku/be down in the dumps
+być wniebowziętym/be over the moon
+wybuchnąć płaczem/burst into tears
+zaczerwienić się/go red
+rozkleić się/go to pieces
+wściec się/hit the roof
+zainteresowania/interests
+uwielbiać coś/adore sth
+podobać się komuś/appeal to sb
+być fanem czegoś/be a fan of sth
+szaleć za czymś/mad about
+lubić coś/be fond of sth
+interesować się czymś/be interested in sth
+zajmować się czymś/be into sth
+lubić coś robić/be keen on sth
+być czyjąś bajką/be one's cup of tea
+nie trawić czegoś/can't bear sth
+nie móc się obejść bez czegoś/can't live without sth
+nie móc znieść czegoś/can't stand sth
+nie przepadać za czymś/dislike sth
+lubić coś/enjoy sth
+czerpać z czegoś przyjemność/get enjoyment from sth
+problemy etyczne/ethical problems
+organizacje charytatywne/charities
+korupcja/corruption
+kara śmierci/death penalty
+zażywanie narkotyków/drug abuse
+eutanazja/euthanasia
+wolność słowa/freedom of speech
+bezrobocie/unemployment
+doradzać w sprawie czegoś/give advice on sth
+trwać/go on for
+przejrzeć notatki/go over one's notes
+wyrosnąć z czegoś/grow out of sth
+interesować się czymś/have an interest in sth
+Wieki cię nie widziałem!/I haven't seen you for ages!
+sprawiać wrażenie/make impression
+zmęczyć kogoś/wear sb out
+radosny/chirpy
+pójść po rozum do głowy/come to one's senses
+uprzejmy/courteous
+niepokojący/disconcerting
+dać się nabrać na coś/fall for sth
+figlarny/mischlevous
+zedrzeć z kogoś pieniądze/rip off sb
+przejrzeć kogoś/see through sb
+opryskliwy/surly
+mieć konsekwencje/take its toll on sth
+zwieść/take sb in
+wytłumaczyć krok po kroku/talk sb through sth
+być odbieranym jako bardziej atrakcyjny/be seen as more attractive
+wyrobić sobie opinie o kimś/form an opinion obout sth
+wykreować swój wizerunek/project an image of oneself
+odzwierciedlenie naszej osobowości/reflection of outr personality
+wyróżniać się z tłumu/stand out of the crowd
+poniżej pasa (cios)/below the belt
+leżeć jak ulał/fit like a glove
+wpaść w szał/flay off the handle
+radzić sobie ze stresem/tackle stress
+trzymać nerwy na wodzy/keep their negative emotions at bay
+doprowadzić do czegoś/lead to sth
+wziąć się w garść/pull one's socks up
+przemyśleć coś/put one's thinking cap on
+chylić czoła przed kimś/take one's hat off to sb
+zdenerwować się/slip into an angry fit
+mieć decydujący głos/wear the trousers

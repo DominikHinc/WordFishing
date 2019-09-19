@@ -1,0 +1,241 @@
+﻿ / 
+dyscypliny sportu/sports disciplines
+badminton/badminton
+baseball/baseball
+koszykówka/basketball
+boks/boxing
+brydż/bridge
+kajakarstwo/canoeing
+szachy/chess
+wspinaczka/climbing
+krykiet/cricket
+kolarstwo/cycling
+nurkowanie/diving
+piłka nożna/football
+golf/golf
+gimnastyka/gymnastics
+rzut młotem/hammer throw
+piłka ręczna/handball
+skok wzwyż/high jump
+wyścigi konne/horse racing
+hokej na lodzie/ice hockey
+łyżwiarstwo/ice-skating
+judo/judo
+skok w dal/long jump
+sztuki walki/martial arts
+wyścigi motocyklowe/motor racing
+rugby/rugby
+bieganie/running
+żeglarstwo/sailing
+strzelectwo/shooting
+pchnięcie kulą/shot put
+skoki narciarskie/ski jump
+narciarstwo/skiing
+squash/squash
+pływanie/swimming
+tenis stołowy/table tennis
+siatkówka/volleyball
+podnoszenie ciężarów/weightlifting
+zapasy/wrestling
+biegi narciarskie/cross-country skiing
+dziesięciobój/decathlon
+lotniarstwo/hang-gliding
+bieg przez płotki/hurdles
+rzut oszczepem/javelin
+żużel/motocross
+bieg z przeszkodami/obstacle race
+spadochroniarstwo/parachuting
+skok o tyczce/pole vault
+bieg sztafetowy/relay race
+nurkowanie z akwalungiem/scuba diving
+lekkoatleta/athlete
+koszykarz/basketball player
+kajakarz/canoeist
+wspinacz/climber
+kolarz/cyclist
+piłkarz/footballer
+golfista/golfer
+gimnastyk/gymnast
+wioślarz/rower
+biegacz/runner
+żeglarz/sailor
+narciarz/skier
+pływak/swimmer
+zapaśnik/wrestler
+uprawiać aerobic/do aerobics
+uprawiać karate/do karate
+uprawiać sport/do sport
+wyjść pobiegać/go jogging
+pojechać na narty/go skiing
+pójść na basen/go swimming
+trzymać formę/keep fit
+grać w szachy/play chess
+grać w siatkówkę/play volleyball
+zacząć zajmować się/take up
+boisko do koszykówki/basketball court
+kij/bat
+deska/board
+buty/boots
+łuk/bow
+kij golfowy/golf club
+pole/field
+boisko do piłki nożnej/football pitch
+rękawice/gloves
+gol/goal
+gogle/goggles
+pole golfowe/golf course
+siłownia/gym
+kask/helmet
+siatka/net
+wiosło/oar
+rakieta do gry/racket
+ring/ring
+łyżwy/skates
+lodowisko/skating rink
+piste/stok/slope
+kijek/stick
+basen/swimming pool
+kort tenisowy/tennis court
+tor/track
+dres/tracksuit
+ciężarki/weights
+pianka do nurkowania/wetsuit
+pasjonowac się/be into
+odpaść/be knocked out
+pobić rekord/beat a record
+pokonać/beat
+mistrzostwa/championship
+kibicować drużynie/cheer a team
+konkurować/compete
+zawody/competition
+obrońca tytułu mistrzowskiego/defending chamipon
+zdyskwalifikować/disqualify
+zremisować/draw
+ostatni gwizdek/final whistle
+finalista/finalist
+gra karciana/game of cards
+porzucić/give up
+oronić tytuł/keep a title
+trzymać kciuki/keep one’s fingers crossed
+unieść trofeum/lift the trophy
+przegrać/lose
+mecz/match
+igrzyska olimpijskie/Olympic Games
+grać w drużynie/play for a team
+zakwalifikować się/qualify
+wyścig/race
+runda/round
+zdobywca drugiego miejsca/runner-up
+obronić strzał/save a goal
+strzelić gola/score a goal
+usunąć kogoś z gry/send somebody off
+wziąć udział w/take part in
+turniej/tournament
+zdobyć tytuł/win a title
+wygrać 3 do 1/win by 3 goals to 1
+Puchar Świata/World Cup
+publiczność/audience
+być niezrównanym/be in a league of somebody’s own
+zanosić się na coś/be in for something
+być w szczytowej formie/be on top form
+iść łeb w łeb/be neck and neck
+uczciwie kogoś pokonać/beat somebody fair and square
+pokonać mistrza/beat the champion
+pokonać faworyta/beat the favourite
+pobić rekord świata/beat the world record
+pokonać przeciwnika/beat your opponent
+pokonać konkurencję/blow the competition awa
+rozdawać karty/call the shots
+trener/coach
+obrońca/defender
+zdyskwalifikować z/disqualify from
+kibic/supporter
+drugi rok z rzędu/for the second year running
+faul/foul
+osiągnąć najlepszy rezultat/go top of the table
+skupić się/keep an eye on the ball
+ryzykowna próba/long shot
+dotrzeć do mety/make it to the finishing line
+przeciwnik/opponent
+rywal/rival
+rzut karny/penalty
+walczyć,stawiać opór/put up a real fight
+sędzia/referee
+publiczność/spectators
+stanąć na podium/stand on the podium
+napastnik/striker
+twoja kolej/the bal lis in your court
+sędzia/umpire
+wygrać wyścig/win a race
+wygrać trofeum/win a trophy
+wygrać różnicą czterech sekund/win by four seconds
+wygrać z łatwością/win hands down
+wygrać przewagą punktową/win on points
+wygrać puchar/win the cup
+wyścigi BMX/BMX racing
+skoki na bungee/bungee jumping
+chodzenie po taśmie rozpiętej pomiędzy dwoma punktami/highlining
+kite surfing/kite surfing
+spadochroniarstwo/skydiving
+kajakarstwo górskie/whitewater rafting
+przypływ adrenaliny/adrenaline rush
+wiązać się z dużym ryzykiem/involve a high degree of risk
+życie na krawędzi/life on the edge
+kontuzyjny/likely to get injured
+wyczerpanie psychiczne/mental exhaustion
+przezwyciężyć strach/overcome fear
+dać z siebie wszystko/push oneself to the limits
+ponosić ryzyko/run the risk
+osoba szukająca wrażeń/thrill seeker
+być dobrze opłacanym/be highly-paid
+sport wyczynowy/competitive sport
+awansować do najlepszej ligi/get promoted to the top division
+zostać zawodowcem/go professional
+nielegalny interes/illegal deal
+ustawianie meczy/match-fixing
+spadek do niższej ligi/relegation to a lower division
+mierzyc się z kimś/be up against somebody
+zająć pierwsze miejsce w zawodach/come first in the competition
+dostać się do drużyny/make a team
+ostra konkurencja/stiff competition
+nie dotrzymać słowa/back on one’s word
+wycofać się/back out
+nie zrozum mnie źle/don’t get me wrong
+zacisnąć zęby/grit one’s teeth
+źle wyglądać/look a mess
+cały i zdrowy/safe and sound
+osiągnięcie/achievement
+uniknąć/avoid
+wytrwałość/determination
+rozwój/development
+nie poradzić sobie z czymś/do badly in something
+porażka/failure
+ukształtować/shape
+przezwyciężyć problemy/overcome problems
+bieda/poverty
+opuścić lekcje/skip classes
+kariera sportowa/sporting career
+sukces/success
+nauczać/teach
+osiągnąć/accomplish
+unikać jak ognia/avoid like the plague
+współpracować/collaborate
+wytrwać/persevere
+odważny/courageous
+bezcenny/priceless
+podjąć decyzję/take a decision
+przyjmować krytykę/take criticism
+nie zważać na innych/take no notice of others
+podjąć wyzwanie/take on a challenge
+nie martwić się z powodu problemów/take problems in one’s stride
+niepotrzebnie się zamartwiać/worry unnecessarily
+spróbować/have a go
+czekać na coś/look forward to something
+bezcelowy/pointless
+mieć czegoś dosyć/to be fed up with something
+jaka szkoda/what a shame
+osoba po amputacji/amputee
+osoba po amputacji dwóch kończyn/double amputee
+rower napędzany siłą rąk/handbike
+sportowiec o ograniczonej możliwości poruszania się/mobility disabled athlete
+wózek inwalidzki/wheelchair

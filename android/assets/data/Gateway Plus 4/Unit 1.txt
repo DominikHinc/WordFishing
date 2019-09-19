@@ -1,0 +1,105 @@
+﻿ / 
+ocena/﻿assessment
+praca domowa/assignment
+oblać/fail
+ocena/grade
+stopień/mark
+zdać/pass
+zdawć jeszcze raz/resit
+zajęcie/activity
+oszukiwać/cheat
+ocena na podstawie całorocznej pracy/continuous assessment
+kurs/course
+stopień naukowy/degree
+ponadprogrmowy/extracurricular
+udogodnienie/facility
+ukończyć szkołe/graduate
+akademik/hall of residence
+niezależny/independent
+wykład/lecture
+zaprzyjaźniać się/make friends
+notatka/note
+badnie/research
+powtarzać/revise
+kredyt studencki/student loan
+studiować za granicą/study abroad
+semestr/term
+nauczyciel/tutor
+student na tudich licencjackich/undergraduate
+przyznawać/admit
+wiek/age
+zgadzać się/agree
+irytować/annoy
+w każdym razie/anyway
+zdawać się/appear
+przygotować/arrange
+pytać/ask
+spróbować/attempt
+opierać/base
+być podobnym/be like
+odważny/brave
+przerwa/break
+przy okazji/by the way
+nie móc znieść/can't stand
+obowiązek praca/chore
+pojawiać się/come up
+koncentracja/concentration
+rozważać/consider
+decydować/decide
+szczegół detal/detail
+dyskusja/discussion
+zdekoncentrowany/distracted
+nie mieć nic przeciwko/don't mind
+czs trawania/duration
+ziemia/earth
+wysiłek/effort
+zchęcać/encourage
+wykrzyknik/exclamation mark
+oczekiwać/expect
+doświadczenie/experience
+zmuszać/force
+rok przerwy/gap year
+forum internetowe/forum
+wdzięczny/grateful
+wręczać oddawać/hand sth in
+infolinia/helpline
+zamiast/instead of
+zawierać/involve
+irytować/irritate
+sprawa/issue
+zdołać/manage
+nerwy/nerves
+hałas/noise
+okajza/occasion
+postęp/progress
+obiecywać/promise
+dumny z/proud of
+cichy/quiet
+relacja/relationship
+ryzykować/risk
+rozsądny/sensible
+coś/something
+wyraźnie/specifically
+od razu/straight away
+zasugerować/suggest
+odwrócic uwagę od/take one's mind off
+temat/topic
+uniwerek/uni
+nieokreślony/unspecified
+wżny/valid
+portfel/wallet
+mokry/wet
+woleć/would rather
+absolwent/alumnus
+aula/auditorium
+dziekan/dean
+wykonywać prace/do a job
+dużo czytać/do a lot of reading
+zrealizowć projekt/do a project
+przeprowadzić badanie/do research
+wydział/faculty
+opłata/fee
+umówic się/make an arrangment
+wygłosić mowe/make a speech
+doktorant/postgraduate
+stypendium/scholarship
