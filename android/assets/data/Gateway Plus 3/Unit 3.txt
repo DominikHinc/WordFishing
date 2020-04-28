@@ -1,0 +1,92 @@
+﻿blok mieszkalny/block of flats
+dom parterowy/bungalow
+wiejski domek/cottage
+dom wolno stojący/detached house
+mieszkanie/flat
+bliźniak/semi-detached house 
+drapacz chmur/skyscraper
+szeregowiec/terraced house
+cel/aim
+starożytny/ancien
+przyciągać/attract
+upalny/boiling
+ruchliwy/busy
+kanał/canal
+kapsuła/capsule
+zamek/castle
+centrum miasta/city centre
+dojeżdżający do pracy/commuter
+przyczyniać się/contribute
+wygoda/convenience
+okolica wiejska/countryside
+zatłoczony/crowded
+klient/customer
+brudny/dirty
+dok/dock
+okropny/dreadful
+mający nadjechać/due to arrive
+wstęp/entre
+ogromny/enormous
+wystawa/exhibition
+fabryka/factory
+lot/flight
+lodowaty/freezing
+trawa/grass
+dobrze się bawić/have a good time
+historyczny/historic
+miasto rodzinne/home town 
+ranić/hurt
+podupadła część śródmieścia/inner city
+lądować/land
+broszura/leaflet
+ruchliwy/lively
+mila/mile
+pobliski/nearby
+głośny/noisy
+zatłoczony/packed
+raj/paradise
+pionier/pioneer
+port/port
+cena/price
+nieruchomość/property
+burzyć/pull down
+tor wyścigowy/racetrack
+wynajmować/rent
+satelita/satellite
+oszczędzać/save
+cień/shadow
+cichy/silent
+skwer/square
+upominek/souvenir
+przedmieścia/suburbs
+stadion/stadium
+obcy/stranger
+olśniewający/stunning
+wyłączyć/switch off
+budka telefoniczna/telephone box
+tematyczny park rozrywki/theme park
+maleńki/tiny
+ratusz/town hall
+wyjątkowy/unique
+użycie/usage
+wartość/value
+wieś/village
+machać/wave
+koło/wheel
+bez/without
+poddasze/attic
+kawalerka/bedsit
+roleta/blind
+komin/chimney
+płot/fence
+ścieżka/footpath
+brama/gate
+akademik/hall of residence
+żywopłot/hedge
+loft/loft apartments
+rezydencja/mansion
+apartament/penthouse
+ganek/porch
+dom spokojnej starości/retirement house
+dach/roof
+okiennice/shutters

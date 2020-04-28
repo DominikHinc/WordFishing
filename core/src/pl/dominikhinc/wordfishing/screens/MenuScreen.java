@@ -51,7 +51,7 @@ public class MenuScreen extends AbstractScreen {
     }
 
     private void initCreditsButton() {
-        creditsButton = new TextButton("Credits",game.getSkin());
+        creditsButton = new TextButton("Credits",game.getSkin(),"credits");
         creditsButton.setSize(WordFishing.SCREEN_WIDTH/8,WordFishing.SCREEN_HEIGHT/24);
         creditsButton.setPosition(WordFishing.SCREEN_WIDTH - creditsButton.getWidth(),0);
         creditsButton.addListener(new ClickListener(){

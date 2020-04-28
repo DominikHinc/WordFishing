@@ -1,4 +1,3 @@
-﻿ / 
 artykuły spożywcze/food products
 owoce/fruit
 jeżyna/blackberry
@@ -8,7 +7,7 @@ brzoskwinia/peach
 gruszka/pear
 malina/raspberry
 truskawka/strawberry
-morela/appricot
+morela/apricot
 jagoda/blueberry
 mandarynka/tangerine
 warzywa/vegetables
@@ -23,14 +22,14 @@ sałata/lettuce
 cebula/onion
 groszek/pea
 ziemniak/potato
-szpinak/spinah
+szpinak/spinach
 kukurydza/sweet corn
 papryka/sweet pepper
 pomidor/tomato
 szparagi/asparagus
 bakłażan/aubergine
 kalafior/cauliflower
-cukinia/couragette
+cukinia/courgettes
 chrzan/horseradish
 jarmuż/kale
 rzodkiewka/radish
@@ -105,7 +104,7 @@ filiżanka herbaty/cup of tea
 suszone śliwki/dried plums
 świeże maliny/fresh raspberries
 mrożone maliny/frozen raspberries
-słoik marmolady/jar of marmelade
+słoik marmolady/jar of marmalade
 bochenek chleba/loaf of bread
 paczka chipsów/packet of crisps
 talerz kanapek/plate of sandwiches
@@ -113,16 +112,16 @@ surowa marchewka/raw carrot
 czerstwy chleb/stale bread
 puszka pomidorów/tin of tomatoes
 pomidory w puszcze/tinned tomatoes
-czarna kawa/black coffe
-biała kawa/white coffe
+czarna kawa/black coffee
+biała kawa/white coffee
 ser pleśniowy/blue cheese
-pierś kurczka/chicken breast
-udko kurczka/chicken leg
+pierś kurczaka/chicken breast
+udko kurczaka/chicken leg
 skrzydełko kurczaka/chicken wing
 gorzka czekolada/dark chocolate
 ser kozi/goat's cheese
-kawa mielona/ground coffe
-kawa rozpuszczalna/instant coffe
+kawa mielona/ground coffee
+kawa rozpuszczalna/instant coffee
 dojrzały ser/mature cheese
 czekolada deserowa/plain chocolate
 kotlety wieprzowe/pork chops
@@ -146,7 +145,7 @@ spodek/saucer
 łyżeczka/teaspoon
 korkociąg/corkscrew
 zastawa stołowa/crockery
-szućce/cutlery
+sztućce/cutlery
 łyżka wazowa/ladle
 sito/sieve
 otwieracz do puszek/tin opener
@@ -160,7 +159,7 @@ siekać/chop
 gotować/cook
 pokroić/cut up
 odcedzać/drain
-smmażyć/fry
+smażyć/fry
 trzeć na tarce/grate
 podgrzewać/heat
 przyrządzać/make
@@ -184,7 +183,7 @@ tłusty/fatty
 smakowity/flavoursome
 tłusty/greasy
 apetyczny/mouth-watering
-odpychający/off-puttting
+odpychający/off-putting
 przegotowany/overdone
 dojrzały/ripe
 smakowity/savoury
@@ -244,7 +243,7 @@ danie główne/main course
 zamawiać/order
 serwować/serve
 obsługa/service
-opłata za obsługe/service charge
+opłata za obsługę/service charge
 zestaw/set menu
 stolik dla dwojga/table for two
 tajska restauracja z jedzeniem na wynos/Thai takeaway
@@ -268,7 +267,7 @@ należeć do przeszłości/be a thing of the past
 Czy można to zrobić później?/Can we make it later?
 zbankrutować/go out of business
 lubić słodycze/have a sweet tooth
-brzmi jak dobry plan/it sounda like a plan
+brzmi jak dobry plan/it sounds like a plan
 przywiązywać dużą wagę do czegoś/be particular about sth
 zniechęcający/daunting
 zapłacić/fork out
@@ -282,9 +281,9 @@ uwielbiać coś/adore sth
 być dla kogoś ważnym/be a big deal to sb
 tworzyć więź/bond
 budować związki/build relationships
-czerpać z czegoś przyjemność/enjoy dth
+czerpać z czegoś przyjemność/enjoy sth
 niezbędny/essential for
-duza różnorodność/great variety of sth
+duża różnorodność/great variety of sth
 mieć szanse/have the chance
 mieć możliwość/have the opportunity
 oczywisty/obvious
@@ -293,7 +292,7 @@ poczucie przynależności/sense of belonging
 usiąść razem/sit down together
 klarowny/straightforward
 porozmawiać o czymś/talk sth over
-mieć ugruntowaną pozycję/be well-estabilished
+mieć ugruntowaną pozycję/be well-established
 stać się powrszechną praktyką/become common practise
 jadalny/edible
 nadmiar jedzenia/excess food

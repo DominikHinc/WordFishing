@@ -1,0 +1,119 @@
+﻿wyroby piekarnicze/bakery products
+chleb/bread
+guma do żucia/ chewing gum
+kurczak/chicken
+frytki/chips
+kukurydza/corn
+nabiał/dairy products
+deser/dessert
+pączek/doughnut
+ryba/fish
+owoc/fruit
+mięso/meat
+olej/oil
+groszek/pea
+ciasto/pie
+śliwka/plum
+owoce morza/seafood
+mleko półtłuste/semi-skimmed milk
+truskawka/strawberry
+słodycze/sweets
+tuńczyk/tuna
+indyk/turkey
+warzywo/vegetable
+świeży/fresh
+smażony/fred
+mrożony/frozen
+zdrowy/healthy
+niezdrowe/junk
+danie główne/main course
+surowy/raw
+przekąska/snack
+ostry/spicy
+czerstwy/stale
+przystawka/starter
+słodki/sweet
+smaczny/tasty
+wegetariański/vegetarian
+aktywować/activate
+astronauta/astronaut
+atmosfera/atmosphere
+palić/burn
+stołówka/canteen
+stulecie/century
+uroczystość/ceremony
+kanał/channel
+współpracować/cooperate
+uprawa/crop
+lekarstwo/cure
+zwyczaj/custom
+dom towarowy/department store
+wada/disadvantage
+suchy/dry
+wzrost ekonomiczny/economic growth
+wobory/election
+mieć ochotę/fancy
+smak/flavour
+żniwa/harvest
+choroba/illness
+poprawić/improve
+niewinny/innocent
+międzynarodowy/international
+dawać radę/manage
+materia/matter
+kuchenka mikrofalowa/microwave
+nie zrozumieć/misunderstand
+molekularny/molecular
+międzynarodowy/multinational
+nanotechnologia/nanotechnology
+składnik odżywczy/nutrient
+otyły/obese
+optymistyczny/optimistic
+zamawiać/order
+piekarnik/oven
+przyjmować zbyt wiele rezerwacji/overbook
+rozgotowany/overcooked
+parada/parade
+pesymistyczny/pessimistic
+zbierać/pick
+proszek/powder
+uprzednio przygotowany/precooked
+obecny/present
+prezent/present
+zakonserwowany/preserved
+dynia/pumpkin
+przyjęcie/reception
+odgrzany/recooked
+przerobić/redo
+ryzyko/risk
+rola/role
+skala/scale
+dzielić/stripe
+smak/taste
+maleńki/tiny
+nadajnik/transmitter
+przezroczysty/transparent
+niedogotowany/undercooked
+nie doceniać/underestimate
+kelner/waiter
+ślub/wedding
+szerokość/width
+smakowity/appetising
+gorzki/bitter
+mdły/bland
+pyszny/delicious
+obrzydliwy/disgusting
+zjadliwy/edible
+robiony w domu/home-made
+niskokaloryczny/low-calorie
+łagodny/mild
+smakowity/mouth-watering
+odstraszający/off-putting
+gotowy/ready-made
+piec/roast
+ostry/sharp
+kwaśny/sour
+bez smaku/tasteless
+zrównoważony/well-balanced
+ohydny/yucky
+pyszny/yummy

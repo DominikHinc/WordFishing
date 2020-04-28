@@ -1,5 +1,4 @@
-﻿ / 
-kalkulator/﻿calculator
+﻿kalkulator/calculator
 gumka/rubber
 flamaster/felt-tip pen
 teczka/folder
@@ -13,7 +12,7 @@ linijka/ruler
 nożyczki/scissors
 zszywacz/stapler
 taśma klejąca/tape
-stołówka/cafeteria,canteen
+stołówka/canteen
 korytarz/corridor
 siłownia/gym
 biblioteka/library
@@ -72,7 +71,7 @@ trenować/train
 trener/trainer
 korzystać ze słownika/using a dictionary
 w klasie VIII/in Year 8
-dogonić, nadrobić/catch up  with
+nadrobić/catch up  with
 odstawać/fall behind
 dowiedzieć się /find out
 wręczyć/hand in

@@ -1,4 +1,3 @@
-﻿ / 
 dziedziny kultury/forms of culture
 film/film
 film przygodowy/adventure film
@@ -35,15 +34,15 @@ martwa natura/still life
 farby akwarelowe/watercolours
 popiersie/bust
 rzeźba/statue
-literature/literature
+literatura/literature
 bestseller/bestseller
 rozdział/chapter
 okładka/cover
-belerystyka/fiction
-literature faktu/non-fiction
+beletrystyka/fiction
+literatura faktu/non-fiction
 książka w miękkiej oprawie/paperback
 notka wydawnicza/blurb
-mól ksiżkowy/bookworm
+mól książkowy/bookworm
 bajka/fairy tale
 zwrotka/verse
 muzyka/music
@@ -64,7 +63,7 @@ kostiumy/costumes
 kurtyna/curtain
 antrakt/interval
 scenariusz/script
-scena(miejsce w teatrze)/stage
+scena/stage
 publiczność/audience
 rząd/row
 trema/stage fright
@@ -99,7 +98,7 @@ lektor/voice-over artist
 uczestnictwo w kulturze/participating in cultural events
 grać/act
 zabawny/amusing
-przyciągać uwagę/attract attencion
+przyciągać uwagę/attract attention
 przesłuchanie/audition
 nagroda/award
 oparty na/based on
@@ -133,7 +132,7 @@ wydarzenie na świeżym powietrzu/open-air event
 premiera/opening night
 przewidywalny/predictable
 zrobić show/put on a show
-odłorzyć coś/put sth down
+odłożyć coś/put sth down
 entuzjastyczna recenzja/rave review
 czytać/read
 wydać/release
@@ -142,7 +141,7 @@ pokaz/show
 głupi/silly
 scena/stage
 gwiazda/star
-festiwal uliczny/street festiwal
+festiwal uliczny/street festival
 występ teatralny/theatre performance
 bilet/ticket
 rola tytułowa/title role
@@ -214,9 +213,9 @@ nekrolog/obituary
 jednostronny/one-sided
 prasa/press
 poważna gazeta/quality paper
-sensacyjny/sensacional
+sensacyjny/sensational
 rozwiązywać krzyżówki/solve crosswords
-dodatek do gazety/suplement
+dodatek do gazety/supplement
 wydanie weekendowe/weekend edition
 być nominowanym do czegoś/be up for sth
 życiowa szansa/chance of a lifetime
@@ -251,7 +250,7 @@ bodziec/stimulus
 wyłączyć/switch off
 podgłośnić/turn up the volume
 być bardzo modnym/be a real crazy
-być powiwem świeżego powietrza/be whiff of fresh air
+być powiewem świeżego powietrza/be whiff of fresh air
 być pozbawianym czegoś/be devoid of sth
 przełom/breakthrough
 zrelaksować się/chill out

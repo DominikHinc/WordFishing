@@ -1,5 +1,5 @@
 ﻿ / 
-asteroida/﻿asteroid
+asteroida/asteroid
 astronauta/astronaut
 astronom/astronomer
 drugi pilot/co-pilot

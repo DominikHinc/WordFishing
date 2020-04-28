@@ -1,5 +1,4 @@
-﻿ / 
-lekkoatletyka/﻿athletics
+﻿lekkoatletyka/athletics
 baseball/baseball
 boks/boxing
 kajakarstwo/canoeing
@@ -12,7 +11,7 @@ golf/golf
 gimnastyka/gymnastics
 jazda konna/horse-riding
 hokej na lodzie/ice hockey
-łyżwiarswo/ice-skating
+łyżwiarstwo/ice-skating
 jazda na łyżworolkach/rollerblading
 rugby/rugby
 bieganie/running
@@ -81,7 +80,7 @@ pozycja/position
 ćwiczyć/practise
 strzelać gole/score goals
 kibicować/support
-zespół, drużyna/team
+drużyna/team
 rzucać/throw
 trenować/train
 instruktor/trainer
@@ -95,7 +94,7 @@ zestaw/kit
 okrążenie/lap
 chronić/protect
 potknąć się/trip
-pobić rekord /break a record
+pobić rekord/break a record
 brązowy medal/bronze medal
 zająć drugie miejsce/come second
 wpaść na kogoś/crash into
@@ -103,5 +102,5 @@ zranić się/get hurt
 niezwykły/incredible
 karny/penalty
 rekordzista/record holder
-obóz sportowy /sports camp
-taktyka /tactics
+obóz sportowy/sports camp
+taktyka/tactics

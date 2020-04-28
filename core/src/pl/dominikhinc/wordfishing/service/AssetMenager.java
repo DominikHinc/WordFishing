@@ -47,7 +47,7 @@ public class AssetMenager {
         fontParameter.magFilter = Texture.TextureFilter.Linear;
 
         float[] sizesFontF = {16*WordFishing.SCALE,24*WordFishing.SCALE,32*WordFishing.SCALE,48*WordFishing.SCALE,64*WordFishing.SCALE,96*WordFishing.SCALE,100*WordFishing.SCALE,128*WordFishing.SCALE,148*WordFishing.SCALE,169*WordFishing.SCALE};
-        int[] namesize = {16,24,32,48,64,96,100,128,148,169};
+        int[] namesize = {16,24,32,46,64,96,100,128,148,169};
         int sizesFont[] = new int[sizesFontF.length];
         int i =0;
         for(float f: sizesFontF){
@@ -63,7 +63,7 @@ public class AssetMenager {
             i++;
         }
 
-        fontGenerator = new FreeTypeFontGenerator(Gdx.files.internal("Amatic-Bold.ttf"));
+        fontGenerator = new FreeTypeFontGenerator(Gdx.files.internal("Verdana.ttf"));
         fontParameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
         fontParameter.minFilter = Texture.TextureFilter.Linear;
         fontParameter.magFilter = Texture.TextureFilter.Linear;

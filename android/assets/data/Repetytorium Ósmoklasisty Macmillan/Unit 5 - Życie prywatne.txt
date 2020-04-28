@@ -1,5 +1,4 @@
-﻿ / 
-brat/﻿brother
+﻿brat/brother
 szwagier/brother-in-law
 kuzyn/cousin
 córka/daughter
@@ -10,11 +9,11 @@ wnuczka/granddaughter
 dziadek/grandfather
 babcia/grandmother
 dziadkowie/grandparents
-wnuk/ggrandson
+wnuk/grandson
 pradziadek/great-grandfather
 prababcia/great-grandmother
 siostra przyrodnia/half-sister
-brat przyrodni/half brotrher
+brat przyrodni/half-brother
 mąż/husband
 matka/mother
 teściowa/mother-in-law
@@ -26,8 +25,8 @@ szwagierka/sister-in-law
 syn/son
 macocha/step-mother
 ojczym/step-father
-siostra przyrodnia od macochy lub ojczyma/step-sister
-brat przyrodni od macochy lub ojczyma/step-brother
+siostra przybrana/step-sister
+brat przybrany/step-brother
 żona/wife
 adoptowany/adopted
 rozwiedziony/divorced
@@ -35,11 +34,11 @@ małżeństwo/marriage
 ślub/wedding
 znajomy/acquaintance
 najlepszy przyjaciel/best friend
-najlepszy kolega/best mate
-chłopak z którym się jest w związku)/boyfriend
-dziewczyna z którą się jest w związku/girlfriend
+najlepszy kumpel/best mate
+chłopak/boyfriend
+dziewczyna/girlfriend
 kolega z klasy/classmate
- kolega z pracy/colleague
+kolega z pracy/colleague
 narzeczony/fiancé
 narzeczona/fiancée
 współlokator/flatmate
@@ -67,18 +66,21 @@ zabrać psa na spacer/take the dog for a walk
 pojechać autobusem/take a bus
 obudzić się/wake up
 myć ręce/wash your hands
+myć twarz/wash your face
 korzystać z mediów społecznościowych/check social media
 słuchać muzyki/listen to music
 grać w gry wideo/play video games
 czytać/read
 jazda na deskorolce/skateboarding
 oglądać telewizję/watch TV
-Jestem wielkim fanem.../I'm a big fan of
-Interesuję się.../I'm interested in
-Pasjonuję się.../I'm into
-Uwielbiam.../I'm keen on
-moim ulubionym zajęciem jest.../My favorite thing is
-Moje hobby to.../My hobbies are
+lubię/I like
+kocham/I love
+jestem wielkim fanem/I'm a big fan of
+interesuję się/I'm interested in
+pasjonuję się/I'm into
+uwielbiam/I'm keen on
+Moim ulubionym zajęciem jest/My favourite thing is
+Moje hobby to/My hobbies are
 drugi dzień świąt Bożego Narodzenia/Boxing Day
 karnawał/Carnival
 Święto Konstytucji/Constitution Day
@@ -100,9 +102,9 @@ nosić przebrania/wear costumes
 nosić maski/wear masks
 Która jest godzina?/What time is it?
 Która godzina?/What's the time?
-Czy wiesz która godzina?/Do you have the time?
+Czy wiesz, która godzina?/Do you have the time?
 Czy masz zegarek?/Have you got the time?
-Jest dokładnie.../It's exactly
+Jest dokładnie/It's exactly
 Jest pięć po siódmej/It's five past seven
 Jest wpół do ósmej/It's half past seven
 Jest za dziesięć trzecia/It's ten to three

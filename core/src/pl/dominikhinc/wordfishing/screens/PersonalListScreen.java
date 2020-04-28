@@ -79,7 +79,7 @@ public class PersonalListScreen extends AbstractScreen {
             begin.setTouchable(Touchable.enabled);
             reset.setTouchable(Touchable.enabled);
             save.setTouchable(Touchable.enabled);
-            begin.setText("Zaznacz Koniec");
+            end.setText("Zaznacz Koniec");
             if(endIndex > beginIndex){
                 setIndexed();
             }
@@ -103,9 +103,9 @@ public class PersonalListScreen extends AbstractScreen {
         begin.getLabel().setWrap(true);
         end.getLabel().setWrap(true);
         save.getLabel().setWrap(true);
-        begin.setSize(WordFishing.SCREEN_WIDTH/3 - WordFishing.SCREEN_WIDTH/8,WordFishing.SCREEN_HEIGHT/12);
-        end.setSize(WordFishing.SCREEN_WIDTH/3 - WordFishing.SCREEN_WIDTH/8,WordFishing.SCREEN_HEIGHT/12);
-        reset.setSize(WordFishing.SCREEN_WIDTH/3 - WordFishing.SCREEN_WIDTH/8,WordFishing.SCREEN_HEIGHT/12);
+        begin.setSize(WordFishing.SCREEN_WIDTH/3 - WordFishing.SCREEN_WIDTH/10,WordFishing.SCREEN_HEIGHT/12);
+        end.setSize(WordFishing.SCREEN_WIDTH/3 - WordFishing.SCREEN_WIDTH/10,WordFishing.SCREEN_HEIGHT/12);
+        reset.setSize(WordFishing.SCREEN_WIDTH/3 - WordFishing.SCREEN_WIDTH/10,WordFishing.SCREEN_HEIGHT/12);
 
         begin.setPosition(WordFishing.SCREEN_WIDTH/8/2,WordFishing.SCREEN_HEIGHT/24);
         end.setPosition(WordFishing.SCREEN_WIDTH/8/2+WordFishing.SCREEN_WIDTH/3,WordFishing.SCREEN_HEIGHT/24);
@@ -118,7 +118,7 @@ public class PersonalListScreen extends AbstractScreen {
                 end.setTouchable(Touchable.disabled);
                 reset.setTouchable(Touchable.disabled);
                 save.setTouchable(Touchable.disabled);
-                begin.setText("Wybież z listy");
+                begin.setText("Wybierz z listy");
             }
         });
         end.addListener(new ClickListener() {
@@ -128,7 +128,7 @@ public class PersonalListScreen extends AbstractScreen {
                 begin.setTouchable(Touchable.disabled);
                 reset.setTouchable(Touchable.disabled);
                 save.setTouchable(Touchable.disabled);
-                end.setText("Wybież z listy");
+                end.setText("Wybierz z listy");
 
             }
         });
@@ -151,13 +151,13 @@ public class PersonalListScreen extends AbstractScreen {
     public void saveToFile(){
         FileHandle fileHandle = Gdx.files.local("personal/"+folder+"/"+choosenBook+".txt");
         fileHandle.writeString(" / ",false);
-        fileHandle.writeString("\n\r",true);
+        fileHandle.writeString("\n",true);
         int i = 0;
         for(PersonalListLabel label: wordList){
             if(label.checked == true){
                 String[] s = label.getText().toString().split(" - ");
                 fileHandle.writeString(s[0]+"/"+s[1],true);
-                fileHandle.writeString("\n\r",true);
+                fileHandle.writeString("\n",true);
                 i++;
             }
 

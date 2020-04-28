@@ -1,5 +1,4 @@
-﻿ / 
-części ciała/﻿parts of the body
+﻿części ciała/parts of the body
 kostka/ankle
 policzek/cheek
 broda podbródek/chin
@@ -14,31 +13,31 @@ talia/waist
 nadgarstek/wrist
 zdrowy styl życia/healthy lifestyle
 być optymistą/be positive
-ciśnienie krwi/blood pessure
+ciśnienie krwi/blood pressure
 oddychać/breathe
 nowotwór rak/cancer
 choroba/disease
 pić dużo wody/drink lots of water
 jeść owoce/eat fruit
 jeść warzywa/eat vegetables
-przebywać na świerzym powietrzu/get fresh air
+przebywać na świeżym powietrzu/get fresh air
 wysypiać się/get lots of sleep
 badać się regularnie/get regular check-ups
-mieć zbalansowaną dietę/have a balanced diet
+mieć zbilansowaną dietę/have a balanced diet
 mieć zdrową dietę/have a healthy diet
 mieć bliskie relacje z rodziną/have close relations with family
-mieć bliskie relacje z przyjaciółmi/have close relations with freinds
-tętno/hearte rate
-układ immuonologiczny/immune system
+mieć bliskie relacje z przyjaciółmi/have close relations with friends
+tętno/heart rate
+układ immunologiczny/immune system
 poprawiać zdrowie/improve your healthy
 obniżać/lower
 zapobiegać chorobom/prevent illnesses
 wykonywać ćwiczenia fizyczne/exercise
-chorby/illnesses
+choroby/illnesses
 wypadki/accidents
 boleć/ache
 trądzik/acne
-alergia uczulenie/allegry
+alergia uczulenie/allergy
 astma/asthma
 ból pleców/back pain
 złamanie kości/broken bone
@@ -52,10 +51,10 @@ mieć zawroty głowy/feel dizzy
 czuć się źle/feel poor
 czuć się źle/feel unwell
 grypa/flu
-zdrowiec/get better
+zdrowieć/get better
 katar sienny/hay fever
-bol głowy/headache
-wysoka temperratura/high temperature
+ból głowy/headache
+wysoka temperatura/high temperature
 zranić się/hurt
 infekcja/infection
 krwawienie z nosa/nosebleed
@@ -66,7 +65,7 @@ katar/runny nose
 kichać/sneeze
 ból gardła/sore throat
 krosty/spots
-skrecony staw skokowy/sprained ankle
+skręcony staw skokowy/sprained ankle
 użądlenie/sting
 ból brzucha/stomach ache
 cierpieć/suffer from
@@ -74,8 +73,8 @@ niezdrowy/unwell
 wirus/virus
 leczenie/treatment
 antybiotyk/antibiotics
-stosowac/apply
-używać kremu do pielengnacji skóry/apply a skiny cream
+stosować/apply
+używać kremu do pielęgnacji skóry/apply a skinny cream
 bandaż/bandage
 krwawienie/bleeding
 syrop na kaszel/cough syrup
@@ -88,7 +87,7 @@ opuszczać posiłki/skip meals
 złamać kość/break a bone
 być leczonym/get treatment for
 zranić się w kolano/hurt your knee
-utrzymywać forme/keep fit
+utrzymywać formę/keep fit
 uraz nogi/leg injury
 bolesny/painful
 naciągnąć mięsień/pull a muscle

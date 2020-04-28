@@ -73,11 +73,16 @@ public class BookChooseScreen extends AbstractScreen {
                 game.setScreen(new UnitChooseScreen(game,"Gateway Plus 4"));
             }
         });
-        img7.addListener(new ClickListener() {
+        img5.addListener(new ClickListener() {
+            public void clicked(InputEvent event, float x, float y){
+                game.setScreen(new UnitChooseScreen(game,"Gateway Plus 3"));
+            }
+        });
+        /*img7.addListener(new ClickListener() {
             public void clicked(InputEvent event, float x, float y){
                 game.setScreen(new UnitChooseScreen(game,"Testy"));
             }
-        });
+        });*/
         float width = 376*WordFishing.SCALE;
         float height = 536*WordFishing.SCALE;
         float pad = 60*WordFishing.SCALE;

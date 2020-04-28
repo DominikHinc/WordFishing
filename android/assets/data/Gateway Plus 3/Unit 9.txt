@@ -1,0 +1,112 @@
+﻿zamachowiec/Assassin
+zamach/assassination
+porywacz/captor
+uwięzić/imprison
+arystokratyczny/aristocratic
+asteroida/asteroid
+dzwonek/bell
+należeć do/belong to
+pocisk/bullet
+stolica/capital city
+ostrożny/careful
+nieostrożny/careless
+zegarmistrz/clockmaker
+kolonizować/colonise
+kolonia/colony
+wygodny/comfortable
+spisek/conspiracy
+monarchia konstytucyjna/constitutional monarchy
+przekonywać/convince
+waluta/currency
+niebezpieczny/dangerous
+demokracja/democracy
+potomek/descendant
+przyjemny/enjoyable
+równy/equal
+uciekać/escape
+dowód/evidence
+ewoluować/evolve
+sławny/famous
+federacja/federation
+ustalony/fixed
+flaga/flag
+siła/force
+sprawy zagraniczne/foreign affairs
+przyjaźń/friendship
+wybory powszechne/general election
+rządzić/govern
+stopniowo/gradually
+grawitacja/gravity
+strażnik/guard
+głowa państwa/head of state
+pomocny/helpful
+bezradny/helpless
+wypożyczyć/hire
+potrącić/hit
+prawa człowieka/human rights
+głód/hunger
+głodny/hungry
+zarządzać/in charge of
+w centrum/in the centre
+niemowlę/infant
+wpływowy/influential
+obrażać/insult
+król/king
+łódź ratunkowa/lifeboat
+rezydencja/mansion
+masa mnóstwo/mass
+członek/member
+minister/minister
+tajemniczy/mysterious
+narrator/narrator
+naturalny/natural
+koszmar/nightmare
+oficjalny/official
+operacja/operation
+pasażer/passenger
+partia polityczna/political party
+władza/power
+potężny wpływowy/powerful
+zabezpieczać/preserve
+prezydent/president
+premier/prime minister
+książę/prince
+księżniczka/princess
+zasada/principle
+dochodowy/profitable
+królowa/queen
+krewny/relative
+republika/republic
+prawicowy/right-wing
+przypiekać/roast
+rządzić/rule
+plotka/rumour
+kierować państwem/run a country
+krzyczeć/scream
+wyższy rangą/senior
+rozsądny/sensible
+zbiór zasad/set of rules
+osiedlać/settle
+znak/sign
+tonąć/sink
+taśma/tape
+straszny/terrible
+teoria/theory
+spragniony/thirsty
+torturować/torture
+handel/trade
+gruźlica/tuberculosis
+niewygodny/uncomfortable
+niekoronowany/uncrowned
+unia/union
+przydatny/useful
+nieprzydatny/useless
+żądny przygód/adventurous
+urzędnik państwowy/civil servant
+wątpliwy/doubtful
+pomocny/helpful
+przepisy/laws
+burmistrz/mayor
+niezawodny/reliable
+wartościowy/valuable
+głosować/vote

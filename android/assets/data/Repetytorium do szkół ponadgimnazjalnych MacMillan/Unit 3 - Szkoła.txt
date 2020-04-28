@@ -1,15 +1,14 @@
-﻿ / 
 archeologia/archaeology
 architektura/architecture
 sztuka i wzornictwo/art and design
 bankowość i finanse/banking and finance
-biotechnologia/biotechonology
+biotechnologia/biotechnology
 choreografia/choreography
 ekonomia/economics
-inżynieria/enginiring
+inżynieria/engineering
 ochrona środowiska/environmental studies
 robienie filmów/filmmaking
-filologia obca/foregin philology
+filologia obca/foreign philology
 informatyka/information technology
 dziennikarstwo/journalism
 prawo/law
@@ -47,7 +46,7 @@ docierać/come through
 rzucać szkołę/drop out of school
 dostać piątkę/get a grade A
 zabrać się za coś/get down to sth
-wymówić coś/get one's tounge round sth
+wymówić coś/get one's tongue round sth
 uporać się z czymś/get through sth
 obniżać ocenę/grade down
 hobby/hobby horse
@@ -69,7 +68,7 @@ dyrektor/head teacher
 wykładowca/lecturer
 bibliotekarz/librarian
 członek grona pedagogicznego/staff member
-przedstwiciel samorządu uczniowskiego/student council representitive
+przedstawiciel samorządu uczniowskiego/student council representative
 nauczycielka/teacher
 stołówka/canteen
 sala lekcyjna/classroom
@@ -85,7 +84,7 @@ kreda/chalk
 cyrkiel/compasses
 korektor/correction tape
 mazak/felt-tip pen
-podkreślacz/hihglighter
+podkreślacz/highlighter
 teczka/folder
 spinacze biurowe/paper clips
 piórnik/pencil case
@@ -99,10 +98,10 @@ być absolwentem/be a school graduate
 być nieobecnym w szkole/be absent from school
 być  obecnym w szkole/be present at school
 klasa/class
-koncetrować się na czymś/concetrate on sth
+koncentrować się na czymś/concentrate on sth
 przeprowadzać badania/do your research
 koniec semestru/end of term
-wpadać w kłopoty/get into trobule
+wpadać w kłopoty/get into trouble
 dostawać najlepsze oceny/get top marks
 wygłaszać prezentacje/give a presentation
 drugie śniadanie/packed lunch
@@ -113,7 +112,7 @@ szkolna rutyna/school routine
 zwolnienie z powodu choroby/sick note
 restrykcyjny/strict
 uczyć się z podręczników/study from coursebooks
-podchodzić do egzaminu/tak an exam
+podchodzić do egzaminu/take an exam
 robić notatki/take notes
 sprawdzać obecność/take the register
 klasówka/test
@@ -122,9 +121,9 @@ pisać esej/write an essay
 odpowiadać niegrzecznie/answer back
 oszukiwać/cheat
 opuszczać lekcje/cut classes
-przeszkadzać na lekcjach/disrupt lessonos
+przeszkadzać na lekcjach/disrupt lessons
 odrabiać pracę domową/do one's homework
-szybko chłonąć wiedzę/pick up things quickly
+szybko chłonąć wiedzę/pick things up quickly
 wagarować/play truant
 przestrzegać terminów/stick to deadlines
 używać ściąg/use cribs
@@ -163,7 +162,7 @@ pomóc komuś/help sb out
 odbierać kogoś/pick sb up
 wziąć kogoś na stronę/take sb aside
 przechwalać się/blow sb's own trumpet
-mieć złą opinię/get a a lot od bad press
+mieć złą opinię/get a a lot of bad press
 poddawać się po pierwszym napotkanym problemie/give up at the first hurdle
 zawalczyć o coś/go for sth
 przejść do zrobienia czegoś/go on to do sth
@@ -174,12 +173,12 @@ zdobywać nagrody/reap the rewards
 przeprowadzać burzę mózgów/brainstorm ideas
 wspólnie przygotowywać prezentacje/collaborate on a presentation
 rozwijać umiejętność/develop a skill
-zrobić kariere/make a succesfull career
+zrobić karierę/make a successful career
 przygotować się na przyszłość/prepare for future life
 rozumieć inne punkty widzenia/understand other points of view
 rozwiązywać problemy/work out solutions to problems
 zaniepokojony/anxious
-sprawiać komuś zawód/be a dissapointment to sb
+sprawiać komuś zawód/be a disappointment to sb
 pochłaniająca pasja/consuming passion
 zamyślony/distracted
 zdolności interpersonalne/interpersonal skills
@@ -196,10 +195,10 @@ przemysłowy/industrial
 pracowity/industrious
 lekarz/physician
 fizyk/physicist
-osoba lubiąca adrenaline/adrenaline junkie
+osoba lubiąca adrenalinę/adrenaline junkie
 mól książkowy/bookworm
 miłośnik szachów/chess fancier
 miłośnik kina/cinema fan
 osoba dbająca o środowisko/eco freak
-miłośniczka fotografii/shitterbug
-miłosnik technologii/technophile
+miłośniczka fotografii/shutterbug
+miłośnik technologii/technophile

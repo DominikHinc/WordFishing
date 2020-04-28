@@ -1,4 +1,3 @@
-﻿ / 
 naukowcy/scientists
 dziedziny nauki/areas of science
 anatomia/anatomy
@@ -54,7 +53,7 @@ aktualna/current
 nowatorska/cutting-edge
 cyfrowa/digital
 innowacyjna/innovative
-wątpliwej jakości/low
+wątpliwej jakości/low quality
 nowoczesna/modern
 przestarzała/outdate
 współczesna/present-day
@@ -63,9 +62,9 @@ aktualna/up-to-date
 inne/other
 analizować dowody/analyse the evidence
 prowadzić badania naukowe/carry out scientific research
-przeprowadzać eksperyment/perform an perform experiment
+przeprowadzać eksperyment/perform an experiment
 zbierać dowody/collect the evidence
-projektować/desing
+projektować/design
 sformułować hipotezę badawczą/formulate a hypothesis
 urządzenie/device
 odkrywać/discover
@@ -85,7 +84,7 @@ urządzenie/appliance
 aplikacja/application
 stosować technologię/apply technology
 dojść do wniosku/reach a conclusion
-opierać sie na badaniach naukowych/be based on research
+opierać się na badaniach naukowych/be based on research
 wymyślić rozwiązanie/come up with a solution
 zbierać wyniki badań/compile findings
 prowadzić badania naukowe/undertake scientific research
@@ -117,7 +116,8 @@ lampa/lamp
 kuchenka mikrofalowa/microwave oven
 telefon komórkowy/mobile phone
 podłączać coś/plug in sth
-push/wciskać/press
+naciskać/press
+wciskać/push
 drukarka/printer
 włączać/switch on
 wyłączać/switch off
@@ -154,7 +154,7 @@ pamięć przenośna/flash drive
 nazwa czcionki/font name
 przekazywać dalej/forward
 kursywa/italics
-instructions/instrukcja/manual
+instrukcja/manual
 podkładka pod myszkę/mouse mat
 wklej/paste
 publikować w sieci/post
@@ -214,7 +214,7 @@ wymagać poprawek/need refinements
 wzajemne oskarżenia/recriminations
 niechęć/reluctance
 bez sięgania po coś/without recourse to sth
-stosować technologię/apple technology
+stosować technologię/apply technology
 doświadczać czegoś w prawdziwym życiu/experience things hands-on
 przeprowadzać skomplikowane operacje/perform complex surgeries
 wydłużać ludzkie życie/prolong human life
@@ -226,5 +226,5 @@ dorównywać poprzednim pokoleniom/emulate the past generations
 polepszać geny/enhance genes
 urzeczywistnić wizję/materialise a vision
 dążyć do czegoś/strive for sth
-z zadowoleniem przyjmować osiągnięcie/welcom a development
+z zadowoleniem przyjmować osiągnięcie/welcome a development
 bardzo czegoś pragnąć/yearn for sth

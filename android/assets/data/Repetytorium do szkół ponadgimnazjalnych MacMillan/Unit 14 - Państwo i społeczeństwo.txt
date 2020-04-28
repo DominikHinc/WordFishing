@@ -1,5 +1,4 @@
-﻿ / 
-mieć prawo do głosowania/﻿be eligible to vote
+mieć prawo do głosowania/be eligible to vote
 gabinet/cabinet
 prowadzić kampanię wyborczą/campaign
 gospodarka kapitalistyczna/capitalist economy
@@ -83,7 +82,7 @@ walki/fighting
 konflikt międzynarodowy/international conflict
 interwencja wojskowa/military intervention
 oddziały pokojowe/peacekeeping troops
-marsz protestancyjny/protest march
+marsz protestacyjny/protest march
 bunt/rebellion
 zamieszki/riot
 żołnierz/soldier
@@ -100,7 +99,7 @@ Minister Spraw Zagranicznych/Minister of Foreign Affairs
 negocjacje/negotiations
 negocjacje pokojowe/peace talks
 utrzymywać pokój/preserve peace
-znaleść się w martwym punkcie/reach deadlock
+znaleźć się w martwym punkcie/reach deadlock
 uciekać się od czegoś/resort to sth
 podpisać traktat/sign a treaty
 broń masowego rażenia/weapons of mass destruction
@@ -124,9 +123,9 @@ handel narkotykami/drug dealing
 uznać kogoś za winnego czegoś/find sb guilty of sth
 karać kogoś karą grzywny za coś/fine sb for sth
 być sądzonym/go on trial
-pójśc do więzienia/go to prison
+pójść do więzienia/go to prison
 haker/hacker
-hakerstwo/hacking
+hackerstwo/hacking
 sędzia/judge
 ława przysięgłych/jury
 napastnik/mugger
@@ -185,14 +184,14 @@ rasizm/racism
 społeczne wykluczenie osób niepełnosprawnych/social exclusion of the disabled
 bezrobocie/unemployment
 być na zasiłku/be on the dole
-byc maltretowanym/get battered
+być maltretowanym/get battered
 ujść na sucho/go unpunished
 żyć poniżej granicy ubóstwa/live below the breadline
 nierówność płac/pay inequality
 obóz dla uchodźców/refugee camp
 spać na ulicy/sleep rough
-sytuacja ekonomiczna/economic situtation
-sytuacja finansowa/financial situtation
+sytuacja ekonomiczna/economic situation
+sytuacja finansowa/financial situation
 gospodarka wolnorynkowa/free market economy
 zbankrutować/go bankrupt
 dochód/income
@@ -220,7 +219,7 @@ załatwić sprawę/do the job
 wrócić do gry/get back on track
 mieć w czymś zaległości/get behind with sth
 słusznie pochwalić/give praise where it's due
-stworzyć lepszą społeczność/build lub create a better community
+stworzyć lepszą społeczność/create a better community
 zwalczać obojętność społeczną/fight social indifference
 skoczyć komuś na ratunek/jump to sb's rescue
 być skrytym/keep oneself to oneself
@@ -233,7 +232,7 @@ zapewniać coś komuś/provide sth to sb
 upamiętniać/commemorate
 rząd/government
 obywatelski/grassroots
-radzić sobie z konfliktem/handle a conflikt
+radzić sobie z konfliktem/handle a conflict
 zamiar/intention
 cel/objective
 uczestniczyć/participate

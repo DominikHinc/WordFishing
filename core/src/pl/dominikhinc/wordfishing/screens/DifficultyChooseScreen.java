@@ -92,8 +92,8 @@ public class DifficultyChooseScreen extends AbstractScreen {
     }
 
     private void initPeronalListCheckBox() {
-        personalListCheckBox = new CheckBox("   Użyj listy własnej",game.getSkin());
-        personalListCheckBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/12);
+        personalListCheckBox = new CheckBox("  Użyj listy własnej",game.getSkin());
+        personalListCheckBox.setPosition(game.SCREEN_WIDTH/14,game.SCREEN_HEIGHT/12);
         personalListCheckBox.getImage().setOrigin(personalListCheckBox.getImage().getWidth()/2,personalListCheckBox.getImage().getHeight()/2);
         personalListCheckBox.getImage().setScale(3*WordFishing.SCALE);
         personalListCheckBox.setChecked(game.getPreferences().getBoolean(WordFishing.personalListUse));
@@ -136,8 +136,8 @@ public class DifficultyChooseScreen extends AbstractScreen {
     }
 
     private void initTextInputCheckBox() {
-        textInputBox = new CheckBox("   Sprawdzanie tekstowe",game.getSkin());
-        textInputBox.setPosition(game.SCREEN_WIDTH/8,game.SCREEN_HEIGHT/8);
+        textInputBox = new CheckBox("  Sprawdzanie\n  tekstowe",game.getSkin());
+        textInputBox.setPosition(game.SCREEN_WIDTH/14,game.SCREEN_HEIGHT/8);
         textInputBox.getImage().setOrigin(textInputBox.getImage().getWidth()/2,textInputBox.getImage().getHeight()/2);
         textInputBox.getImage().setScale(3*WordFishing.SCALE);
         textInputBox.setChecked(game.isTextInput());

@@ -1,4 +1,3 @@
-﻿ / 
 mieć na coś alergię/be allergic to sth
 mieć zawroty głowy/be dizzy
 być chorym/be sick
@@ -19,7 +18,7 @@ mieć dreszcze/be shivery
 być okazem zdrowia/be the picture of health
 nie najlepiej się czuć/feel a bit under the weather
 nie być w formie/feel a little off-colour
-być wyczerpanym/feek shattered
+być wyczerpanym/feel shattered
 kostka/ankle
 ręka/arm
 plecy/back
@@ -73,29 +72,29 @@ dłoń/palm
 czaszka/skull
 żyła/vein
 antybiotyki/antibiotics
-ból pleców/cackache
+ból pleców/backache
 bandaż/bandage
 odczuwać ból/be in pain
 podbite oko/black eye
 bąbel/bliste
 paczka chusteczek/box of tissues
-złamać nogę/beak a leg
+złamać nogę/break a leg
 rak/cancer
 przeziębić się/catch a cold
 kaszel/cough
 syrop na kaszel/cough mixture
-opisac objawy choroby/describe the symptoms
+opisać objawy choroby/describe the symptoms
 badać kogoś/examine sb
 krople do oczu/eye drops
 mieć mdłości/feel sick
- gorączka/fever
+gorączka/fever
 grypa/flu
 zatrucie pokarmowe/food poisoning
 wykurować się z czegoś/get over sth
 wypocząć/get plenty of rest
 udzielać pierwszej pomocy/give first aid
 udzielać porad medycznych/give medical advice
-zrobić komuś zastrzyk/give sb a injection
+zrobić komuś zastrzyk/give sb an injection
 iść do apteki/go to the chemist's
 mieć atak serca/have a heart attack
 mieć udar/have a stroke
@@ -131,23 +130,23 @@ dostać wysypki/come out in rash
 choroba zakazna/contagious disease
 wyleczyć/cure
 choroba/disease
-śmiertelna choroba/fatal diesase
+śmiertelna choroba/fatal disease
 zostać użądlonym/get stung
 mieć grypę żołądkową/go down with a stomach bug
 mieć drzazgę/have a splinter
 mieć niestrawność/have indigestion
 choroba/illness
-choroba zakazna/infectious disease
+choroba zakaźna/infectious disease
 kontuzja/injury
 mdłości/nausea
 zemdleć/pass out
 cierpieć na silne bóle głowy/suffer from splitting headaches
-okropna choroba/terrible diesease
+okropna choroba/terrible disease
 leczyć/treat
 skręcić kostkę/twist one's ankle
 wymioty/vomiting
 rana/wound
-unikać ćwiczeń/avoid excercising
+unikać ćwiczeń/avoid exercising
 być w formie/be in good shape
 mieć nadwagę/be overweight
 ograniczyć spożywanie niezdrowego jedzenia/cut down junk food
@@ -157,14 +156,14 @@ być na zrównoważonej diecie/follow a well-balanced diet
 nie móc złapać oddechu/get out of breath
 rzucić palenie/give up smoking
 zapisać się na siłownię/join a gym
-zachwać formę/keep fit
+zachować formę/keep fit
 mieć stresujący tryb życia/lead a pretty stressful life
 ćwiczyć/work out
 niewidomy/blind
 opiekun osoby niepełnosprawnej/carer
 głuchy/deaf
 niemy/dumb
-pies przwodnik/guide dog
+pies przewodnik/guide dog
 aparat słuchowy/hearing aid
 niedosłyszący/partially deaf
 niepełnosprawny fizycznie/physically disabled
@@ -197,13 +196,13 @@ wizyta domowa/home visit
 całkowicie wyzdrowieć/make a full recovery
 sala operacyjna/operating theatre
 ratownik medyczny/paramedic
-odnieśc niewielkie obrażenia/suffer minor injuries
+odnieść niewielkie obrażenia/suffer minor injuries
 kule/crutches
 opatrzyć ranę/dress a wound
 dostać znieczulenie ogólne/get a general anaesthetic
- szwy/stitches
+szwy/stitches
 nosze/stretcher
-oddział szpitalny/wward
+oddział szpitalny/ward
 rozweselać kogoś/cheer sb up
 wychodzić z domu/get out
 przygnębiać kogoś/get sb down
@@ -235,7 +234,7 @@ zaburzenie/disorder
 efekt/effect
 wpływ/impact
 trudności w uczeniu/learning disorders
-choroba psychiczna/mental illnes
+choroba psychiczna/mental illness
 proces/process
 osoba chora/sufferer
 wsparcie/support
@@ -247,7 +246,7 @@ być łatwo zauważalnym/be easy to spot
 być na coś chorym/be ill with sth
 mieć szkodliwy wpływ na coś/have a detrimental effect on sth
 stanowić dla kogoś ogromne wyzwanie/pose a serious challenge to sb
-skierować kogośdo specjalisty/refer sb to specialist
+skierować kogoś do specjalisty/refer sb to specialist
 być w genach/run in the family
 przeprowadzać badania/run tests
 ciężka postać choroby/severe form of an illness

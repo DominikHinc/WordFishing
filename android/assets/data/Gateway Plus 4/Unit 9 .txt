@@ -1,5 +1,5 @@
 ﻿ / 
-szerokopasmowy/﻿broadband
+szerokopasmowy/broadband
 kamera video/camcorder
 ładowarka/charger
 zasięg/coverage

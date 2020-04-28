@@ -1,5 +1,4 @@
-﻿ / 
-sklep/﻿shop
+﻿sklep/shop
 piekarnia/baker's
 księgarnia/bookshop
 sklep mięsny/butcher's
@@ -42,9 +41,9 @@ zrzucić/drop
 za pół ceny/half price
 w gotówce/in cash
 w magazynie/in stock
- numer/number
+numer/number
 przy odbiorze/on delivery
-zamawiać/oreder
+zamawiać/order
 kolejka/queue
 paragon/receipt
 rząd/row
@@ -59,7 +58,7 @@ wadliwy/faulty
 zwrot pieniędzy/refund
 serwis/repair service
 zwrot/return
-usuługi/services
+usługi/services
 elektryk/electrician
 fryzjer/hairdresser
 prawnik/lawyer
@@ -95,7 +94,7 @@ umawiać spotkanie/make an appointment
 opakowanie/packaging
 odebrać/pick sth up
 wyprzedaż/sale
-rozmiar/siza
+rozmiar/size
 stragan/stall
 bluza sportowa/sweatshirt
 zwrócić coś do sklepu/take something back to the shop

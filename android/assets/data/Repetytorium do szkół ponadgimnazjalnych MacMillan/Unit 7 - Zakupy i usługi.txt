@@ -1,43 +1,41 @@
-﻿ / 
-towary/merchandieses
+towary/merchandises
 rodzaje sklepów/types of shops
 portal aukcyjny/auction site
 piekarnia/bakery
 księgarnia/bookshop
 sklep mięsny/butcher's
 giełda rzeczy używanych/car boot sale
-sklep należacy do sieci handlowej/chain store
+sklep należący do sieci handlowej/chain store
 sklep charytatywny/charity shop
 apteka/chemist's
 sklep odzieżowy/clothes shop
 dom towarowy/department store
-sklep z artykułami do majsterkowania/DIT shop
+sklep z artykułami do majsterkowania/DIY shop
 kwieciarnia/florist's
 sklep meblowy/furniture shop
 sklep ogrodniczy/garden centre
 warzywniak/greengrocer's
 sklep spożywczy/grocer's
 jubiler/jeweller's
-corener shop/sklep osiedlowy/local
+sklep osiedlowy/corner shop
 stoisko/market stall
 sklep muzyczny/music shop
-kios z gazetami/newsagent's
- sklep zoologiczny/pet shop
-sklep"wszystko za funta"/pound store
+kiosk z gazetami/newsagent's
+sklep zoologiczny/pet shop
 sklep obuwniczy/shoe shop
 centrum handlowe/shopping mall
 sklep sportowy/sports shop
 sklep z zabawkami/toy shop
-automat/vending machine
+automat/vending machine 
 cukiernia/confectioner's
-pralnina chemiczna/dry cleaner's
+pralnia chemiczna/dry cleaner's
 sklep rybny/fishmonger's
 pchli targ/flea market
 sklep z upominkami/gift sop
 sklep monopolowy/off-licence
-duże centrumpri/retail park
+duże centrum/retail park
 sklep papierniczy/stationery shop
-okazaja cenowa/bargain
+okazja cenowa/bargain
 uczciwa cena/fair price
 za połowę ceny/half-price
  niska cena/low price
@@ -54,7 +52,7 @@ kosztować/cost
 przymierzalnia/fitting room
 mieć coś na stanie/have sth in stock
 dziura/hole
-na wyprzedaży/in a sale
+na wyprzedaży/on a sale
 zachować paragon/keep a receipt
 zrobić listę zakupów/make a shopping list
 brakujący guzik/missing button
@@ -77,7 +75,7 @@ zaciąć się/stick
 zwrócić/take back
 przymierzyć coś/try on
 kupić hurtowo/buy in bulk
-kupić na raty/buy in installments
+kupić na raty/buy in instalments
 kupić pod wpływem impulsu/buy on impulse
 kupić coś za bezcen/buy sth for a song
 mieć przy sobie pieniądze/carry some money on sb
@@ -118,7 +116,7 @@ konkurencyjne ceny/competitive prices
 ulotka/flier
 karta podarunkowa/gift card
 logo/logo
-punkty lojalnościowe/loyalty point
+punkty lojalnościowe/loyalty points
 kampania reklamowa/marketing campaign
 plakat/poster
 slogan/slogan
@@ -163,7 +161,7 @@ składka ubezpieczeniowa/premium
 czytać drobny druk/read the small print
 wykupić ubezpieczenie/take out insurance
 broker/broker
-prowizja/commision
+prowizja/commission
 wszechstronna polisa ubezpieczeniowa/comprehensive insurance police
 fałszywe roszczenie/fraudulent claim
 firma ubezpieczeniowa/insurance company
@@ -176,7 +174,7 @@ nic dziwnego/no wonder
 wybrać coś/pick out sth
 okazać się niemożliwym do spełnienia/prove impossible to do sth
 zdjąć coś szybko/pull of sth
-zacząc/start off
+zacząć/start off
 spuchnąć/swell
 w międzyczasie/along the line
 wzrosnąć/be on the rise
@@ -206,11 +204,11 @@ sprowadzać się do czegoś/be down to sth
 porównując/by comparison
 grupowe zajęcia/collaborative activity
 zajęcia indywidualne/solitary activity
-sprzyjący czemuś/conducive to sth
+sprzyjający czemuś/conducive to sth
 dostosować się do czegoś/conform to sth
 upewnić się/ensure
 być prawdziwym/hold true
-promienieć/raiate with sth
+promienieć/radiate with sth
 sprzedawca detaliczny/retailer
 umocnić/strengthen
 celować w kogoś/target sb

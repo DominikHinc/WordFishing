@@ -1,5 +1,4 @@
-﻿ / 
-księgowy/﻿accountant
+﻿księgowy/accountant
 aktor/actor
 aktorka/actress
 kierowca karetki/ambulance driver
@@ -8,9 +7,9 @@ operator filmowy/cameraman
 szef kuchni/chef
 programista/computer programmer
 kucharz/cook
-dentsta/dentist
+dentysta/dentist
 lekarz/doctor
-intruktor jazdy/driving instructor
+instruktor jazdy/driving instructor
 służby ratownicze/emergency services
 inżynier/engineer
 rozrywka i media/entertainment and media
@@ -19,7 +18,7 @@ strażak/firefighter
 stewardessa/flight attendant
 sektor hotelarski i gastronomiczny/food and hospitality
 fryzjer/hairdresser
-dziennikarz/joutnalist
+dziennikarz/journalist
 sędzia/judge
 prawo/law
 prawnik/lawyer
@@ -35,7 +34,7 @@ przedstawiciel handlowy/sales representative
 naukowiec/scientist
 sekretarz/secretary
 sprzedawca w sklepie/shop assistant
-projektant oprogramowania/sofrware designer
+projektant oprogramowania/software designer
 taksówkarz/taxi driver
 nauczyciel/teacher
 technik/technican
@@ -89,14 +88,14 @@ rozdawać ulotki/hand out leaflets
 roznoszenie prasy/newspapers delivery
 czesanie zwierząt/pet grooming
 opiekowanie się zwierzęciem w czasie nieobecności właściciela/pet sitting
-umieć gospodoarować pieniędzmi/be responsible with money
+umieć gospodarować pieniędzmi/be responsible with money
 spędzać czas z/hang out with
-mieć zdecydowane pogłądy na temat/have strong views on
+mieć zdecydowane poglądy na temat/have strong views on
 organizować swój czas/organise your time
 wykonywać pracę/do a job
 otrzymać szanse zrobienia/get the chance to do
 mieć szanse zrobienia/have the chance to do
-tajemniczy klient/mistery shooper
+tajemniczy klient/mystery shopper
 zdumiony/amazed
 zdumiewający/amazing
 znudzony/bored

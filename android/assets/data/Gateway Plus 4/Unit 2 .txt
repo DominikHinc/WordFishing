@@ -1,5 +1,5 @@
 ﻿ / 
-dyrektor banku/﻿bank manager
+dyrektor banku/bank manager
 rolnik/farmer
 strażak/firefighter
 górnik/miner

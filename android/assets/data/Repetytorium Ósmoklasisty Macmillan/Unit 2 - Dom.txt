@@ -1,5 +1,4 @@
-﻿ / 
-mieszkanie/﻿apartment
+﻿mieszkanie/apartment
 dom parterowy/bungalow
 przyczepa kempingowa/caravan
 uroczy/charming
@@ -19,7 +18,7 @@ w ładnej dzielnicy miasta/in a nice part of town
 w centrum miasta/in the centre of the town
 na wsi/in the country
 w górach/in the mountains
-lesie/in the woods
+w lesie/in the woods
 daleko od parku/far from a park
 blisko rzeki/near a river
 blisko morza/near the sea
@@ -30,12 +29,12 @@ na parterze/on the ground floor
 na najwyższym piętrze/on the top floor
 na pierwszym piętrze/on the first floor
 w otoczeniu pól/surrounded by fields
-z dużym ogromnym ogrodem/with a huge garden
-wspaniałym widokiem/with a great view
-wieloma pokojami/with loads of rooms
-wieloma sąsiadami/with lots of neighbours
-dużą ilością miejsca w środku/with plenty of space inside
-dużą ilością miejsca na zewnątrz/with plenty of space outside
+z ogromnym ogrodem/with a huge garden
+ze wspaniałym widokiem/with a great view
+z wieloma pokojami/with loads of rooms
+z wieloma sąsiadami/with lots of neighbours
+z dużą ilością miejsca w środku/with plenty of space inside
+z dużą ilością miejsca na zewnątrz/with plenty of space outside
 grill/barbecue
 kawiarnia/cafe
 pojemnik na śmieci/dustbin
@@ -51,7 +50,7 @@ balkon/balcony
 piwnica/basement
 umywalka/basin
 wanna/bath
-łazienkna/bathroom
+łazienka/bathroom
 sypialnia/bedroom
 koc/blanket
 regał na książki/bookcase
@@ -60,15 +59,15 @@ sufit/ceiling
 piwnica/cellar
 krzesło/chair
 komoda/chest of drawers
-garderoba,szatnia/cloakroom
+garderoba/cloakroom
 stolik kawowy/coffee table
 korytarz/corridor
 szafka kuchenna/cupboard
 zasłony/curtains
 poduszki ozdobne/cushions
 krzesło z jadalni/dinning chair
-jadalnia/dinning room
-stół w jadalni/dinning table
+jadalnia/dining room
+stół w jadalni/dining table
 hol wejściowy/entrance hall
 kominek/fireplace
 parter/ground floor
@@ -82,7 +81,7 @@ półka/shelf
 prysznic/shower
 kredens/sideboard
 zlew/sink
-sofa,kanapa/sofa
+kanapa/sofa
 dodatkowa sypialnia/spare bedroom
 stołek/stool
 toaleta/toilet
@@ -94,7 +93,7 @@ odtwarzacz DVD/DVD player
 zamrażarka/freezer
 lodówka/fridge
 grzejnik/heater
-szuszarka do włosów/hairdryer
+suszarka do włosów/hairdryer
 żelazko/iron
 czajnik/kettle
 kino domowe/home cinema
@@ -108,7 +107,7 @@ prasować/do the ironing
 prać/do the washing
 pomagać przygotowywać posiłek/help prepare a meal
 załadować zmywarkę/load the dishwasher
-słać łóżko/make your bed
+słać łóżko/make a bed
 nakrywać do stołu/set the table
 wynosić śmieci/take the rubbish out
 sprzątać pokój/tidy your room
@@ -132,7 +131,7 @@ zatrzymać się w hotelu/stay in a hotel
 drzwi do sypialni/bedroom door
 zapięcie rowerowe/bike lock
 klucze do samochodu/car keys
-włacznik światła/light switch
+włącznik światła/light switch
 ramka obrazu/picture frame
 kosz na śmieci/rubbish bin
 pudło na zabawki/toy box

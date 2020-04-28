@@ -20,8 +20,8 @@ android {
         applicationId "pl.dominikhinc.wordfishing"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 4
-        versionName "0.7.3"
+        versionCode 9
+        versionName "0.7.7"
     }
     buildTypes {
         release {

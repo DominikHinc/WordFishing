@@ -1,4 +1,3 @@
-﻿ / 
 etapy życia/stages of life
 wiek dojrzewania/adolescence
 dorosłość/adulthood
@@ -12,7 +11,7 @@ w starszym w wieku/elderly
 od wczesnych lat/from an early age
 przyszłe pokolenia/future generations
 różnica pokoleń/generation gap
-wziąć rozwód/get divoced
+wziąć rozwód/get divorced
 zaręczyć się/get engaged
 wziąć ślub/get married
 urodzić kogoś/give birth to sb
@@ -32,15 +31,15 @@ być w wieku 16 lat/be 16 years of age
 na swój wiek/for sb's age
 zestarzeć się/get to old age
 w wieku nastoletnim/in sb's teens
-pozniżej...lat/under the age of
+poniżej 18 lat/under the age of 18
 ciocia/aunt
 najlepsza przyjaciółka/best mate
 szwagier/brother-in-law
-kolega/koleżanka z klasy/classmate
-była/były/ex
+kolega z klasy/classmate
+były/ex
 spodziewać się dziecka/expect a baby
 spotkanie rodzinne/family gathering
-współlokator/flatamte
+współlokator/flatmate
 być z kimś w dobrych stosunkach/get on well with sb
 dziadek/grandad
 babcia/granny
@@ -60,7 +59,7 @@ spędzać czas na robieniu czegoś/spend time doing sth
 robić zdjęcia/take photographs
 znaleźć nowe zainteresowania/take up new hobbies
 wydawać przyjęcia/throw parties
-zobaczyć wystawę sztuki/visit an art exihibition
+zobaczyć wystawę sztuki/visit an art exhibition
 oglądać serial/watch a TV series
 uroczystości/celebrations
 rocznica/anniversary
@@ -85,7 +84,7 @@ Nowy Rok/New Year's Day
 dynia/pumpkin
 przyjęcie/reception
 ceremonia/service
-śpiewać kolędy/sings carols
+śpiewać kolędy/sing carols
 walentynki/Valentine's Day
 pakować prezenty/wrap up gifts
 konflikty/conflicts
@@ -93,14 +92,14 @@ styl życia/lifestyle
 kłótnia/argument
 zachowanie/behaviour
 nieporozumienie/disagreement
-pouczenie/disciplining
-wściekły/fourious
+pouczanie/disciplining
+wściekły/furious
 buntowniczy/rebellious
 związek/relationship
 zapraszać kogoś na randkę/ask sb out
 być kimś zainteresowany/be attracted to sb
 oszaleć na punkcie kogoś/be crazy about sb
-kłotnia/bust-up
+kłótnia/bust-up
 zdradzać kogoś/cheat on sb
 rzucić kogoś/dump sb
 zakochać się/fall in love
@@ -117,10 +116,10 @@ pogodzić się/make up
 dojść do porozumienia/patch up the differences
 zerwać/split up
 wziąć ślub/tie the knot
-wydać fortunę/brak the bank
+wydać fortunę/break the bank
 wybuchnąć śmiechem/burst out laughing
 pójść gładko/go smoothly
-pójść spać/hit the pilow
+pójść spać/hit the pillow
 wydać przyjęcie/hold a reception
 nie rozumiem/it escapes me
 decydować samodzielnie/left to oneself
@@ -128,7 +127,7 @@ skromny/low key
 zepsuć atmosferę czegoś/put a dampener on sth
 z wyższej półki/upmarket
 łagodzić/alleviate
-żałoba/berevement
+żałoba/bereavement
 wprowadzać w życie/implement
 związek/liaison
 wspomnieć o czymś/make a passing comment about sth
@@ -143,10 +142,10 @@ idol/idol
 mieszkać pod jednym dachem/live under the same roof
 mobilny/mobile
 działać/operate
-przezwyciężać problemy/overcame problems
-generwować problemy/produce disagreements
+przezwyciężać problemy/overcome problems
+generować problemy/produce disagreements
 różnice związane z rasą/racial differences
-rebeila/rebellion
+rebelia/rebellion
 rewolucja/revolution
 bezsensowny/senseless
 trend/trend
@@ -155,11 +154,99 @@ widoczny/visible
 sprzeczać się o coś/clash over sth
 doprowadzić kogoś do szału/drive sb up the wall
 napotkać problem/encounter a problem
-dotrzeć do kogoś/get throught to sb
+dotrzeć do kogoś/get through to sb
 zbesztanym/get told off
 niewiarygodny/mind-boggling
 na pierwszy rzut oka/on the surface
 doprowadzać kogoś do szału/push sb to the limits
-mieć z czymś trudności/struggie to do sth
+mieć z czymś trudności/struggle to do sth
 zmienić kogoś w coś/turn sb into sth
 niezgodny zaufania/unreliable
+w erze technologii/in the age of technology
+narzeczony/fiancé
+pradziadek/great-grandfather
+mieć z kimś coś wspólnego/have sth in common with sb
+jedno z bliźniąt jednojajowych/identical twin
+najbliższa rodzina/immediate family
+podziwiać kogoś/look up to sb
+zaprzyjaźnić się z kimś/make friends with sb
+teściowa/mother-in-law
+siostrzeniec/nephew
+siostrzenica/niece
+jedynak/only child
+partner/partner
+rówieśnik/peer
+czas przeznaczony dla rodziny/quality time
+krewny/relative
+brat lub siostra/sibling
+niepełna rodzina/single-parent family
+bratnia dusza/soulmate
+ojczym/stepfather
+macocha/stepmother
+być podobnym/take after
+kolega z drużyny/teammate
+wuj/uncle
+kolega z pracy/workmate
+znajomy/acquaintance
+adopcja/adoption
+dorosły/adult
+zaprzyjaźnić się/befriend
+wychowywać/bring up
+krótkotrwały związek/causal relationship
+rodzina wielopokoleniowa/extended family
+przybrane dziecko/foster child
+rodzina zastępcza/foster family
+przyjaciel/friend
+pozbawiony przyjaciół/friendless
+życzliwość/friendliness
+życzliwy/friendly
+przyjaźń/friendship
+dorosły/grown-up
+brat przyrodni/half brother
+siostra przyrodnia/half sister
+utrzymywać kontakt/keep in touch
+sierota/orphan
+związki/relations
+stały związek/steady relationship
+brat przybrany/stepbrother
+siostra przybrana/stepsister
+skończyć 16 lat/turn 16
+myć zęby/brush your teeth
+wsiąść do autobusu/catch a bus
+układać włosy/do your hair
+odrabiać lekcje/do your homework
+ubierać się/get dressed
+wstawać/get up
+uczyć się do późna/have a late night studying
+późno wstać/have a lie-in
+jeść śniadanie/have breakfast
+pomagać/help out
+prasować/iron
+utrzymywać porządek w pokoju/keep your room tidy
+zostawić bałagan w pokoju/leave your room in a mess
+pakować się do szkoły/pack for school
+nastawić pralkę/put on a wash
+nastawić budzik/set the alarm
+sprzątać swój pokój/tidy up your room
+budzić się/wake up
+zostać w domu/be stuck indoors
+rozmawiać ze znajomymi/chat with friends
+rozwiązywać krzyżówki/do crosswords
+rysować/do drawings
+uprawiać sport/do sports
+rozwiązywać sudoku/do sudoku puzzles
+jeść poza domem/eat out
+spotkać się/get together
+chodzić do klubów/go clubbing
+jeździć na rowerze/go cycling
+chodzić na spacery/go for walks
+jeździć konno/go horse-riding
+uprawiać jogging/go jogging
+pływać/go swimming
+chodzić na koncerty/go to music gigs
+chodzić do kina/go to the cinema
+plotkować/gossip
+śmiać się/have a laugh
+spędzić spokojny wieczór w domu/have a quiet night in
+dołączyć do kogoś/join sb
+spędzać z kimś czas/spend time with sb

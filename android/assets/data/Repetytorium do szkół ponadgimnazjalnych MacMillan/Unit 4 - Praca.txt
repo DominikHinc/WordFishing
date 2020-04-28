@@ -1,4 +1,3 @@
-﻿ / 
 księgowy/accountant
 aktor/actor
 architekt/architect
@@ -14,7 +13,7 @@ dentysta/dentist
 dietetyk/dietician
 reżyser/director
 instruktor jazdy/driving instructor
-ekonomista/econimist
+ekonomista/economist
 redaktor/editor
 elektryk/electrician
 inżynier/engineer
@@ -121,7 +120,7 @@ dostać trzytygodniowy płatny urlop/get three weeks' paid holiday
 mieć szansę na awans/have the chance of promotion
 praca w niepełnym wymiarze godzin/part-time job
 dodatkowe korzyści/perks
-praca na stałe/pernament job
+praca na stałe/permanent job
 personel/personnel
 odejść z pracy/quit a job
 odejść z pracy/resign from a job
@@ -148,7 +147,7 @@ doświadczenie zawodowe/job record
 rzucić coś/pack sth in
 pomijać kogoś/pass sb over
 obciążać kogoś pracą/rush sb off their feet
-charować nad czymś/slog away at sth
+harować nad czymś/slog away at sth
 składać/submit
 wziąć wolne z powodu choroby/take time off sick
 wolne stanowisko/vacancy
@@ -157,15 +156,15 @@ rynek pracy/labour market
 ubiegać się o pracę/apply for a job
 załączyć CV/attach your CV
 zostać przyjętym do pracy/be accepted for a job
-zostać wyrzucownym z pracy/be fired
-zostać wyrzucownym z pracy/be sacked
+zostać zwolnionym z pracy/be fired
+zostać wyrzuconym z pracy/be sacked
 zostać zwolnionym w ramach redukcji etatów/be made redundant
 być na zasiłku/be on the dole
 zostać odrzuconym/be rejected
-zostać zamkniętym (o firmie)/close down
+zostać zamkniętym/close down
 wypełniać/fill in
 zbankrutować/go bankrupt
-rozpoczać strajk/go on strike
+rozpocząć strajk/go on strike
 rozmowa o pracę/interview
 robić na kimś dobre wrażenie/make the right impression on sb
 doświadczenie zawodowe/professional experience
@@ -175,7 +174,7 @@ związek zawodowy/trade union
 bezrobotny/unemployed
 dniówka/wages
 osiągniecie/achievement
-kandydant/applicant
+kandydat/applicant
 zgłoszenie/application
 przejść do następnego etapu/be shortlisted
 nadrobić zaległości w pracy/clear the backlog of work
@@ -203,7 +202,7 @@ opiekun na obozie letnim/summer camp supervisor
 przewodnik/tour guide
 wolontariat/voluntary work
 praca weekendowa/weekend job
-wybróbować coś/check sth out
+wypróbować coś/check sth out
 znaleźć dla kogoś czas/fit sb in
 dać sobie dużo czasu/give oneself plenty of time
 mieć pustkę w głowie/sb's mind go blank
@@ -236,7 +235,7 @@ realizować swoje pasje/follow sb's pursuits
 być źródłem stresu/give stress
 bezstresowy/stressless
 wykorzystywać coś/take advantage of sth
-mieć pierszeństwo/takie priority
+mieć pierwszeństwo/takie priority
 przyjmować coś/admit sth
 stosować w życiu codziennym/apply sth to real life situations
 oceniać/assess
@@ -257,7 +256,7 @@ doświadczenie praktyczne/hands-on experience
 podkreślać/highlight
 wskazywać/indicate
 utrzymywać/maintain
-wkazywać na coś/point sth out
+wskazywać na coś/point sth out
 odbywać w formie stażu/realised through internship
 wynagrodzenie/remuneration
 zobaczyć na własne oczy/see for oneself

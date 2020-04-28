@@ -1,27 +1,26 @@
-﻿ / 
-korzystanie z nowoczesnych technologii/﻿using modern technology
+﻿korzystanie z nowoczesnych technologii/using modern technology
 kamera/camera
 bluetooth/bluetooth
 przeglądarka internetowa/browser
 ładować telefon/charge a phone
 ładować baterię/charge a battery
 klikać/click
-łączyć sie z internetem/connect to the Internet
-łączyć sie z głośnikami/connect to speakers
+łączyć się z internetem/connect to the Internet
+łączyć się z głośnikami/connect to speakers
 kontaktować się/contact
-zawieśić się/crash
+zawiesić się/crash
 kursor/cursor
 aparat cyfrowy/digital camera
-ściagać/download
-słuchawki dousze/earpgones
+ściągać/download
+słuchawki dousze/earphones
 folder/folder
 konsola gier/games console
 kontroler do gier/handset
 sprzęt komputerowy/hardware
-słuchawki nausze/headphones
+słuchawki nauszne/headphones
 instalować/install
 klawiatura/keyboard
-sluchać podcastu/listen to a podcast
+słuchać podcastu/listen to a podcast
 pamięć/memory
 przenośna pamięć USB/memory stick
 przenośna pamięć USB/flash drive
@@ -49,22 +48,22 @@ pamięć USB/USB stick
 wirus/virus
 głośność/volume
 Wi-Fi/Wi-Fi
-technologia /technology
+technologia/technology
 bloger/blogger
 haker/hacker
 moderator/moderator
 programista/programmer
 troll/troll
-projektant stron internetowych /web designer
+projektant stron internetowych/web designer
 wynalazki/inventions
 odkrycia/discoveries
 prowadzić badania/carry out research
 prowadzić eksperyment/carry out an experiment
-znaleźć rozwiązanie /come up with
+znaleźć rozwiązanie/come up with
 odkrywać/discover
 prowadzić badania/do research
 prowadzić eksperyment/do an experiment
-dowiedzić się/find out
+dowiedzieć się/find out
 wynaleźć/invent
 prasa drukarska/printing press
 koło/wheel
@@ -110,7 +109,7 @@ rewolucjonizować/revolutionise
 kamery bezpieczeństwa/security cameras
 układ słoneczny/solar system
 podróż kosmiczna/space travel
-pozostawać w kontakcie /stay in touch
+pozostawać w kontakcie/stay in touch
 teoria względności/theory of relativity
 światła uliczne/traffic lights
 odkurzacz/vacuum cleaner

@@ -1,0 +1,151 @@
+﻿atrakcyjny/attractive
+łysy/bald
+piękny/beautiful
+blond/blonde
+kręcone/curly
+ciemne/dark
+jasne/fair
+gruby/fat
+atrakcyjny/good-looking
+przystojny/handsome
+długi/long
+średniego wzrostu/of medium heigh
+mający nadwagę/overweight
+pospolity/plain
+ładny/pretty
+niski/short
+chudy/skinny
+szczupły/slim
+prosty/straight
+wysoki/tall
+chudy/thin
+brzydki/ugly
+dobrze zbudowany/well-biult
+arogancki/arrogant
+apodyktyczny/bossy
+bystry/bright
+radosny/cheerful
+bystry/clever
+przyjazny/friendly
+zabawny/funny
+szczęśliwy/happy
+pracowity/hard-working
+niecierpliwy/impatient
+inteligentny/intelligent
+leniwy/lazy
+miły/nice
+towarzyski/outgoing
+cierpliwy/patient
+cichy/quiet
+rzetelny/reliable
+samolubny/selfish
+poważny/serious
+nieśmiały/shy
+towarzyski/sociable
+rozmowny/talkative
+schludny/tidy
+nieprzyjemny/unfriendly
+niechlujny/untidy
+aktywny/active
+rzeczywiście/actually
+złościć/annoy
+oprócz/appart from
+umówione spotkanie/appointment
+załączać/attach
+awatar/avatar
+barbarzyńca/barbarian
+bariera/barrier
+wierzyć/believe
+pasek/belt
+przełamywać/breakdown
+oddychać/breathe
+troszczyć się o/carea bout
+frytki/chips
+wyraźny/clear
+ściskać/clutch
+wybrzeże/coast
+pewny siebie/confident
+liczyć na/counton
+dekada/decade
+pyszny/delicious
+zaprzeczać/deny
+zejście/decency
+szlafrok/dressinggown
+w podeszłym wieku/elderly
+czuć/feel
+przerażający/frightening
+zadowolony/glad
+chusteczka/handkerchief
+trudny/hard
+mieć nadzieję/hope
+prace domowe/housework
+głodny/hungry
+zainteresowany/interested in
+przerywać/interrupt
+sztuka/item
+miły/kind
+styl życia/lifestyle
+wyglądać/look
+wyglądać jak/look like
+głośny/loud
+szaleć/madabout
+żonaty zamężna/married
+mieszanina/mix
+przeprowadzać się/move
+dystrofia mięśniowa/muscular dystrophy
+obecnie/nowadays
+czasami/occasionally
+stary/old
+przeciwieństwo/opposite
+posiadać/own
+portret/portrait
+produkt/product
+podobizna/representation
+sprzedawać/sell
+przedstawiać/show
+strona/side
+elegancki/smart
+pachnieć/smell
+chrapać/snore
+łagodny/soft
+żołnierz/soldier
+rodzaj/sort
+brzmieć/sound
+efektowny/spectacular
+walczyć/struggle
+smakować/taste
+krawat/tie
+obuwie sportowe/trainers
+traktować/treat
+kolej/turn
+głosować/vote
+ciepły/warm
+czy/weather
+broda/beard
+błyskotliwy/bright
+troskliwy/caring
+swobodny/casual
+farbowany/dyed
+pieg/freckle
+utalentowany/gifted
+przepiękny/gorgeous
+obojętny/indifferent
+w średnim wieku/middle-aged
+złośliwy/mean
+w rozmiarze M/medium-sized
+wąsy/moustache
+otyły/obese
+blady/pale
+pulchny/plump
+kucyk/ponytail
+rudowłosy/redhead
+niegrzeczny/rude
+wrażliwy/sensitive
+chudy/skinny
+nieogarnięty/slow-witted
+wpaski/striped
+oszałamający/stunning
+garnitur/suit
+z niedowagą/underweight
+nietowarzyski/unsociable
+zmarszczka/wrinkle

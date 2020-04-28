@@ -1,5 +1,4 @@
-﻿ / 
-postawy obywatelskie/﻿citizenship
+﻿postawy obywatelskie/citizenship
 być miłym dla/be kind to
 być dumnym z/be proud of
 zachowywać się dobrze/behave well
@@ -75,7 +74,7 @@ terroryzm/terrorysm
 terrorysta/terrorist
 kradzież/theft
 złodziej/thief
-policjant drogówki/traffice warden
+policjant drogówki/traffic warden
 proces/trial
 wandal/vandal
 demolować/vandalise

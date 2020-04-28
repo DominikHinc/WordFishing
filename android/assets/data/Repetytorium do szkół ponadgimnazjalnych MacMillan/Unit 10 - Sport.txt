@@ -1,4 +1,3 @@
-﻿ / 
 dyscypliny sportu/sports disciplines
 badminton/badminton
 baseball/baseball
@@ -92,7 +91,7 @@ rakieta do gry/racket
 ring/ring
 łyżwy/skates
 lodowisko/skating rink
-piste/stok/slope
+stok/slope
 kijek/stick
 basen/swimming pool
 kort tenisowy/tennis court
@@ -100,7 +99,7 @@ tor/track
 dres/tracksuit
 ciężarki/weights
 pianka do nurkowania/wetsuit
-pasjonowac się/be into
+pasjonować się/be into
 odpaść/be knocked out
 pobić rekord/beat a record
 pokonać/beat
@@ -108,14 +107,14 @@ mistrzostwa/championship
 kibicować drużynie/cheer a team
 konkurować/compete
 zawody/competition
-obrońca tytułu mistrzowskiego/defending chamipon
+obrońca tytułu mistrzowskiego/defending champion
 zdyskwalifikować/disqualify
 zremisować/draw
 ostatni gwizdek/final whistle
 finalista/finalist
 gra karciana/game of cards
 porzucić/give up
-oronić tytuł/keep a title
+obronić tytuł/keep a title
 trzymać kciuki/keep one’s fingers crossed
 unieść trofeum/lift the trophy
 przegrać/lose
@@ -144,7 +143,7 @@ pokonać mistrza/beat the champion
 pokonać faworyta/beat the favourite
 pobić rekord świata/beat the world record
 pokonać przeciwnika/beat your opponent
-pokonać konkurencję/blow the competition awa
+pokonać konkurencję/blow the competition away
 rozdawać karty/call the shots
 trener/coach
 obrońca/defender
@@ -159,12 +158,12 @@ dotrzeć do mety/make it to the finishing line
 przeciwnik/opponent
 rywal/rival
 rzut karny/penalty
-walczyć,stawiać opór/put up a real fight
+stawiać opór/put up a real fight
 sędzia/referee
 publiczność/spectators
 stanąć na podium/stand on the podium
 napastnik/striker
-twoja kolej/the bal lis in your court
+twoja kolej/the ball is in your court
 sędzia/umpire
 wygrać wyścig/win a race
 wygrać trofeum/win a trophy
@@ -174,8 +173,8 @@ wygrać przewagą punktową/win on points
 wygrać puchar/win the cup
 wyścigi BMX/BMX racing
 skoki na bungee/bungee jumping
-chodzenie po taśmie rozpiętej pomiędzy dwoma punktami/highlining
-kite surfing/kite surfing
+chodzenie po linie/highlining
+kitesurfing/kitesurfing
 spadochroniarstwo/skydiving
 kajakarstwo górskie/whitewater rafting
 przypływ adrenaliny/adrenaline rush
@@ -194,7 +193,7 @@ zostać zawodowcem/go professional
 nielegalny interes/illegal deal
 ustawianie meczy/match-fixing
 spadek do niższej ligi/relegation to a lower division
-mierzyc się z kimś/be up against somebody
+mierzyć się z kimś/be up against somebody
 zająć pierwsze miejsce w zawodach/come first in the competition
 dostać się do drużyny/make a team
 ostra konkurencja/stiff competition

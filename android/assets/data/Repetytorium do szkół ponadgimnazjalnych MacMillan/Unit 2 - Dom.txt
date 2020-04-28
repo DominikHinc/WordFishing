@@ -1,4 +1,3 @@
-﻿ / 
 miejsce zamieszkania/the place where we live
 strych/attic
 kawalerka/bedsit
@@ -19,7 +18,7 @@ przedmieścia/suburbs
 kamienica/tenement house
 dom szeregowy/terraced house
 widok/view
-udogodnienia/amenites
+udogodnienia/amenities
 domek letniskowy/chalet
 dogodny/convenient
 łatwy w utrzymaniu/easy to maintain
@@ -34,7 +33,7 @@ w bliskiej odległości/within walking distance of
 niepełna rodzina/broken home
 dom rodzinny/family house
 czuć się jak u siebie/feel at home
-adres zamieszkania/home adress
+adres zamieszkania/home address
 rodzinna miejscowość/home town
 wyprowadzać się/leave home
 przeprowadzać się/move house
@@ -123,7 +122,7 @@ wygodny/comfy
 przytulny/cosy
 w pełni wyposażony/fully-equipped
 w pełni umeblowany/fully-furnished
-przytulny/homely
+swojski/homely
 staromodny/old-fashioned
 używany/second-hand
 przestronny/spacious
@@ -138,20 +137,20 @@ duszny/stuffy
 tandetny/tacky
 prace w domu/household jobs
 obowiązki/chores
-wietrzyć pokój/air s room
+wietrzyć pokój/air's room
 czysty/clean and tidy
 wykonywać prace domowe/do household chores
 remontować coś/do sth up
 zmywać naczynia/do the washing-up
 wycierać kurz z półek/dust the shelves
-opróżniać zmywarke/empty the dishwasher
+opróżniać zmywarkę/empty the dishwasher
 pozbywać się czegoś/get rid of sth
 wieszać pranie/hang out the clothes
 odkurzać dywan/hoover the carpet
 prasować ubrania/iron the clothes
 wkładać naczynia do zmywarki/load the dishwasher
 ścielić łóżko/make your bed
-wycierać podłogę mopem/mop thge floor
+wycierać podłogę mopem/mop the floor
 otwierać okna/open the windows
 zamiatać podłogę/sweep the floor
 sprzątać/tidy up
@@ -160,7 +159,7 @@ wyrzucać/chuck sth away
 uprzątnąć coś/clear sth out
 dekorować coś/do sth up
 instalować coś/put sth in
-stawiać coś/pu sth up
+stawiać coś/put sth up
 zadomawiać się/settle in
 narzędzia/utensils
 miotła/broom
@@ -188,13 +187,13 @@ do wynajęcia/to let
 osiągać/come to
 dodatkowa opłata/extra charge
 powiadamiać/give notice
-płaciś w miesięcznych ratach/pay in a monthly instalments
-wpłacać zadatek/put down a desposit
+płacić w miesięcznych ratach/pay in a monthly instalments
+wpłacać zadatek/put down a deposits
 lokator/tenant
 zwalniać miejsce/vacate a place
 sprowokować rozmowę/encourage discussion
 pokusić się o stwierdzenie/go so far as to say
-rozglądać się/look round
+rozglądać się/look around
 na wystawie/on display
 przenocować kogoś/put sb up
 twardy jak kamień/rock-hard
@@ -206,12 +205,12 @@ niepościelone łóżko/unmade bed
 szeroki wybór/an array of sth
 odziany/attired
 kunsztownie ubrany/exquisitely dressed
-jasne jak słońce/glanringly obvious
+jasne jak słońce/glaringly obvious
 bardzo drogi/highly prized
 lokator/occupant
 wymagać/require
 wyjawiać/reveal
-głęboko spać/sleep soundly
+głęboko spać/sleep deeply
 nieco nieufny/slightly wary
 w przystępnej cenie/affordable
 przeprowadzać eksperyment/do an experiment
@@ -241,7 +240,7 @@ zyskać ogromną popularność/take the world by storm
 źle oświetlony/badly-lit
 dobrze oświetlony/well-lit
 o wysokim suficie/high-ceilinged
-pomalownay/painted
+pomalowany/painted
 praktycznie umeblowany/practically furnished
 w stylu rustykalnym/rustic style
 stylowe dekoracje/stylish decorations

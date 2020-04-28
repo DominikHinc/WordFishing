@@ -1,0 +1,114 @@
+﻿autokar/coach
+prom/ferry
+balon wypełniony gorącym powietrzem/hot-air balloon
+kajak/kayak
+ciężarówka/lorry
+motocykl/motorbike
+tratwa/raft
+rakieta/rocket
+statek kosmiczny/spaceship
+furgonetka/van
+pojazd/vehicle
+jacht/yacht
+przyjazdy/arrivals
+odwołać/cancel
+złapać/catch
+opóźnienie/delay
+odjazdy/departures
+opłata za przejazd/fare
+bagaż/luggage
+spóźnić się na pociąg/miss the train
+peron/platform
+bilet w dwie strony/return
+bilet w jedną stronę/single
+kasa biletowa/ticket office
+pensjonat oferujący nocleg ze śniadaniem/bed and bre-akfast
+pole namiotowe/campsite
+przyczepa campingowa/caravan
+hotel/hotel
+namiot/tent
+schronisko młodzieżowe/youth hostel
+popsuć się/break down
+ zgłosić się do odprawy/check in
+wyrwać się/get away
+przyjeżdżać/get in
+ wsiadać/get into
+wysiadać/get out of
+wsiadać do pociągu/get on a train
+wysiadać z pociągu/get off a train
+wyruszać/set off
+startować/take off
+wypadek/accident
+wbrew/against
+alternatywa/alternative
+przynajmniej/at least
+rachunek/bill
+most/bridge
+gotówka/cash
+wyzwanie/challenge
+wybór/choice
+wybierać/choose
+połączenie/connection
+karta kredytowa/credit card
+cel podróży/destination
+upuścić/drop
+cesarz/emperor
+kończyć/end up
+silnik/engine
+rozrywka/entertainment
+wyolbrzymiać/exaggerate
+wyjątkowo/exceptionally
+wyczerpujący/exhausting
+doświadczenie/experience
+wypełniać/fill
+pierwsza klasa/first class
+szczęśliwy/fortunate
+złoto/gold
+ziemia/ground
+dorastać/grow up
+pistolet/gun
+ogromny/huge
+huragan/hurricane
+góra lodowa/iceberg
+natychmiast/immediately
+w głąb lądu/inland
+zamiast/instead
+kontynuować robienie/keep doing sth
+znokautować kogoś/knock somebody out
+kłamstwo/lie
+linia/line
+szczęśliwie/luckily
+środek transportu/means of transport
+monsun/monsoon
+okazja/occasion
+paczka/packet
+zdać/pass
+papryka/pepper
+podnieść/pick up
+usługi pocztowe/postal service
+wlewać/pour in
+pociągać/pull in
+pchać/push
+zdać sobie sprawę/realize
+wymienić/replace
+obracać/rotate
+przestraszony/scared
+ekran/screen
+podpalić/set fire to
+dym/smoke
+miejsce/space
+normalny/standard
+dworzec/station
+kraść/steal
+burza/storm
+siła/strength
+nagle/suddenly
+garnitur/suit
+dreszcz emocji/thrill
+rzucać/throw
+wycieczka/trip
+tajfun/typhoon
+jednorożec/unicorn
+otwierać/unlock
+fala/wave
+chcieć/wish

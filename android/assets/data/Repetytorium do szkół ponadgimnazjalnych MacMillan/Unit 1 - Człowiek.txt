@@ -1,8 +1,7 @@
-﻿ / 
-dane osobowe/﻿personal data
+dane osobowe/personal data
 kraj pochodzenia/country of origin
 kraj zamieszkania/country of residence
-aktualny adres/current adress
+aktualny adres/current address
 data urodzenia/date of birth
 nazwisko/last name
 imię/first name
@@ -13,10 +12,10 @@ narodowość/nationality
 zawód/occupation
 nick na portalach społecznościowych/social media nick
 kod pocztowy/postcode
-wygląd zewnętrzny/apperance
+wygląd zewnętrzny/appearance
 atrakcyjny/attractive
 nieatrakcyjny/unattractive
-piękny/beatiful
+piękny/beautiful
 przystojny/handsome
 ładny/pretty
 brzydki/ugly
@@ -63,13 +62,13 @@ pieprzyk/mole
 blady/pale
 przedziałek/parting
 ograniczyć spożycie czegoś/cut down on sth
-zmieścić się w czymś (ubraniu)/get into sth
+zmieścić się w czymś/get into sth
 przejść na dietę/go on diet
 umawiać się z kimś/go out with sb
 wyglądać jak ktoś/look like sb
-zrobić wspaniałe wrażenie na kimś/make a great impresion on sb
+zrobić wspaniałe wrażenie na kimś/make a great impression on sb
 odróżniać od kogoś/make diffrent from sb
-przygrać na wadze/put on weight
+przybrać na wadze/put on weight
 polecić coś komuś/recommend sth to sb
 przypominać kogoś z wyglądu/remind sb of sb
 podobny do kogoś/similar to sb
@@ -86,7 +85,7 @@ sukienka/dress
 kolczyki/earrings
 buty na płaskim obcasie/flats
 polar/fleece
-klapki japonki/flop-flops
+klapki japonki/flip-flops
 rękawiczki/gloves
 opaska na włosy/hairband
 torebka/handbag
@@ -100,7 +99,7 @@ naszyjnik/necklace
 majtki/pants
 pierścionek/ring
 sandały/sandals
-koszuka/shirt
+koszulka/shirt
 szorty/shorts
 spódnica/skirt
 kapcie/slippers
@@ -115,13 +114,13 @@ obuwie sportowe/trainers
 spodnie/trousers
 kamizelka/waistcoat
 kalosze/wellies
-wzory/paterns
+wzory/patterns
 w kratkę/checked
-dzinsowy/denim
+dżinsowy/denim
 bez wzoru/plain
 w kropki/spotted
 w paski/striped
-wełniany/woolen
+wełniany/woollen
 sztruksowy/corduroy
 jedwabny/silk
 zamszowy/suede
@@ -137,7 +136,7 @@ niemodny/unfashionable
 pasować komuś/fit sb
 ubierać się/get dressed
 rozbierać się/undressed
-pasować do siebie (o elementach ubrania)/go with sth
+pasować do siebie/go with sth
 z długim rękawem/long-sleeved
 pasować do czegoś/match sth
 założyć coś na siebie/put on sth
@@ -151,7 +150,7 @@ beżowy/beige
 elegancki/chic
 obcisły/close-fitting
 kołnierz/collar
-rozszerzający się ku dołowi (o ubraniu)/flared
+rozszerzający się ku dołowi /flared
 na czasie/hip
 luźny/loose
 rękaw/sleeve
@@ -165,12 +164,12 @@ kłótliwy/argumentative
 arogancki/arrogant
 apodyktyczny/bossy
 odważny/brave
-ostrożny/carefule
+ostrożny/careful
 troskliwy/caring
-dziecinny/childlish
+dziecinny/childish
 mądry/clever
 okrutny/cruel
-wyluzowany/easygoing
+wyluzowany/easy-going
 lubiący dobra zabawę/fun-loving
 ciężko pracujący/hard working
 pomocny/helpful
@@ -178,7 +177,7 @@ mało pomocny/unhelpful
 szczery/honest
 nieszczery/dishonest
 pomysłowy/imaginative
-mało pomysłowy/unimaginatice
+mało pomysłowy/unimaginative
 uprzejmy/kind
 nieuprzejmy/unkind
 leniwy/lazy
@@ -188,7 +187,7 @@ bałaganiarski/messy
 skromny/modest
 naiwny/naive
 o wąskich horyzontach/narrow-minded
-hałasliwy/noisy
+hałaśliwy/noisy
 otwarty/open-minded
 towarzyski/outgoing
 cierpliwy/patient
@@ -217,7 +216,7 @@ zarozumialec/big-head
 obcesowy/blunt
 leń/couch potato
 tchórz/coward
-zdeterminowany/determinded
+zdeterminowany/determined
 oszczędny/economical
 ekstrawagancki/extravagant
 szczery/frank
@@ -242,14 +241,14 @@ przybity/depressed
 rozczarowany/disappointed
 zawstydzony/embarrassed
 zazdrosny/envious
-podeksytowany/excited
+podekscytowany/excited
 wyczerpany/exhausted
 znudzony/fed up
 wściekły/furious
 szczęśliwy/happy
 przerażony/horrified
 zazdrosny/jealous
-przygnebiony/miserable
+przygnębiony/miserable
 zagubiony/mixed up
 zdenerwowany/nervous
 zadowolony/pleased
@@ -258,7 +257,7 @@ smutny/sad
 przestraszony/scared
 podekscytowany/terrified
 zmęczony/tired
-przygnebiony/upset
+przygnębiony/upset
 zmartwiony/worried
 być w dołku/be down in the dumps
 być wniebowziętym/be over the moon
@@ -311,11 +310,11 @@ mieć konsekwencje/take its toll on sth
 zwieść/take sb in
 wytłumaczyć krok po kroku/talk sb through sth
 być odbieranym jako bardziej atrakcyjny/be seen as more attractive
-wyrobić sobie opinie o kimś/form an opinion obout sth
+wyrobić sobie opinie o kimś/form an opinion about sth
 wykreować swój wizerunek/project an image of oneself
-odzwierciedlenie naszej osobowości/reflection of outr personality
+odzwierciedlenie naszej osobowości/reflection of our personality
 wyróżniać się z tłumu/stand out of the crowd
-poniżej pasa (cios)/below the belt
+poniżej pasa/below the belt
 leżeć jak ulał/fit like a glove
 wpaść w szał/flay off the handle
 radzić sobie ze stresem/tackle stress

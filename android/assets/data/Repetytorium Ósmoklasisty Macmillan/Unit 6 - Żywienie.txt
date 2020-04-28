@@ -1,5 +1,4 @@
-﻿ / 
-Żywność/﻿food products
+﻿żywność/food products
 wołowina/beef
 herbatniki/biscuits
 chleb/bread
@@ -25,7 +24,7 @@ sałata/lettuce
 mleko/milk
 grzyby/mushrooms
 orzechy/nuts
-olej/oliwa/oil
+olej/oil
 cebula/onion
 makaron/pasta
 wieprzowina/pork
@@ -64,24 +63,24 @@ talerz/plate
 otwieracz do konswer/tin opener
 dodawać/add
 kroić/cut
-smarzyć/fry
-grylować/grill
+smażyć/fry
+grillować/grill
 podgrzewać/heat up
 obierać/peel
 przepis/recipe
 ciąć na plastry/slice
-smarować /spread
-okreslenie smaku/describing taste
+smarować/spread
+określenie smaku/describing taste
 gorzki/bitter
 słony/salty
 słony/savoury
 kwaśny/sour
 pikantny/spicy
 słodki/sweet
-jedzenie poza domem /eating out
-być gotowym do złożenia zamówienia /be ready to order
+jedzenie poza domem/eating out
+być gotowym do złożenia zamówienia/be ready to order
 rezerwować stolik/book a table
-stołówka /canteen
+stołówka/canteen
 szef kuchni/chef
 klient/customer
 smacznego/enjoy your meal
@@ -92,21 +91,21 @@ menadżer/manager
 zamówić posiłek/order a meal
 zamówić deser/order dessert
 zapłacić rachunek/pay the bill
- przeczytać recenzję restauracji /read a restaurant review
-bar kanapkowy /sandwich bar
+przeczytać recenzję restauracji/read a restaurant review
+bar kanapkowy/sandwich bar
 specjalność kuchni/special
 stolik dla dwóch osób/table for two
 wegański/vegan
 wegetariański/vegetarian
 kelnerka/waitress
 kelner/waiter
-nawyki żywieniowe /eating habits
+nawyki żywieniowe/eating habits
 rodzaje przyjęć/parties
 bankiet/banquet
 grill/barbecue
 jeść poza domem/eat out
 piknik/picnic
-przyjmować gości /entertain guests
+przyjmować gości/entertain guests
 jeść pomiędzy posiłkami/snack between meals
 za granicą/abroad
 pomocnik szefa/assistant chef
@@ -132,7 +131,7 @@ podgrzewać/warm up
 piekarnia/bakery
 być na ścisłej diecie/be on a strict diet
 węglowodany/carbohydrates
-cieńki naleśnik/crepe
+cienki naleśnik/crepe
 dieta niskowęglowodanowa/low-carb diet
 majonez/mayonnaise
 pomyłka/mix-up

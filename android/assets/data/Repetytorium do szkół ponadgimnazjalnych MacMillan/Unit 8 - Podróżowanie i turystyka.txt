@@ -1,4 +1,3 @@
-﻿ / 
 środki transporty/means of transport
 autobus/bus
 kajak/canoe
@@ -44,7 +43,7 @@ przejazd kolejowy/level crossing
 autostrada/motorway
 poczekalnia/passenger waiting room
 przejście dla pieszych/pedestrian crossing
-stacja benzynowa/petrol statin
+stacja benzynowa/petrol station
 platforma/platform
 stacja kolejowa/train station
 rondo/roundabout
@@ -73,7 +72,7 @@ przejść przez/go through
 wylądować/land
 odjechać/leave
 spóźnić się na pociąg/miss a train
-wczasy zoorganizowane/package holiday
+wczasy zorganizowane/package holiday
 kontrola paszportowa/passport control
 znak drogowy/road sign
 prace drogowe/roadworks
@@ -95,11 +94,11 @@ przyjechać po kogoś/pick somebody up
 przyjechać na czas/run on time
 godziny szczytu/rush hour
 zwolnić/slow down
-przyśpieszyc/speed up
+przyśpieszyć/speed up
 wylądować/touch down
 mieć zapięty pas bezpieczeństwa/wear a seat belt
 informacja turystyczna/tourist information
-zakwaterowanie/accomadation
+zakwaterowanie/accommodation
 opłata za wstęp/admission charge
 broszura/brochure
 wydarzenie/event
@@ -108,7 +107,7 @@ godziny otwarcia/opening and closing time
 ciekawe miejsce/place of interest
 parki krajobrazowe/places of natural beauty
 pocztówka/postcard
-wycieczka ze zwiedzaniem/sightsseing tour
+wycieczka ze zwiedzaniem/sightseeing tour
 pamiątka/souvenir
 baza noclegowa/accommodation
 pensjonat oferujący noclegi ze śniadaniem/bed and breakfast
@@ -121,19 +120,19 @@ z łazienką/en suite
 pensjonat/guest house
 luksusowy/posh
 rozbić namiot/put up a tent
-wynajać domek/rent a cottage
+wynająć domek/rent a cottage
 miejscowość wypoczynkowa/resort
 z własnym wyżywieniem/self-catering
-pokój jednoosbowy/single room
+pokój jednoosobowy/single room
 wolny pokój/vacancy
 z widokiem na morze/with a sea view
 schronisko młodzieżowe/youth hostel
 wycieczki/excursions
 zwiedzanie/sightseeing
 aktywny wypoczynek/adventure holiday
-wędóweka z plecakiem/backpacking holiday
+wędrówka z plecakiem/backpacking holiday
 wczasy nad morzem/beach holiday
-którki wyjazd turystyczny do dużego miasta/city break
+krótki wyjazd turystyczny do dużego miasta/city break
 przeprawa/crossing
 rejs wycieczkowy/cruise
 wycieczka/excursion
@@ -143,7 +142,7 @@ podróżować/travel
 krótka podróż/trip
 rejs/voyage
 wakacje zimowe/winter holiday
- wczasy all-inclusive/all-inclusive holiday
+wczasy all-inclusive/all-inclusive holiday
 wspaniały widok/amazing view
 starożytne ruiny/ancient ruins
 widok zapierający dech w piersiach/breathtaking view
@@ -196,7 +195,7 @@ szpitalny oddział ratunkowy/emergency unit
 dostać mandat za zbyt szybką jazdę/get a speeding ticket
 spalić się na słońcu/get sunburnt
 ratownik/lifeguard
-kamizelka ratunkowa/lifejackte
+kamizelka ratunkowa/life jacket
 uratować/rescue
 ukraść coś/steal something
 przeżyć/survive
@@ -224,7 +223,7 @@ przystępność ceny/affordability
 czystość/cleanliness
 oczekiwania/expectations
 niedogodność/inconvenience
-utrzymanie/maintenanace
+utrzymanie/maintenance
 robić hałas/make a racket
 stłumić/muffle
 cisza i spokój/peace and quiet
@@ -274,7 +273,7 @@ cudowny/marvellous
 masywny/massive
 cudowny/miraculous
 mityczny/mythical
-wybitny/oustanding
+wybitny/outstanding
 przytłaczający/overwhelming
 obfity/plentiful
 nierealny/unreal

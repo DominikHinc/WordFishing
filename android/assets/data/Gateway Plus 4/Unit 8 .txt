@@ -1,5 +1,5 @@
 ﻿ / 
-lawina/﻿avalanche
+lawina/avalanche
 susza/drought
 trzęsienie ziemi/earthquake
 epidemia/epidemic

@@ -1,17 +1,16 @@
-﻿ / 
-lotnisko/﻿airport
+﻿lotnisko/airport
 karta pokładowa/boarding pass
 nudny/boring
 przystanek autobusowy/bus stop
 personel pokładowy/cabin crew
 tani/cheap
 czysty/clean
- niewygodny/uncomfortable
+niewygodny/uncomfortable
 wygodny/comfortable
 niebezpieczny/dangerous
 opóźnienie/delay
 brudny/dirty
-prowadźić samochód/drive
+prowadzić samochód/drive
 kierowca/driver
 ekscytujący/exciting
 drogi/expensive
@@ -56,30 +55,30 @@ pociąg/train
 tramwaj/tram
 ciężarówka/truck
 furgonetka/van
-kierunki /directions
+kierunki/directions
 przejść przez/cross over
 dotrzeć do/get to
-minąć /go past
+minąć/go past
 iść prosto/go straight on
 po sąsiedzku/next door
 naprzeciwko/opposite
 tuż za rogiem/just round the corner
 skręcić w pierwszą w prawo/take the first right
 skręcić w drugą w lewo/take the second left
-najlepsza droga do /the best way to
+najlepsza droga do/the best way to
 skręcić w prawo/turn right
 skręcić w lewo/turn left
 zwiedzanie/travel
 zwiedzanie/sightseeing
 aktywny wypoczynek/adventure holiday
 plecak/backpack
-wakacje na plaży /beach holiday
-rezerwacja /booking
+wakacje na plaży/beach holiday
+rezerwacja/booking
 broszura/brochure
 pociągiem/by train
 wakacje pod namiotem/camping holiday
-kmping/campsite
-pływanie kajakiem /canoeing
+kamping/campsite
+pływanie kajakiem/canoeing
 pokład/deck
 wycieczka/excursion
 opłata/fare
@@ -90,9 +89,9 @@ iść pieszo/go on foot
 pensjonat/guest house
 torebka damska/handbag
 piesza wycieczka/hiking
-wakacje /holiday
+wakacje/holiday
 hotel/hotel
-podróż /journey
+podróż/journey
 pływanie kajakiem/kayaking
 spóźnić się na pociąg/miss a train
 muzeum/museum
@@ -117,7 +116,7 @@ narciarstwo wodne/water-skiing
 sporty wodne/water sports
 unikać/avoid
 podróżować/get around
-środki transpotu/means of transport
+środki transportu/means of transport
 planować trasę/plan a route
 ubierać się modnie/dress fashionably
 pieszo/on foot

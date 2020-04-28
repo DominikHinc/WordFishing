@@ -1,5 +1,5 @@
 ﻿ / 
-ocena/﻿assessment
+ocena/assessment
 praca domowa/assignment
 oblać/fail
 ocena/grade

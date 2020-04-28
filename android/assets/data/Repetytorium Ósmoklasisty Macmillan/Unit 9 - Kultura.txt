@@ -1,5 +1,4 @@
-﻿ / 
-gra aktorska/﻿acting
+﻿gra aktorska/acting
 aktorka/actress
 aktor/actor
 autor/author
@@ -76,7 +75,7 @@ prezenter/presenter
 królik/rabbit
 wybieg/runway
 ekran/screen
-kolekcja wiosenna/spring colletion
+kolekcja wiosenna/spring collection
 trapez/trapeze
 dzieło sztuki/work of art
 media/the media 
@@ -110,7 +109,7 @@ scena/scene
 błyszczeć/shine
 grać główną rolę/star
 dubler/understudy
-wstęp/admisson
+wstęp/admission
 strzała/arrow
 łuk/bow
 panna młoda/bride
@@ -134,5 +133,5 @@ farby/paints
 przekonywać/persuade
 filmować/shoot
 śmierdzący/smelly
-węże i drabiny /snakes and ladders
+węże i drabiny/snakes and ladders
 krawat/tie

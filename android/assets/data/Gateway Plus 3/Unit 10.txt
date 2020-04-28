@@ -1,0 +1,77 @@
+﻿piekarnie/baker’s
+bank/bank
+sklep mięsny/butcher’s
+apteka/chemist’s
+sklep odzieżowy/clothes shop
+dom towarowy/department store
+sklep z artykułami elektronicznymi/electrical goods store
+warzywniak/greengrocer’s
+jubiler/jeweller’s
+sklep muzyczny/music and DVD store (in)
+kiosk/newsagent’s
+poczta/post office
+sklep obuwniczy/shoe shop
+sklep sportowy/sports shop
+sklep papierniczy/stationary shop
+supermarket/supermarket
+pozwolić sobie/afford
+okazja/bargain
+kasjer/cashier
+przymierzalnia/changing room
+kasa/checkout
+karta kredytowa/credit card
+karta debatowa/debit card
+rabat/discount
+prezent/gift
+kolejka/queue
+paragon/receipt
+zwrot pieniędzy/refund
+półka/shelf
+wózek sklepowy/trolley
+oskarżać/accuse
+kampania reklamowa/advertising campaign
+przepraszać/apologise
+przeprosiny/apology
+równowaga/balance
+winić/blame
+pusty/blank
+pożyczać/borrow
+organizacja charytatywna/charity
+okoliczności/circumstance
+narzekać/complain
+skarga/complaint
+pojemnik/container
+żądanie/demand
+ofiarowywać/donate
+farba/dye
+zarabiać/earn
+agent nieruchomości/estate agent
+odkrywca/explorer 
+wadliwy/faulty
+pasować/fit
+futro/fur coat
+dalej/futher
+gokart/go kart
+bluzka z kapturem/hoodie
+natychmiast/instantaneously
+inwestować/invest
+pożyczać/lend
+wynajmować/let
+zarabiać pieniądze/make money
+tymczasem/meanwhile
+opakowanie/packaging
+perfumy/perfume
+pakowany/pre-wrapped
+obniżka/reduction
+szczątki/remains
+wyjmować/remove
+niegrzeczny/rude
+oszczędzać/save
+zapach/scent
+klient/shopper
+rozmiar/size
+zapach/smell
+transakcja/transaction
+nieumeblowany/unfurnished
+marnować/waste
+podwórko/yard

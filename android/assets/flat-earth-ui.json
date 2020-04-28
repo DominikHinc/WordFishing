@@ -262,7 +262,7 @@ com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
 	default: {
 		checkboxOn: checkbox-pressed-c
 		checkboxOff: checkbox-c,
-		font: "font_primary_64",
+		font: "font_primary_46",
 		downFontColor: white
 		overFontColor: white
 	}
@@ -315,7 +315,7 @@ com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
 }
 com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
 	default: {
-		font: "font_primary_64"
+		font: "font_primary_46"
 	}
 	button: {
 		font: button
@@ -332,7 +332,7 @@ com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
 		font: "font_ukon_100"
 	},
 	wrong:{
-		font:"font_primary_128"
+		font:"font_primary_96"
 	},
 	test: {
 		font: "font_ukon_32"
@@ -340,7 +340,7 @@ com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
 },
 com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
 	default: {
-		font: "font_primary_64",
+		font: "font_primary_46",
 		fontColorSelected: white
 		fontColorUnselected: white
 		selection: selection
@@ -422,7 +422,7 @@ com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
 }
 com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
 	default: {
-		font: "font_primary_64",
+		font: "font_primary_46",
 		fontColor: white
 		downFontColor: white
 		overFontColor: gray,
@@ -431,14 +431,19 @@ com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
 		over: button-h
 	},
 	"question": {
-		font: "font_primary_96",
+		font: "font_primary_64",
+		fontColor: white,
+		up: button-c
+	},
+	"credits": {
+		font: "font_primary_32",
 		fontColor: white,
 		up: button-c
 	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
 	default: {
-		font: "font_primary_64",
+		font: "font_primary_46",
 		fontColor: black
 		background: white
 		cursor: white

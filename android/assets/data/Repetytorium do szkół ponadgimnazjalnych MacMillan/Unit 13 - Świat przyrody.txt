@@ -1,4 +1,3 @@
-﻿ / 
 pogoda/weather
 klimat/climate
 jesień/autumn
@@ -45,7 +44,7 @@ lać/pour down
 orzeźwiający wietrzyk/refreshing breeze
 przelotny deszczyk/scattered shower
 skwar/scorcher
-rzęsity deszcz/torrential downpour
+rzęsisty deszcz/torrential downpour
 upał nie do wytrzymania/unbearable heat
 roślina/plant
 gałąź/branch
@@ -96,7 +95,7 @@ gad/reptile
 konik morski/seahorse
 rekin/shark
 wąż/snake
-łabądź/swan
+łabędź/swan
 pstrąg/trout
 żółw/turtle
 zwierzęta wodne/water animals
@@ -116,7 +115,7 @@ drapieżnik/predator
 gryzoń/rodent
 łuska/scale
 ogon/tail
-wąś/whisker
+wąs/whisker
 skrzydło/wing
 krajobraz/landscape
 jaskinia/cave
@@ -151,7 +150,7 @@ wodospad/waterfall
 mały las/wood
 zagrożenia środowiska/environmental threats
 kwaśne deszcze/acid rain
-powodować zniszczenine czegoś/cause destruction to sth
+powodować zniszczenie czegoś/cause destruction to sth
 zmiana klimatu/climate change
 gatunek zagrożony wyginięciem/endangered species
 problem środowiska/environmental problem
@@ -175,11 +174,11 @@ naturalne siedlisko/natural habitat
 toksyczne odpady/toxic waste
 nienadający się do zamieszkania/uninhabitable
 unikać korzystania z plastikowych torebek/avoid using plastic bags
-zabronić stosowania środków owadobójdczych/ban pesticides
+zabronić pestycydów/ban pesticides
 budować ścieżki rowerowe/build bike routes
 rozwijać odnawialne źródła energii/develope renewable energy sources
 tankować samochód paliwem bezołowiowym/fill the car up with unleaded petrol
-zaangażować się w ochronę przyrody/get involved in wildlife consercation
+zaangażować się w ochronę przyrody/get involved in wildlife conservation
 inwestować w energię słoneczną/invest in solar energy
 poddawać odpady recyklingowi/recycle waste
 korzystać z transportu publicznego/use public transport
@@ -213,7 +212,7 @@ mieć siłę 5 stopni w skali Richtera/measure five on the Richter scale
 uchodźca/refugee
 uratować kogoś/rescue sb
 głodujący/starving
-fala pływowa/tidal wace
+fala pływowa/tidal wave
 wstrząs/tremor
 trąba powietrzna/twister
 przestrzeń kosmiczna/The Universe
@@ -235,7 +234,7 @@ Uran/Uranus
 Wenus/Venus
 głęboki na stopę/a foot deep
 urodzinowa niespodzianka/birthday treat
-posprzątać/clear up
+posprzątać/clean up
 nieustanny powód do zmartwień/constant worry
 przystawać na coś/go along with sth
 ślizgawica/icy conditions
@@ -258,7 +257,7 @@ paliwo opałowe/heating fuel
 średnia długość życia/life expectancy
 trujący/poisonous
 region/region
-miejscowość uzdrowniskowa/spa town
+miejscowość uzdrowiskowa/spa town
 niepokojący/worrying
 odświeżacz powietrza/air freshener
 być na coś wystwionym/be exposed to sth
@@ -268,9 +267,6 @@ zaskakiwać/come in for a surprise
 rosnący niepokój/growing concern
 wdychać/inhale
 ograniczać coś do minimum/keep sth to minimum
-źródło zanieczeszczeń/pollutant
+źródło zanieczyszczeń/pollutant
 wydobywać się/spew out sth
-przychodzić na myśle/spring to mind
-/
-/
-/
+przychodzić na myśl/spring to mind

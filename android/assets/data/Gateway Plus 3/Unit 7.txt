@@ -1,0 +1,109 @@
+﻿lekkoatletyka/athletics
+koszykówka/basketball
+boks/boks
+nurkowanie/diving
+piłka nożna/football
+golf/golf
+gimnastyka/gymnastics
+hokej na lodzie/ice hockey
+judo/judo
+żeglarstwo/sailing
+narciarstwo/skiing
+snowboarding/snowboarding
+pływanie/swimming
+tenis stołowy/table tennis
+siatkówka/volleyball
+podnoszenie ciężarów/weightlifting
+wysokie buty/boots
+kij golfowy/club
+bramka/goal
+gogle/goggles
+siatka/net
+rakieta tenisowa/racket
+łyżwy/skates
+narty/skis
+amputować/amputate
+sztuczny/artificial
+workowaty/baggy
+bitwa/battle
+turniej/championship
+cywilizacja/civilisation
+zakwalifikować/classify
+wrodzony/congenital
+pole golfowe/course
+kort tenisowy/court
+eliminować/eliminate
+emocjonalny/emotional
+w dobrej formie/fit
+boisko piłkarskie/football pitch
+poddawać się/give in
+rękawica/glove
+rywalizować o/go for
+bramkarz/goalkeeper
+bramkarz w hokeju/goaltender
+winny/guilty
+sala gimnastyczna/gym
+komiczny, zabawny/hilarious
+nawiasem mówiąc/incidentally
+uraz, kontuzja/injury
+dżokej/jockey
+przyłączać się/join in
+znokautować/knock out
+etykieta/label
+sympatyczny/likeable
+maskotka przynosząca szczęście/lucky mascot
+główny bohater/main character
+sztuki walki/martial arts
+ksywa/nickname
+grać rolę/play the role of
+fabuła/plot
+basen/pool
+krążek hokejowy/puck
+sędzia/referee
+odporny/resistant
+lodowisko/rink
+rytuał/ritual
+runda w boksie/round
+scena/scene
+scenariusz/screenplay
+służący/servant
+serwować w tenisie/serve
+niewolnik/slave
+stok/slope
+ścieżka dźwiękowa/soundtrack
+efekty specjalne/special effects
+widz/spectator
+grać główną rolę w filmie/star
+natychmiast/straight away
+przesąd/superstition
+poddawać się/surrender
+pływanie synchroniczne/synchronised swimming
+zająć się czymś/take up
+bieżnia/track
+nieprzytomny/unconscious
+nieciekawy/uninspiring
+widoczność/visibility
+wyobrażać sobie/visualise
+rozgrzewać się/warm up
+wózek inwalidzki/wheelchair
+kiedy tylko/whenever
+zastanawiać się/wonder
+uprawiać sport/work out
+tor do lekkoatletyki/athletics lane
+łucznictwo/archery
+kajakarz/canoeist
+trener/coach
+być pierwszym/come first
+zawodnik/competitor
+pokonać/defeat
+zremisować/draw
+szermierka/fencing
+gimnastyk/gymnast
+skok wzwyż/ high jump
+kask/helmet
+wiosło/oar
+trenować sport/practice sport
+sędzia/referee
+wioślarz/rower
+zdobywca drugiego miejsca/runner-up
+kibicować drużynie/support a team

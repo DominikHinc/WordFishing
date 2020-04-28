@@ -1,0 +1,119 @@
+﻿sztuka/art
+biologia/biology
+zarządzanie/business studies
+chemia/chemistry
+zajęcia teatralne/drama
+inżynieria/engineering
+język angielski/English
+geografia/geography
+historia/history
+prawo/law
+literatura/literature
+matematyka/maths
+medioznawstwo/media studies
+medycyna/medicine
+muzyka/music
+wychowanie fizyczne/physical education
+fizyka/physics
+psychologia/psychology
+świadectwo/certificate
+ściągać/cheat
+praca na zajęciach szkolnych/coursework
+dyrektor/director
+wypracowanie/essay
+nie zdać/fail
+stopień, ocena/grade
+historyk/historian
+wykładowca/lecturer
+ocena/mark
+zdać/pass
+fizyk/physicist
+nauczyciel/professor
+zdawać ponownie/resist
+naukowiec/scientist
+semestr/term
+plan zajęć/timetable
+zgodnie z/according to
+aplikant/applicant
+podanie/application
+uczęszczać/attend
+średni/averange
+kandydat/candidate
+kariera/career
+opieka nad dzieckiem/childcare
+chór/choir
+pojawić się/come up
+kurs/course
+przeznaczony do/dedicated to
+niezdolność do pracy/disability
+dyskryminacja/discrimination
+elektryk/electrician
+nacisk/emphasis
+pracownik/employer
+pusty/empty
+oceniać/evaluate
+zajęcia dodatkowe/extracurricular activities
+pierwszy plan/foreground
+wolność/freedom
+ukończenie studiów/graduation
+wdzięczny/grateful
+wręczyć/hand in
+opieka zdrowotna/health care
+dowód tożsamości/id
+niezależność/independence
+instruktor/instructor
+dziennikarz/journalist
+lider/leader
+lekcja/lesson
+podanie/letter of application
+opiekować się/look after
+makijaż/make-up
+Marsjanin/martian
+dojrzałość/maturity
+motorower/moped
+zdenerwowany/nervous
+przedszkole/nursery school
+uczestniczyć, brać udział/participate
+fotograf/photographer
+szkoła podstawowa/primary school
+psychologiczny/psychological
+zbierać pieniądze/raise
+rozsądny/reasonable
+przepis/regulation
+odpowiedzialność/responsibility
+stypendium/scholarship
+pas bezpieczeństwa/seat belt
+szkoła ponadpodstawowa/secondary school
+motywacja wewnętrzna/self-motivation
+rozsądny/sensible
+czas wolny/spare time
+ograniczenie prędkości/speed limit
+stanąć na własne nogi/stand on your own two feet
+punkt wyjścia/starting point
+pomyślnie/successfully
+technik/technician
+zarządzanie czasem/time management
+stażysta/trainee
+nie fair/unfair
+nieodpowiedni/unfit
+mundurek/uniform
+liczyć/calculate
+kuchenka/cooker
+tytuł naukowy/degree
+reżyser/director
+roczna przerwa w pracy lub nauce/gap year
+otrzymać tytuł naukowy/get a degree
+prowadzić wykład/give a lecture
+wykład/lecture
+robić postępy/make progress
+opuścić/miss
+posiadać/own
+właściciel/owner
+płatnik/payer
+postęp/progress
+promieniować/radiate
+kaloryfer/radiator
+naostrzyć/sharpen
+temperówka/sharpener
+trąbka/trumpet
+trębacz/trumpeter
