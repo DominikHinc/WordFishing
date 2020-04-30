@@ -1,7 +1,7 @@
 # WordFishing
 Mobile/Desktop application written in Java with the help of LibGDX.
 
-Released in Google Play Store at the beginning of November 2019. [Link](https://play.google.com/store/apps/details?id=pl.dominik.hinc.bounceback&hl=pl "Link")
+Released in Google Play Store at the beginning of November 2019. [Link](https://play.google.com/store/apps/details?id=pl.dominikhinc.wordfishing "Google Play Store")
 
 Can be built as desktop application in .jar format, as Android Application and as IOS application (device with MacOS required).
 
